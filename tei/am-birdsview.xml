@@ -73,7 +73,7 @@
       </revisionDesc>
    </teiHeader>
    <text>
-      <body>
+      <body class="birdsview">
          <div xml:id="div1">
             <head>ALIA MUSICA</head>
             <pb n="99"/>
@@ -172,9 +172,9 @@
             <p source="#beta" xml:id="p12">
                <num>§12</num>
                <seg>Si vero dupli dispositio talis fit ut medius ad minorem resonet diapente,
-						majorem diatessaron, ut sunt 6.</seg> 9. 12, <seg>quoniam differentiae
-						eaedem sunt, proportiones vero non eaedem, arithmetica potius medietas
-						dicenda est quam harmonica.</seg>
+						majorem diatessaron, ut sunt 6. 9. 12,</seg>
+               <seg>quoniam differentiae eaedem sunt, proportiones vero non eaedem, arithmetica
+						potius medietas dicenda est quam harmonica.</seg>
                <seg>Illa est enim vere harmonica medietas quae cybi determinatione
 						colligitur.</seg>
                <seg>Omnis enim cybus habet latera 12, angulos 8, superficies 6, qui disponantur
@@ -376,32 +376,7 @@
                <seg>[sane in illa constitutione ubi 15 nervos dicimus una serie
 						proportionaliter dispositos, bis diapason, id est 6 et bis 12.]</seg>
             </p>
-            <p corresp="#p181">
-               <num>§181</num>
-               <seg>Tonus primus NONANOEANE, qui graece dicitur autentos protos, id est
-						auctoritas prima, A 12, C 6, B 8, D 9.</seg>
-               <seg>6 ad 12 18 sunt, qui sunt ter 6, quae proportio dupla diapason
-						dicitur.</seg>
-               <seg>Item 8 ad 12 20 sunt, quae proportio sesquialtera dicitur ad 12, ideo quia
-						12 habet 8 in se et alteram ejus partem, id est 4, et facit diapente.</seg>
-               <seg>Item 9 ad 12 21 sunt, quae proportio sesquialtera dicitur ad 12, quia 12
-						habet 9 in se et ejus tertiam partem, id est 3, et facit diatessaron, id est
-						ter 7 qui sunt 21.</seg>
-               <seg>Omnis igitur primus tonus aut ter 6 habet in dupla proportione diapason, ut
-						est Rorate celi desuper, aut quater 5, id est 2 de 8 et 3 de 12 in
-						sesquialtera proportione qui faciunt diapente, quod est 20, ut est et nubes
-						pluant justum, aperiatur; aut ter 7, id est 3 de 9 ad 4 de 12 in
-						sesquitertia proportione, qui faciunt diatessaron, ut est terra et germinet
-						Salvatorem.</seg>
-               <seg>Item Introitum Gaudete in Domino semper, et Justus es Domine; similiter
-						antiphonae Urbs fortitudinis nostrae Sion, Johannes autem cum audisset in
-						vinculis opera Christi, Traditor <pb n="86"/> autem dedit eis.</seg>
-               <seg>Et hoc videndum, quod saepe evenit, ut bis aut ter aut totum etiam in
-						antiphonis, aut quocumque cantu primi toni fit, aut per 6 et 12 quod est
-						diapason, aut per 5 aut 10 quod est diapente, aut per 7 totum quod est
-						diatessaron, decurrit;</seg>
-               <seg>ut Urbs fortitudinis; Johannes autem diapente.</seg>
-            </p>
+            <p sameAs="#p181" n="181" source="#alpha"/>
             <pb n="121"/>
             <p source="#beta" xml:id="p30">
                <num>§30</num>
@@ -421,11 +396,12 @@
             <p source="#beta" xml:id="p32">
                <num>§32</num>
                <seg>Quam gradalem antiphonam per singulas incisiones singulis symphoniis
-						subditam hoc modo pandimus:</seg> inter 6 et 12 qui faciunt 18 senarius est
-						<pb n="122"/>
-               <seg>differentia, quam melodia primae incisionis ascendendo totam percurrit, a
-						lichanos hypaton videlicet in paraneten diezeugmenon, praemisso ad gravem
-						partem tono qui emmelis dicitur, id est melo aptus.</seg>
+						subditam hoc modo pandimus:</seg>
+               <seg>inter 6 et 12 qui faciunt 18 senarius est differentia,</seg>
+               <pb n="122"/>
+               <seg>quam melodia primae incisionis ascendendo totam percurrit, a lichanos
+						hypaton videlicet in paraneten diezeugmenon, praemisso ad gravem partem tono
+						qui emmelis dicitur, id est melo aptus.</seg>
             </p>
             <p source="#beta" xml:id="p33">
                <num>§33</num>
@@ -544,31 +520,7 @@
                <seg>Hujus autem in nocturnis sic currit versus: Gloria Patri et caetera. In
 						diurnis sic currit versus: Gloria Patri et caetera.</seg>
             </p>
-            <p corresp="#p182">
-               <num>§182</num>
-               <seg>Tonus secundus NOEAYS, qui dicitur plagis proti, id est a latere primi, A
-						12, CCC 6. 6. 6, BB 8. 8, DD 9. 9.</seg>
-               <seg>Ter 6, id est 18, ad 12 per sesquialteram proportionem fiunt 30
-						diapente.</seg>
-               <seg>Ad 6 vero de primo tono isti ter 6 de secundo tripla est, quia triplicatus
-						eum superat.</seg>
-               <seg>Item bis 8 ad 12 per sesquitertiam proportionem 28 fiunt, id est quater 7
-						quod est diatessaron.</seg>
-               <seg>Sit ergo ipsa proportio numeri, id est bis 8 ad 8 de primo tono: duplum
-						est, et proportio ideo in diapason cadit 24, quod est quater 6 et bis 12 ad
-						12.</seg>
-               <seg>Item bis 9 ad 12, qui sunt ter 6, id est 18, ad 12 per sesquialteram
-						proportionem fiunt ut supra 30 diapente.</seg>
-               <seg>Omnis enim melodia secundi toni aut per diapente denarium numerabit totum,
-						ut est antiphona Ecce advenit, in qua sunt 10 vel 5,</seg>
-               <seg>aut per diatessaron totum, id est 7, ut est Veni et ostende nobis faciem
-						tuam.</seg>
-               <seg>Item antiphona diapentica Omnipotens sermo tuus Domine, et per diatessaron
-						ut est Dominus Deus auxiliator meus.</seg>
-               <seg>Si autem in diapason evenerit proportio secundi toni, vel 6 ad 12, ad
-						primum est, ut ter 6 ad 6 primi, et bis 8 ad 8 et bis 9 ad 9 primi toni
-						semitonium efficit.</seg>
-            </p>
+            <p sameAs="#p182" n="182" source="#alpha"/>
          </div>
          <div xml:id="div3">
             <head>DE SECUNDO TONO SEQUITUR IN EADEM EXPOSITIONE</head>
@@ -687,25 +639,7 @@
                <seg>Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
 						diurnis autem sic currit versus: Gloria Patri et caetera.</seg>
             </p>
-            <p corresp="#p183">
-               <num>§183</num>
-               <seg>Tonus tertius AYNOEANE, qui graece dicitur autentos deuteros, id est
-						auctoritas secunda,</seg>
-               <seg>qui ideo duo A habet, primum propter mensuram autenti deuteri, et secundum
-						A propter plagis autenti deuteri, in cujus diapason suum semitonium
-						explicat, et secundi toni, qui ambo sunt semitonia, propter triplam ut
-						dictum est et quadruplam propter quater 6 ad unum 6 de primo,</seg>
-               <seg>A 12, CCCC 6. 6. 6. 6, BBB 8. 8. 8, DD 9. 9.</seg>
-               <seg>Quater enim 6 ad quater 3 de 12 quater 9 sunt, qui sunt 36 diapason, id est
-						sexies 6 et ter 12;</seg>
-               <seg>similiter ter 8 ad 12, quia duplae proportionis sunt.</seg>
-               <seg>Bis 9 ad 12, quia sesquialtera proportio est, 30 diapente fiunt.</seg>
-               <seg>Unde iste tertius tonus aut per diapason erit per 6 ad 12, aut per
-						diapente, id est 30,</seg>
-               <seg>ut in introitibus Confessio et pulchritudo et Dispersit dedit pauperibus et
-						Cognovi Domine, et antiphonis Qui de terra est et Quando natus es et Malos
-						male perdet et Homo quidam fecit cenam magnam.</seg>
-            </p>
+            <p source="#alpha" sameAs="#p183" n="183"/>
          </div>
          <div xml:id="div5">
             <head>SEQUITUR TONORUM EXPOSITOR DE TERTIO TONO</head>
@@ -844,25 +778,7 @@
          <div xml:id="div6">
             <pb n="143"/>
             <head>DE QUARTO TONO.</head>
-            <p corresp="#p184">
-               <num>§184</num>
-               <seg>Tonus quartus NOEAIS, qui graece dicitur plagis deuteri ut supra, AA 12.
-						12, CCC 6. 6. 6, BBB 8. 8. 8, DD 9. 9.</seg>
-               <seg>Hic, quia bis 12 ad ter 8 et ad ter 6 bis 9 una consonantia numerorum in
-						diapason 6 ad 12, id est 18, conveniunt.</seg>
-               <pb n="91"/>
-               <seg>Idcirco ter 6 non ad bis 12 comparatur, quoniam per 3 non dividitur, sed
-						ter 8 ad ter 6 comparatur, et bis 9 ad bis 12 per sesquitertiam
-						proportionem.</seg>
-               <seg>Totus iste tonus semper erit diatessaron.</seg>
-               <seg>Consonantiam autem diapason, id est 6 et 12, ter 6 et bis 9 et ter 8 et bis
-						12 faciunt.</seg>
-               <seg>Quorum proportio, id est comparatio majoris ad minorem aut minoris ad
-						majorem, semper diatessaron id est septenario mensurabitur;</seg>
-               <seg>ut introitus Resurrexi et Misericordia domini et In voluntate tua Domine,
-						et antiphonae Rubum quem viderat Moyses et Turba multa et Tria sunt
-						munera.</seg>
-            </p>
+            <p source="#alpha" sameAs="#p184" n="184"/>
             <p source="#beta" xml:id="p77">
                <num>§77</num>
                <seg>Aristoxenus musicus non voces ipsas, ut Pythagoras, dimetiens, sed inter
@@ -1045,19 +961,7 @@
                <seg>Hujus enim in nocturnis sic currit versus: Gloria Patri et caetera. In
 						diurnis sic: Gloria Patri et caetera.</seg>
             </p>
-            <p corresp="#p185">
-               <num>§185</num>
-               <seg>Tonus quintus NOEANE, qui graece dicitur autenticus tritus, id est tertia
-						auctoritas, AA 12. 12, CCCC 6. 6. 6. 6, BBB 8. 8. 8, DDDD 9. 9. 9. 9.</seg>
-               <seg>Totus iste tonus semper diapenticus per denarium efficitur, quia ter 8 ad
-						ter 12 et quater 6 ad quater 9, id est per sesquialteram proportionem in
-						diapente cadunt,</seg>
-               <seg>quorum consonantia diapason est, id est in duodenarium quater 9 et ter 12,
-						et quater 6 et ter 8,</seg>
-               <seg>ut introitus Domine refugium, Circumdederunt me et Domine in tua
-						misericordia, et antiphonae Solvite templum hoc, Salve crux, Exultet
-						spiritus meus, et similia.</seg>
-            </p>
+            <p source="#alpha" sameAs="#p185" n="185"/>
          </div>
          <div xml:id="div8">
             <head>SEQUITUR EXPOSITOR DE QUINTO TONO</head>
@@ -1164,20 +1068,7 @@
                <seg>Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
 						diurnis sic currit versus: Gloria Patri et caetera.</seg>
             </p>
-            <p corresp="#p186">
-               <num>§186</num>
-               <seg>Tonus sextus NOEAIS, qui graece dicitur plagis triti, ut supra, AA 12. 12,
-						CCC 6. 6. 6, CCC 6. 6. 6, BBB 8. 8. 8, DDDD 9. 9. 9. 9.</seg>
-               <seg>Sexies enim 6 ad sexies 4 de bis 12 et quater 9 ad quater 6 de bis 12, quia
-						sesquialtera proportio est in diapente,</seg>
-               <seg>et sexies 4 de ter 8 et sexies 4 de bis 12 in consonantia diapason, id est
-						6 et 12; veniunt per 8 qui sunt 48, sicut sexies 6 et quater 9 in 72.</seg>
-               <seg>Totus iste tonus aut per diapason consonantiam, id est 6 et 12, aut per
-						diapente, id est denarium, mensurabitur.</seg>
-               <seg>Ut introitus <pb n="93"/> Os justi, Omnes gentes et Quasimodo geniti, et
-						antiphonae O admirabile commercium et Vade Satana et Virgo hodie
-						fidelis.</seg>
-            </p>
+            <p source="#alpha" sameAs="#p186" n="186"/>
          </div>
          <div xml:id="div10">
             <head>SEQUITUR IDEM EXPOSITOR DE SEXTO TONO</head>
@@ -1284,21 +1175,7 @@
                <seg>Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
 						diurnis sic: Gloria Patri et caetera.</seg>
             </p>
-            <p corresp="#p187">
-               <num>§187</num>
-               <seg>Tonus septimus NOEANE, qui graece dicitur autentos tetrardos, id est
-						auctoritas quarta, qui constat ex quarti toni et quinti et sua proportione
-						ita:</seg>
-               <seg>AA 12. 12, CCC 6. 6. 6, BBB 8. 8. 8, DD 9. 9.</seg>
-               <seg>Item AA 12. 12, CCCC 6. 6. 6. 6, BBB 8. 8. 8, DDDD quatuor 9.</seg>
-               <seg>Item propria AAAA 12. 12. 12. 12, CCCCCCCC 6. 6. 6. 6. 6. 6. 6. 6, BBBBBB
-						8. 8. 8. 8. 8. 8.</seg>
-               <seg>Hic tonus in proportione quarti toni habet totum diatessaron, et in
-						proportione quinti toni habet <pb n="94"/> totum diapente, et in propria
-						proportione habet duodecies 12 diapason, quod est 144.</seg>
-               <seg>Ut introitus Puer natus est vobis et Audivit Dominus, et antiphonae Iste
-						est frater vester minimus et Dixit Judas fratribus suis.</seg>
-            </p>
+            <p source="#alpha" sameAs="#p187" n="187"/>
          </div>
          <div xml:id="div12">
             <head>SEQUITUR EXPOSITOR DE SEPTIMO TONO</head>
@@ -1336,19 +1213,12 @@
                <seg>Hujus enim speciei paranete hyperbolaeon est ad acutam partem
 					finis.</seg>
             </p>
-            <p corresp="#p180">
-               <num>§180</num>
-               <seg>Octavus tonus est qui constat ex supradictis quarti et quinti toni
-						diatessaron et diapente, et caetera.</seg>
-            </p>
-            <p corresp="#p188GMP">
-               <num>§188 GMP</num>
-               <seg>Tonum octavum require supra.</seg>
-            </p>
+            <p source="#alpha" sameAs="#p180" n="180"/>
+            <p source="#alpha" sameAs="#p188GMP" n="180GMP"/>
             <pb n="163"/>
             <p source="#delta" xml:id="p129a">
-               <seg>Sequitur de septimo simul et
-					octavo.</seg>]</p>
+               <seg>[Sequitur de septimo simul et octavo.]</seg>
+            </p>
             <p source="#delta" xml:id="p130">
                <num>§130</num>
                <seg>Ubi autem melodia hujus tropi, quae est NOEOEANE, desinit, melodia octavi
@@ -1545,8 +1415,9 @@
                <num>§151</num>
                <seg>Habet hic tropus in nocturnis differentiam unam, quae habet 5 loca: se,
 						Ecce dies veniunt; sesquioctavum remissum in i, ut Doceam iniquos;
-						sesquioctavum intensum in o, ut Quodcumque; diatessaron &lt;remissum in e,
-						.</seg> . ; <seg>diatessaron&gt; intensum in y, Ecce ancilla Domini.</seg>
+						sesquioctavum intensum in o, ut Quodcumque; diatessaron &lt;remissum in e, .
+						. ;</seg>
+               <seg>diatessaron&gt; intensum in y, Ecce ancilla Domini.</seg>
                <seg>Unde apparet quod hic tropus in nocturnis differentia cum 5 locis
 						insignitur.</seg>
             </p>
@@ -1598,7 +1469,8 @@
                <seg>Unde ex quinque speciebus tonorum: simplicium, id est diapente,
 						diatessaron, diapason; compositorum, ut diapason simul et diapente, ut
 						tertius tonus et sextus, et diapason ac diatessaron in eodem quinto, et
-						dupla diapason in octavo tono, una cum duplo et triplo (.</seg>..)</p>
+						dupla diapason in octavo tono, una cum duplo et triplo (...)</seg>
+            </p>
             <pb n="165"/>
             <p source="#beta" xml:id="p157">
                <num>§157</num>
@@ -1679,8 +1551,9 @@
                <seg>Si ergo 12 duplicatur, qui ad 6 procul dubio pro duplo accipiuntur, id hac
 						duplicatione colligitur, quod sui duplicantur per impares numeros se
 						sequentes, sua membra, hoc est suas partes, sortiuntur.</seg>
-               <seg>Verbi causa, a ternario duplicantur, hi 6.</seg> 12. 24. 48., <seg>et horum
-						primus tribus membris insignitur, secundus 5, tertius 7, quartus 9.</seg>
+               <seg>Verbi causa, a ternario duplicantur, hi 6. 12. 24. 48.,</seg>
+               <seg>et horum primus tribus membris insignitur, secundus 5, tertius 7, quartus
+						9.</seg>
                <seg>Si vero a quaternario duodenarius sumat initium, qui duplicantur
 						quaternario excrescunt.</seg>
                <seg>Nam in 24 sunt 8 qui producti sunt ex duplicato quaternario, et in 48
@@ -1734,8 +1607,10 @@
             </p>
             <pb n="173"/>
             <p source="#beta" xml:id="p171">
-               <num>§171</num> [NB! The ancient Greek names are ONLY in the Munich MS, and
-					there they are later additions!] <l>[Dorius] Tonus primus. </l>
+               <num>§171</num>
+               <note>[NB! The ancient Greek names are ONLY in the Munich MS, and there they are
+						later additions!]</note>
+               <l>[Dorius] Tonus primus. </l>
                <l>a XII.</l>
                <l>c VI. Diapason</l>
                <l>b VIII. Diapente</l>
@@ -1836,12 +1711,12 @@
             <p source="#beta" xml:id="p179">
                <num>§179</num>
                <seg>Septimus tonus est: a 12 (bis); c 6 (ter); b VIII (ter); d 9 (quater).
-						Item:</seg> a <pb n="179"/> 12 (<seg>ter); c 6 (quater); b VIII (ter); d 9
-						(quater). Item propria: a 12 (quater); c 6 (octies); b 8 (sexies), et
-						constat ex quarti toni et quinti, et sua proportione. Diatessaron per 42
-						sicut quartus, aut diapente per 60 sicut quintus, aut in propria diapason ut
-						duodecies 12 qui sunt 144 quod est octies 6 et sexies 8 ad quater
-					12.</seg>
+						Item:</seg>
+               <seg>a <pb n="179"/> 12 (ter); c 6 (quater); b VIII (ter); d 9 (quater). Item
+						propria: a 12 (quater); c 6 (octies); b 8 (sexies), et constat ex quarti
+						toni et quinti, et sua proportione. Diatessaron per 42 sicut quartus, aut
+						diapente per 60 sicut quintus, aut in propria diapason ut duodecies 12 qui
+						sunt 144 quod est octies 6 et sexies 8 ad quater 12.</seg>
             </p>
             <p source="#beta" xml:id="p180">
                <num>§180</num>

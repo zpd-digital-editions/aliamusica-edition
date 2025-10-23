@@ -36,8 +36,8 @@ nav {
 nav a {
 	background-color:gray;
 	text-decoration:none;
-	padding:0.1em 0.5em;
-	margin:0 0.5em;
+	padding:0.1rem 0.5rem;
+	margin:0 0.2rem;
 	color:white;
 }
 nav a.alpha {
@@ -65,8 +65,12 @@ div#TEI {
 tei-teiHeader {
 	display:none;
 }
+tei-back {
+	display:none;
+}
 tei-body {
 	font-family:Georgia, serif;
+	padding:0;
 }
 tei-div tei-head {
 	line-height:1.5rem;
@@ -74,10 +78,14 @@ tei-div tei-head {
 	font-family:Georgia, serif;
 	color:#c33;
 	display:block;
+	padding:1rem 0 0.5rem 0;
 }
 tei-p {
 	line-height:1.3rem;
 	font-family:inherit;
+	padding:0 0 1rem 0;
+	margin:0;
+	counter-reset:segment;
 }
 tei-p[sameAs]::before {
 	content:'[→ §'attr(n)']';
@@ -108,24 +116,44 @@ tei-p[source='#delta']::before {
 	content:'δ';
 	background-color:var(--delta-color);
 }
-
-/* inline level */
-tei-pb::before {
-	content:'['attr(n)']';
-	color:gray;
-}
-tei-p > tei-pb::before {
-}
-tei-div > tei-pb::before {
-	padding-right:0.5em;
-	line-height:1.3em;
-	float:left;
-}
 tei-num {
 	position:absolute;
 	right:40.5em;
 	color:silver;
 }
+tei-seg {
+	counter-increment:segment;
+}
+tei-seg:not(:first-of-type)::before {
+	color:gray;
+	vertical-align:super;
+	font-size:0.7rem;
+	line-height:0.7rem;
+	content:counter(segment);
+	padding-right:0.2rem;
+}
+
+/* inline level */
+tei-pb {
+	display:none;
+}
+tei-pb:not(:has(+ tei-pb)) {
+	display:inline;
+}
+tei-pb::before {
+	content:'['attr(n)']';
+	color:gray;
+	font-size:0.8rem;
+	line-height:1rem;
+}
+tei-p tei-pb::before {
+	vertical-align:text-top;
+}
+tei-div > tei-pb::before {
+	padding:0.1rem 0.5rem 0 0;
+	float:left;
+}
+
 tei-note {
 	font-style:italic;
 }
@@ -171,4 +199,25 @@ tei-choice:hover ~ tei-orig {
 tei-corr:hover ~ tei-corr::after {
 	content:' 'attr(wit);
 	font-style:italic;
+}
+
+/* bird's view */
+
+.birdsview tei-seg,
+.birdsview tei-num,
+.birdsview tei-pb,
+.birdsview tei-note,
+.birdsview tei-l
+{
+	display:none;
+}
+.birdsview tei-p {
+	display:inline;
+}
+.birdsview tei-p[source]::before {
+	position:initial;
+}
+.birdsview tei-head {
+	font-size:1rem;
+	color:inherit;
 }
