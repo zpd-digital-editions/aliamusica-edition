@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>ALIA MUSICA</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
+  	<link rel="stylesheet" href="css/aliamusica.css" media="all" />
+	<script src="js/querystring.js"></script>
+    <script src="js/CETEI.js"></script>
+  </head>
+
+  <body>
+    <!-- header for all pages -->
+	<h1>ALIA MUSICA</h1>
+  	<nav>
+  		<a href=".">original sequence</a>
+  		<a href="?doc=am-insertions">with insertions</a>
+  		<a href="?doc=am-alpha" class="alpha">alpha</a>
+  		<a href="?doc=am-beta" class="beta">beta</a>
+  		<a href="?doc=am-gamma" class="gamma">gamma</a>
+  		<a href="?doc=am-delta" class="delta">delta</a>
+  	</nav>
+  	<!-- container for TEI document -->
+    <div id="TEI"></div>
+  	<!-- rendition -->
+  	<script>
+		/* query */
+		filename = ( QueryString.doc == null )
+			? ( "am.xml" )
+			: ( QueryString.doc + ".xml" );
+  		/* CETEIcean */
+		var CETEIcean = new CETEI()
+			CETEIcean.addBehaviors({
+				"tei":{
+					"teiHeader": null
+				}
+			});
+			CETEIcean.getHTML5("tei/"+filename, function(data) {
+			document.getElementById("TEI").appendChild(data)
+		})
+    </script>
+  </body>
+
+</html>

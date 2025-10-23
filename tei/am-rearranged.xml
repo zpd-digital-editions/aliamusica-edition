@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ALIA MUSICA</title>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="α"/>
+               <witness xml:id="β"/>
+               <witness xml:id="γ"/>
+               <witness xml:id="δ"/>
+            </listWit>
+            <msDesc>
+               <msIdentifier>
+                  <repository>THESAURUS MUSICARUM LATINARUM</repository>
+               </msIdentifier>
+               <p>School of Music</p>
+               <p>Indiana University</p>
+               <p>Bloomington, IN 47405</p>
+               <p>(phone: [812] 855-5471; Internet: mathiese@indiana.edu)</p>
+               <p>Data entry: Stephen E. Hayes</p>
+               <p>Checked by: Peter M. Lefferts and Andreas Giger</p>
+               <p>Approved by: Thomas J. Mathiesen</p>
+               <p>Fn and Ft: ALIAMU TEXT</p>
+               <p>Author: Anonymous</p>
+               <p>Title: Alia musica</p>
+               <p>Source: Jacques Chailley, ed., Alia musica (Traite de musique du IXe siecle):
+						Edition critique commentee avec une introduction sur l'origine de la
+						nomenclature modale pseudo-grecque au Moyen-Age (Paris: Centre de
+						documentation universitaire et Societe d'edition d'enseignement superieur
+						reunis, 1965), 85-88, 90-97, 99-111, 113-18, 120-30, 133-45, 147-74, 176-81,
+						and 183-212. Used by permission.</p>
+               <p>Graphics: ALIAMU 01GF</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="7.58.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025?</date>
+               <name>Charles Atkinson</name>
+               <desc>Transcription</desc>
+            </change>
+            <change>
+               <date>2025-07-09</date>
+               <name>Torsten Roeder</name>
+               <desc>Conversion to TEI</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p source="#β" xml:id="p100">
+            <num>§100:</num> In quibus sunt gradales antiphonae
+					Domine refugium et Circumdederunt me et Domine in tua misericordia. Et
+					nocturnales antiphonae Solvite templum hoc et Salve crux et Exultet spiritus
+					meus.</p>
+         <p source="#β" xml:id="p10">
+            <num>§10:</num> In duplici etiam dispositione, qua
+					medius terminus ad minorem resonat diatessaron, ad majorem vero diapente, si
+					extremitates in unum redigantur, et a <pb n="104"/> medietate multiplicentur,
+					duplus erit ab eo numero quem solae extremitates multiplicatae perfecerint, ut
+					6. 8. 12. Hic junctae extremitates 6 et 12 conficiunt 18 qui per octonarium
+					multiplicati in 144 excrescunt, cujus summae medietas est 72, qui conficiuntur
+					ex multiplicatis in se 6 et 12.</p>
+      </body>
+   </text>
+</TEI>
