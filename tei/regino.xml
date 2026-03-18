@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Regino Cap. XII</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc>
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>Regino Cap. XII</head>
+				<p>
+					Edition Bernhard:
+					<seg corresp="boethius-musica.xml#p10.s20">8 Igitur hi mallei, qui duodecim et sex ponderum erant, diapason in duplo consonantiam personabant.</seg>
+					<seg corresp="boethius-musica.xml#p10.s21">9 Malleus duodecim ponderum ad malleum novem, et malleus octo ponderum ad malleum sex ponderum secundum epitritam, id est sesquitertiam proportionem diatessaron consonantiam concinnebant.</seg>
+					<seg corresp="boethius-musica.xml#p10.s22">10 &lt;Novem vero ponderum ad sex et&gt; duodecim vero ad octo diapente consonantiam permiscebant.</seg>
+					<seg corresp="boethius-musica.xml#p10.s23">11 Novem autem ad octo in sesquioctava proportione resonabant tonum.</seg>
+					<seg corresp="boethius-musica.xml#p11.s1">12 Igitur Pithagoras domum reversus varia examinatione perpendit, quod in supradictis dimensionibus tota consisteret simphoniarum ratio.</seg>
+					<seg corresp="boethius-musica.xml#p11.s2 boethius-musica.xml#p11.s3">13 Nunc quidem aequa pondera cordis aptans, earumque consonantias aure diiudicans; nunc vero in longitudine calamorum vel fistularum duplicitatem medietatemque vel ceteras proportiones aptans, sepe etiam cimbala diversis formata ponderibus secundum supra comprehensum modum malleolo percutiens.</seg>
+					
+					
+					
+					Quellen:
+					
+					Boethius, Musica I,10 ed. Friedlein – Satzzählung eingefügt.
+					20 Hi igitur mallei, qui .XII. et .VI. ponderibus vergebant, diapason in duplo concinentiam personabant.
+					21 Malleus vero .XII. ponderum ad malleum .VIIII. et malleus .VIII. ponderum ad malleum .VI. ponderum secundum epitritam proportionem diatessaron consonantia iungebatur.
+					22 .VIIII. vero ponderum ad .VI. et .XII. ad .VIII. diapente consonantiam permiscebant.
+					23 .VIIII. vero ad .VIII. in sesquioctava proportione resonabant tonum.
+					
+					Boethius, Musica I,11
+					1 Hinc igitur domum reversus varia examinatione examinatio perpendit, an in his proportionibus ratio symphoniarum tota consisteret.
+					2 Nunc quidem aequa pondera nervis aptans eorumque consonantias aure diiudicans, nunc vero in longitudine calamorum duplicitatem medietatemque restituens ceterasque proportiones aptans integerrimam fidem diversa experientia capiebat. 3 Saepe etiam pro mensurarum modo cyathos aequorum ponderum acetabulis inmittens; saepe ipsa quoque acetabula diversis formata ponderibus virga vel aerea ferreave percutiens nihil sese diversum invenisse laetatus est.
+					
+					Relationen:
+					Reg. 12,8 cf. Boeth. 10,20
+					Reg. 12,9 cf. Boeth. 10,21
+					Reg. 12,10 cf. Boeth. 10.22  
+					Reg. 12,11 cf. Boeth. 10,23
+					Reg. 12,12 cf. Boeth. 11,1
+					Reg, 12,13 cf. Boeth. 11,2-3
+				</p>
+			</div>
+			<div>
+				<head>Regino Cap. XII</head> 
+				<p>
+					Le I,93 – Edition mit Interpunktion und Emmendationsvorschlägen
+					8 Igitur hi mallei, qui duodecim et sex ponderum erant, diapason in duplo consonantiam personabant. 9 Malleus duodecim ponderum ad malleum novem, et malleus octo ponderum ad malleum sex ponderum secundum epitritam, id est sesquitertiam proportionem diatessaron consonantiam concinnebant. 10 &lt;Duodecim vero ad octo diapente consonantiam permiscebant.&gt; 11 Novem autem ad octo in sesquioctava proportione resonabant tonum. 12 Igitur Pithagoras domum reversus varia examinatione perpendit, quod in supradictis dimensionibus tota consisteret simphoniarum ratio. 13 Nunc quidem aequa pondera cordis aptans, earumque consonantias aure diiudicans; nunc vero in longitudine calamorum vel fistularum duplicitatem medietatemque vel ceteras proportiones aptans, sepe etiam cimbala diversis formata ponderibus secundum supra comprehensum modum malleolo percutiens.
+						Quellen: siehe Bsp. 1
+				</p>
+			</div>
+			<div>
+				<p>
+					Bsp. 2b Regino Cap. XII,
+					Mo H. 159 – Edition mit Interpunktion und Emmendationsvorschlägen
+					8 Igitur hi mallei, qui duodecim et sex ponderum erant, diapason in duplo consonantiam personabant; 8b ut Inclina domine aurem tuam ad me et omnia quae in primo inveniuntur tono. 9 Malleus duodecim ponderum ad malleum novem, et malleus octo ponderum ad malleum sex ponderum secundum epitritam, id est sesquitertiam proportionem diatessaron consonantiam concinnebant; 9b adest exemplum: Confessio et pulchritudo et cuncta quae in tono authenti deuteri conscribuntur. 10 Duodecim vero ad octo diapente consonantiam permiscebant; 10b ut habet Circumdederunt me et ceterae quae autento trito repperiuntur. 11 Novem autem ad octo in sesquioctava proportione resonabant tonum; 11b ut est Puer natus est nobis et omnia quae autenti tetrardi terminantur norma.12 Igitur Pithagoras domum reversus varia examinatione perpendit, quod in supradictis dimensionibus tota consisteret simphoniarum ratio. 13 Nunc autem aequa pondera cordis aptans, earum consonantias aure diiudicans; nunc vero in longitudine calamorum vel fistularum duplicitatem medietatemque vel ceteras proportiones aptans, sepe diversis cimbala etiam formata ponderibus secundum supra comprehensum modum malleolo percutiens.
+					
+					Gesänge mit Cantus-Link
+					Inclina domine = g01206  | Confessio et pulchritudo = g00331 | Circumdederunt me = g00631 | Puer natus est = g00553
+					
+					Quellen:
+					Glossa maior in institutionem musicam Boethii
+					Boeth. I,10,20 (=143): DIAPASON IN DUPLO PERSONABAT ut hic: Inclina domine aurem et omnia quae in primo inveniuntur tono.
+					Boeth. I,10,21 (=146): CONSONANTIAM DIATESSARON PERFICIEBAT. En exemplum: Confessio et pulchritudo et cuncta, quae in tono autentu deuteri conscribuntur. 
+					Boeth. I,10,22 (=151): DIAPENTE CONSONANTIAM PERMISCEBANT Veluti hic: Circumdederunt me et cetera, quae in autentu trito inveniuntur.
+					Boeth. I,10,23 (=153): RESONABANT TONUM Iuxta illud: Puer natus est et omnia, quae autentui tetrardo ascribuntur.
+					+ siehe Bsp. 1
+					
+					Parallelstellen:
+					Aurelian, Musica disciplina
+					Hi igitur mallei qui xii et vi ponderibus vergebant diapason in duplo consonantiam concinebant ut hic: Antiphona Inclina Domine aurem tuam, et omnia quae in primo inveniuntur tono. Malleus xii ponderum ad malleum viiii et malleus viii ad malleum vi ponderum, secundum epitritam proportionem, diatessaron consonantiam perficiebant. Adest exemplum: Antiphona Confessio et pulchritudo, et cuncta que in tono autenti deuteri conscribuntur. VIIII vero ponderum ad vi, et xii ad viii, diapente consonantiam permiscebant, veluti hic: Antiphona Circumdederunt me, et cetera que in autentu trito inveniuntur. VIIII vero ad viii in sesquioctava proportione resonabat tonum, iuxta illud: Antiphona Puer natus est nobis, et omnia quae autenti tetrardi adscribuntur norme.
+					
+					Leipzig I. 93
+					
+					Mo H. 159
+				</p>
+			</div>
+			<div>
+				<head>Regino Cap. XIV</head>
+				<p>
+					Sätze 5-30: Kompilatorische Struktur
+					5 Nomina suprascriptarum cordarum, quia greca sunt, interpretatione indigent. 6 Proslambanomenos igitur interpretatur adquisitus vel adauctus: siquidem quia mese non erat loco media, ut utrumque diapason coniungere posset, sed magis hypatis accidebat; idcirco super hypatas hypaton addita est hec una corda. 7 Unde et ab aliquibus prosmelodos dicitur, id est ad melodiam adiuncta vel addita. 8 Hypate hypaton, id est principalis principalium, subauditur cordarum. 9 Nam haec prima semper fuit, antequam proslambanomenos adderetur, eratque corda gravissimum sonum resonans, unde quidam sic interpretantur: hypate hypaton vocatae sunt, quasi maxime magnarum aut gravissime gravium. 10 Parypate hypaton dicitur tertia corda, quasi iuxta hypaten posita, id est collecta. 11 Potest autem interpretari subprincipalis principalium.  12 Lichanos hypaton idcirco vocatur, quod lichanos grece index digitus dicitur. 13 Grecus a lingendo lichanon appellat; et quoniam in canendo ad eam cordam, quae erat tertia ab hypate, index digitus, qui est lichanos, inveniebatur, idcirco ipsa quoque lichanos appellata est. 14 Hoc itaque tetracordum, quia longioribus et grossioribus cordis formatur et graviorem sonum reddit, appellatur principale. 15 Has sequitur hypate meson, id est principalis mediarum, subauditur cordarum. 16 Parhypate meson, id est subprincipalis mediarum sive iuxta principalem mediarum posita. 17 Lichanos meson, id est tertia mediarum; deinde mese octavo loco ponitur. 18 Mese interpretatur media: ideo, quia inter septem et septem semper est media, sive quia finis est praecedentis diapason et principium subsequentis et pro duabus cordis accipitur. 
+					19 Denique cum octava corda ad primam diapason consonantiam resonet, non hac de causa seddecim cordae in bisdiapason reperiuntur, sed tantummodo quindecim, quia mese, ut diximus, locum supplet sextae decimae cordae. 20 Paramese, id est iuxta mediam posita. 21 Trite diezeumenon: trite, id est tertia a mese; diezeumenon, id est disiunctarum sive divisarum, subauditur cordarum. 22 Nam cum duo tetracorda uno medio nervo interveniente consociantur, hoc grece nuncupatur sinnemenon, id est coniunctum. 23 Hinc et sinaphe dicitur, id est coniunctio, quotiens duo tetracorda unius medietas termini continuat atque coniungit. 24 E contra diezeuxis appellatur, quae disiunctio dici potest, quotiens duo tetracorda separantur et pleno tono inter se differunt. 25 Paranete diezeumenon dicitur, eoquod iuxta nete, id est ultimam disiunctarum sit locata. 26 Hanc siquidem sequitur nete diezeumenon, id est inferior vel ultima disiunctarum. 27 Trite hyperboleon, id est tertia excellentium, subauditur cordarum. 28 Paranete hyperboleon, id est iuxta nete, hoc est ultimam excellentium posita. 29 Nete hyperboleon ultima excellentium interpretatur. 30 Denique hae tres ultimae et novissimae cordae acutissimum et graciliorem ceteris cordis reddunt sonum; unde et excellentes appellantur.
+					
+					Quellen
+					Grün: Stellen aus Boethius I,20
+					Lila: Stellen aus Boethius I, 24
+					Blau: Stellen aus Boethius I,25 
+					Rot: Stellen aus Boethius IIII,3
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

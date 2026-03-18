@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Musica</title>
+				<author>Boethius</author>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc>
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>Boethius, Musica I</head>
+				<p xml:id="p10" n="10">
+					<num>§10</num>
+					<seg xml:id="p10.s20" n="20">Hi igitur mallei, qui .XII. et .VI. ponderibus vergebant, diapason in duplo concinentiam personabant.</seg>
+					<seg xml:id="p10.s21" n="21">Malleus vero .XII. ponderum ad malleum .VIIII. et malleus .VIII. ponderum ad malleum .VI. ponderum secundum epitritam proportionem diatessaron consonantia iungebatur.</seg>
+					<seg xml:id="p10.s22" n="22">.VIIII. vero ponderum ad .VI. et .XII. ad .VIII. diapente consonantiam permiscebant.</seg>
+					<seg xml:id="p10.s23" n="23">.VIIII. vero ad .VIII. in sesquioctava proportione resonabant tonum.</seg>
+				</p>
+				<p xml:id="p11" n="11">
+					<num>§11</num>
+					<seg xml:id="p11.s1" n="1">Hinc igitur domum reversus varia examinatione examinatio perpendit, an in his proportionibus ratio symphoniarum tota consisteret.</seg>
+					<seg xml:id="p11.s2" n="2">Nunc quidem aequa pondera nervis aptans eorumque consonantias aure diiudicans, nunc vero in longitudine calamorum duplicitatem medietatemque restituens ceterasque proportiones aptans integerrimam fidem diversa experientia capiebat.</seg>
+					<seg xml:id="p11.s3" n="3">Saepe etiam pro mensurarum modo cyathos aequorum ponderum acetabulis inmittens; saepe ipsa quoque acetabula diversis formata ponderibus virga vel aerea ferreave percutiens nihil sese diversum invenisse laetatus est.</seg>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

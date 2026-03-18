@@ -201,7 +201,7 @@ tei-corr:hover ~ tei-corr::after {
 	font-style:italic;
 }
 
-/* bird's view */
+/* overview */
 
 .birdsview tei-seg,
 .birdsview tei-num,
