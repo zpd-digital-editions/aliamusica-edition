@@ -50,13 +50,6 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
-         <appInfo>
-            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="7.58.0">
-               <label>DOCX to TEI</label>
-            </application>
-         </appInfo>
-      </encodingDesc>
       <revisionDesc>
          <listChange>
             <change>

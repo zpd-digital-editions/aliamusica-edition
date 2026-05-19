@@ -50,22 +50,15 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
-         <appInfo>
-            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="7.58.0">
-               <label>DOCX to TEI</label>
-            </application>
-         </appInfo>
-      </encodingDesc>
       <revisionDesc>
          <listChange>
             <change>
-               <date>2025?</date>
+               <date>2025</date>
                <name>Charles Atkinson</name>
                <desc>Transcription</desc>
             </change>
             <change>
-               <date>2025-07-09</date>
+               <date>2025</date>
                <name>Torsten Roeder</name>
                <desc>Conversion to TEI</desc>
             </change>

@@ -14,13 +14,10 @@
     <!-- header for all pages -->
 	<h1>ALIA MUSICA</h1>
   	<nav>
-  		<a href=".">Manuscript</a>
-  		<a href="?doc=am-insertions">CMA</a>
-  		<a href="?doc=am-alpha" class="alpha">α</a>
-  		<a href="?doc=am-beta" class="beta">β</a>
-  		<a href="?doc=am-gamma" class="gamma">γ</a>
-  		<a href="?doc=am-delta" class="delta">δ</a>
-  		<a href="?doc=am-overview">Overview</a>
+  		<a href=".">text</a>
+  		<a href="?doc=ex-glosses">glosses</a>
+  		<a href="?doc=ex-sources">sources/orig</a>
+  		<a href="?doc=ex-translation">sources/translation</a>
   	</nav>
   	<!-- container for TEI document -->
     <div id="TEI"></div>
@@ -28,7 +25,7 @@
   	<script>
 		/* query */
 		filename = ( QueryString.doc == null )
-			? ( "am.xml" )
+			? ( "ex.xml" )
 			: ( QueryString.doc + ".xml" );
   		/* CETEIcean */
 		var CETEIcean = new CETEI()
