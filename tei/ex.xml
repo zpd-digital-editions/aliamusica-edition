@@ -34,109 +34,76 @@
       <body>
          <div xml:id="div1">
             <head>ALIA MUSICA</head>
-            <pb n="99"/>
             <p source="#beta" xml:id="p1">
                <num>§1</num>
                <seg xml:id="p1.s1" n="1">De harmonica consideratione Boetius ita disseruit:</seg>
-               <seg corresp="#p1.s1" xml:lang="en">Concerning the harmonic relationship, Boethius stated it was so
-                  [called]</seg>
                <seg xml:id="p1.s2" n="2">quia neque solum in terminis speculationem proportionis habet, neque solum in
                   differentiis, sed in utrisque communiter.</seg>
-               <seg corresp="#p1.s2" xml:lang="en">"because it is concerned with a proportion not only between the
-                  terms, and not only between their differences, but between both together.</seg>
                <seg xml:id="p1.s3" n="3">Quaerit enim ut quemadmodum sunt ad se extremi termini, sic majoris ad medium
-                  differentia contineat differentiam medietatis ad ultimum.</seg>
-               <seg corresp="#p1.s3" xml:lang="en">It requires that just as the extreme terms are to each other, so too
-                  is the difference between the larger term and the mean and between the mean and the lesser term.</seg>
+                  differentia <app>
+                     <lem>contra differentiam</lem>
+                     <rdg wit="M"><add place="above text line">contra differentiam</add></rdg>
+                  </app> medietatis ad ultimum.</seg>
             </p>
-            <pb n="100"/>
             <p source="#beta" xml:id="p2">
                <num>§2</num>
                <seg xml:id="p2.s1" n="1">Ipsarum quoque musicarum consonantiarum, quas symphonias nominant, proportiones
                   in hac pene sola <app>
                      <lem>medietate</lem>
-                     <rdg>medietati</rdg>
+                     <rdg wit="P">medietati</rdg>
                   </app> frequenter invenies.</seg>
-               <seg corresp="#p2.s1">You will often find the proportions of those very consonances that they call
-                  symphonies in this virtually unique mean.</seg>
                <seg xml:id="p2.s2" n="2">Namque symphonia diatessaron, quae princeps et quodammodo vim obtinet elementi,
                   in ejusmodi harmonicis medietatibus invenitur.</seg>
-               <seg corresp="#p2.s2">For the interval of the diatessaron, which is primary and has an elemental force in
-                  a way, is found in harmonic means of this kind.</seg>
             </p>
             <p source="#beta" xml:id="p3">
                <num>§3</num>
                <seg xml:id="p3.s1" n="1">Ut sunt VI. ad VIII. sint ergo hujusmodi medietatis termini, quorum extremi
                   sint dupli, et alii quorum extremi tripli sint, ita:</seg>
-               <seg corresp="#p3.s1">Just as 6 is to 8, therefore let there be terms for means of this type whose
-                  extremes are double, and others whose extremes are triple, thus:</seg>
                <figure xml:id="p3.f1">
                   <desc>VI. | VIII. | XII || IV. | VI. | XII.</desc>
                </figure>
-               <figure corresp="#p3.f1" xml:lang="en">
-                  <desc>6:8:12 and 4:6:12.</desc>
-               </figure>
                <seg xml:id="p3.s2" n="2">Duodenarius igitur ad senarium duplus est;</seg>
-               <seg corresp="#p3.s2">12, therefore, is double the 6,</seg>
                <seg xml:id="p3.s3" n="3">et in alia dispositione XII. ad IV. triplus est.</seg>
-               <seg corresp="#p3.s3">and in the other arrangement 12 to 4 is triple.</seg>
                <seg xml:id="p3.s4" n="4">Horum si differentias colligamus et ad se invicem comparemus, epitrita
                   proportio, <app>
                      <lem>id est</lem>
-                     <rdg wit="#M">idem</rdg>
+                     <rdg wit="M">idem</rdg>
                   </app> diatessaron symphonia colligitur.</seg>
-               <seg corresp="#p3.s4">If we take the differences of these and compare them in turn to each other, a
-                  proportion of 4:3, that is, a diatessaron, is formed.</seg>
                <seg xml:id="p3.s5" n="5">Inter VI. enim et XII. senarius est, et inter IV. et XII. octonarius;</seg>
-               <seg corresp="#p3.s5">For between 6 and 12 is a 6, and between 4 and 12 an 8</seg>
                <seg xml:id="p3.s6" n="6">qui scilicet octonarius <app>
                      <lem>ad senarium</lem>
-                     <rdg>ad senariu</rdg>
+                     <rdg wit="M">ad senariu</rdg>
                   </app> sesquitertiam efficit proportionem.</seg>
-               <seg corresp="#p3.s6">which makes a proportion of 4:3 in relation to the 6.</seg>
             </p>
-            <pb n="101"/>
             <p source="#beta" xml:id="p4">
                <num>§4</num>
                <seg xml:id="p4.s1" n="1">In eadem quoque medietate et diapente symphonia componitur.</seg>
-               <seg corresp="#p4.s1">Moreover, in the same mean a diapente is formed.</seg>
                <seg xml:id="p4.s2" n="2">In duplici, videlicet XII. ad VIII., et in triplici, videlicet VI. ad IV.
                   sesquialtera.</seg>
-               <seg corresp="#p4.s2">In the duple, 12 to 8, and in the triple, 6 to 4, there is obviously a sesquialtera
-                  proportion.</seg>
             </p>
             <p source="#beta" xml:id="p5">
                <num>§5</num>
                <seg xml:id="p5.s1" n="1">Post hunc autem diapason consonantia est, ut <app>
                      <lem>.VI.</lem>
-                     <rdg>IVI</rdg>
+                     <rdg wit="P">IVI</rdg>
                   </app> ad XII.</seg>
-               <seg corresp="#p5.s1">After this, however, there is a diapason consonance, as [for example] 6 to
-                  12.</seg>
-               <seg xml:id="p5.s2" n="2">In triplici quoque <pb n="102"/> dispositione simul diapente et diapason
-                  symphonia componitur, ut sunt VI. VIIII. XVIII.</seg>
-               <seg corresp="#p5.s2">In the triple disposition, moreover, the consonance of both a diapente and diapason
-                  is formed, as in 6:9:18.</seg>
+               <seg xml:id="p5.s2" n="2">In triplici quoque dispositione simul diapente et diapason symphonia
+                  componitur, ut sunt VI. VIIII. XVIII.</seg>
             </p>
             <p source="#beta" xml:id="p6">
                <num>§6</num>
                <seg xml:id="p6.s1" n="1">Et quoniam triplus duas continet consonantias, diapente scilicet ac diapason,
                   in differentiis ejusdem triplicis eumdem triplum reperiemus.</seg>
-               <seg corresp="#p6.s1">And since the triple proportion contains two consonances, namely the diapente and
-                  the diapason, we shall discover the same triple relationship in the differences of these same triple
-                  proportions,</seg>
                <seg xml:id="p6.s2" n="2">Nam inter VI. et VIIII. ternarius differentia est, et inter <app>
                      <lem>VIIII. et XVIII</lem>
-                     <rdg>VIIII. et XVIIII</rdg>
+                     <rdg wit="P">VIIII. et XVIIII</rdg>
                   </app>. novenarius, qui ad ternarium triplus est.</seg>
-               <seg corresp="#p6.s2">for between 6 and 9 the difference is three, and between 9 and 18 nine, which is
-                  three times three."</seg>
             </p>
             <p source="#beta" xml:id="p7">
                <num>§7</num>
-               <seg xml:id="p7.s1" n="1">In dupla vero proportione, major terminus <add place="in margine">ad medii
-                     termini contra se differentiam triplus est</add> differentiam sui et medii termini triplus
-                  est,</seg>
+               <seg xml:id="p7.s1" n="1">In dupla vero proportione, major terminus <seg type="glossed"><add
+                        place="in margine" type="gloss">ad medii termini contra se differentiam triplus est</add>
+                     differentiam sui et medii termini triplus est</seg>,</seg>
                <seg xml:id="p7.s2" n="2">et rursus minor terminus ad differentiam sui et medii termini triplus
                   est.</seg>
                <seg xml:id="p7.s3" n="3">Nam inter VIII. et XII. quaternarius est, qui ad eundem duodenarium triplus
@@ -144,6 +111,54 @@
             </p>
          </div>
       </body>
+      <back>
+         <div type="translation" xml:lang="en">
+            <p corresp="#p1">
+               <seg corresp="#p1.s1">Concerning the harmonic relationship, Boethius stated it was so [called]</seg>
+               <seg corresp="#p1.s2">"because it is concerned with a proportion not only between the terms, and not only
+                  between their differences, but between both together.</seg>
+               <seg corresp="#p1.s3">It requires that just as the extreme terms are to each other, so too is the
+                  difference between the larger term and the mean and between the mean and the lesser term.</seg>
+            </p>
+            <p corresp="#p2">
+               <seg corresp="#p2.s1">You will often find the proportions of those very consonances that they call
+                  symphonies in this virtually unique mean.</seg>
+               <seg corresp="#p2.s2">For the interval of the diatessaron, which is primary and has an elemental force in
+                  a way, is found in harmonic means of this kind.</seg>
+            </p>
+            <p corresp="#p3">
+               <seg corresp="#p3.s1">Just as 6 is to 8, therefore let there be terms for means of this type whose
+                  extremes are double, and others whose extremes are triple, thus:</seg>
+               <figure corresp="#p3.f1">
+                  <desc>6:8:12 and 4:6:12.</desc>
+               </figure>
+               <seg corresp="#p3.s2">12, therefore, is double the 6,</seg>
+               <seg corresp="#p3.s3">and in the other arrangement 12 to 4 is triple.</seg>
+               <seg corresp="#p3.s4">If we take the differences of these and compare them in turn to each other, a
+                  proportion of 4:3, that is, a diatessaron, is formed.</seg>
+               <seg corresp="#p3.s5">For between 6 and 12 is a 6, and between 4 and 12 an 8</seg>
+               <seg corresp="#p3.s6">which makes a proportion of 4:3 in relation to the 6.</seg>
+            </p>
+            <p corresp="#p4">
+               <seg corresp="#p4.s1">Moreover, in the same mean a diapente is formed.</seg>
+               <seg corresp="#p4.s2">In the duple, 12 to 8, and in the triple, 6 to 4, there is obviously a sesquialtera
+                  proportion.</seg>
+            </p>
+            <p corresp="#p5">
+               <seg corresp="#p5.s1">After this, however, there is a diapason consonance, as [for example] 6 to
+                  12.</seg>
+               <seg corresp="#p5.s2">In the triple disposition, moreover, the consonance of both a diapente and diapason
+                  is formed, as in 6:9:18.</seg>
+            </p>
+            <p corresp="#p6">
+               <seg corresp="#p6.s1">And since the triple proportion contains two consonances, namely the diapente and
+                  the diapason, we shall discover the same triple relationship in the differences of these same triple
+                  proportions,</seg>
+               <seg corresp="#p6.s2">for between 6 and 9 the difference is three, and between 9 and 18 nine, which is
+                  three times three."</seg>
+            </p>
+         </div>
+      </back>
    </text>
    <standOff>
       <bibl>Boethius, De arithmetica, Bk II, cap. 48</bibl>

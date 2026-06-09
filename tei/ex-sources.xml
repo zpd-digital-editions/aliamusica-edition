@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ALIA MUSICA</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N"/>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N"/>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <listChange ordered="true">
+            <change status="draft">
+               <date instant="false">2026</date>
+               <name instant="false" full="yes">Konstatin Voigt</name>
+               <desc>Transcription</desc>
+            </change>
+            <change status="draft">
+               <date instant="false">2026</date>
+               <name instant="false" full="yes">Torsten Roeder</name>
+               <desc>Conversion to TEI</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="div1" part="N" org="uniform" sample="complete">
+            <head>ALIA MUSICA</head>
+            <p source="#beta" xml:id="p1" part="N">
+               <num>§1</num>
+               <seg xml:id="p1.s1" n="1" part="N">De harmonica consideratione Boetius ita disseruit:</seg>
+               <seg xml:id="p1.s2" n="2" part="N">quia neque solum in terminis speculationem proportionis habet, neque solum in
+                  differentiis, sed in utrisque communiter.</seg>
+               <seg xml:id="p1.s3" n="3" part="N">Quaerit enim ut quemadmodum sunt ad se extremi termini, sic majoris ad medium
+                  differentia <rdg wit="M">
+                     <add place="above text line" instant="false" status="unremarkable">contra differentiam</add>
+                  </rdg> medietatis ad ultimum.</seg>
+            </p>
+            <p source="#beta" xml:id="p2" part="N">
+               <num>§2</num>
+               <seg xml:id="p2.s1" n="1" part="N">Ipsarum quoque musicarum consonantiarum, quas symphonias nominant, proportiones
+                  in hac pene sola <rdg wit="P">medietati</rdg> frequenter invenies.</seg>
+               <seg xml:id="p2.s2" n="2" part="N">Namque symphonia diatessaron, quae princeps et quodammodo vim obtinet elementi,
+                  in ejusmodi harmonicis medietatibus invenitur.</seg>
+            </p>
+            <p source="#beta" xml:id="p3" part="N">
+               <num>§3</num>
+               <seg xml:id="p3.s1" n="1" part="N">Ut sunt VI. ad VIII. sint ergo hujusmodi medietatis termini, quorum extremi
+                  sint dupli, et alii quorum extremi tripli sint, ita:</seg>
+               <figure xml:id="p3.f1">
+                  <desc>VI. | VIII. | XII || IV. | VI. | XII.</desc>
+               </figure>
+               <seg xml:id="p3.s2" n="2" part="N">Duodenarius igitur ad senarium duplus est;</seg>
+               <seg xml:id="p3.s3" n="3" part="N">et in alia dispositione XII. ad IV. triplus est.</seg>
+               <seg xml:id="p3.s4" n="4" part="N">Horum si differentias colligamus et ad se invicem comparemus, epitrita
+                  proportio, <rdg wit="M">idem</rdg> diatessaron symphonia colligitur.</seg>
+               <seg xml:id="p3.s5" n="5" part="N">Inter VI. enim et XII. senarius est, et inter IV. et XII. octonarius;</seg>
+               <seg xml:id="p3.s6" n="6" part="N">qui scilicet octonarius <rdg wit="M">ad senariu</rdg> sesquitertiam efficit proportionem.</seg>
+            </p>
+            <p source="#beta" xml:id="p4" part="N">
+               <num>§4</num>
+               <seg xml:id="p4.s1" n="1" part="N">In eadem quoque medietate et diapente symphonia componitur.</seg>
+               <seg xml:id="p4.s2" n="2" part="N">In duplici, videlicet XII. ad VIII., et in triplici, videlicet VI. ad IV.
+                  sesquialtera.</seg>
+            </p>
+            <p source="#beta" xml:id="p5" part="N">
+               <num>§5</num>
+               <seg xml:id="p5.s1" n="1" part="N">Post hunc autem diapason consonantia est, ut <rdg wit="P">IVI</rdg> ad XII.</seg>
+               <seg xml:id="p5.s2" n="2" part="N">In triplici quoque dispositione simul diapente et diapason symphonia
+                  componitur, ut sunt VI. VIIII. XVIII.</seg>
+            </p>
+            <p source="#beta" xml:id="p6" part="N">
+               <num>§6</num>
+               <seg xml:id="p6.s1" n="1" part="N">Et quoniam triplus duas continet consonantias, diapente scilicet ac diapason,
+                  in differentiis ejusdem triplicis eumdem triplum reperiemus.</seg>
+               <seg xml:id="p6.s2" n="2" part="N">Nam inter VI. et VIIII. ternarius differentia est, et inter <rdg wit="P">VIIII. et XVIIII</rdg>. novenarius, qui ad ternarium triplus est.</seg>
+            </p>
+            <p source="#beta" xml:id="p7" part="N">
+               <num>§7</num>
+               <seg xml:id="p7.s1" n="1" part="N">In dupla vero proportione, major terminus <seg type="glossed" part="N">
+                     differentiam sui et medii termini triplus est</seg>,</seg>
+               <seg xml:id="p7.s2" n="2" part="N">et rursus minor terminus ad differentiam sui et medii termini triplus
+                  est.</seg>
+               <seg xml:id="p7.s3" n="3" part="N">Nam inter VIII. et XII. quaternarius est, qui ad eundem duodenarium triplus
+                  est, et inter VI. et VIII. binarius, qui rursus ad eundem senarium triplus est.</seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

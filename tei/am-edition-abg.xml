@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ALIA MUSICA</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N"/>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <listWit>
+               <witness xml:id="alpha">
+                  <name instant="false" full="yes">α</name>
+               </witness>
+               <witness xml:id="beta">
+                  <name instant="false" full="yes">β</name>
+               </witness>
+               <witness xml:id="gamma">
+                  <name instant="false" full="yes">γ</name>
+               </witness>
+               <witness xml:id="delta">
+                  <name instant="false" full="yes">δ</name>
+               </witness>
+            </listWit>
+            <msDesc status="draft">
+               <msIdentifier>
+                  <repository>THESAURUS MUSICARUM LATINARUM</repository>
+               </msIdentifier>
+               <p part="N">School of Music</p>
+               <p part="N">Indiana University</p>
+               <p part="N">Bloomington, IN 47405</p>
+               <p part="N">(phone: [812] 855-5471; Internet: mathiese@indiana.edu)</p>
+               <p part="N">Data entry: Stephen E. Hayes</p>
+               <p part="N">Checked by: Peter M. Lefferts and Andreas Giger</p>
+               <p part="N">Approved by: Thomas J. Mathiesen</p>
+               <p part="N">Fn and Ft: ALIAMU TEXT</p>
+               <p part="N">Author: Anonymous</p>
+               <p part="N">Title: Alia musica</p>
+               <p part="N">Source: Jacques Chailley, ed., Alia musica (Traite de musique du IXe siecle):
+						Edition critique commentee avec une introduction sur l'origine de la
+						nomenclature modale pseudo-grecque au Moyen-Age (Paris: Centre de
+						documentation universitaire et Societe d'edition d'enseignement superieur
+						reunis, 1965), 85-88, 90-97, 99-111, 113-18, 120-30, 133-45, 147-74, 176-81,
+						and 183-212. Used by permission.</p>
+               <p part="N">Graphics: ALIAMU 01GF</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <listChange ordered="true">
+            <change status="draft">
+               <date instant="false">2025?</date>
+               <name instant="false" full="yes">Charles Atkinson</name>
+               <desc>Transcription</desc>
+            </change>
+            <change status="draft">
+               <date instant="false">2025-07-09</date>
+               <name instant="false" full="yes">Torsten Roeder</name>
+               <desc>Conversion to TEI</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="div1" part="N" org="uniform" sample="complete">
+            <head>ALIA MUSICA</head>
+            <pb n="99"/>
+            <p source="#beta" xml:id="p1" part="N">
+               <num>§1</num>
+               <seg xml:id="p1.s1" n="1" part="N">De harmonica consideratione Boetius ita disseruit:</seg>
+               <seg xml:id="p1.s2" n="2" part="N">quia neque solum in terminis speculationem proportionis habet, neque solum
+						in differentiis, sed in utrisque communiter.</seg>
+               <seg xml:id="p1.s3" n="3" part="N">Quaerit enim ut quemadmodum sunt ad se extremi termini, sic majoris ad
+						medium differentia contineat differentiam medietatis ad ultimum.</seg>
+            </p>
+            <pb n="100"/>
+            <p source="#beta" xml:id="p2" part="N">
+               <num>§2</num>
+               <seg xml:id="p2.s1" n="1" part="N">Ipsarum quoque musicarum consonantiarum, quas symphonias nominant,
+						proportiones in hac pene sola medietate frequenter invenies.</seg>
+               <seg xml:id="p2.s2" n="2" part="N">Namque symphonia diatessaron, quae princeps et quodammodo vim obtinet
+						elementi, in ejusmodi harmonicis medietatibus invenitur.</seg>
+            </p>
+            <p source="#beta" xml:id="p3" part="N">
+               <num>§3</num>
+               <seg xml:id="p3.s1" n="1" part="N">Ut sunt 6 ad 8, sint ergo hujusmodi medietatis termini, quorum extremi sint
+						dupli, et alii quorum extremi tripli sint, ita: 6. 8. 12 - 4. 6. 12.</seg>
+               <seg xml:id="p3.s2" n="2" part="N">Duodenarius igitur ad senarium duplus est;</seg>
+               <seg xml:id="p3.s3" n="3" part="N">et in alia dispositione 12 ad 4 triplus est.</seg>
+               <seg xml:id="p3.s4" n="4" part="N">Horum si differentias colligamus et ad se invicem comparemus, epitrita
+						proportio, id est diatessaron symphonia colligitur.</seg>
+               <seg xml:id="p3.s5" n="5" part="N">Inter 6 enim et 12 senarius est, et inter 4 et 12 octonarius;</seg>
+               <seg xml:id="p3.s6" n="6" part="N">qui scilicet octonarius ad senarium sesquitertiam efficit
+						proportionem.</seg>
+            </p>
+            <pb n="101"/>
+            <p source="#beta" xml:id="p4" part="N">
+               <num>§4</num>
+               <seg xml:id="p4.s1" n="1" part="N">In eadem quoque medietate et diapente symphonia componitur.</seg>
+               <seg xml:id="p4.s2" n="2" part="N">In duplici, videlicet 12 ad 8, et in triplici, videlicet 6 ad 4,
+						sesquialtera.</seg>
+            </p>
+            <p source="#beta" xml:id="p5" part="N">
+               <num>§5</num>
+               <seg xml:id="p5.s1" n="1" part="N">Post hunc autem diapason consonantia est, ut 6 ad 12.</seg>
+               <seg xml:id="p5.s2" n="2" part="N">In triplici quoque <pb n="102"/> dispositione simul diapente et diapason
+						symphonia componitur, ut sunt 6. 9. 18.</seg>
+            </p>
+            <p source="#beta" xml:id="p6" part="N">
+               <num>§6</num>
+               <seg xml:id="p6.s1" n="1" part="N">Et quoniam triplus duas continet consonantias, diapente scilicet ac
+						diapason, in differentiis ejusdem triplicis eumdem triplum reperiemus.</seg>
+               <seg xml:id="p6.s2" n="2" part="N">Nam inter 6 et 9 ternarius differentia est, et inter 9 et 18 novenarius,
+						qui ad ternarium triplus est.</seg>
+            </p>
+            <p source="#beta" xml:id="p7" part="N">
+               <num>§7</num>
+               <seg xml:id="p7.s1" n="1" part="N">In dupla vero proportione, major terminus ad medii termini contra se
+						differentiam triplus est,</seg>
+               <seg xml:id="p7.s2" n="2" part="N">et rursus minor terminus ad differentiam sui et medii termini triplus
+						est.</seg>
+               <seg xml:id="p7.s3" n="3" part="N">Nam inter 8 et 12 quaternarius est, qui ad eundem duodenarium triplus est,
+						et inter 6 et 8 binarius, qui rursus ad eundem senarium triplus
+					est.</seg>
+            </p>
+            <pb n="103"/>
+            <p source="#beta" xml:id="p8" part="N">
+               <num>§8</num>
+               <seg xml:id="p8.s1" n="1" part="N">Illa autem maxima symphonia, quae vocatur bisdiapason, velut bis duplum, ex
+						duplici proportione colligitur.</seg>
+               <seg xml:id="p8.s2" n="2" part="N">Quoniam medius terminus ad minoris suique differentiam quadruplus
+						invenitur, ut inter 6 et 8 binarius, qui ad eundem octonarium quadruplus
+						invenitur.</seg>
+            </p>
+            <p source="#beta" xml:id="p9" part="N">
+               <num>§9</num>
+               <seg xml:id="p9.s1" n="1" part="N">In triplicibus quoque extremitatibus major differentia ad minorem
+						differentiam quadrupla est.</seg>
+               <seg xml:id="p9.s2" n="2" part="N">Siquidem inter 6 et 18 duodenarius est, extremorum scilicet
+						differentia;</seg>
+               <seg xml:id="p9.s3" n="3" part="N">et inter 9 et 6 ternarius, qui ad duodenarium est quadruplus.</seg>
+            </p>
+            <p source="#beta" xml:id="p10" part="N">
+               <num>§10</num>
+               <seg xml:id="p10.s1" n="1" part="N">In duplici etiam dispositione, qua medius terminus ad minorem resonat
+						diatessaron, ad majorem vero diapente, si extremitates in unum redigantur,
+						et a <pb n="104"/> medietate multiplicentur, duplus erit ab eo numero quem
+						solae extremitates multiplicatae perfecerint, ut 6. 8. 12.</seg>
+               <seg xml:id="p10.s2" n="2" part="N">Hic junctae extremitates 6 et 12 conficiunt 18 qui per octonarium
+						multiplicati in 144 excrescunt, cujus summae medietas est 72, qui
+						conficiuntur ex multiplicatis in se 6 et 12.</seg>
+            </p>
+            <p source="#beta" xml:id="p11" part="N">
+               <num>§11</num>
+               <seg xml:id="p11.s1" n="1" part="N">Hanc quoque habet naturam talis dispositio ut medius alia sua parte minorem
+						praecedat et alia sua parte a majore praecedatur;</seg>
+               <seg xml:id="p11.s2" n="2" part="N">eadem autem parte minoris minorem superet qua parte majoris a majore
+						superatur.</seg>
+            </p>
+            <p source="#beta" xml:id="p12" part="N">
+               <num>§12</num>
+               <seg xml:id="p12.s1" n="1" part="N">Si vero dupli dispositio talis fit ut medius ad minorem resonet diapente,
+						majorem diatessaron, ut sunt 6. 9. 12,</seg>
+               <seg xml:id="p12.s2" n="2" part="N">quoniam differentiae eaedem sunt, proportiones vero non eaedem, arithmetica
+						potius medietas dicenda est quam harmonica.</seg>
+               <seg xml:id="p12.s3" n="3" part="N">Illa est enim vere harmonica medietas quae cybi determinatione
+						colligitur.</seg>
+               <seg xml:id="p12.s4" n="4" part="N">Omnis enim cybus habet latera 12, angulos 8, superficies 6, qui disponantur
+						ita: 6. 8. 12.</seg>
+            </p>
+            <pb n="105"/>
+            <p source="#beta" xml:id="p13" part="N">
+               <num>§13</num>
+               <seg xml:id="p13.s1" n="1" part="N">His praemissis, ad 8 troporum, quos Latini modos nuncupant, dispositionem
+						veniamus.</seg>
+               <seg xml:id="p13.s2" n="2" part="N">Primoque sciendum quod tropus de graeco in latinum conversio dicitur,
+						idcirco quod, excepta sua proprietate, alter in alterum convertitur.</seg>
+               <seg xml:id="p13.s3" n="3" part="N">Toni vero ideo dicuntur quod, exceptis semitoniis, ipsi omnium troporum
+						communis mensura sint.</seg>
+               <seg xml:id="p13.s4" n="4" part="N">Modi etiam dicti sunt, eo quod unusquisque troporum proprium modum teneat
+						nec mensuram excedat.</seg>
+            </p>
+            <pb n="106"/>
+            <p source="#beta" xml:id="p14" part="N">
+               <num>§14</num>
+               <seg xml:id="p14.s1" n="1" part="N">Siquidem, facta una constitutione quae intexatur duplis, triplis,
+						quadruplis, sesquialteris ac sesquitertiis cum 15 nervorum vocibus
+						interjectis, hos 8 tropos vel modos designari necesse est.</seg>
+            </p>
+            <pb n="107"/>
+            <p source="#beta" xml:id="p15" part="N">
+               <num>§15</num>
+               <seg xml:id="p15.s1" n="1" part="N">Erit ergo primus modus omnium gravissimus videlicet hypodorius ex prima
+						specie diapason, et terminatur eo qui meses dicitur, medio nervo.</seg>
+               <seg xml:id="p15.s2" n="2" part="N">Secundum modum hypophrygium secunda species diapason efficit, quae in
+						paramesen finitur.</seg>
+               <seg xml:id="p15.s3" n="3" part="N">Tertium modum hypolydium tertia species diapason determinat in eum quem
+						vocant triten diezeugmenon nervum.</seg>
+               <seg xml:id="p15.s4" n="4" part="N">Quartum modum dorium quarta species diapason reddit, quae finit in paranete
+						diezeugmenon.</seg>
+               <seg xml:id="p15.s5" n="5" part="N">Quintus modus phrygius quinta specie diapason finitur, cui nete
+						diezeugmenon nervus est ultimus.</seg>
+               <seg xml:id="p15.s6" n="6" part="N">Sextum nihilominus modum lydium sexta species diapason exerit, cui trite
+						hyperbolaeon est finis.</seg>
+               <seg xml:id="p15.s7" n="7" part="N">Septimum quoque modum mixolydium septima species diapason informat, quam
+						paranete hyperbolaeon determinat.</seg>
+            </p>
+            <p source="#beta" xml:id="p16" part="N">
+               <num>§16</num>
+               <seg xml:id="p16.s1" n="1" part="N">Verum, quia unus duplus, hoc est una diapason, octo vocibus pollens, plures
+						species non recipit, quandoquidem omnis symphonia unam vocem pluresque
+						species admittit,</seg>
+               <seg xml:id="p16.s2" n="2" part="N">octavum modum hypermixolydium Ptolomaeus adjecit, quem secundi ac tertii
+						modi proprietatibus informavit.</seg>
+               <seg xml:id="p16.s3" n="3" part="N">Est enim diatessaron 4 chordarum et trium specierum, diapente quoque 5
+						chordarum et 4 specierum, quapropter et diapason 8 chordarum et 7
+						specierum.</seg>
+            </p>
+            <pb n="108"/>
+            <p source="#beta" xml:id="p17" part="N">
+               <num>§17</num>
+               <seg xml:id="p17.s1" n="1" part="N">Denique prima species diatessaron tertio loco habet semitonium, secunda
+						species secundo, tertia species primo,</seg>
+               <seg xml:id="p17.s2" n="2" part="N">semperque sive per disjunctum sive per conjunctum tetrachordum quartis
+						locis eadem species redit.</seg>
+            </p>
+            <pb n="109"/>
+            <p source="#beta" xml:id="p18" part="N">
+               <num>§18</num>
+               <seg xml:id="p18.s1" n="1" part="N">Quintis locis non tamen semper diapente sibi invicem succedit.</seg>
+               <seg xml:id="p18.s2" n="2" part="N">Unde constat quod tres species diatessaron tres prima species diapente, uno
+						tono adjecto, constituunt.</seg>
+               <seg xml:id="p18.s3" n="3" part="N">Quarta vero species semitonio terminatur,</seg>
+               <seg xml:id="p18.s4" n="4" part="N">et prima a nete diezeugmenon sumit initium.</seg>
+            </p>
+            <pb n="110"/>
+            <p source="#beta" xml:id="p19" part="N">
+               <num>§19</num>
+               <seg xml:id="p19.s1" n="1" part="N">Restat ut proprietates specierum diapason investigemus.</seg>
+               <seg xml:id="p19.s2" n="2" part="N">Prima itaque species tertio et sexto loco utitur semitonio,</seg>
+               <seg xml:id="p19.s3" n="3" part="N">secunda quarto et septimo,</seg>
+               <seg xml:id="p19.s4" n="4" part="N">tertia primo et quinto,</seg>
+               <seg xml:id="p19.s5" n="5" part="N">quarta secundo et sexto,</seg>
+               <seg xml:id="p19.s6" n="6" part="N">quinta tertio et septimo,</seg>
+               <seg xml:id="p19.s7" n="7" part="N">sexta primo et quarto,</seg>
+               <seg xml:id="p19.s8" n="8" part="N">septima secundo et quinto,</seg>
+               <seg xml:id="p19.s9" n="9" part="N">octava sicut et prima tertio et sexto.</seg>
+            </p>
+            <pb n="111"/>
+            <p source="#beta" xml:id="p20" part="N">
+               <num>§20</num>
+               <seg xml:id="p20.s1" n="1" part="N">Ceterum, ut ad ipsas species diapason redeamus, quoniam lichanos hypaton
+						hypodorii est proslambanomenos dorii, meses dorii, quae est paranete
+						diezeugmenon hypodorii, integra consonantia diatessaron acutior est a mese
+						ejusdem hypodorii.</seg>
+               <seg xml:id="p20.s2" n="2" part="N">Similiter differentia est inter phrygium et hypophrygium, lydium quoque et
+						hypolydium,</seg>
+               <seg xml:id="p20.s3" n="3" part="N">nam mixolydius ab hypermixolydio tantum distat tono.</seg>
+            </p>
+            <pb n="113"/>
+            <p source="#beta" xml:id="p21" part="N">
+               <num>§21</num>
+               <seg xml:id="p21.s1" n="1" part="N">Nunc de cybicis numeris, qui harmonicam considerationem suggerunt, qualiter
+						praedictas octo modorum species differre faciant, paululum est
+						disserendum.</seg>
+               <seg xml:id="p21.s2" n="2" part="N">Praelibato tamen quod diatessaron per 7, id est per 3 et 4, diapente vero
+						per 5, id est per 2 et 3, in harmonica regula mensuratur.</seg>
+            </p>
+            <p source="#beta" xml:id="p22" part="N">
+               <num>§22</num>
+               <seg xml:id="p22.s1" n="1" part="N">Nam et ex minoribus numeris majores, et ex majoribus minores in eadem
+						proportione numeros cognoscimus.</seg>
+               <seg xml:id="p22.s2" n="2" part="N">Atque hoc est quod ait Boetius in libro secundo, capitulo nono:</seg>
+               <seg xml:id="p22.s3" n="3" part="N">si duos numeros eorum differentia integre fuerit permensa, in eadem sunt
+						proportione numeri, quos sua differentia mensa est, in qua erunt proportione
+						etiam hi numeri secundum quos eos sua mensa est differentia.</seg>
+               <seg xml:id="p22.s4" n="4" part="N">Ut inter 6 et 8 binarius est, qui senarium ter, octonarium quater
+						metitur.</seg>
+               <seg xml:id="p22.s5" n="5" part="N">Similiter inter 9 et 12 est ternarius, qui novenarium ter, duodenarium
+						quater metitur.</seg>
+               <seg xml:id="p22.s6" n="6" part="N">Sicque fit ut in quantiscumque numeris, licet magnis, proportio
+						sesquitertia incurrat, eam ternarius et quaternarius non relinquant, qui
+						primi et quasi radices sunt sesquitertiae proportionis.</seg>
+               <seg xml:id="p22.s7" n="7" part="N">Eodem modo in sesquialtera proportione inter 6 et 9 est ternarius, qui
+						senarium bis, novenarium ter metitur.</seg>
+               <seg xml:id="p22.s8" n="8" part="N">Quae omnia in harmonica regula fiunt circino notiora.</seg>
+            </p>
+            <pb n="114"/>
+            <p source="#beta" xml:id="p23" part="N">
+               <num>§23</num>
+               <seg xml:id="p23.s1" n="1" part="N">Siquidem eodem instrumento omnis duplus in aequa parte partitur;</seg>
+               <seg xml:id="p23.s2" n="2" part="N">et propositis ad duplum faciendum quibuslibet numeris, semper medius
+						invenitur, qui aequis differentiis ab utrisque extremis segregetur:</seg>
+               <seg xml:id="p23.s3" n="3" part="N">ut inter 2 et 4 ternarius, qui ab utroque extremo singulis differt
+						unitatibus;</seg>
+               <seg xml:id="p23.s4" n="4" part="N">inter 4 et 8 senarius eodem modo est medius,</seg>
+               <seg xml:id="p23.s5" n="5" part="N">inter 6 et 12 novenarius,</seg>
+               <seg xml:id="p23.s6" n="6" part="N">et inter 12 ac 24 sunt 18,</seg>
+               <seg xml:id="p23.s7" n="7" part="N">et utrique dupli distant a medio, ille quidem ternario, hic vero
+						senario.</seg>
+            </p>
+            <pb n="115"/>
+            <p source="#beta" xml:id="p24" part="N">
+               <num>§24</num>
+               <seg xml:id="p24.s1" n="1" part="N">Sunt enim praedicti numeri aliquanti sibi incommensurabiles, quia binarium,
+						quo mensurantur 6. 8. 12, novenarius respuit, et contra ternarium, quo
+						mensurantur 6. 9. 12, octonarius non recipit.</seg>
+            </p>
+            <p source="#beta" xml:id="p25" part="N">
+               <num>§25</num>
+               <seg xml:id="p25.s1" n="1" part="N">Quaternarius octonarii et duodenarii est mensura communis:</seg>
+               <seg xml:id="p25.s2" n="2" part="N">et ob id juxta quosdam triplus hypodorii a quaternario incipit et in
+						duodenarium desinit.</seg>
+            </p>
+            <pb n="116"/>
+            <pb n="117"/>
+            <p source="#beta" xml:id="p28" part="N">
+               <num>§28</num>
+               <seg xml:id="p28.s1" n="1" part="N">De reliquo senarius, qui simpliciter est in dorio, triplicatus in hypodorio
+						et hypophrygio, quadruplicatur in phrygio et lydio.</seg>
+               <seg xml:id="p28.s2" n="2" part="N">In quibus vero senarius ad dorium triplicatur, octonarius ad eundem
+						dupliciter habetur.</seg>
+               <seg xml:id="p28.s3" n="3" part="N">Et rursus in quibus ille quadruplicatur, iste triplicatione
+						repetitur.</seg>
+               <seg xml:id="p28.s4" n="4" part="N">Tandem novenarius, qui in dorio est simpliciter, in reliquis est
+						dupliciter, excepto <pb n="118"/> lydio, qui ejus quadruplicatione et
+						duodenarii triplicitate gaudet.</seg>
+               <seg xml:id="p28.s5" n="5" part="N">Hypophrygius duodenarii repetitione laetatur, sicut et hypolydius.</seg>
+               <seg xml:id="p28.s6" n="6" part="N">Contra quam repetitionem hypolydii senarius sexies, octonarius ter,
+						novenarius quater respondet.</seg>
+               <seg xml:id="p28.s7" n="7" part="N">Mixolydius duodenarium et novenarium semel uno tenore repetit, senarium et
+						octonarium triplicare contendit;</seg>
+               <seg xml:id="p28.s8" n="8" part="N">altero autem tenore duodenarium et octonarium triplicat, senarium et
+						novenarium quadruplicat,</seg>
+               <seg xml:id="p28.s9" n="9" part="N">sua vero propria consonantia duodenarium quater exhibet, senarium octies,
+						octonarium sexies.</seg>
+               <seg xml:id="p28.s10" n="10" part="N">Ad extremum hypermixolydius una serie duodenarium et novenarium semel
+						repetit senarium et octonarium triplicatos exponit;</seg>
+               <seg xml:id="p28.s11" n="11" part="N">altera vero serie duodenarium et octonarium triplicat, senarium quoque et
+						novenarium quadruplicat.</seg>
+            </p>
+            <pb n="120"/>
+            <p source="#beta" xml:id="p29" part="N">
+               <num>§29</num>
+               <seg xml:id="p29.s1" n="1" part="N">Denique sciendum quod post symphonias ex arbitrio musici propositas, id est
+						diapason, diapente ac diatessaron, aliquando unus tonus ad gravem vel acutam
+						partem additur, qui emmelis, id est aptus melo vocatur,</seg>
+               <seg xml:id="p29.s2" n="2" part="N">[sane in illa constitutione ubi 15 nervos dicimus una serie
+						proportionaliter dispositos, bis diapason, id est 6 et bis 12.]</seg>
+            </p>
+            <p corresp="#p181" source="#alpha">
+               <num>§181</num>
+               <seg xml:id="p181.s1" n="1" part="N">Tonus primus NONANOEANE, qui graece dicitur autentos protos, id est
+						auctoritas prima, A 12, C 6, B 8, D 9.</seg>
+               <seg xml:id="p181.s2" n="2" part="N">6 ad 12 18 sunt, qui sunt ter 6, quae proportio dupla diapason
+						dicitur.</seg>
+               <seg xml:id="p181.s3" n="3" part="N">Item 8 ad 12 20 sunt, quae proportio sesquialtera dicitur ad 12, ideo quia
+						12 habet 8 in se et alteram ejus partem, id est 4, et facit diapente.</seg>
+               <seg xml:id="p181.s4" n="4" part="N">Item 9 ad 12 21 sunt, quae proportio sesquialtera dicitur ad 12, quia 12
+						habet 9 in se et ejus tertiam partem, id est 3, et facit diatessaron, id est
+						ter 7 qui sunt 21.</seg>
+               <seg xml:id="p181.s5" n="5" part="N">Omnis igitur primus tonus aut ter 6 habet in dupla proportione diapason, ut
+						est Rorate celi desuper, aut quater 5, id est 2 de 8 et 3 de 12 in
+						sesquialtera proportione qui faciunt diapente, quod est 20, ut est et nubes
+						pluant justum, aperiatur; aut ter 7, id est 3 de 9 ad 4 de 12 in
+						sesquitertia proportione, qui faciunt diatessaron, ut est terra et germinet
+						Salvatorem.</seg>
+               <seg xml:id="p181.s6" n="6" part="N">Item Introitum Gaudete in Domino semper, et Justus es Domine; similiter
+						antiphonae Urbs fortitudinis nostrae Sion, Johannes autem cum audisset in
+						vinculis opera Christi, Traditor <pb n="86"/> autem dedit eis.</seg>
+               <seg xml:id="p181.s7" n="7" part="N">Et hoc videndum, quod saepe evenit, ut bis aut ter aut totum etiam in
+						antiphonis, aut quocumque cantu primi toni fit, aut per 6 et 12 quod est
+						diapason, aut per 5 aut 10 quod est diapente, aut per 7 totum quod est
+						diatessaron, decurrit;</seg>
+               <seg xml:id="p181.s8" n="8" part="N">ut Urbs fortitudinis; Johannes autem diapente.</seg>
+            </p>
+            <pb n="121"/>
+            <p source="#beta" xml:id="p30" part="N">
+               <num>§30</num>
+               <seg xml:id="p30.s1" n="1" part="N">Tandem ad cujusdam expositionem de praefatis tropis vel modis veniamus, ut
+						eidem expositioni, Deo juvante, aliquid lucis infundamus.</seg>
+            </p>
+            <p source="#beta" xml:id="p31" part="N">
+               <num>§31</num>
+               <seg xml:id="p31.s1" n="1" part="N">Omnis, inquit, primus tonus, quem dorium dicimus, aut ter 6 habebit in
+						dupla proportione, id est diapason, ut est Rorate celi desuper,</seg>
+               <seg xml:id="p31.s2" n="2" part="N">aut quater 5 quod est 20, id est 2 de 8 et 3 de 12 in sesquialtera
+						proportione faciens diapente; ut est et nubes pluant justum,
+						aperiatur;</seg>
+               <seg xml:id="p31.s3" n="3" part="N">aut ter 7 quod est 21, id est 3 de 9 ad 4 de 12, qui in sesquitertio
+						faciunt diatessaron, ut est terra et germinet salvatorem.</seg>
+            </p>
+            <p source="#beta" xml:id="p32" part="N">
+               <num>§32</num>
+               <seg xml:id="p32.s1" n="1" part="N">Quam gradalem antiphonam per singulas incisiones singulis symphoniis
+						subditam hoc modo pandimus:</seg>
+               <seg xml:id="p32.s2" n="2" part="N">inter 6 et 12 qui faciunt 18 senarius est differentia,</seg>
+               <pb n="122"/>
+               <seg xml:id="p32.s3" n="3" part="N">quam melodia primae incisionis ascendendo totam percurrit, a lichanos
+						hypaton videlicet in paraneten diezeugmenon, praemisso ad gravem partem tono
+						qui emmelis dicitur, id est melo aptus.</seg>
+            </p>
+            <p source="#beta" xml:id="p33" part="N">
+               <num>§33</num>
+               <seg xml:id="p33.s1" n="1" part="N">Denique eamdem differentiam ternarius in aequa partitur, et ita a senario
+						in novenarium diapente terminatur.</seg>
+               <seg xml:id="p33.s2" n="2" part="N">Quae symphonia quoniam constat diatessaron et tono, secundam incisionem
+						antiphonae excurrit omnino, ita ut ibi sint 2 de 8 et 3 de 12;</seg>
+               <seg xml:id="p33.s3" n="3" part="N">quia octonarius senarium binario excedit, ut sesquitertia proportio esse
+						possit.</seg>
+            </p>
+            <pb n="123"/>
+            <p source="#beta" xml:id="p34" part="N">
+               <num>§34</num>
+               <seg xml:id="p34.s1" n="1" part="N">Novenarius vero senarium ternario praeterit, qui medietas est ejusdem
+						senarii, et ob id quarta pars duodenarii.</seg>
+               <seg xml:id="p34.s2" n="2" part="N">Tres ergo de 9 aequales sunt ad 4 de 12, dum illius pars tertia sit hujus
+						quarta, et sic fiat inter eos diatessaron consonantia, quae a novenario in
+						duodenarium concludat, tertiam antiphonae incisiunculam sequetur.</seg>
+            </p>
+            <p source="#beta" xml:id="p35" part="N">
+               <num>§35</num>
+               <seg xml:id="p35.s1" n="1" part="N">Illae antiphonae gradales eodem modo currunt: Gaudete in Domino, et Inclina
+						Domine, et Justus es Domine.</seg>
+               <seg xml:id="p35.s2" n="2" part="N">Similiter autem antiphonae nocturnales Posuerunt super caput, Jesus autem
+						cum jejunasset, Traditor autem.</seg>
+            </p>
+            <pb n="124"/>
+            <p source="#beta" xml:id="p36" part="N">
+               <num>§36</num>
+               <seg xml:id="p36.s1" n="1" part="N">Et hoc videndum quod saepe evenit ut bis aut ter aut totum etiam, in
+						antiphonis aut in quocumque cantu primi toni sit,</seg>
+               <seg xml:id="p36.s2" n="2" part="N">aut per 6 et 12 quod est diapason, aut per 5 et 10 quod est diapente, aut
+						per 7 totum quod est diatessaron, decurrit.</seg>
+            </p>
+            <p source="#beta" xml:id="p37" part="N">
+               <num>§37</num>
+               <seg xml:id="p37.s1" n="1" part="N">Quod, ait, bis diapente respicit.</seg>
+               <seg xml:id="p37.s2" n="2" part="N">Dum enim duorum quorumlibet numerorum ad se invicem sesquialtera ratione
+						comparatorum alter, id est minor, nunquam medietate careat;</seg>
+               <seg xml:id="p37.s3" n="3" part="N">certum est, quod minor in duo aequalia dividitur, cujus medietate a majore
+						superatur;</seg>
+               <seg xml:id="p37.s4" n="4" part="N">unde fit ut sicut ille binario, ita semper iste partiatur ternario.</seg>
+               <seg xml:id="p37.s5" n="5" part="N">Et hoc est, quod ait, diapente fieri per 5 et 10, quia 2 et 3 reddunt
+						quinarium, et duplicati denarium:</seg>
+               <seg xml:id="p37.s6" n="6" part="N">nam 4 et 6 perficiunt 10.</seg>
+            </p>
+            <pb n="125"/>
+            <p source="#beta" xml:id="p38" part="N">
+               <num>§38</num>
+               <seg xml:id="p38.s1" n="1" part="N">Per 7 quoque, qui constant ex 3 et 4, partiri omnem sesquitertiam
+						proportionem jubet, quoniam duorum quorumlibet numerorum ejusdem
+						proportionis alter, id est minor, in 3 aequis partibus, alter, id est major,
+						in 4 distribuitur.</seg>
+            </p>
+         </div>
+         <div xml:id="div2" part="N" org="uniform" sample="complete">
+            <head>ITEM CUJUSDAM DE EADEM RE NOVA EXPOSITIO</head>
+            <pb n="183"/>
+            <p source="#gamma" xml:id="p41" part="N">
+               <num>§41</num>
+               <seg xml:id="p41.s1" n="1" part="N">A prima quoque specie diapason, quae est mese, id est o, inchoatur primus
+						tropus: finiturque in diapente remissum, quod est e, et haec est forma
+						NOANNOEANE: habet autem 5 differentias et 9 loca in nocturnis.</seg>
+               <seg xml:id="p41.s2" n="2" part="N">Est namque prima differentia in o quae habet duo loca, primum in se: Veniet
+						Dominus, secundum in i enarmonio remisso: Apertis thesauris suis.</seg>
+               <seg xml:id="p41.s3" n="3" part="N">Secunda vero differentia in m lichanos meson, quae habet tria loca in se:
+						Canite tuba. Diatessaron remissum in e: Ecce nomen Domini, diapente remissum
+						in c: Intempesta nocte.</seg>
+               <seg xml:id="p41.s4" n="4" part="N">Tertia differentia in i quae habet unum locum: se, diatessaron scilicet
+						remissum in c: O beatum pontificem.</seg>
+               <seg xml:id="p41.s5" n="5" part="N">Quarta differentia est in H quae habet unum locum in se: Inclinans se
+						Iesus.</seg>
+               <seg xml:id="p41.s6" n="6" part="N">Quinta differentia est in e quae habet duo loca: se, Euge serve bone,
+						sesquioctavum remissum in C: Sint lumbi vestri.</seg>
+               <seg xml:id="p41.s7" n="7" part="N">Concluditurque hujus tropi forma intra integrum diapente:</seg>
+               <seg xml:id="p41.s8" n="8" part="N">et singulae chordae singulas retinent differentias, et prima differentia
+						duo habet loca, secunda tria, tertia unum, quarta unum, quinta duo:</seg>
+               <seg xml:id="p41.s9" n="9" part="N">unde constat, ut hic tropus quinque habeat differentias, et novem loca in
+						nocturnis.</seg>
+            </p>
+            <pb n="184"/>
+            <p source="#gamma" xml:id="p42" part="N">
+               <num>§42</num>
+               <seg xml:id="p42.s1" n="1" part="N">In diurnis autem hic tropus tres habet differentias:</seg>
+               <seg xml:id="p42.s2" n="2" part="N">primam in i, quae habet unum locum in c, ut Inclina Domine;</seg>
+               <seg xml:id="p42.s3" n="3" part="N">secunda in h (?) quae habet locum in e: Statuit;</seg>
+               <seg xml:id="p42.s4" n="4" part="N">tertia in e, quae habet locum in se: Gaudete.</seg>
+               <seg xml:id="p42.s5" n="5" part="N">Unde apparet ut singulae in diurnis differentiae singula habent
+					loca.</seg>
+            </p>
+            <pb n="185"/>
+            <p source="#gamma" xml:id="p43" part="N">
+               <num>§43</num>
+               <seg xml:id="p43.s1" n="1" part="N">Propter admirabilem igitur hujus tropi differentiarum naturam, a quibusdam
+						in symphonia ejus c non additur, quia nulla differentia
+					insignitur.</seg>
+            </p>
+            <p source="#gamma" xml:id="p44" part="N">
+               <num>§44</num>
+               <seg xml:id="p44.s1" n="1" part="N">Hujus autem in nocturnis sic currit versus: Gloria Patri et caetera. In
+						diurnis sic currit versus: Gloria Patri et caetera.</seg>
+            </p>
+            <p corresp="#p182" source="#alpha">
+               <num>§182</num>
+               <seg xml:id="p182.s1" n="1" part="N">Tonus secundus NOEAYS, qui dicitur plagis proti, id est a latere primi, A
+						12, CCC 6. 6. 6, BB 8. 8, DD 9. 9.</seg>
+               <seg xml:id="p182.s2" n="2" part="N">Ter 6, id est 18, ad 12 per sesquialteram proportionem fiunt 30
+						diapente.</seg>
+               <seg xml:id="p182.s3" n="3" part="N">Ad 6 vero de primo tono isti ter 6 de secundo tripla est, quia triplicatus
+						eum superat.</seg>
+               <seg xml:id="p182.s4" n="4" part="N">Item bis 8 ad 12 per sesquitertiam proportionem 28 fiunt, id est quater 7
+						quod est diatessaron.</seg>
+               <seg xml:id="p182.s5" n="5" part="N">Sit ergo ipsa proportio numeri, id est bis 8 ad 8 de primo tono: duplum
+						est, et proportio ideo in diapason cadit 24, quod est quater 6 et bis 12 ad
+						12.</seg>
+               <seg xml:id="p182.s6" n="6" part="N">Item bis 9 ad 12, qui sunt ter 6, id est 18, ad 12 per sesquialteram
+						proportionem fiunt ut supra 30 diapente.</seg>
+               <seg xml:id="p182.s7" n="7" part="N">Omnis enim melodia secundi toni aut per diapente denarium numerabit totum,
+						ut est antiphona Ecce advenit, in qua sunt 10 vel 5,</seg>
+               <seg xml:id="p182.s8" n="8" part="N">aut per diatessaron totum, id est 7, ut est Veni et ostende nobis faciem
+						tuam.</seg>
+               <seg xml:id="p182.s9" n="9" part="N">Item antiphona diapentica Omnipotens sermo tuus Domine, et per diatessaron
+						ut est Dominus Deus auxiliator meus.</seg>
+               <seg xml:id="p182.s10" n="10" part="N">Si autem in diapason evenerit proportio secundi toni, vel 6 ad 12, ad
+						primum est, ut ter 6 ad 6 primi, et bis 8 ad 8 et bis 9 ad 9 primi toni
+						semitonium efficit.</seg>
+            </p>
+         </div>
+         <div xml:id="div3" part="N" org="uniform" sample="complete">
+            <head>DE SECUNDO TONO SEQUITUR IN EADEM EXPOSITIONE</head>
+            <pb n="126"/>
+            <p source="#beta" xml:id="p45" part="N">
+               <num>§45</num>
+               <seg xml:id="p45.s1" n="1" part="N">Sequitur in eadem expositione troporum modus secundus, ter 6 id est 18 ad
+						12, qui faciunt simul 30 per sesquialteram proportionem: reddunt
+						diapente.</seg>
+               <seg xml:id="p45.s2" n="2" part="N">Ad 6 autem de primo tono isti ter 6 de secundo tripla proportio est, quia
+						triplicatus eum superat.</seg>
+               <seg xml:id="p45.s3" n="3" part="N">Item bis 8 ad 12 sunt 28, id est quater 7, et faciunt per sesquitertiam
+						proportionem diatessaron.</seg>
+            </p>
+            <p source="#beta" xml:id="p46" part="N">
+               <num>§46</num>
+               <seg xml:id="p46.s1" n="1" part="N">Ipsa ergo proportio numeri, id est bis 8 ad 8 de primo tono duplum est, et
+							<pb n="127"/> ideo in diapason cadit 24, id est quater 6, et bis
+						12.</seg>
+               <seg xml:id="p46.s2" n="2" part="N">Item bis 9 qui sunt 18 ad 12 faciunt diapente, ut supra.</seg>
+            </p>
+            <p source="#beta" xml:id="p47" part="N">
+               <num>§47</num>
+               <seg xml:id="p47.s1" n="1" part="N">Omnis enim melodia secundi toni aut per diapente denarium numerabit totum,
+						ut est antiphona Ecce advenit, in quo sunt 5 vel 10,</seg>
+               <seg xml:id="p47.s2" n="2" part="N">aut per diatessaron totum, id est per 7, ut est antiphona Veni et
+						ostende.</seg>
+               <seg xml:id="p47.s3" n="3" part="N">Item antiphona diapentica Omnipotens sermo tuus,</seg>
+               <seg xml:id="p47.s4" n="4" part="N">et diatessaron ut est Dominus Deus auxiliator meus.</seg>
+            </p>
+            <p source="#beta" xml:id="p48" part="N">
+               <num>§48</num>
+               <seg xml:id="p48.s1" n="1" part="N">Si autem in diapason venerit proportio secundi toni, id est 12 ad 6, et bis
+						9 ad 9, et bis 8 ad 8, primum tonum efficit;</seg>
+               <seg xml:id="p48.s2" n="2" part="N">quoniam singuli modi suam propriam habent constitutionem.</seg>
+               <seg xml:id="p48.s3" n="3" part="N">Semper se gemini e latere respiciunt, ut aliquando fraterna concordia alter
+						in alterum se gravatus reclinet, alter in alterum ascendendo se
+						exaltet.</seg>
+               <seg xml:id="p48.s4" n="4" part="N">Nam hypodorius in dorium transit si suam diapason excesserit.</seg>
+            </p>
+            <pb n="128"/>
+            <p source="#beta" xml:id="p49" part="N">
+               <num>§49</num>
+               <seg xml:id="p49.s1" n="1" part="N">Et hoc est, quod ait, si 12 ad 6 pervenerint.</seg>
+               <seg xml:id="p49.s2" n="2" part="N">Quandoquidem hypodorius ad illum comparatus triplo gravior existit.</seg>
+               <seg xml:id="p49.s3" n="3" part="N">Si enim in hac plaga nete hyperboleon ascribantur 6, meses habebit 12,
+						lichanos hypaton 18, proslambanomenon 24, et erit 12 differentia inter 12 et
+						24.</seg>
+            </p>
+            <pb n="129"/>
+            <p source="#beta" xml:id="p50" part="N">
+               <num>§50</num>
+               <seg xml:id="p50.s1" n="1" part="N">Hanc igitur differentiam vix excedet hujus plagae melodia ad acutam partem
+						in antiphonis, sed inferius sive diatessaron per 7, sive diapente per 10
+						numerabit.</seg>
+            </p>
+            <p source="#beta" xml:id="p51" part="N">
+               <num>§51</num>
+               <seg xml:id="p51.s1" n="1" part="N">Est autem integra diatessaron consonantia inter utrumque modum: dum
+						lichanos hypaton hypodorii sit proslambanomenos dorii.</seg>
+            </p>
+            <p source="#beta" xml:id="p52" part="N">
+               <num>§52</num>
+               <seg xml:id="p52.s1" n="1" part="N">Siquidem ex duplo et triplo hanc consonantiam procreari Boetius ita
+						dicit:</seg>
+               <seg xml:id="p52.s2" n="2" part="N">Sint hujusmodi medietatis termini, quorum extremi sint dupli, et alii
+						quorum extremi sint tripli, ita: 6. 8. 12 - 4. 6. 12.</seg>
+               <seg xml:id="p52.s3" n="3" part="N">Duodenarius igitur ad senarium duplus est, et in alia dispositione 12 ad 4
+						triplus est.</seg>
+               <seg xml:id="p52.s4" n="4" part="N">Horum si differentias colligamus, et ad se invicem comparemus, epitrita
+						proportio, id est diatessaron symphonia colligitur, et reliqua.</seg>
+            </p>
+            <pb n="130"/>
+         </div>
+         <div xml:id="div4" part="N" org="uniform" sample="complete">
+            <head>ITEM DE SECUNDO TONO NOVA CUJUSDAM EXPOSITIO</head>
+            <p source="#gamma" xml:id="p54" part="N">
+               <num>§54</num>
+               <seg xml:id="p54.s1" n="1" part="N">A quarta specie diapason, quae est in e, ubi finitur primus tropus,
+						inchoatur <pb n="186"/> et secundus.</seg>
+               <seg xml:id="p54.s2" n="2" part="N">Ibique finitur, ubi et inchoatur.</seg>
+               <seg xml:id="p54.s3" n="3" part="N">Concluditur autem ejus forma intra diapente, quod est ab m ad c.</seg>
+               <seg xml:id="p54.s4" n="4" part="N">Hujus autem tropi haec est forma NOEAGIS.</seg>
+            </p>
+            <p source="#gamma" xml:id="p55" part="N">
+               <num>§55</num>
+               <seg xml:id="p55.s1" n="1" part="N">Habet hic tropus differentiam in nocturnis unam in e quae habet tria loca:
+						diatessaron remissum in a, ut Laetentur caeli; sesquioctavum remissum in c:
+						Igitur; se ut Juste et pie.</seg>
+               <seg xml:id="p55.s2" n="2" part="N">Unde constat ut hic tropus unam habeat differentiam in nocturnis, et tria
+						loca.</seg>
+            </p>
+            <p source="#gamma" xml:id="p56" part="N">
+               <num>§56</num>
+               <seg xml:id="p56.s1" n="1" part="N">In diurnis hic tropus ipsam habet differentiam et ipsa loca: diatessaron
+						remissum in a, ut Ecce advenit; tonum remissum in c: Sitientes; se, ut De
+						necessitatibus.</seg>
+            </p>
+            <pb n="187"/>
+            <p source="#gamma" xml:id="p57" part="N">
+               <num>§57</num>
+               <seg xml:id="p57.s1" n="1" part="N">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
+						diurnis autem sic currit versus: Gloria Patri et caetera.</seg>
+            </p>
+            <p corresp="#p183" source="#alpha">
+               <num>§183</num>
+               <seg xml:id="p183.s1" n="1" part="N">Tonus tertius AYNOEANE, qui graece dicitur autentos deuteros, id est
+						auctoritas secunda,</seg>
+               <seg xml:id="p183.s2" n="2" part="N">qui ideo duo A habet, primum propter mensuram autenti deuteri, et secundum
+						A propter plagis autenti deuteri, in cujus diapason suum semitonium
+						explicat, et secundi toni, qui ambo sunt semitonia, propter triplam ut
+						dictum est et quadruplam propter quater 6 ad unum 6 de primo,</seg>
+               <seg xml:id="p183.s3" n="3" part="N">A 12, CCCC 6. 6. 6. 6, BBB 8. 8. 8, DD 9. 9.</seg>
+               <seg xml:id="p183.s4" n="4" part="N">Quater enim 6 ad quater 3 de 12 quater 9 sunt, qui sunt 36 diapason, id est
+						sexies 6 et ter 12;</seg>
+               <seg xml:id="p183.s5" n="5" part="N">similiter ter 8 ad 12, quia duplae proportionis sunt.</seg>
+               <seg xml:id="p183.s6" n="6" part="N">Bis 9 ad 12, quia sesquialtera proportio est, 30 diapente fiunt.</seg>
+               <seg xml:id="p183.s7" n="7" part="N">Unde iste tertius tonus aut per diapason erit per 6 ad 12, aut per
+						diapente, id est 30,</seg>
+               <seg xml:id="p183.s8" n="8" part="N">ut in introitibus Confessio et pulchritudo et Dispersit dedit pauperibus et
+						Cognovi Domine, et antiphonis Qui de terra est et Quando natus es et Malos
+						male perdet et Homo quidam fecit cenam magnam.</seg>
+            </p>
+         </div>
+         <div xml:id="div5" part="N" org="uniform" sample="complete">
+            <head>SEQUITUR TONORUM EXPOSITOR DE TERTIO TONO</head>
+            <pb n="133"/>
+            <p source="#beta" xml:id="p58" part="N">
+               <num>§58</num>
+               <seg xml:id="p58.s1" n="1" part="N">Tertius tonus duo a habet, unum propter mensuram autenti deuteri, et
+						alterum propter plagam ejus, in cujus diapason suum semitonium explicat, et
+						alterum semitonium in diapason secundi toni, propter triplam ut dictum est,
+						et quadruplam propter quater 6 ad unum 6 de primo.</seg>
+            </p>
+            <pb n="134"/>
+            <p source="#beta" xml:id="p59" part="N">
+               <num>§59</num>
+               <seg xml:id="p59.s1" n="1" part="N">Quater enim 6 ad quater 3 de 12 quater 9 sunt, qui sunt 36 diapason, id est
+						sexies 6 et ter 12.</seg>
+               <seg xml:id="p59.s2" n="2" part="N">Similiter ter 8 ad 12, quia duplae proportiones sunt.</seg>
+               <seg xml:id="p59.s3" n="3" part="N">Bis 9 ad 12 sesquialtera proportio est, id est diapente in 30.</seg>
+            </p>
+            <p source="#beta" xml:id="p60" part="N">
+               <num>§60</num>
+               <seg xml:id="p60.s1" n="1" part="N">Unde iste tertius tonus aut diapason erit, aut diapente;</seg>
+               <seg xml:id="p60.s2" n="2" part="N">ut sunt gradales antiphonae Confessio et pulchritudo, Dispersit dedit et
+						Cognovi Domine.</seg>
+               <seg xml:id="p60.s3" n="3" part="N">Nocturnales antiphonae Qui de terra est, Quando natus es, Malos male
+						perdet.</seg>
+            </p>
+            <pb n="135"/>
+            <p source="#beta" xml:id="p61" part="N">
+               <num>§61</num>
+               <seg xml:id="p61.s1" n="1" part="N">Tonus, inquit, tertius duo a habet, id est bis 12.</seg>
+               <seg xml:id="p61.s2" n="2" part="N">a enim pro 12 accipitur.</seg>
+               <seg xml:id="p61.s3" n="3" part="N">Unum, inquit, propter mensuram autenti deuteri, id est phrygii, et alterum
+						propter plagam ejus, id est hypophrygium.</seg>
+            </p>
+            <p source="#beta" xml:id="p62" part="N">
+               <num>§62</num>
+               <seg xml:id="p62.s1" n="1" part="N">Nam meses phrygii, id est 12, est nete diezeugmenon hypodorii, ubi quinta
+						species diapason incipit, et idcirco hujus hypate meson est illius
+						proslambanomenos.</seg>
+            </p>
+            <pb n="136"/>
+            <p source="#beta" xml:id="p63" part="N">
+               <num>§63</num>
+               <seg xml:id="p63.s1" n="1" part="N">Porro hypate meson phrygii est meses hypophrygii;</seg>
+               <seg xml:id="p63.s2" n="2" part="N">atque ob hoc ait: in cujus diapason suum semitonium explicat;</seg>
+               <seg xml:id="p63.s3" n="3" part="N">quia meses uniuscujusque constitutionis diapason perficit,</seg>
+               <seg xml:id="p63.s4" n="4" part="N">et ab eadem hypate meson hic vel illic semper incipit melodia quarti
+						tropi.</seg>
+            </p>
+            <pb n="137"/>
+            <p source="#beta" xml:id="p64" part="N">
+               <num>§64</num>
+               <seg xml:id="p64.s1" n="1" part="N">Siquidem hujus initium est melodiae tertii extremum;</seg>
+               <seg xml:id="p64.s2" n="2" part="N">quandoquidem mollitiem chromatici generis imitatur</seg>
+               <seg xml:id="p64.s3" n="3" part="N">in quo frequentius per totam diapason diapente reperitur.</seg>
+            </p>
+            <p source="#beta" xml:id="p65" part="N">
+               <num>§65</num>
+               <seg xml:id="p65.s1" n="1" part="N">Nam a paramese incipiens quarto loco suam diapason, suumque semitonium
+						explicat.</seg>
+            </p>
+            <pb n="138"/>
+            <p source="#beta" xml:id="p66" part="N">
+               <num>§66</num>
+               <seg xml:id="p66.s1" n="1" part="N">Sed euphoniae causa eidem diapason tonum adjicit, sicut in melodia primi
+						tropi, ut a mese diatessaron remissa, cum tono, quod est diapente, esse
+						possit.</seg>
+            </p>
+            <p source="#beta" xml:id="p67" part="N">
+               <num>§67</num>
+               <seg xml:id="p67.s1" n="1" part="N">Quod vero ait: suum semitonium.</seg>
+               <seg xml:id="p67.s2" n="2" part="N">Certum est, quod unaquaeque species diapason secundo suis semitoniis
+						insignitur;</seg>
+               <seg xml:id="p67.s3" n="3" part="N">quae si loca mota fuerint, totam qualitatem tropi transmutant, suo loco
+						servata conservant.</seg>
+            </p>
+            <pb n="139"/>
+            <pb n="140"/>
+            <pb n="141"/>
+            <pb n="142"/>
+         </div>
+         <div xml:id="div6" part="N" org="uniform" sample="complete">
+            <pb n="143"/>
+            <head>DE QUARTO TONO.</head>
+            <p corresp="#p184" source="#alpha">
+               <num>§184</num>
+               <seg xml:id="p184.s1" n="1" part="N">Tonus quartus NOEAIS, qui graece dicitur plagis deuteri ut supra, AA 12.
+						12, CCC 6. 6. 6, BBB 8. 8. 8, DD 9. 9.</seg>
+               <seg xml:id="p184.s2" n="2" part="N">Hic, quia bis 12 ad ter 8 et ad ter 6 bis 9 una consonantia numerorum in
+						diapason 6 ad 12, id est 18, conveniunt.</seg>
+               <pb n="91"/>
+               <seg xml:id="p184.s3" n="3" part="N">Idcirco ter 6 non ad bis 12 comparatur, quoniam per 3 non dividitur, sed
+						ter 8 ad ter 6 comparatur, et bis 9 ad bis 12 per sesquitertiam
+						proportionem.</seg>
+               <seg xml:id="p184.s4" n="4" part="N">Totus iste tonus semper erit diatessaron.</seg>
+               <seg xml:id="p184.s5" n="5" part="N">Consonantiam autem diapason, id est 6 et 12, ter 6 et bis 9 et ter 8 et bis
+						12 faciunt.</seg>
+               <seg xml:id="p184.s6" n="6" part="N">Quorum proportio, id est comparatio majoris ad minorem aut minoris ad
+						majorem, semper diatessaron id est septenario mensurabitur;</seg>
+               <seg xml:id="p184.s7" n="7" part="N">ut introitus Resurrexi et Misericordia domini et In voluntate tua Domine,
+						et antiphonae Rubum quem viderat Moyses et Turba multa et Tria sunt
+						munera.</seg>
+            </p>
+            <p source="#beta" xml:id="p77" part="N">
+               <num>§77</num>
+               <seg xml:id="p77.s1" n="1" part="N">Aristoxenus musicus non voces ipsas, ut Pythagoras, dimetiens, sed inter
+						voces differentiarum mensuras colligens, singula tetrachorda tribus numeris
+						distinxit, qui nec 60 excederent, nec infra subsisterent.</seg>
+            </p>
+            <p source="#beta" xml:id="p78" part="N">
+               <num>§78</num>
+               <seg xml:id="p78.s1" n="1" part="N">Nam in quatuor tetrachordiis inter primam et secundam chordam, secundamque
+						ac tertiam, eumdem numerum posuit; inter tertiam vero et quartam, quod
+						residuum erat de 60 superadjecit, ita: 6. 6. 48 8. 8. 44 9. 9. 42 12. 12.
+						36.</seg>
+               <seg xml:id="p78.s2" n="2" part="N">Restant duo tetrachorda, quorum alterum habet 12. 18. 30, alterum 12. 24 et
+						24.</seg>
+            </p>
+            <pb n="144"/>
+            <p source="#beta" xml:id="p79" part="N">
+               <num>§79</num>
+               <seg xml:id="p79.s1" n="1" part="N">Est autem eorumdem numerorum haec ratio: quod 24 pro tono posuit, 12 pro
+						semitonio, 8 pro tertia parte toni, 6 pro quarta, quod est diesis; 9 vero ex
+						quarta parte toni, quod est 6, et octava, quod est 3, constituit.</seg>
+               <seg xml:id="p79.s2" n="2" part="N">Et primum quidem tetrachordum dixit enarmonii, secundum chromatici mollis,
+						tertium chromatici hemiolii, quartum chromatici toniei, quintum diatonici
+						mollis, sextum diatonici incitati.</seg>
+            </p>
+            <pb n="145"/>
+            <p source="#beta" xml:id="p80" part="N">
+               <num>§80</num>
+               <seg xml:id="p80.s1" n="1" part="N">Major autem in omnibus tetrachordis extremus numerus est, quam duo reliqui,
+						nisi in duobus ultimis qui sunt diatonici generis.</seg>
+            </p>
+            <p source="#beta" xml:id="p81" part="N">
+               <num>§81</num>
+               <seg xml:id="p81.s1" n="1" part="N">Igitur secundum majorem extremitatem tetrachordorum est commensuratio
+						symphoniarum, quoniam 48 sunt bis 24, id est bisdiapason, quod est quidem
+						quater 12 et sexies 8 et octies 6.</seg>
+               <seg xml:id="p81.s2" n="2" part="N">Similiter bis 12, hoc est bisdiapason, sunt 24, quod est quater 6 et ter
+						8.</seg>
+               <seg xml:id="p81.s3" n="3" part="N">Bis autem 9 ad quater 6, quod est diatessaron, 42 sunt, et bis 6 ad bis 9
+						quod est diapente 30 sunt.</seg>
+               <seg xml:id="p81.s4" n="4" part="N">Ad ultimum bis 6 ad quater 6, quod est diapason, sunt 36.</seg>
+            </p>
+            <pb n="147"/>
+            <p source="#beta" xml:id="p82" part="N">
+               <num>§82</num>
+               <seg xml:id="p82.s1" n="1" part="N">Quapropter praemissus expositor adjecit:</seg>
+               <seg xml:id="p82.s2" n="2" part="N">Tonus quartus, quem nos hypophrygium dicimus, habet bis 12 ad bis 9 et ter
+						8 ad ter 6 in una consonantia numerorum;</seg>
+               <seg xml:id="p82.s3" n="3" part="N">est enim bis diatessaron.</seg>
+               <seg xml:id="p82.s4" n="4" part="N">In diapason vero 6 ad 12, id est 18, conveniunt.</seg>
+               <seg xml:id="p82.s5" n="5" part="N">Idcirco ter 6 non ad bis 12 comparatur, quoniam per ter non dividitur, sed,
+						ut dictum est, ter 8 ad ter 6 et bis 12 ad bis 9, per sesquitertiam
+						proportionem, qui sunt 42.</seg>
+            </p>
+            <p source="#beta" xml:id="p83" part="N">
+               <num>§83</num>
+               <seg xml:id="p83.s1" n="1" part="N">Nam totus iste tonus erit per diatessaron semper.</seg>
+               <seg xml:id="p83.s2" n="2" part="N">Consonantiam autem diapason, id est 6 ad 12, faciunt ter 6 et bis 9, et ter
+						8 et bis 12, quorum proportio, id est comparatio majoris ad minorem et
+						minoris ad majorem, diatessaron habens, semper septenario
+						mensurabitur,</seg>
+               <seg xml:id="p83.s3" n="3" part="N">ut in gradalibus antiphonis Resurrexi, Misericordia Domini et In voluntate
+						tua Domine.</seg>
+               <seg xml:id="p83.s4" n="4" part="N">In nocturnalibus quoque Rubum quem viderat, Turba multa, Tria sunt
+						munera.</seg>
+            </p>
+            <p source="#beta" xml:id="p84" part="N">
+               <num>§84</num>
+               <seg xml:id="p84.s1" n="1" part="N">In hac expositione hoc tantum quaerendum videtur quod ait:</seg>
+               <seg xml:id="p84.s2" n="2" part="N">ter 6 non <pb n="148"/> ad bis 12 comparari, quoniam per 3 non dividitur,
+						ac si bis 12, id est 24, per tertiam partem metiri impossibile sit.</seg>
+               <seg xml:id="p84.s3" n="3" part="N">Dum autem 24 et per binarium et per ternarium metiri possit, certum est
+						quod binarium binario et ternarium ternario in eadem consonantia respondere
+						voluit, ubi ternarium binario respondere contradixit.</seg>
+            </p>
+            <p source="#beta" xml:id="p85" part="N">
+               <num>§85</num>
+               <seg xml:id="p85.s1" n="1" part="N">Quod vero adjecit, 6 ad 12 diapason fieri, cum jam posuisset bis 12,
+						recolendum est quod non solum in vocibus, sed etiam inter voces
+						differentiarum mensura colligenda sit.</seg>
+               <seg xml:id="p85.s2" n="2" part="N">Nam quia bis 12 dixit, 6 ad bis 12 quadruplum constituit, atque idcirco
+						inter 6 et 12 senarius differentiam facit.</seg>
+               <seg xml:id="p85.s3" n="3" part="N">Rursus inter 12 ac bis 12 duodenarii differentia existit.</seg>
+               <seg xml:id="p85.s4" n="4" part="N">Quas tandem differentias ad se invicem comparatas diapason reddere nullus
+						ignorat.</seg>
+               <seg xml:id="p85.s5" n="5" part="N">Et hoc est, quod ait, consonantiam diapason, id est 6 ad 12, faciunt ter 6,
+						et reliqua.</seg>
+            </p>
+            <pb n="149"/>
+            <p source="#beta" xml:id="p86" part="N">
+               <num>§86</num>
+               <seg xml:id="p86.s1" n="1" part="N">Differentia ista, quae est 12, utramque consonantiam, id est bis
+						diatessaron retinet, nec eam in minoribus antiphonis excedit.</seg>
+               <seg xml:id="p86.s2" n="2" part="N">Quod si fecerit, jam vim phrygii obtinebit.</seg>
+            </p>
+            <pb n="150"/>
+         </div>
+         <div xml:id="div7" part="N" org="uniform" sample="complete">
+            <head>ITEM DE TERTIO ET QUARTO NOVA CUJUSDAM EXPOSITIO</head>
+            <p source="#gamma" xml:id="p90" part="N">
+               <num>§90</num>
+               <seg xml:id="p90.s1" n="1" part="N">A prima specie diapason et primus, propter quamdam naturam, inchoatur et
+						tertius tropus, finiturque in diatessaron: in h scilicet concluditur ejus
+						forma intra diapente o ad e et diatessaron o ad cc.</seg>
+            </p>
+            <p source="#gamma" xml:id="p91" part="N">
+               <num>§91</num>
+               <seg xml:id="p91.s1" n="1" part="N">Hujus enim tropi talis est forma NOEOEANE.</seg>
+            </p>
+            <p source="#gamma" xml:id="p92" part="N">
+               <num>§92</num>
+               <seg xml:id="p92.s1" n="1" part="N">Habet enim hic tropus in nocturnis differentias tres:</seg>
+               <seg xml:id="p92.s2" n="2" part="N">unam in m, quae habet unum locum, se:Qui odit animam;</seg>
+               <seg xml:id="p92.s3" n="3" part="N">alteram in o quae habet unum locum, diatessaron remissum in h:Qui de terra
+						est;</seg>
+               <seg xml:id="p92.s4" n="4" part="N">tertiam in x quae habet enarmonium remissum in m: Et
+					respicientes.</seg>
+            </p>
+            <pb n="188"/>
+            <p source="#gamma" xml:id="p93" part="N">
+               <num>§93</num>
+               <seg xml:id="p93.s1" n="1" part="N">In diurnis enim hic tropus easdem habet differentias et eadem loca:</seg>
+               <seg xml:id="p93.s2" n="2" part="N">m ut Ego autem cum justitia;</seg>
+               <seg xml:id="p93.s3" n="3" part="N">o differentiam et h locum:Dum sanctificatus.</seg>
+            </p>
+            <p source="#gamma" xml:id="p94" part="N">
+               <num>§94</num>
+               <seg xml:id="p94.s1" n="1" part="N">Hujus autem tropi in nocturnis sic currit versus: Gloria Patri. In diurnis
+						enim sic currit versus: Gloria Patri et caetera. <pb n="189"/> De
+						quarto.</seg>
+            </p>
+            <p source="#gamma" xml:id="p95" part="N">
+               <num>§95</num>
+               <seg xml:id="p95.s1" n="1" part="N">A quinta specie diapason ubi finitur tertius tropus inchoatur et quartus,
+						ab h scilicet, et finitur in eadem h.</seg>
+               <seg xml:id="p95.s2" n="2" part="N">Concluditur autem ejus forma intra diapente, quod est ab o ad e, addito
+						sesquioctavo remisso c ad e.</seg>
+               <seg xml:id="p95.s3" n="3" part="N">Hujus enim tropi haec est forma NOEAGIS.</seg>
+            </p>
+            <p source="#gamma" xml:id="p96" part="N">
+               <num>§96</num>
+               <seg xml:id="p96.s1" n="1" part="N">Habet enim hic tropus in nocturnis differentias 2.</seg>
+               <seg xml:id="p96.s2" n="2" part="N">Primam in h, quae habet 3 loca: se, O quam clarus est; i, Jerusalem;
+						sesquioctavum remissum in e: Rubum quem viderat.</seg>
+               <seg xml:id="p96.s3" n="3" part="N">Secunda differentia est in e, quae habet unum locum in c: Bethleem, non es
+						minima.</seg>
+               <seg xml:id="p96.s4" n="4" part="N">Unde constat ut hic tropus duas habet differentias et duplicata loca in
+						nocturnis.</seg>
+            </p>
+            <pb n="190"/>
+            <p source="#gamma" xml:id="p97" part="N">
+               <num>§97</num>
+               <seg xml:id="p97.s1" n="1" part="N">In diurnis enim hic tropus unam habet differentiam in m, ut
+						Resurrexi.</seg>
+            </p>
+            <p source="#gamma" xml:id="p98" part="N">
+               <num>§98</num>
+               <seg xml:id="p98.s1" n="1" part="N">Hujus enim in nocturnis sic currit versus: Gloria Patri et caetera. In
+						diurnis sic: Gloria Patri et caetera.</seg>
+            </p>
+            <p corresp="#p185" source="#alpha">
+               <num>§185</num>
+               <seg xml:id="p185.s1" n="1" part="N">Tonus quintus NOEANE, qui graece dicitur autenticus tritus, id est tertia
+						auctoritas, AA 12. 12, CCCC 6. 6. 6. 6, BBB 8. 8. 8, DDDD 9. 9. 9. 9.</seg>
+               <seg xml:id="p185.s2" n="2" part="N">Totus iste tonus semper diapenticus per denarium efficitur, quia ter 8 ad
+						ter 12 et quater 6 ad quater 9, id est per sesquialteram proportionem in
+						diapente cadunt,</seg>
+               <seg xml:id="p185.s3" n="3" part="N">quorum consonantia diapason est, id est in duodenarium quater 9 et ter 12,
+						et quater 6 et ter 8,</seg>
+               <seg xml:id="p185.s4" n="4" part="N">ut introitus Domine refugium, Circumdederunt me et Domine in tua
+						misericordia, et antiphonae Solvite templum hoc, Salve crux, Exultet
+						spiritus meus, et similia.</seg>
+            </p>
+         </div>
+         <div xml:id="div8" part="N" org="uniform" sample="complete">
+            <head>SEQUITUR EXPOSITOR DE QUINTO TONO</head>
+            <pb n="151"/>
+            <p source="#beta" xml:id="p99" part="N">
+               <num>§99</num>
+               <seg xml:id="p99.s1" n="1" part="N">Tonus quintus, quem nos lydium dicimus, totus per denarium, semper est
+						diapenticus;</seg>
+               <seg xml:id="p99.s2" n="2" part="N">quia ter 8 ad ter 12, et quater 6 ad quater 9 per sesquialteram
+						proportionem in diapente cadunt, quorum consonantia diapason est in
+						12.</seg>
+               <seg xml:id="p99.s3" n="3" part="N">Nam quater 9 et ter 12 ad quater 6 et ter 8 faciunt 60.</seg>
+            </p>
+            <pb n="152"/>
+            <p source="#beta" xml:id="p100" part="N">
+               <num>§100</num>
+               <seg xml:id="p100.s1" n="1" part="N">In quibus sunt gradales antiphonae Domine refugium et Circumdederunt me et
+						Domine in tua misericordia.</seg>
+               <seg xml:id="p100.s2" n="2" part="N">Et nocturnales antiphonae Solvite templum hoc et Salve crux et Exultet
+						spiritus meus.</seg>
+            </p>
+            <p source="#beta" xml:id="p101" part="N">
+               <num>§101</num>
+               <seg xml:id="p101.s1" n="1" part="N">Hic nihil aliud quaerendum video, nisi quod ait, quia numeri ad bis
+						diapente faciendum propositi faciunt consonantiam diapason ad 12.</seg>
+               <seg xml:id="p101.s2" n="2" part="N">Duo enim tantum, id est quater 6 ter 8, ad eumdem numerum diapason
+						faciunt.</seg>
+               <seg xml:id="p101.s3" n="3" part="N">Nam quis intelligat quod quater 9 et ter 12 in praedicta proportione
+						sint?</seg>
+            </p>
+            <p source="#beta" xml:id="p102" part="N">
+               <num>§102</num>
+               <seg xml:id="p102.s1" n="1" part="N">Unde intelligendum est quod ex duodenario oriatur diapason ad numerum bis
+						12, qui ad 48 alteram diapason perficit, in quorum medio hic tropus suam
+						proprietatem requirit.</seg>
+               <seg xml:id="p102.s2" n="2" part="N">Quandoquidem illa consonantia, quae est ter 12 ad ter 8, hinc 12 illinc 48
+						respicit, et ad ter 8 uterque numerus diapason facit.</seg>
+            </p>
+            <pb n="153"/>
+            <pb n="154"/>
+            <pb n="155"/>
+         </div>
+         <div xml:id="div9" part="N" org="uniform" sample="complete">
+            <head>DE QUINTO TONO NOVA CUJUSDAM EXPOSITIO</head>
+            <p source="#gamma" xml:id="p108" part="N">
+               <num>§108</num>
+               <seg xml:id="p108.s1" n="1" part="N">A tertia specie diapason, quae est y, inchoatur quintus tropus, finiturque
+						in diapente quod est i.</seg>
+               <seg xml:id="p108.s2" n="2" part="N">Concluditur enim ejus forma diapente quod est y ad i, addito enarmonio quod
+						est y ad DD.</seg>
+               <seg xml:id="p108.s3" n="3" part="N">Hujus enim tropi haec est forma: NOEOEANE.</seg>
+            </p>
+            <p source="#gamma" xml:id="p109" part="N">
+               <num>§109</num>
+               <seg xml:id="p109.s1" n="1" part="N">Habet autem hic tropus duas differentias in nocturnis:</seg>
+               <seg xml:id="p109.s2" n="2" part="N">unam in o quae habet duo loca: se, Obsecro, Domine; enarmonium remissum in
+						i: Vox clamantis.</seg>
+               <seg xml:id="p109.s3" n="3" part="N">Alteram differentiam in y, quae habet unum locum, se scilicet: Hodie
+						nobis.</seg>
+            </p>
+            <pb n="191"/>
+            <p source="#gamma" xml:id="p110" part="N">
+               <num>§110</num>
+               <seg xml:id="p110.s1" n="1" part="N">In diurnis autem hic tropus 3 habet differentias et 3 loca: se, Exaudi
+						Deus; alteram in m, quae habet unum locum in i: Circumdederunt me; tertiam
+						in y: Justus Dominus.</seg>
+            </p>
+            <p source="#gamma" xml:id="p111" part="N">
+               <num>§111</num>
+               <seg xml:id="p111.s1" n="1" part="N">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
+						diurnis sic currit versus: Gloria Patri et caetera.</seg>
+            </p>
+            <p corresp="#p186" source="#alpha">
+               <num>§186</num>
+               <seg xml:id="p186.s1" n="1" part="N">Tonus sextus NOEAIS, qui graece dicitur plagis triti, ut supra, AA 12. 12,
+						CCC 6. 6. 6, CCC 6. 6. 6, BBB 8. 8. 8, DDDD 9. 9. 9. 9.</seg>
+               <seg xml:id="p186.s2" n="2" part="N">Sexies enim 6 ad sexies 4 de bis 12 et quater 9 ad quater 6 de bis 12, quia
+						sesquialtera proportio est in diapente,</seg>
+               <seg xml:id="p186.s3" n="3" part="N">et sexies 4 de ter 8 et sexies 4 de bis 12 in consonantia diapason, id est
+						6 et 12; veniunt per 8 qui sunt 48, sicut sexies 6 et quater 9 in 72.</seg>
+               <seg xml:id="p186.s4" n="4" part="N">Totus iste tonus aut per diapason consonantiam, id est 6 et 12, aut per
+						diapente, id est denarium, mensurabitur.</seg>
+               <seg xml:id="p186.s5" n="5" part="N">Ut introitus <pb n="93"/> Os justi, Omnes gentes et Quasimodo geniti, et
+						antiphonae O admirabile commercium et Vade Satana et Virgo hodie
+						fidelis.</seg>
+            </p>
+         </div>
+         <div xml:id="div10" part="N" org="uniform" sample="complete">
+            <head>SEQUITUR IDEM EXPOSITOR DE SEXTO TONO</head>
+            <p source="#beta" xml:id="p112" part="N">
+               <num>§112</num>
+               <seg xml:id="p112.s1" n="1" part="N">Tonus sextus est sexies 6 ad sexies 4 de bis 12, et quater 9 ad quater 6 de
+						bis 12, quia sesquialtera proportio in diapente cadit;</seg>
+               <seg xml:id="p112.s2" n="2" part="N">et sexies 4 de ter 8 et sexies 4 de bis 12 in consonantia diapason, id est
+						6 ad 12; veniunt per bis 12 et ter 8, qui sunt 48, sicut sexies 6 et quater
+						9 sunt 72</seg>
+            </p>
+            <pb n="157"/>
+            <p source="#beta" xml:id="p113" part="N">
+               <num>§113</num>
+               <seg xml:id="p113.s1" n="1" part="N">Totus enim iste tonus aut per diapason consonantiam, id est 6 ad 12, aut
+						per diapente, denario scilicet, mensurabitur,</seg>
+               <seg xml:id="p113.s2" n="2" part="N">ut in gradalibus antiphonis Os justi, Omnes gentes, Quasimodo geniti,</seg>
+               <seg xml:id="p113.s3" n="3" part="N">in nocturnalibus quoque antiphonis O admirabile, Vade Satana, Virgo hodie
+						fidelis, O quam gloriosum est.</seg>
+            </p>
+            <p source="#beta" xml:id="p114" part="N">
+               <num>§114</num>
+               <seg xml:id="p114.s1" n="1" part="N">Quia sunt octo tropi, quorum quatuor dicuntur autentici vel principales,
+						reliqui plagii vel subjugales, sciendum est quod a se invicem, hoc est
+						principalis a subjugali, non discrepet aut ratione numerorum aut natura
+						symphoniarum.</seg>
+            </p>
+            <p source="#beta" xml:id="p115" part="N">
+               <num>§115</num>
+               <seg xml:id="p115.s1" n="1" part="N">Quapropter hujus modi mensurae et numeri magis lydio principali competunt
+						quam subjugali;</seg>
+               <seg xml:id="p115.s2" n="2" part="N">quoniam ille sextam partem de bis 12 quod est 4, et quartam quod est 6
+						frequentius percurrit;</seg>
+               <seg xml:id="p115.s3" n="3" part="N">iste vero in quibusdam antiphonis more subjugalium vix ad bis 12
+						pertingit.</seg>
+            </p>
+            <pb n="158"/>
+            <p xml:id="p116" source="#beta" part="N">
+               <num>§116</num>
+               <seg xml:id="p116.s1" n="1" part="N">Denique quod bis 12, id est 24, sexta parte vel quarta metiri praecepit,
+						hoc est, quod postmodum ait ejusdem tropi consonantiam, quod est diapente,
+						denario mensurari.</seg>
+               <seg xml:id="p116.s2" n="2" part="N">Quandoquidem 6 et 4 denarii mensurae competit.</seg>
+            </p>
+            <p source="#beta" xml:id="p117" part="N">
+               <num>§117</num>
+               <seg xml:id="p117.s1" n="1" part="N">Quod vero sexies 6 ad sexies 4, quod est 60, comparari voluit, idem valet
+						ac si diceret 36 ad 24 per diapente consonantiam comparari.</seg>
+            </p>
+            <pb n="159"/>
+            <p source="#beta" xml:id="p118" part="N">
+               <num>§118</num>
+               <seg xml:id="p118.s1" n="1" part="N">Deinde ter 8 et bis 12 in consonantia dixit diapason fieri per 6 ad 12,
+						quod nihil est aliud nisi quia ter 8 et bis 12 idem valent ad 12 quod
+						praedicta diapason in minoribus numeris, hoc est 6 ad 12.</seg>
+            </p>
+            <pb n="160"/>
+         </div>
+         <div xml:id="div11" part="N" org="uniform" sample="complete">
+            <head>ITEM DE SEXTO TONO NOVA CUJUSDAM EXPOSITIO</head>
+            <p source="#gamma" xml:id="p122" part="N">
+               <num>§122</num>
+               <seg xml:id="p122.s1" n="1" part="N">A sexta specie diapason, ubi finitur quintus tropus, inchoatur sextus, ab i
+						videlicet.</seg>
+               <seg xml:id="p122.s2" n="2" part="N">Concluditur tamen ejus forma diapente, quod est o ad e, addita <pb n="192"/> sesquioctava proportione ad gravem partem, scilicet e ad c.</seg>
+               <seg xml:id="p122.s3" n="3" part="N">Hujus enim tropi haec est forma NOEAGIS.</seg>
+            </p>
+            <p source="#gamma" xml:id="p123" part="N">
+               <num>§123</num>
+               <seg xml:id="p123.s1" n="1" part="N">Habet enim hic tropus in nocturnis differentiam unam, quae habet tria loca:
+						se, Aspiciebam; enarmonium intensum in o: Modo veniet; diatessaron remissum
+						in c: Per memetipsum.</seg>
+               <seg xml:id="p123.s2" n="2" part="N">Itaque hic tropus una differentia cum tribus insignitur locis.</seg>
+            </p>
+            <p source="#gamma" xml:id="p124" part="N">
+               <num>§124</num>
+               <seg xml:id="p124.s1" n="1" part="N">In diurnis ipsa differentia duo habet loca: se, Os justi; diatessaron
+						remissum in c: Qui manducat carnem.</seg>
+            </p>
+            <p source="#gamma" xml:id="p125" part="N">
+               <num>§125</num>
+               <seg xml:id="p125.s1" n="1" part="N">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
+						diurnis sic: Gloria Patri et caetera.</seg>
+            </p>
+            <p corresp="#p187" source="#alpha">
+               <num>§187</num>
+               <seg xml:id="p187.s1" n="1" part="N">Tonus septimus NOEANE, qui graece dicitur autentos tetrardos, id est
+						auctoritas quarta, qui constat ex quarti toni et quinti et sua proportione
+						ita:</seg>
+               <seg xml:id="p187.s2" n="2" part="N">AA 12. 12, CCC 6. 6. 6, BBB 8. 8. 8, DD 9. 9.</seg>
+               <seg xml:id="p187.s3" n="3" part="N">Item AA 12. 12, CCCC 6. 6. 6. 6, BBB 8. 8. 8, DDDD quatuor 9.</seg>
+               <seg xml:id="p187.s4" n="4" part="N">Item propria AAAA 12. 12. 12. 12, CCCCCCCC 6. 6. 6. 6. 6. 6. 6. 6, BBBBBB
+						8. 8. 8. 8. 8. 8.</seg>
+               <seg xml:id="p187.s5" n="5" part="N">Hic tonus in proportione quarti toni habet totum diatessaron, et in
+						proportione quinti toni habet <pb n="94"/> totum diapente, et in propria
+						proportione habet duodecies 12 diapason, quod est 144.</seg>
+               <seg xml:id="p187.s6" n="6" part="N">Ut introitus Puer natus est vobis et Audivit Dominus, et antiphonae Iste
+						est frater vester minimus et Dixit Judas fratribus suis.</seg>
+            </p>
+         </div>
+         <div xml:id="div12" part="N" org="uniform" sample="complete">
+            <head>SEQUITUR EXPOSITOR DE SEPTIMO TONO</head>
+            <pb n="161"/>
+            <p xml:id="p126" source="#beta" part="N">
+               <num>§126</num>
+               <seg xml:id="p126.s1" n="1" part="N">Tonus septimus, quem nos mixolydium dicimus, in proportione quarti toni
+						habet totum diatessaron, in proportione quinti toni totum diapente, et in
+						proportione propria habet quater 12, quae est diapason.</seg>
+            </p>
+            <p source="#beta" xml:id="p127" part="N">
+               <num>§127</num>
+               <seg xml:id="p127.s1" n="1" part="N">Quod ait, ex quarti et quinti toni proportionibus mixolydium fieri, qui
+						idcirco dictus est, eo quod ex lydio mixtus sit, scire oportet, quod in
+						quarto tono bis 9 ad bis 12, et ter 6 ad ter 8 per 42 diatessaron
+						consistit.</seg>
+               <seg xml:id="p127.s2" n="2" part="N">In <pb n="162"/> quinto vero sexies 6 ad sexies 4 de bis 12, et quater 9 ad
+						quater 6 de bis 12 per 60 diapente producit.</seg>
+            </p>
+            <p source="#beta" xml:id="p128" part="N">
+               <num>§128</num>
+               <seg xml:id="p128.s1" n="1" part="N">In proportione autem propria habet diapason, quod est quater 6 ad quater
+						12, et sexies 4 de bis 12 ad sexies 8, qui numeri simul juncti faciunt
+						48.</seg>
+            </p>
+            <p corresp="#p180" source="#alpha">
+               <num>§180</num>
+               <seg xml:id="p180.s1" n="1" part="N">Octavus tonus est qui constat ex supradictis quarti et quinti toni
+						diatessaron et diapente, et caetera.</seg>
+            </p>
+            <p corresp="#p188GMP" source="#alpha">
+               <num>§188'</num>
+               <seg xml:id="p188GMP.s1" n="1" part="N">Tonum octavum require supra.</seg>
+            </p>
+            <pb n="163"/>
+            <pb n="164"/>
+            <pb n="198"/>
+            <pb n="199"/>
+            <pb n="200"/>
+            <pb n="203"/>
+            <pb n="204"/>
+         </div>
+         <div xml:id="div13" part="N" org="uniform" sample="complete">
+            <head>ITEM DE SEPTIMO ET OCTAVO TONO NOVA CUJUSDAM EXPOSITIO</head>
+            <pb n="193"/>
+            <p source="#gamma" xml:id="p146" part="N">
+               <num>§146</num>
+               <seg xml:id="p146.s1" n="1" part="N">A quarta specie diapason, quae est supra mese, inchoatur septimus tropus,
+						id est cc, et finitur in diapente m.</seg>
+               <seg xml:id="p146.s2" n="2" part="N">Concluditur ejus forma intra diapente quod est cc ad m, addita sesquioctava
+						proportione quod est ab m ad i.</seg>
+               <seg xml:id="p146.s3" n="3" part="N">Hujus tropi haec est forma NOEOEAGIS.</seg>
+            </p>
+            <p source="#gamma" xml:id="p147" part="N">
+               <num>§147</num>
+               <seg xml:id="p147.s1" n="1" part="N">Habet autem in nocturnis differentias 3:</seg>
+               <seg xml:id="p147.s2" n="2" part="N">unam in cc, quae habet unum locum, diapente remissum in m, ut Summae
+						Trinitati;</seg>
+               <seg xml:id="p147.s3" n="3" part="N">alteram in y, quae habet duo loca: se, ut Dixit Judas; tonum intensum in cc
+						ut Aspiciens.</seg>
+               <seg xml:id="p147.s4" n="4" part="N">Tertia differentia est in o, quae habet duo loca: se, Attende Domine ad me:
+						tonum remissum in m ut Missus est Gabriel.</seg>
+               <seg xml:id="p147.s5" n="5" part="N">Et de hac differentia sunt omnes antiphonae quas vitio finis in quarto
+						ponimus, ut Benedicta tu.</seg>
+            </p>
+            <pb n="194"/>
+            <p source="#gamma" xml:id="p148" part="N">
+               <num>§148</num>
+               <seg xml:id="p148.s1" n="1" part="N">In diurnis huic tropo una differentia in m, quae habet unum locum, se
+						scilicet ut Puer natus est.</seg>
+            </p>
+            <p source="#gamma" xml:id="p149" part="N">
+               <num>§149</num>
+               <seg xml:id="p149.s1" n="1" part="N">Sic enim in nocturnis currit versus: Gloria Patri et caetera. In diurnis:
+						Gloria Patri.</seg>
+            </p>
+            <p source="#gamma" xml:id="p150" part="N">
+               <num>§150</num>
+               <seg xml:id="p150.s1" n="1" part="N">A septima specie diapason, quae est m, ubi finitur septimus, inchoatur
+						octavus; ibi finitur ubi inchoatur.</seg>
+               <seg xml:id="p150.s2" n="2" part="N">Concluditur ejus forma intra diapente intensum m ad cc, addita sesquioctava
+						proportione remissa, m ad i.</seg>
+               <seg xml:id="p150.s3" n="3" part="N">Hujus tropi talis est forma NOEAGIS.</seg>
+            </p>
+            <pb n="195"/>
+            <p source="#gamma" xml:id="p151" part="N">
+               <num>§151</num>
+               <seg xml:id="p151.s1" n="1" part="N">Habet hic tropus in nocturnis differentiam unam, quae habet 5 loca: se,
+						Ecce dies veniunt; sesquioctavum remissum in i, ut Doceam iniquos;
+						sesquioctavum intensum in o, ut Quodcumque; diatessaron &lt;remissum in e, .
+						. ;</seg>
+               <seg xml:id="p151.s2" n="2" part="N">diatessaron&gt; intensum in y, Ecce ancilla Domini.</seg>
+               <seg xml:id="p151.s3" n="3" part="N">Unde apparet quod hic tropus in nocturnis differentia cum 5 locis
+						insignitur.</seg>
+            </p>
+            <p source="#gamma" xml:id="p152" part="N">
+               <num>§152</num>
+               <seg xml:id="p152.s1" n="1" part="N">In diurnis autem hic tropus unam habet differentiam, quae habet 2 loca: se,
+						ut In virtute tua; diatessaron remissum, ut Domine ne longe.</seg>
+            </p>
+            <pb n="196"/>
+            <p source="#gamma" xml:id="p153" part="N">
+               <num>§153</num>
+               <seg xml:id="p153.s1" n="1" part="N">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
+						diurnis autem taliter currit versus: Gloria Patri et caetera.</seg>
+            </p>
+         </div>
+         <div xml:id="div14" part="N" org="uniform" sample="complete">
+            <head>SEQUITUR PRAEMISSUS EXPOSITOR</head>
+            <p source="#alpha" xml:id="p154" part="N">
+               <num>§154</num>
+               <seg xml:id="p154.s1" n="1" part="N">Ut Vitruvius dixit in libro de Architectura, secundum physicos non plus
+						sunt quam octo venti: principales quatuor et subjecti quatuor.</seg>
+               <seg xml:id="p154.s2" n="2" part="N">Quatuor vero, qui adduntur ut sint duodecim, sic sunt ut quatuor semitonia
+						ad octo tonos.</seg>
+               <seg xml:id="p154.s3" n="3" part="N">Nam in undis maris et fluminum semper magis sonat prima unda, quam septem
+						sequentes. Nona vero octavae similis est.</seg>
+               <seg xml:id="p154.s4" n="4" part="N">Similiter in tonitruis octo discrimina, a quibus Pythagoras philosophus has
+						octo tonorum consonantias praefatas ad harmoniam coeli in Atlante monte, qui
+						est proximus <pb n="96"/> coelo, adinvenit,</seg>
+               <seg xml:id="p154.s5" n="5" part="N">cujus proportiones instar quinque zonarum coeli perfecit, quarum temperie
+						mundus iste moderatur.</seg>
+            </p>
+            <p source="#alpha" xml:id="p155" part="N">
+               <num>§155</num>
+               <seg xml:id="p155.s1" n="1" part="N">Omnis enim musicae consonantia aut ad unum 2 habet in duplici, aut 3 in
+						triplici, aut 4 in quadruplici, aut 5 in sesquialtera, aut 7 in
+						sesquitertia.</seg>
+               <seg xml:id="p155.s2" n="2" part="N">Denique, ut supra dictum est, ex 5 tonis et semitoniis octavum perficitur
+						diapason, qui est primus tonus, ut 6 ad 12, ad quem omnis musicae
+						consonantia refertur.</seg>
+            </p>
+            <pb n="97"/>
+            <p source="#alpha" xml:id="p156" part="N">
+               <num>§156</num>
+               <seg xml:id="p156.s1" n="1" part="N">Quicumque enim numerus ad 12 partiri potest, ita ut ad ipsum duodenarium
+						sive per 3 et 4, sive per 4 et 3 dividatur, musicus est, constans in
+						supradictis proportionibus.</seg>
+               <seg xml:id="p156.s2" n="2" part="N">Nam Pythagoras aptavit duplam in 6, sesquialteram in 8, sesquitertiam in 9
+						ad 12.</seg>
+               <seg xml:id="p156.s3" n="3" part="N">Unde ex quinque speciebus tonorum: simplicium, id est diapente,
+						diatessaron, diapason; compositorum, ut diapason simul et diapente, ut
+						tertius tonus et sextus, et diapason ac diatessaron in eodem quinto, et
+						dupla diapason in octavo tono, una cum duplo et triplo (...)</seg>
+            </p>
+            <pb n="165"/>
+            <p source="#beta" xml:id="p157" part="N">
+               <num>§157</num>
+               <seg xml:id="p157.s1" n="1" part="N">Quod tonos ventis comparavit, congrua ratione factum est: quippe ad sonum
+						eliciendum, aut plectrum aut flatum necessarium esse constat.</seg>
+               <seg xml:id="p157.s2" n="2" part="N">Quod quatuor semitonia eisdem tonis inesse proposuit, scire convenit, quia
+						excepto illo, quod a mesen conjunctum est, quatuor sunt tantum directa
+						tetrachorda, quae singulis semitoniis finetenus ad graviorem partem sunt
+						insignita.</seg>
+            </p>
+            <pb n="166"/>
+            <p source="#beta" xml:id="p158" part="N">
+               <num>§158</num>
+               <seg xml:id="p158.s1" n="1" part="N">De undis maris et fluminum, quomodo redeant, physicorum peritia
+						pertractat.</seg>
+               <seg xml:id="p158.s2" n="2" part="N">Siquidem et Hyginus de concordia annorum, dierum et mensium, aliquando post
+						7 annos, octavo videlicet recurrentium, aliquando post 7 dies, in Astrologia
+						disputat propter excellentiam octonarii numeri, quo partitur sphaera
+						celestis, superius et inferius in circulo aequinoctiali.</seg>
+               <seg xml:id="p158.s3" n="3" part="N">De eadem etiam sphaera tunc temporis quatuor partes superius patent,
+						quatuor inferius latent.</seg>
+            </p>
+            <p source="#beta" xml:id="p159" part="N">
+               <num>§159</num>
+               <seg xml:id="p159.s1" n="1" part="N">Porro quod adjecit, nona unda octavae similis est, nihil mirum, cum et nona
+						chorda octavae adeo similis sit, ut aequisona reddatur, si altera pro altera
+						tangitur, verbi gratia, in singulis speciebus diapason prima et octava
+						chorda eodem sono, non loco, nec longitudinis aut brevitatis spatio;</seg>
+               <seg xml:id="p159.s2" n="2" part="N">quippe in heptachordo absque ullo confusionis errore respondet prima pro
+						octava, secunda pro nona, tertia pro decima;</seg>
+               <seg xml:id="p159.s3" n="3" part="N">atque idcirco in octochordo erit prima pro nona, ut sit octava eidem
+						similis, nec non aequisona, et ob hoc nisi propter acumen
+					superflua.</seg>
+            </p>
+            <pb n="167"/>
+            <p source="#beta" xml:id="p160" part="N">
+               <num>§160</num>
+               <seg xml:id="p160.s1" n="1" part="N">De tonitruis sicut et de undis humanae philosophiae unam disputationem
+						ponere supersedi.</seg>
+               <seg xml:id="p160.s2" n="2" part="N">De quinque symphoniis sicut et de quinque zonis non spernenda est
+						comparatio, quoniam illic in relatione est speculatio totius musicae, hic
+						vero revolutio caelestis sphaerae.</seg>
+            </p>
+            <p source="#beta" xml:id="p161" part="N">
+               <num>§161</num>
+               <seg xml:id="p161.s1" n="1" part="N">Ponamus itaque senarium pro unitate, ad quem duo senarii habebuntur pro
+						duplo intra 18.</seg>
+               <seg xml:id="p161.s2" n="2" part="N">Ad eundem tres senarii pro triplo intra 24.</seg>
+               <seg xml:id="p161.s3" n="3" part="N">Ad eundem quatuor senarii faciunt proportionem quadruplum intra 30.</seg>
+               <seg xml:id="p161.s4" n="4" part="N">Ad duos senarios tres senarii comparati erunt intra 30 sesquialterae
+						proportionis.</seg>
+               <seg xml:id="p161.s5" n="5" part="N">Similiter tres senarii ad quatuor proportionaliter constituti intra 42
+						respondent epitritae rationi.</seg>
+            </p>
+            <pb n="168"/>
+            <p source="#beta" xml:id="p162" part="N">
+               <num>§162</num>
+               <seg xml:id="p162.s1" n="1" part="N">Quapropter primus tropus erit in dupla, secundus in tripla, tertius in
+						quadrupla, quartus in epitrita, quintus in sesquialtera, sextus sicut
+						tertius in diapason simul ac diapente: diapason quoque ac diatessaron in
+						septimo: dupla diapason in octavo, una cum duplo triplo.</seg>
+               <seg xml:id="p162.s2" n="2" part="N">Horum omnium rationem superius per unumquemque tropum singillatim complexus
+						sum.</seg>
+            </p>
+            <pb n="169"/>
+            <p source="#beta" xml:id="p163" part="N">
+               <num>§163</num>
+               <seg xml:id="p163.s1" n="1" part="N">Nunc duodenarii potentiam praeterire non debeo, ad quem omnis numerus, qui
+						per ter et quater dividitur, musicis consonantiis aptatur.</seg>
+               <seg xml:id="p163.s2" n="2" part="N">Nam duodenarii membra sive partes sunt 5, quarum prima est unitas, secunda
+						senarius, tertia quaternarius, quarta ternarius, quinta binarius.</seg>
+               <seg xml:id="p163.s3" n="3" part="N">Habet quoque hoc proprium, ut quia a primo impari surgit, eius, id est,
+						senarius, medietas constat tribus membris, et est primus perfectus in
+						numeris.</seg>
+            </p>
+            <p source="#beta" xml:id="p164" part="N">
+               <num>§164</num>
+               <seg xml:id="p164.s1" n="1" part="N">Si ergo 12 duplicatur, qui ad 6 procul dubio pro duplo accipiuntur, id hac
+						duplicatione colligitur, quod sui duplicantur per impares numeros se
+						sequentes, sua membra, hoc est suas partes, sortiuntur.</seg>
+               <seg xml:id="p164.s2" n="2" part="N">Verbi causa, a ternario duplicantur, hi 6. 12. 24. 48.,</seg>
+               <seg xml:id="p164.s3" n="3" part="N">et horum primus tribus membris insignitur, secundus 5, tertius 7, quartus
+						9.</seg>
+               <seg xml:id="p164.s4" n="4" part="N">Si vero a quaternario duodenarius sumat initium, qui duplicantur
+						quaternario excrescunt.</seg>
+               <seg xml:id="p164.s5" n="5" part="N">Nam in 24 sunt 8 qui producti sunt ex duplicato quaternario, et in 48
+						adduntur 4 ad eosdem 8, sic quater sunt 12 in 48.</seg>
+            </p>
+            <pb n="170"/>
+            <p source="#beta" xml:id="p165" part="N">
+               <num>§165</num>
+               <seg xml:id="p165.s1" n="1" part="N">Et hoc est quod ait, musicos esse numeros qui per 3 et 4 dividuntur,
+						comparati eidem duodenario.</seg>
+               <seg xml:id="p165.s2" n="2" part="N">Nam 8, qui per 4 et 9 qui per 3 dividuntur, ad eundem sub epitrita vel
+						hemiolia proportione comparantur.</seg>
+            </p>
+            <p source="#beta" xml:id="p166" part="N">
+               <num>§166</num>
+               <seg xml:id="p166.s1" n="1" part="N">Tandem, quia dixit tonorum alios esse compositos, alios simplices, sciendum
+						est quod eorum compositio talis sit qualis est apud grammaticos ex duabus
+						partis integris, ut est Magister equitum.</seg>
+            </p>
+            <p source="#beta" xml:id="p167" part="N">
+               <num>§167</num>
+               <seg xml:id="p167.s1" n="1" part="N">Dum enim primus tonus diapason consonantia nobilis sit, quintus autem
+						diapente fiat singularis: secundus ex utraque consonantia componitur, cum
+						tripla proportione dilatatur.</seg>
+            </p>
+            <pb n="171"/>
+            <p source="#gamma" xml:id="p168" part="N">
+               <num>§168</num>
+               <seg xml:id="p168.s1" n="1" part="N">Siquidem, ut dictum est, gradale Universi, qui te expectant, totam speciem
+						diapason hypodorii, et insuper diapente percurrit, quatinus per triplum
+						perficere possit;</seg>
+               <seg xml:id="p168.s2" n="2" part="N">est enim triplus, quando comparatur major numerus ad minorem; subtriplus
+						vero, quando minor ad majorem.</seg>
+            </p>
+            <p source="#gamma" xml:id="p169" part="N">
+               <num>§169</num>
+               <seg xml:id="p169.s1" n="1" part="N">Quapropter 24 ad 8 et 18 ad 6 triplum esse necesse est, quorum alterum
+						perficit cum suo versu cantileni praefati responsorii.</seg>
+            </p>
+            <p source="#gamma" xml:id="p170" part="N">
+               <num>§170</num>
+               <seg xml:id="p170.s1" n="1" part="N">Simplices vero tropi sunt qui una symphonia contenti sunt, quales sunt
+						quartus et quintus:</seg>
+               <seg xml:id="p170.s2" n="2" part="N">quartus quidem cum per 7, hoc est per 3 et 4 quod <pb n="172"/> est
+						diatessaron decurrit;</seg>
+               <seg xml:id="p170.s3" n="3" part="N">quintus quoque per 10, hoc est per 4 et 6 quod est diapente.</seg>
+               <seg xml:id="p170.s4" n="4" part="N">De quo, Boetius hic inquit, est simplicior ac princeps, quem lydium
+						nuncupamus.</seg>
+               <seg xml:id="p170.s5" n="5" part="N">Unde Plato praecepit minime oportere pueros ad omnes modos erudiri, sed
+						potius ad valentes et simplices.</seg>
+            </p>
+            <pb n="173"/>
+            <p source="#beta" xml:id="p171" part="N">
+               <num>§171</num>
+               <note anchored="true">[NB! The ancient Greek names are ONLY in the Munich MS, and there they are
+						later additions!]</note>
+               <l part="N">[Dorius] Tonus primus. </l>
+               <l part="N">a XII.</l>
+               <l part="N">c VI. Diapason</l>
+               <l part="N">b VIII. Diapente</l>
+               <l part="N">d VIIII. Diatessaron.</l>
+               <l part="N">[Hypodorius] Tonus secundus.</l>
+               <l part="N">a XII.</l>
+               <l part="N">c VI. c VI. c VI. Diapente</l>
+               <l part="N">b VIII. b VIII. Diatessaron</l>
+               <l part="N">d VIIII. d VIIII. Diapente.</l>
+               <l part="N">[Phrygius] Tonus tertius.</l>
+               <l part="N">a XII.</l>
+               <l part="N">c VI. c VI. c. VI. c VI. Diapason</l>
+               <l part="N">B VIII. B VIII. B VIII. Diapason</l>
+               <l part="N">d VIIII. d VIIII. Diapente.</l>
+               <l part="N">[Hypophrygius] Tonus quartus.</l>
+               <l part="N">a XII. a XII.</l>
+               <l part="N">c VI. c VI. c VI. Diatessaron</l>
+               <l part="N">b VIII. b VIII. b VIII.</l>
+               <l part="N">d VIIII. d VIIII. Diatessaron.</l>
+               <l part="N">[Lydius] Tonus quintus.</l>
+               <l part="N">a XII. a XII. a XII.</l>
+               <l part="N">c VI. c VI. c VI. c VI. Diapente</l>
+               <l part="N">b VIII. b VIII. b VIII. Diapente</l>
+               <l part="N">d VIIII. d VIIII. d VIIII. d VIIII.</l>
+               <l part="N">[Hypolydius] Tonus sextus.</l>
+               <l part="N">a XII. a XII.</l>
+               <l part="N">
+                  <pb n="174"/> c VI. c VI. c VI. c VI. c VI. c VI. Diapente</l>
+               <l part="N">B VIII. B VIII. B VIII.</l>
+               <l part="N">d VIIII. d VIIII. d VIIII. D VIIII. Diapente.</l>
+               <l part="N">[Mixolydius] Tonus septimus.</l>
+               <l part="N">a XII. a XII.</l>
+               <l part="N">c VI. c VI. c VI. Diatessaron</l>
+               <l part="N">B VIII. B VIII. B VIII.</l>
+               <l part="N">d VIIII. d VIIII. Diatessaron.</l>
+               <l part="N">Item de eodem.</l>
+               <l part="N">a XII. a XII. a XII.</l>
+               <l part="N">c VI. c VI. c VI. c VI. Diapente</l>
+               <l part="N">B VIII. B VIII. B VIII. Diapente</l>
+               <l part="N">d VIIII. d VIIII. d VIIII. d VIIII.</l>
+               <l part="N">Item propria et consonantia diapason.</l>
+               <l part="N">a XII. a XII. a XII. a XII.</l>
+               <l part="N">c VI. c VI. c VI. c VI. c VI. c VI. c VI c VI.</l>
+               <l part="N">B VIII. B VIII. B VIII. B VIII. B VIII. B VIII.</l>
+               <l part="N">[Hypermixolydius] Tonus octavus.</l>
+               <l part="N">a XII. a XII.</l>
+               <l part="N">c VI. c VI. c VI. Diatessaron</l>
+               <l part="N">B VIII. B VIII. B VIII.</l>
+               <l part="N">d VIIII. d VIIII. Diatessaron.</l>
+               <l part="N">Item ex eodem.</l>
+               <l part="N">a XII. a XII. a XII.</l>
+               <l part="N">c VI. c VI. c VI. c VI. Diapente</l>
+               <l part="N">B VIII. B VIII. B VIII. Diapente</l>
+               <l part="N">d VIIII. d VIIII. d VIIII. d VIIII.</l>
+            </p>
+            <pb n="176"/>
+            <p source="#beta" xml:id="p172" part="N">
+               <num>§172</num>
+               <seg xml:id="p172.s1" n="1" part="N">Hic continentur proportiones octo tonorum, qui efficiuntur ex 5 tonis et 2
+						semitoniis, et 6 symphoniae speciebus, et 5 proportionibus: a 12, c 6, B 8,
+						d 9.</seg>
+            </p>
+            <pb n="177"/>
+            <p source="#beta" xml:id="p173" part="N">
+               <num>§173</num>
+               <seg xml:id="p173.s1" n="1" part="N">Primus tonus est in 18 diapason, 6 ad 12; et 20 diapente, 8 ad 12; et in 21
+						diatessaron, 9 ad 12.</seg>
+            </p>
+            <p source="#beta" xml:id="p174" part="N">
+               <num>§174</num>
+               <seg xml:id="p174.s1" n="1" part="N">Secundus tonus est: a 12 (semel); c 6 (ter); d 9 (bis); in 30 per ter 6 ad
+						12 et per bis 9 ad 12 in quibus est diapente, et in 28 diatessaron per bis 8
+						ad 12.</seg>
+            </p>
+            <p source="#beta" xml:id="p175" part="N">
+               <num>§175</num>
+               <seg xml:id="p175.s1" n="1" part="N">Tertius tonus est:a 12 (semel); c 6 (quater); B 8 (ter); d 9 (bis). In 36
+						diapason per quater 6 ad 12, aut in 30 diapente per bis 9 ad 12.</seg>
+            </p>
+            <pb n="178"/>
+            <p source="#beta" xml:id="p176" part="N">
+               <num>§176</num>
+               <seg xml:id="p176.s1" n="1" part="N">Quartus tonus est: a 12 (bis); c 6 (ter); b 8 (ter); d 9 (bis). Diatessaron
+						per ter 6 ad ter 8 et per bis 9 ad bis 12 qui sunt 42.</seg>
+            </p>
+            <p source="#beta" xml:id="p177" part="N">
+               <num>§177</num>
+               <seg xml:id="p177.s1" n="1" part="N">Quintus tonus est: a 12 (ter); c 6 (quater); b 8 (ter); d 9 (quater), et
+						est diapenticus per ter 8 ad ter 12 qui sunt 36, et quater 6 ad quater 9 qui
+						sunt 60.</seg>
+            </p>
+            <p source="#beta" xml:id="p178" part="N">
+               <num>§178</num>
+               <seg xml:id="p178.s1" n="1" part="N">Sextus tonus est: a 12 (bis); c 6 (sexies); B VIII (ter); d 9 (quater), et
+						est diapason per sexies 6 ad bis 12, qui sunt 60, et per ter 8 ad 12 qui
+						sunt 48, aut diapente per quater 9 ad bis 12 qui sunt 60.</seg>
+            </p>
+            <p source="#beta" xml:id="p179" part="N">
+               <num>§179</num>
+               <seg xml:id="p179.s1" n="1" part="N">Septimus tonus est: a 12 (bis); c 6 (ter); b VIII (ter); d 9 (quater).
+						Item:</seg>
+               <seg xml:id="p179.s2" n="2" part="N">a <pb n="179"/> 12 (ter); c 6 (quater); b VIII (ter); d 9 (quater). Item
+						propria: a 12 (quater); c 6 (octies); b 8 (sexies), et constat ex quarti
+						toni et quinti, et sua proportione. Diatessaron per 42 sicut quartus, aut
+						diapente per 60 sicut quintus, aut in propria diapason ut duodecies 12 qui
+						sunt 144 quod est octies 6 et sexies 8 ad quater 12.</seg>
+            </p>
+            <p source="#beta" xml:id="p180" part="N">
+               <num>§180</num>
+               <seg xml:id="p180.s1" n="1" part="N">Octavus tonus est qui constat ex supradictis quarti et quinti toni
+						diatessaron et diapente, et caetera.</seg>
+            </p>
+         </div>
+         <div xml:id="div15" part="N" org="uniform" sample="complete">
+            <head>ITEM EXPOSITIO EORUMDEM TONORUM</head>
+            <pb n="85"/>
+            <pb n="87"/>
+            <pb n="88"/>
+            <pb n="90"/>
+            <pb n="92"/>
+            <p source="#alpha" xml:id="p188" part="N">
+               <num>§188</num>
+               <seg xml:id="p188.s1" n="1" part="N">Tonus octavus NOEAYS, qui graece dicitur plagis tetrardi, constat e
+						supradictis quarti et quinti toni diatessaron et diapente,</seg>
+               <seg xml:id="p188.s2" n="2" part="N">AA 12. 12, CCC 6. 6. 6, BBB 8. 8. 8, DD 9. 9, qui faciunt ter 6 ad ter 8 et
+						bis 9 ad bis 12 in septenario diatessaron.</seg>
+               <seg xml:id="p188.s3" n="3" part="N">Item AAA 12. 12. 12, CCCC 6. 6. 6. 6, BBB 8. 8. 8, DDDD quater 9, qui
+						faciunt quater 9 ad quater 6 et ter 8 ad ter 12 in sesquialtera proportione
+						denarii numeri.</seg>
+               <seg xml:id="p188.s4" n="4" part="N">Octavus tonus aut sicut quartus per 42 diatessaron constat,</seg>
+               <seg xml:id="p188.s5" n="5" part="N">aut sicut quintus per 60 et 60, habens 120 in numero.</seg>
+            </p>
+            <pb n="95"/>
+         </div>
+      </body>
+   </text>
+</TEI>

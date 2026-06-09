@@ -9,7 +9,7 @@
 /* document level */
 
 html {
-	width:40rem;
+	width:80rem;
 	background-color:#433;
 	margin:0 auto;
 	padding:0;
@@ -40,16 +40,16 @@ nav a {
 	margin:0 0.2rem;
 	color:white;
 }
-.alpha {
+nav a.alpha {
 	background-color:var(--alpha-color);
 }
-.beta {
+nav a.beta {
 	background-color:var(--beta-color);
 }
-.gamma {
+nav a.gamma {
 	background-color:var(--gamma-color);
 }
-.delta {
+nav a.delta {
 	background-color:var(--delta-color);
 }
 
@@ -66,7 +66,8 @@ tei-teiHeader {
 	display:none;
 }
 tei-back {
-	display:none;
+	font-family:Georgia, serif;
+	padding:0;
 }
 tei-body {
 	font-family:Georgia, serif;
@@ -83,22 +84,17 @@ tei-div tei-head {
 tei-p {
 	line-height:1.3rem;
 	font-family:inherit;
-	padding:0 0 1rem 0;
+	padding:0 0 1rem 1.5rem;
 	margin:0;
 	counter-reset:segment;
-}
-tei-p[sameAs]::before {
-	content:'[→ §'attr(n)']';
-}
-tei-p[corresp] {
-	color:#3333cc;
+	width:40rem;
 }
 tei-p[source]::before {
 	position:absolute;
 	padding-left:0.2em;
 	padding-right:0.2em;
 	color:white;
-	left:40em;
+	left:0em;
 }
 tei-p[source='#alpha']::before {
 	content:'α';
@@ -118,7 +114,7 @@ tei-p[source='#delta']::before {
 }
 tei-num {
 	position:absolute;
-	right:40.5em;
+	left:1.5em;
 	color:silver;
 }
 tei-seg {
@@ -158,100 +154,87 @@ tei-note {
 	font-style:italic;
 }
 
-/* inline + hover */
+/* apparatus */
 
-tei-choice {
-}
-tei-corr {
+tei-app tei-lem {
 	text-decoration:underline;
 	text-decoration-style:dotted;
 }
-tei-corr::after {
+tei-app tei-lem::after {
 	position:absolute;
-	left:40rem;
-	width:0.5rem;
-	content:' ';
-	background-color:#777;
+	left:45rem;
+	content:']';
 }
-tei-corr:hover::after {
-	background-color:#999;
-}
-tei-orig {
-	display:none;
+tei-app tei-rdg {
+	/*display:none;*/
+	display:block;
 	position:absolute;
 	text-align:left;
 	font-size:1rem;
 	font-weight:normal;
 	font-style:normal;
 	font-variant:normal;
-	color:#fff;
-	width:10rem;
-	left:41rem;
+	width:30rem;
+	left:45.5rem;
 	line-height:1.5rem;
 	margin-top:-1.5rem;
 }
-tei-corr:hover ~ tei-orig {
+tei-app tei-rdg:before {
+    content:attr(wit)' ';
+    font-weight:bold;
+}
+tei-app tei-lem:hover ~ tei-rdg {
 	display:block;
 }
-tei-choice:hover ~ tei-orig {
+tei-app:hover ~ tei-rdg {
 	display:block;
 }
-tei-corr:hover ~ tei-corr::after {
+tei-app tei-lem:hover ~ tei-lem::after {
 	content:' 'attr(wit);
 	font-style:italic;
 }
-
-/* overview */
-
-tei-div[rend='columns'] {
-    display:grid;
-    grid-template-columns: 45% 45%;
-    column-gap:10%;
-}
-tei-div[rend='columns'] tei-head {
-    grid-column: 1 / span 2;
-}
-tei-div[rend='columns'] tei-p {
-    text-align:left;
-}
-tei-div[rend='columns'] tei-num {
-	position:relative;
-	right:unset;
-	color:white;
-	display:inline-block;
-	text-align:center;
-	width:2rem;
-	margin:0.1rem 0;
-}
-tei-div[rend='columns'] tei-num[source='#alpha'] {
-	background-color:var(--alpha-color);
-}
-tei-div[rend='columns'] tei-num[source='#beta'] {
-	background-color:var(--beta-color);
-}
-tei-div[rend='columns'] tei-num[source='#gamma'] {
-	background-color:var(--gamma-color);
-}
-tei-div[rend='columns'] tei-num[source='#delta'] {
-	background-color:var(--delta-color);
+tei-app tei-add:after {
+    content:' added 'attr(place);
+    font-style:italic;
 }
 
+/* glosses */
 
-.overview tei-seg,
-.overview tei-num,
-.overview tei-pb,
-.overview tei-note,
-.overview tei-l
-{
-	display:none;
+tei-seg[type='glossed'] {
+	text-decoration:underline;
+	text-decoration-style:dotted;
 }
-.overview tei-p {
-	display:inline;
-}
-.overview tei-p[source]::before {
-	position:initial;
-}
-.overview tei-head {
+tei-seg[type='glossed'] tei-add[type='gloss'] {
+	display:block;
+	position:absolute;
+	text-align:left;
 	font-size:1rem;
-	color:inherit;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	width:30rem;
+	left:45.5rem;
+	line-height:1.5rem;
+	margin-top:-1.5rem;
+}
+
+/* translation */
+
+tei-div[type='parallel'] {
+    display:grid;
+    grid-template-columns: 40rem 30rem;
+    column-gap:2rem;
+    align-items:start;
+}
+
+tei-div[type='parallel'] > tei-p {
+    display:block;
+    margin:0;
+}
+
+tei-div[type='parallel'] > tei-p[corresp] {
+    display:block;
+    font-size:0.8rem;
+    line-height:1rem;
+    width:100%;
 }

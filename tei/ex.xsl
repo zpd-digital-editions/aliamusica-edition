@@ -1,57 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet exclude-result-prefixes="xs" version="2.0"
-	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns="http://www.tei-c.org/ns/1.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+<xsl:stylesheet exclude-result-prefixes="xs" version="2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0"
+	xpath-default-namespace="http://www.tei-c.org/ns/1.0">
 
 	<xsl:output encoding="UTF-8" indent="yes" method="xml" standalone="yes"/>
 
 	<xsl:template match="/">
-		<xsl:for-each select="TEI/teiHeader/fileDesc/sourceDesc/listWit/witness">
-			<xsl:variable name="witness" select="concat('#', @xml:id)"/>
-			<xsl:result-document href="am-{@xml:id}.xml">
-				<xsl:apply-templates select="/TEI" mode="#current">
-					<xsl:with-param name="witness" select="$witness"/>
-				</xsl:apply-templates>
-			</xsl:result-document>
-		</xsl:for-each>
+		<xsl:result-document href="ex-edition.xml">
+			<xsl:apply-templates select="@* | node()" mode="edition"/>
+		</xsl:result-document>
+		<xsl:result-document href="ex-glosses.xml">
+			<xsl:apply-templates select="@* | node()" mode="glosses"/>
+		</xsl:result-document>
+		<xsl:result-document href="ex-sources.xml">
+			<xsl:apply-templates select="@* | node()" mode="sources"/>
+		</xsl:result-document>
+		<xsl:result-document href="ex-translation.xml">
+			<xsl:apply-templates select="@* | node()" mode="translation"/>
+		</xsl:result-document>
 	</xsl:template>
 
 	<!-- identity transform -->
-	<xsl:template match="@* | node()">
-		<xsl:param name="witness"/>
+	<xsl:template match="@* | node()" mode="#all">
 		<xsl:copy>
-			<xsl:apply-templates select="@* | node()">
-				<xsl:with-param name="witness" select="$witness"/>
-			</xsl:apply-templates>
+			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
 	</xsl:template>
 
-	<xsl:template match="teiHeader//p">
+	<!-- base text -->
+	<xsl:template match="body" mode="#all">
 		<xsl:copy>
-			<xsl:apply-templates select="@* | node()"/>
+			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
 	</xsl:template>
 
-	<xsl:template match="text//div[p[@source]]">
-		<xsl:param name="witness"/>
-		<xsl:if test="p[@source = $witness and not(@sameAs)]">
-			<xsl:copy>
-				<xsl:apply-templates select="@* | node()">
-					<xsl:with-param name="witness" select="$witness"/>
-				</xsl:apply-templates>
-			</xsl:copy>
-		</xsl:if>
+	<!-- apparatus -->
+	<xsl:template match="app" mode="sources translation glosses">
+		<xsl:apply-templates select="rdg" mode="#current"/>
 	</xsl:template>
 
-	<xsl:template match="text//p[@source and not(@sameAs)]" priority="+1">
-		<xsl:param name="witness"/>
-		<xsl:if test="@source = $witness">
+	<!-- glosses -->
+	<xsl:template match="seg[@type = 'glossed']/add[@type = 'gloss']" mode="edition sources translation"/>
+
+	<!-- translation -->
+	<xsl:template match="p" mode="translation">
+		<div type="parallel">
 			<xsl:copy>
-				<xsl:apply-templates select="@* | node()"/>
+				<xsl:apply-templates select="@* | node()" mode="#current"/>
 			</xsl:copy>
-		</xsl:if>
+			<xsl:copy-of select="//p[substring(@corresp, 2) = current()/@xml:id]"/>
+		</div>
 	</xsl:template>
-	
-	<xsl:template match="text//p"/>
+	<xsl:template match="back" mode="#all"/>
+
+	<!-- source -->
+	<xsl:template match="standOff" mode="sources">
+		<div type="parallel">
+			<xsl:copy>
+				<xsl:apply-templates select="@* | node()" mode="#current"/>
+			</xsl:copy>
+			<xsl:copy-of select="//zone[substring(@corresp, 2) = current()/@xml:id]"/>
+		</div>
+	</xsl:template>
+	<xsl:template match="standOff" mode="edition glosses translation"/>
 
 </xsl:stylesheet>

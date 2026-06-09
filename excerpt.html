@@ -5,7 +5,7 @@
     <title>ALIA MUSICA</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
-  	<link rel="stylesheet" href="css/aliamusica.css" media="all" />
+  	<link rel="stylesheet" href="css/excerpt.css" media="all" />
 	<script src="js/querystring.js"></script>
     <script src="js/CETEI.js"></script>
   </head>
@@ -14,10 +14,10 @@
     <!-- header for all pages -->
 	<h1>ALIA MUSICA</h1>
   	<nav>
-  		<a href=".">text</a>
+  		<a href="?doc=ex-edition">edition</a>
   		<a href="?doc=ex-glosses">glosses</a>
-  		<a href="?doc=ex-sources">sources/orig</a>
-  		<a href="?doc=ex-translation">sources/translation</a>
+  		<a href="?doc=ex-sources">sources</a>
+  		<a href="?doc=ex-translation">translation</a>
   	</nav>
   	<!-- container for TEI document -->
     <div id="TEI"></div>
@@ -25,7 +25,7 @@
   	<script>
 		/* query */
 		filename = ( QueryString.doc == null )
-			? ( "ex.xml" )
+			? ( "ex-edition.xml" )
 			: ( QueryString.doc + ".xml" );
   		/* CETEIcean */
 		var CETEIcean = new CETEI()

@@ -1210,6 +1210,7 @@
             <p source="#alpha" sameAs="#p188GMP" n="180GMP"/>
             <pb n="163"/>
             <p source="#delta" xml:id="p129a">
+               <num>§129'</num>
                <seg xml:id="p129a.s1" n="1">[Sequitur de septimo simul et octavo.]</seg>
             </p>
             <p source="#delta" xml:id="p130">
@@ -1718,7 +1719,7 @@
             </p>
          </div>
          <div xml:id="div15">
-            <head>ITEM EXPOSITIO EORUMDEM TONORUM.</head>
+            <head>ITEM EXPOSITIO EORUMDEM TONORUM</head>
             <pb n="85"/>
             <p xml:id="p181" source="#alpha">
                <num>§181</num>
@@ -1869,7 +1870,7 @@
             </p>
             <pb n="95"/>
             <p source="#alpha" xml:id="p188GMP">
-               <num>§188 GMP</num>
+               <num>§188'</num>
                <seg xml:id="p188GMP.s1" n="1">Tonum octavum require supra.</seg>
             </p>
          </div>
