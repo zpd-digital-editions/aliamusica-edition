@@ -14,7 +14,7 @@
     <!-- header for all pages -->
 	<h1>ALIA MUSICA</h1>
   	<nav>
-  		<a href="?doc=am-edition">Text-Historical Edition</a>
+  		<a href=".">Text-Historical Edition</a>
   		<a href="?doc=am-edition-a" class="alpha">only α</a>
   		<a href="?doc=am-edition-ab" class="beta">only α, β</a>
   		<a href="?doc=am-edition-abg" class="gamma">only α, β, γ</a>
@@ -26,7 +26,7 @@
   	<script>
 		/* query */
 		filename = ( QueryString.doc == null )
-			? ( "am-insertions.xml" )
+			? ( "am-edition.xml" )
 			: ( QueryString.doc + ".xml" );
   		/* CETEIcean */
 		var CETEIcean = new CETEI()
