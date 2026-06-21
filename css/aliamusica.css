@@ -72,11 +72,18 @@ tei-body {
 	font-family:Georgia, serif;
 	padding:0;
 }
+tei-div#intro {
+    display:block;
+    border-bottom:0.1rem solid gray;
+    padding-bottom:1rem;
+    margin-bottom:1rem;
+    font-style:italic;
+}
 tei-div tei-head {
 	line-height:1.5rem;
 	font-size:1.2rem;
 	font-family:Georgia, serif;
-	color:#c33;
+	color:var(--delta-color);
 	display:block;
 	padding:1rem 0 0.5rem 0;
 }
@@ -90,15 +97,18 @@ tei-p {
 tei-p[sameAs]::before {
 	content:'[→ §'attr(n)']';
 }
-tei-p[corresp] {
-	color:#3333cc;
+tei-p[corresp] tei-num {
+	color:var(--alpha-color);
 }
-tei-p[source]::before {
+tei-p[source]::before,
+tei-head[source]::before
+{
 	position:absolute;
-	padding-left:0.2em;
-	padding-right:0.2em;
+	padding-left:0.2rem;
+	padding-right:0.2rem;
 	color:white;
-	left:40em;
+	left:40rem;
+	font-size:1rem;
 }
 tei-p[source='#alpha']::before {
 	content:'α';
@@ -112,7 +122,8 @@ tei-p[source='#gamma']::before {
 	content:'γ';
 	background-color:var(--gamma-color);
 }
-tei-p[source='#delta']::before {
+tei-p[source='#delta']::before,
+tei-head[source='#delta']::before {
 	content:'δ';
 	background-color:var(--delta-color);
 }
@@ -131,6 +142,15 @@ tei-seg:not(:first-of-type)::before {
 	line-height:0.7rem;
 	content:counter(segment);
 	padding-right:0.2rem;
+}
+tei-figure {
+    display:block;
+    margin:0.5rem 0;
+}
+tei-figure tei-desc {
+    display:inline-block;
+    padding:0.25rem 0.5rem;
+    border:0.1rem solid gray;
 }
 
 /* inline level */
@@ -203,7 +223,10 @@ tei-corr:hover ~ tei-corr::after {
 
 /* overview */
 
-tei-div[rend='columns'] {
+tei-div[rend~='column-header'] {
+    font-style:italic;
+}
+tei-div[rend~='columns'] {
     display:grid;
     grid-template-columns: 45% 45%;
     column-gap:10%;

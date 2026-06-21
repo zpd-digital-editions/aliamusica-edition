@@ -31,6 +31,8 @@
 			<xsl:apply-templates select="@* | node()"/>
 		</xsl:copy>
 	</xsl:template>
+	
+	<xsl:template match="text//head[@source!='#delta']"/>
 
 	<xsl:template match="text//div[p[@source]]">
 		<xsl:param name="witness"/>

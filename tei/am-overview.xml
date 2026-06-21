@@ -9,57 +9,97 @@
             <title>ALIA MUSICA</title>
          </titleStmt>
          <publicationStmt>
-            <p part="N"/>
+            <p/>
          </publicationStmt>
-         <sourceDesc default="false">
+         <sourceDesc>
             <listWit>
                <witness xml:id="alpha">
-                  <name instant="false" full="yes">α</name>
+                  <name>α</name>
                </witness>
                <witness xml:id="beta">
-                  <name instant="false" full="yes">β</name>
+                  <name>β</name>
+                  <desc/>
                </witness>
                <witness xml:id="gamma">
-                  <name instant="false" full="yes">γ</name>
+                  <name>γ</name>
                </witness>
                <witness xml:id="delta">
-                  <name instant="false" full="yes">δ</name>
+                  <name>δ</name>
                </witness>
             </listWit>
-            <msDesc status="draft">
+            <msDesc>
                <msIdentifier>
                   <repository>THESAURUS MUSICARUM LATINARUM</repository>
                </msIdentifier>
-               <p part="N">School of Music</p>
-               <p part="N">Indiana University</p>
-               <p part="N">Bloomington, IN 47405</p>
-               <p part="N">(phone: [812] 855-5471; Internet: mathiese@indiana.edu)</p>
-               <p part="N">Data entry: Stephen E. Hayes</p>
-               <p part="N">Checked by: Peter M. Lefferts and Andreas Giger</p>
-               <p part="N">Approved by: Thomas J. Mathiesen</p>
-               <p part="N">Fn and Ft: ALIAMU TEXT</p>
-               <p part="N">Author: Anonymous</p>
-               <p part="N">Title: Alia musica</p>
-               <p part="N">Source: Jacques Chailley, ed., Alia musica (Traite de musique du IXe siecle):
-						Edition critique commentee avec une introduction sur l'origine de la
-						nomenclature modale pseudo-grecque au Moyen-Age (Paris: Centre de
-						documentation universitaire et Societe d'edition d'enseignement superieur
-						reunis, 1965), 85-88, 90-97, 99-111, 113-18, 120-30, 133-45, 147-74, 176-81,
-						and 183-212. Used by permission.</p>
-               <p part="N">Graphics: ALIAMU 01GF</p>
+               <p>School of Music</p>
+               <p>Indiana University</p>
+               <p>Bloomington, IN 47405</p>
+               <p>(phone: [812] 855-5471; Internet: mathiese@indiana.edu)</p>
+               <p>Data entry: Stephen E. Hayes</p>
+               <p>Checked by: Peter M. Lefferts and Andreas Giger</p>
+               <p>Approved by: Thomas J. Mathiesen</p>
+               <p>Fn and Ft: ALIAMU TEXT</p>
+               <p>Author: Anonymous</p>
+               <p>Title: Alia musica</p>
+               <p>Source: Jacques Chailley, ed., Alia musica (Traite de musique du IXe siecle): Edition critique
+                  commentee avec une introduction sur l'origine de la nomenclature modale pseudo-grecque au Moyen-Age
+                  (Paris: Centre de documentation universitaire et Societe d'edition d'enseignement superieur reunis,
+                  1965), 85-88, 90-97, 99-111, 113-18, 120-30, 133-45, 147-74, 176-81, and 183-212. Used by
+                  permission.</p>
+               <p>Graphics: ALIAMU 01GF</p>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc status="draft">
-         <listChange ordered="true">
-            <change status="draft">
-               <date instant="false">2025?</date>
-               <name instant="false" full="yes">Charles Atkinson</name>
+      <profileDesc>
+         <abstract xml:id="edition">
+            <p>The Alia musica was not conceived by a single author at a single time. Instead, it is the result of a
+               layering of commentaries by successive authors (β, γ and δ) upon a core treatise (Author α). The
+               text-historical edition represents this process of commenting in its chronological order, as outlined by
+               Charles M. Atkinson, The Critical Nexus: Tone-System, Mode, and Notation in Early Medieval Music (Oxford,
+               New York: Oxford University Press, 2009): 171-201. This edition does not represent a specific manuscript
+               or an archetype of transmission, but is intended to display the stages of commentary in chronological
+               order. Each stage in the genesis of the text can be accessed separately.</p>
+            <p>Author δ played a particularly important role in the creation of the final text. He acted not only as a
+               commentator, but also structured the treatise as we know it from the manuscript transmission by adding
+               headings and changing the order of the material, placing most of the core treatise, α, at the end of the
+               work. A comparison between the genealogical order of commenting and the final arrangement, as represented
+               in the manuscripts, is provided by the overview.</p>
+         </abstract>
+         <abstract xml:id="edition-a">
+            <p>This is the core treatise for the Alia musica, Atkinson’s Author α, dating from the late 9th century. It
+               presents 8 toni, or church modes, describing each both verbally and mathematically.</p>
+         </abstract>
+         <abstract xml:id="edition-ab">
+            <p>This presents the core treatise by Author α as framed and commented upon by a second author, Atkinson´s
+               Author β (early 10th c.).</p>
+         </abstract>
+         <abstract xml:id="edition-abg">
+            <p>This presents the core treatise (Author α), its frame and commentary (Author β), and a tonary, the Nova
+               expositio (Author γ), transmitted independently, but added to the first two layers (later 10th c.).</p>
+         </abstract>
+         <abstract xml:id="edition-abgd">
+            <p>This presents the sum of the core treatise and its commentaries. All parts of the text are located in the
+               order by which the commentary grew before Author δ’s final redaction, which shifted Author α’s work to
+               the end of the treatise, where we find it in the manuscripts of the complete work.</p>
+         </abstract>
+         <abstract xml:id="overview">
+            <p>This presents the organization of the entire treatise before and after Author δ’s rearrangement of the
+               order of materials. „α + β + γ + δ“ shows the sum of the core treatise and its commentaries, „Manuscript
+               Order“ shows the arrangement of the text as we find it in the manuscripts (e.g. Munich, Bayerische
+               Staatsbibliothek, clm 14272, and Paris, Bibliothèque nationale de France, lat. 7211) – the arrangement
+               that Author δ created when he shifted from commenting to redacting the final version of the treatise.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025?</date>
+               <name>Charles Atkinson</name>
                <desc>Transcription</desc>
             </change>
-            <change status="draft">
-               <date instant="false">2025-07-09</date>
-               <name instant="false" full="yes">Torsten Roeder</name>
+            <change>
+               <date>2025-07-09</date>
+               <name>Torsten Roeder</name>
                <desc>Conversion to TEI</desc>
             </change>
          </listChange>
@@ -67,12 +107,12 @@
    </teiHeader>
    <text>
       <body>
-         <div rend="columns">
+         <div rend="columns column-header">
             <p rend="ms">Manuscript Order</p>
             <p rend="edition">Text-Historical Edition</p>
          </div>
          <div rend="columns">
-            <head>ALIA MUSICA</head>
+            <head source="#delta">ALIA MUSICA</head>
             <p rend="ms">
                <num source="#beta">1</num>
                <num source="#beta">2</num>
@@ -160,7 +200,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>ITEM CUJUSDAM DE EADEM RE NOVA EXPOSITIO</head>
+            <head source="#delta">ITEM CUIUSDAM DE EADEM RE NOVA EXPOSITIO</head>
             <p rend="ms">
                <num source="#gamma">41</num>
                <num source="#gamma">42</num>
@@ -176,7 +216,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>DE SECUNDO TONO SEQUITUR IN EADEM EXPOSITIONE</head>
+            <head source="#delta">DE SECUNDO TONO SEQUITUR IN EADEM EXPOSITIONE</head>
             <p rend="ms">
                <num source="#beta">45</num>
                <num source="#beta">46</num>
@@ -201,7 +241,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>ITEM DE SECUNDO TONO NOVA CUJUSDAM EXPOSITIO</head>
+            <head source="#delta">ITEM DE SECUNDO TONO NOVA CUIUSDAM EXPOSITIO</head>
             <p rend="ms">
                <num source="#gamma">54</num>
                <num source="#gamma">55</num>
@@ -217,7 +257,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>SEQUITUR TONORUM EXPOSITOR DE TERTIO TONO</head>
+            <head source="#delta">SEQUITUR TONORUM EXPOSITOR DE TERTIO TONO</head>
             <p rend="ms">
                <num source="#beta">58</num>
                <num source="#beta">59</num>
@@ -262,7 +302,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>DE QUARTO TONO.</head>
+            <head source="#delta">DE QUARTO TONO.</head>
             <p rend="ms">
                <num source="#beta">77</num>
                <num source="#beta">78</num>
@@ -296,13 +336,14 @@
             </p>
          </div>
          <div rend="columns">
-            <head>ITEM DE TERTIO ET QUARTO NOVA CUJUSDAM EXPOSITIO</head>
+            <head source="#delta">ITEM DE TERTIO ET QUARTO NOVA CUIUSDAM EXPOSITIO</head>
             <p rend="ms">
                <num source="#gamma">90</num>
                <num source="#gamma">91</num>
                <num source="#gamma">92</num>
                <num source="#gamma">93</num>
                <num source="#gamma">94</num>
+               <num source="#delta">94'</num>
                <num source="#gamma">95</num>
                <num source="#gamma">96</num>
                <num source="#gamma">97</num>
@@ -314,6 +355,7 @@
                <num source="#gamma">92</num>
                <num source="#gamma">93</num>
                <num source="#gamma">94</num>
+               <num source="#delta">94'</num>
                <num source="#gamma">95</num>
                <num source="#gamma">96</num>
                <num source="#gamma">97</num>
@@ -322,7 +364,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>SEQUITUR EXPOSITOR DE QUINTO TONO</head>
+            <head source="#delta">SEQUITUR EXPOSITOR DE QUINTO TONO</head>
             <p rend="ms">
                <num source="#beta">99</num>
                <num source="#beta">100</num>
@@ -347,7 +389,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>DE QUINTO TONO NOVA CUJUSDAM EXPOSITIO</head>
+            <head source="#delta">DE QUINTO TONO NOVA CUIUSDAM EXPOSITIO</head>
             <p rend="ms">
                <num source="#gamma">108</num>
                <num source="#gamma">109</num>
@@ -363,7 +405,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>SEQUITUR IDEM EXPOSITOR DE SEXTO TONO</head>
+            <head source="#delta">SEQUITUR IDEM EXPOSITOR DE SEXTO TONO</head>
             <p rend="ms">
                <num source="#beta">112</num>
                <num source="#beta">113</num>
@@ -390,7 +432,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>ITEM DE SEXTO TONO NOVA CUJUSDAM EXPOSITIO</head>
+            <head source="#delta">ITEM DE SEXTO TONO NOVA CUIUSDAM EXPOSITIO</head>
             <p rend="ms">
                <num source="#gamma">122</num>
                <num source="#gamma">123</num>
@@ -406,7 +448,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>SEQUITUR EXPOSITOR DE SEPTIMO TONO</head>
+            <head source="#delta">SEQUITUR EXPOSITOR DE SEPTIMO TONO</head>
             <p rend="ms">
                <num source="#beta">126</num>
                <num source="#beta">127</num>
@@ -435,8 +477,7 @@
                <num source="#beta">127</num>
                <num source="#beta">128</num>
                <num source="#delta">129</num>
-               <num source="#alpha">180</num>
-               <num source="#alpha">188'</num>
+               <num source="#alpha">188</num>
                <num source="#delta">129'</num>
                <num source="#delta">130</num>
                <num source="#delta">131</num>
@@ -457,7 +498,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>ITEM DE SEPTIMO ET OCTAVO TONO NOVA CUJUSDAM EXPOSITIO</head>
+            <head source="#delta">ITEM DE SEPTIMO ET OCTAVO TONO NOVA CUIUSDAM EXPOSITIO</head>
             <p rend="ms">
                <num source="#gamma">146</num>
                <num source="#gamma">147</num>
@@ -480,7 +521,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>SEQUITUR PRAEMISSUS EXPOSITOR</head>
+            <head source="#delta">SEQUITUR PRAEMISSUS EXPOSITOR</head>
             <p rend="ms">
                <num source="#alpha">154</num>
                <num source="#alpha">155</num>
@@ -541,7 +582,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>ITEM EXPOSITIO EORUMDEM TONORUM</head>
+            <head source="#delta">ITEM EXPOSITIO EORUMDEM TONORUM.</head>
             <p rend="ms">
                <num source="#alpha">181</num>
                <num source="#alpha">182</num>
@@ -551,11 +592,8 @@
                <num source="#alpha">186</num>
                <num source="#alpha">187</num>
                <num source="#alpha">188</num>
-               <num source="#alpha">188'</num>
             </p>
-            <p rend="edition">
-               <num source="#alpha">188</num>
-            </p>
+            <p rend="edition"/>
          </div>
       </body>
    </text>

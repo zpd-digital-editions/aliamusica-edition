@@ -15,7 +15,7 @@
 
 	<xsl:template match="body">
 		<body>
-			<div rend="columns">
+			<div rend="columns column-header">
 				<p rend="ms">Manuscript Order</p>
 				<p rend="edition">Text-Historical Edition</p>
 			</div>
