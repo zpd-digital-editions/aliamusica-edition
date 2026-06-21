@@ -19,27 +19,27 @@
 				<xsl:copy-of select="id('overview')"/>
 			</div>
 			<div rend="columns column-header">
-				<p rend="ms">Manuscript Order</p>
-				<p rend="edition">α + β + γ + δ</p>
+				<p rend="edition">Before Rearrangement<lb/>(α + β + γ + δ)</p>
+				<p rend="ms">After Rearrangement<lb/>(Manuscript Order)</p>
 			</div>
 			<xsl:for-each select="div">
 				<div rend="columns">
 					<xsl:apply-templates select="head"/>
+					<p rend="edition">
+						<xsl:variable name="divId" select="@xml:id"/>
+						<xsl:for-each select="$am-edition//div[@xml:id = $divId]/p">
+							<num source="{@source}">
+								<ref target="../?doc=am-edition-abgd#{@xml:id}">
+									<xsl:value-of select="substring(num, 2)"/>
+								</ref>
+							</num>
+						</xsl:for-each>
+					</p>
 					<p rend="ms">
 						<xsl:for-each select="p[num]">
 							<num source="{@source}">
 								<xsl:value-of select="substring(num, 2)"/>
 							</num>
-						</xsl:for-each>
-					</p>
-					<p rend="edition">
-						<xsl:variable name="divId" select="@xml:id"/>
-						<xsl:for-each select="$am-edition//div[@xml:id = $divId]">
-							<xsl:for-each select="p">
-								<num source="{@source}">
-									<xsl:value-of select="substring(num, 2)"/>
-								</num>
-							</xsl:for-each>
 						</xsl:for-each>
 					</p>
 				</div>

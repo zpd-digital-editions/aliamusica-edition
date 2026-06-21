@@ -60,7 +60,7 @@
                display the stages of commentary in chronological order. Each stage in the genesis of the text can be
                accessed separately.</p>
             <p>
-               <persName ref="#alpha">Author δ</persName> played a particularly important role in the creation of the
+               <persName ref="#delta">Author δ</persName> played a particularly important role in the creation of the
                final text. He acted not only as a commentator, but also structured the treatise as we know it from the
                manuscript transmission by adding headings and changing the order of the material, placing most of the
                core treatise, <persName ref="#alpha">α</persName>, at the end of the work. A comparison between the
@@ -124,11 +124,136 @@
             </abstract>
          </div>
          <div rend="columns column-header">
-            <p rend="ms">Manuscript Order</p>
-            <p rend="edition">α + β + γ + δ</p>
+            <p rend="edition">Before Rearrangement<lb/>(α + β + γ + δ)</p>
+            <p rend="ms">After Rearrangement<lb/>(Manuscript Order)</p>
          </div>
          <div rend="columns">
             <head source="#delta">ALIA MUSICA</head>
+            <p rend="edition">
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p1">1</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p2">2</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p3">3</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p4">4</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p5">5</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p6">6</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p7">7</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p8">8</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p9">9</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p10">10</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p11">11</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p12">12</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p13">13</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p14">14</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p15">15</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p16">16</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p17">17</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p18">18</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p19">19</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p20">20</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p21">21</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p22">22</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p23">23</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p24">24</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p25">25</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p26">26</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p27">27</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p28">28</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p29">29</ref>
+               </num>
+               <num source="#alpha">
+                  <ref target="../?doc=am-edition-abgd#p181">181</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p30">30</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p31">31</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p32">32</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p33">33</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p34">34</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p35">35</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p36">36</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p37">37</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p38">38</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p39">39</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p40">40</ref>
+               </num>
+            </p>
             <p rend="ms">
                <num source="#beta">1</num>
                <num source="#beta">2</num>
@@ -159,49 +284,6 @@
                <num source="#delta">27</num>
                <num source="#beta">28</num>
                <num source="#beta">29</num>
-               <num source="#beta">30</num>
-               <num source="#beta">31</num>
-               <num source="#beta">32</num>
-               <num source="#beta">33</num>
-               <num source="#beta">34</num>
-               <num source="#beta">35</num>
-               <num source="#beta">36</num>
-               <num source="#beta">37</num>
-               <num source="#beta">38</num>
-               <num source="#delta">39</num>
-               <num source="#delta">40</num>
-            </p>
-            <p rend="edition">
-               <num source="#beta">1</num>
-               <num source="#beta">2</num>
-               <num source="#beta">3</num>
-               <num source="#beta">4</num>
-               <num source="#beta">5</num>
-               <num source="#beta">6</num>
-               <num source="#beta">7</num>
-               <num source="#beta">8</num>
-               <num source="#beta">9</num>
-               <num source="#beta">10</num>
-               <num source="#beta">11</num>
-               <num source="#beta">12</num>
-               <num source="#beta">13</num>
-               <num source="#beta">14</num>
-               <num source="#beta">15</num>
-               <num source="#beta">16</num>
-               <num source="#beta">17</num>
-               <num source="#beta">18</num>
-               <num source="#beta">19</num>
-               <num source="#beta">20</num>
-               <num source="#beta">21</num>
-               <num source="#beta">22</num>
-               <num source="#beta">23</num>
-               <num source="#beta">24</num>
-               <num source="#beta">25</num>
-               <num source="#delta">26</num>
-               <num source="#delta">27</num>
-               <num source="#beta">28</num>
-               <num source="#beta">29</num>
-               <num source="#alpha">181</num>
                <num source="#beta">30</num>
                <num source="#beta">31</num>
                <num source="#beta">32</num>
@@ -217,34 +299,62 @@
          </div>
          <div rend="columns">
             <head source="#delta">ITEM CUIUSDAM DE EADEM RE NOVA EXPOSITIO</head>
+            <p rend="edition">
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p41">41</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p42">42</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p43">43</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p44">44</ref>
+               </num>
+               <num source="#alpha">
+                  <ref target="../?doc=am-edition-abgd#p182">182</ref>
+               </num>
+            </p>
             <p rend="ms">
                <num source="#gamma">41</num>
                <num source="#gamma">42</num>
                <num source="#gamma">43</num>
                <num source="#gamma">44</num>
-            </p>
-            <p rend="edition">
-               <num source="#gamma">41</num>
-               <num source="#gamma">42</num>
-               <num source="#gamma">43</num>
-               <num source="#gamma">44</num>
-               <num source="#alpha">182</num>
             </p>
          </div>
          <div rend="columns">
             <head source="#delta">DE SECUNDO TONO SEQUITUR IN EADEM EXPOSITIONE</head>
-            <p rend="ms">
-               <num source="#beta">45</num>
-               <num source="#beta">46</num>
-               <num source="#beta">47</num>
-               <num source="#beta">48</num>
-               <num source="#beta">49</num>
-               <num source="#beta">50</num>
-               <num source="#beta">51</num>
-               <num source="#beta">52</num>
-               <num source="#delta">53</num>
-            </p>
             <p rend="edition">
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p45">45</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p46">46</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p47">47</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p48">48</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p49">49</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p50">50</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p51">51</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p52">52</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p53">53</ref>
+               </num>
+            </p>
+            <p rend="ms">
                <num source="#beta">45</num>
                <num source="#beta">46</num>
                <num source="#beta">47</num>
@@ -258,44 +368,92 @@
          </div>
          <div rend="columns">
             <head source="#delta">ITEM DE SECUNDO TONO NOVA CUIUSDAM EXPOSITIO</head>
+            <p rend="edition">
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p54">54</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p55">55</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p56">56</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p57">57</ref>
+               </num>
+               <num source="#alpha">
+                  <ref target="../?doc=am-edition-abgd#p183">183</ref>
+               </num>
+            </p>
             <p rend="ms">
                <num source="#gamma">54</num>
                <num source="#gamma">55</num>
                <num source="#gamma">56</num>
                <num source="#gamma">57</num>
-            </p>
-            <p rend="edition">
-               <num source="#gamma">54</num>
-               <num source="#gamma">55</num>
-               <num source="#gamma">56</num>
-               <num source="#gamma">57</num>
-               <num source="#alpha">183</num>
             </p>
          </div>
          <div rend="columns">
             <head source="#delta">SEQUITUR TONORUM EXPOSITOR DE TERTIO TONO</head>
-            <p rend="ms">
-               <num source="#beta">58</num>
-               <num source="#beta">59</num>
-               <num source="#beta">60</num>
-               <num source="#beta">61</num>
-               <num source="#beta">62</num>
-               <num source="#beta">63</num>
-               <num source="#beta">64</num>
-               <num source="#beta">65</num>
-               <num source="#beta">66</num>
-               <num source="#beta">67</num>
-               <num source="#delta">68</num>
-               <num source="#delta">69</num>
-               <num source="#delta">70</num>
-               <num source="#delta">71</num>
-               <num source="#delta">72</num>
-               <num source="#delta">73</num>
-               <num source="#delta">74</num>
-               <num source="#delta">75</num>
-               <num source="#delta">76</num>
-            </p>
             <p rend="edition">
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p58">58</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p59">59</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p60">60</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p61">61</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p62">62</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p63">63</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p64">64</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p65">65</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p66">66</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p67">67</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p68">68</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p69">69</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p70">70</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p71">71</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p72">72</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p73">73</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p74">74</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p75">75</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p76">76</ref>
+               </num>
+            </p>
+            <p rend="ms">
                <num source="#beta">58</num>
                <num source="#beta">59</num>
                <num source="#beta">60</num>
@@ -319,23 +477,51 @@
          </div>
          <div rend="columns">
             <head source="#delta">DE QUARTO TONO.</head>
-            <p rend="ms">
-               <num source="#beta">77</num>
-               <num source="#beta">78</num>
-               <num source="#beta">79</num>
-               <num source="#beta">80</num>
-               <num source="#beta">81</num>
-               <num source="#beta">82</num>
-               <num source="#beta">83</num>
-               <num source="#beta">84</num>
-               <num source="#beta">85</num>
-               <num source="#beta">86</num>
-               <num source="#delta">87</num>
-               <num source="#delta">88</num>
-               <num source="#delta">89</num>
-            </p>
             <p rend="edition">
-               <num source="#alpha">184</num>
+               <num source="#alpha">
+                  <ref target="../?doc=am-edition-abgd#p184">184</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p77">77</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p78">78</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p79">79</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p80">80</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p81">81</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p82">82</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p83">83</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p84">84</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p85">85</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p86">86</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p87">87</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p88">88</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p89">89</ref>
+               </num>
+            </p>
+            <p rend="ms">
                <num source="#beta">77</num>
                <num source="#beta">78</num>
                <num source="#beta">79</num>
@@ -353,6 +539,41 @@
          </div>
          <div rend="columns">
             <head source="#delta">ITEM DE TERTIO ET QUARTO NOVA CUIUSDAM EXPOSITIO</head>
+            <p rend="edition">
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p90">90</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p91">91</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p92">92</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p93">93</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p94">94</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p94a">94'</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p95">95</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p96">96</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p97">97</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p98">98</ref>
+               </num>
+               <num source="#alpha">
+                  <ref target="../?doc=am-edition-abgd#p185">185</ref>
+               </num>
+            </p>
             <p rend="ms">
                <num source="#gamma">90</num>
                <num source="#gamma">91</num>
@@ -364,35 +585,40 @@
                <num source="#gamma">96</num>
                <num source="#gamma">97</num>
                <num source="#gamma">98</num>
-            </p>
-            <p rend="edition">
-               <num source="#gamma">90</num>
-               <num source="#gamma">91</num>
-               <num source="#gamma">92</num>
-               <num source="#gamma">93</num>
-               <num source="#gamma">94</num>
-               <num source="#delta">94'</num>
-               <num source="#gamma">95</num>
-               <num source="#gamma">96</num>
-               <num source="#gamma">97</num>
-               <num source="#gamma">98</num>
-               <num source="#alpha">185</num>
             </p>
          </div>
          <div rend="columns">
             <head source="#delta">SEQUITUR EXPOSITOR DE QUINTO TONO</head>
-            <p rend="ms">
-               <num source="#beta">99</num>
-               <num source="#beta">100</num>
-               <num source="#beta">101</num>
-               <num source="#beta">102</num>
-               <num source="#delta">103</num>
-               <num source="#delta">104</num>
-               <num source="#delta">105</num>
-               <num source="#delta">106</num>
-               <num source="#delta">107</num>
-            </p>
             <p rend="edition">
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p99">99</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p100">100</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p101">101</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p102">102</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p103">103</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p104">104</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p105">105</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p106">106</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p107">107</ref>
+               </num>
+            </p>
+            <p rend="ms">
                <num source="#beta">99</num>
                <num source="#beta">100</num>
                <num source="#beta">101</num>
@@ -406,35 +632,65 @@
          </div>
          <div rend="columns">
             <head source="#delta">DE QUINTO TONO NOVA CUIUSDAM EXPOSITIO</head>
+            <p rend="edition">
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p108">108</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p109">109</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p110">110</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p111">111</ref>
+               </num>
+               <num source="#alpha">
+                  <ref target="../?doc=am-edition-abgd#p186">186</ref>
+               </num>
+            </p>
             <p rend="ms">
                <num source="#gamma">108</num>
                <num source="#gamma">109</num>
                <num source="#gamma">110</num>
                <num source="#gamma">111</num>
-            </p>
-            <p rend="edition">
-               <num source="#gamma">108</num>
-               <num source="#gamma">109</num>
-               <num source="#gamma">110</num>
-               <num source="#gamma">111</num>
-               <num source="#alpha">186</num>
             </p>
          </div>
          <div rend="columns">
             <head source="#delta">SEQUITUR IDEM EXPOSITOR DE SEXTO TONO</head>
-            <p rend="ms">
-               <num source="#beta">112</num>
-               <num source="#beta">113</num>
-               <num source="#beta">114</num>
-               <num source="#beta">115</num>
-               <num source="#beta">116</num>
-               <num source="#beta">117</num>
-               <num source="#beta">118</num>
-               <num source="#delta">119</num>
-               <num source="#delta">120</num>
-               <num source="#delta">121</num>
-            </p>
             <p rend="edition">
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p112">112</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p113">113</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p114">114</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p115">115</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p116">116</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p117">117</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p118">118</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p119">119</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p120">120</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p121">121</ref>
+               </num>
+            </p>
+            <p rend="ms">
                <num source="#beta">112</num>
                <num source="#beta">113</num>
                <num source="#beta">114</num>
@@ -449,51 +705,105 @@
          </div>
          <div rend="columns">
             <head source="#delta">ITEM DE SEXTO TONO NOVA CUIUSDAM EXPOSITIO</head>
+            <p rend="edition">
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p122">122</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p123">123</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p124">124</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p125">125</ref>
+               </num>
+               <num source="#alpha">
+                  <ref target="../?doc=am-edition-abgd#p187">187</ref>
+               </num>
+            </p>
             <p rend="ms">
                <num source="#gamma">122</num>
                <num source="#gamma">123</num>
                <num source="#gamma">124</num>
                <num source="#gamma">125</num>
-            </p>
-            <p rend="edition">
-               <num source="#gamma">122</num>
-               <num source="#gamma">123</num>
-               <num source="#gamma">124</num>
-               <num source="#gamma">125</num>
-               <num source="#alpha">187</num>
             </p>
          </div>
          <div rend="columns">
             <head source="#delta">SEQUITUR EXPOSITOR DE SEPTIMO TONO</head>
+            <p rend="edition">
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p126">126</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p127">127</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p128">128</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p129">129</ref>
+               </num>
+               <num source="#alpha">
+                  <ref target="../?doc=am-edition-abgd#p188">188</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p129a">129'</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p130">130</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p131">131</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p132">132</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p133">133</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p134">134</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p135">135</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p136">136</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p137">137</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p138">138</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p139">139</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p140">140</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p141">141</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p142">142</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p143">143</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p144">144</ref>
+               </num>
+               <num source="#delta">
+                  <ref target="../?doc=am-edition-abgd#p145">145</ref>
+               </num>
+            </p>
             <p rend="ms">
                <num source="#beta">126</num>
                <num source="#beta">127</num>
                <num source="#beta">128</num>
                <num source="#delta">129</num>
-               <num source="#delta">129'</num>
-               <num source="#delta">130</num>
-               <num source="#delta">131</num>
-               <num source="#delta">132</num>
-               <num source="#delta">133</num>
-               <num source="#delta">134</num>
-               <num source="#delta">135</num>
-               <num source="#delta">136</num>
-               <num source="#delta">137</num>
-               <num source="#delta">138</num>
-               <num source="#delta">139</num>
-               <num source="#delta">140</num>
-               <num source="#delta">141</num>
-               <num source="#delta">142</num>
-               <num source="#delta">143</num>
-               <num source="#delta">144</num>
-               <num source="#delta">145</num>
-            </p>
-            <p rend="edition">
-               <num source="#beta">126</num>
-               <num source="#beta">127</num>
-               <num source="#beta">128</num>
-               <num source="#delta">129</num>
-               <num source="#alpha">188</num>
                <num source="#delta">129'</num>
                <num source="#delta">130</num>
                <num source="#delta">131</num>
@@ -515,17 +825,33 @@
          </div>
          <div rend="columns">
             <head source="#delta">ITEM DE SEPTIMO ET OCTAVO TONO NOVA CUIUSDAM EXPOSITIO</head>
-            <p rend="ms">
-               <num source="#gamma">146</num>
-               <num source="#gamma">147</num>
-               <num source="#gamma">148</num>
-               <num source="#gamma">149</num>
-               <num source="#gamma">150</num>
-               <num source="#gamma">151</num>
-               <num source="#gamma">152</num>
-               <num source="#gamma">153</num>
-            </p>
             <p rend="edition">
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p146">146</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p147">147</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p148">148</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p149">149</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p150">150</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p151">151</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p152">152</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p153">153</ref>
+               </num>
+            </p>
+            <p rend="ms">
                <num source="#gamma">146</num>
                <num source="#gamma">147</num>
                <num source="#gamma">148</num>
@@ -538,36 +864,90 @@
          </div>
          <div rend="columns">
             <head source="#delta">SEQUITUR PRAEMISSUS EXPOSITOR</head>
-            <p rend="ms">
-               <num source="#alpha">154</num>
-               <num source="#alpha">155</num>
-               <num source="#alpha">156</num>
-               <num source="#beta">157</num>
-               <num source="#beta">158</num>
-               <num source="#beta">159</num>
-               <num source="#beta">160</num>
-               <num source="#beta">161</num>
-               <num source="#beta">162</num>
-               <num source="#beta">163</num>
-               <num source="#beta">164</num>
-               <num source="#beta">165</num>
-               <num source="#beta">166</num>
-               <num source="#beta">167</num>
-               <num source="#gamma">168</num>
-               <num source="#gamma">169</num>
-               <num source="#gamma">170</num>
-               <num source="#beta">171</num>
-               <num source="#beta">172</num>
-               <num source="#beta">173</num>
-               <num source="#beta">174</num>
-               <num source="#beta">175</num>
-               <num source="#beta">176</num>
-               <num source="#beta">177</num>
-               <num source="#beta">178</num>
-               <num source="#beta">179</num>
-               <num source="#beta">180</num>
-            </p>
             <p rend="edition">
+               <num source="#alpha">
+                  <ref target="../?doc=am-edition-abgd#p154">154</ref>
+               </num>
+               <num source="#alpha">
+                  <ref target="../?doc=am-edition-abgd#p155">155</ref>
+               </num>
+               <num source="#alpha">
+                  <ref target="../?doc=am-edition-abgd#p156">156</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p157">157</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p158">158</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p159">159</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p160">160</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p161">161</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p162">162</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p163">163</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p164">164</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p165">165</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p166">166</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p167">167</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p168">168</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p169">169</ref>
+               </num>
+               <num source="#gamma">
+                  <ref target="../?doc=am-edition-abgd#p170">170</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p171">171</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p172">172</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p173">173</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p174">174</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p175">175</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p176">176</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p177">177</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p178">178</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p179">179</ref>
+               </num>
+               <num source="#beta">
+                  <ref target="../?doc=am-edition-abgd#p180">180</ref>
+               </num>
+            </p>
+            <p rend="ms">
                <num source="#alpha">154</num>
                <num source="#alpha">155</num>
                <num source="#alpha">156</num>
@@ -599,6 +979,7 @@
          </div>
          <div rend="columns">
             <head source="#delta">ITEM EXPOSITIO EORUMDEM TONORUM.</head>
+            <p rend="edition"/>
             <p rend="ms">
                <num source="#alpha">181</num>
                <num source="#alpha">182</num>
@@ -609,7 +990,6 @@
                <num source="#alpha">187</num>
                <num source="#alpha">188</num>
             </p>
-            <p rend="edition"/>
          </div>
       </body>
    </text>

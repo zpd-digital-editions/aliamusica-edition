@@ -26,14 +26,14 @@
 	<xsl:template match="body" mode="#default">
 		<xsl:copy>
 			<div xml:id="intro">
-				<xsl:copy-of select="id('about')"/>
+				<xsl:copy-of select="id('about')/*"/>
 			</div>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="body" mode="a">
 		<xsl:copy>
 			<div xml:id="intro">
-				<xsl:copy-of select="id('edition-a')"/>
+				<xsl:copy-of select="id('edition-a')/*"/>
 			</div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
@@ -41,7 +41,7 @@
 	<xsl:template match="body" mode="ab">
 		<xsl:copy>
 			<div xml:id="intro">
-				<xsl:copy-of select="id('edition-ab')"/>
+				<xsl:copy-of select="id('edition-ab')/*"/>
 			</div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
@@ -49,7 +49,7 @@
 	<xsl:template match="body" mode="abg">
 		<xsl:copy>
 			<div xml:id="intro">
-				<xsl:copy-of select="id('edition-abg')"/>
+				<xsl:copy-of select="id('edition-abg')/*"/>
 			</div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
@@ -57,12 +57,12 @@
 	<xsl:template match="body" mode="abgd">
 		<xsl:copy>
 			<div xml:id="intro">
-				<xsl:copy-of select="id('edition-abgd')"/>
+				<xsl:copy-of select="id('edition-abgd')/*"/>
 			</div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
 	</xsl:template>
-	
+
 	<!-- ignore if not in mode abgd -->
 	<xsl:template match="head" mode="a ab abg"/>
 
@@ -72,8 +72,8 @@
 	<xsl:template match="p[@source = '#delta']" mode="a ab abg"/>
 
 	<xsl:template match="p[@sameAs]" mode="#all">
-		<p corresp="{@sameAs}" source="{@source}">
-			<xsl:apply-templates select="id(substring-after(@sameAs, '#'))/node()" mode="#current"/>
+		<p xml:id="{substring(@sameAs,2)}" source="{@source}" ana="#moved">
+			<xsl:apply-templates select="id(substring(@sameAs, 2))/node()" mode="#current"/>
 		</p>
 	</xsl:template>
 

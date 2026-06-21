@@ -60,7 +60,7 @@
                display the stages of commentary in chronological order. Each stage in the genesis of the text can be
                accessed separately.</p>
             <p>
-               <persName ref="#alpha">Author δ</persName> played a particularly important role in the creation of the
+               <persName ref="#delta">Author δ</persName> played a particularly important role in the creation of the
                final text. He acted not only as a commentator, but also structured the treatise as we know it from the
                manuscript transmission by adding headings and changing the order of the material, placing most of the
                core treatise, <persName ref="#alpha">α</persName>, at the end of the work. A comparison between the
@@ -114,22 +114,20 @@
    <text>
       <body>
          <div xml:id="intro">
-            <abstract xml:id="about">
-               <p>The Alia musica was not conceived by a single author at a single time. Instead, it is the result of a
+            <p>The Alia musica was not conceived by a single author at a single time. Instead, it is the result of a
                layering of commentaries by successive authors (<persName ref="#beta">β</persName>, <persName ref="#gamma">γ</persName> and <persName ref="#delta">δ</persName>) upon a core treatise (<persName ref="#alpha">Author α</persName>). The text-historical edition represents this process of commenting
                in its chronological order, as outlined by Charles M. Atkinson, The Critical Nexus: Tone-System, Mode,
                and Notation in Early Medieval Music (Oxford, New York: Oxford University Press, 2009): 171-201. This
                edition does not represent a specific manuscript or an archetype of transmission, but is intended to
                display the stages of commentary in chronological order. Each stage in the genesis of the text can be
                accessed separately.</p>
-               <p>
-                  <persName ref="#alpha">Author δ</persName> played a particularly important role in the creation of the
+            <p>
+               <persName ref="#delta">Author δ</persName> played a particularly important role in the creation of the
                final text. He acted not only as a commentator, but also structured the treatise as we know it from the
                manuscript transmission by adding headings and changing the order of the material, placing most of the
                core treatise, <persName ref="#alpha">α</persName>, at the end of the work. A comparison between the
                genealogical order of commenting and the final arrangement, as represented in the manuscripts, is
                provided by the overview.</p>
-            </abstract>
          </div>
       </body>
    </text>

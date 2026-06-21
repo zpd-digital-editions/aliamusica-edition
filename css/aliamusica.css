@@ -90,6 +90,7 @@ tei-div tei-head {
 	font-family:Georgia, serif;
 	color:var(--delta-color);
 	display:block;
+	text-align:center;
 	padding:1rem 0 0.5rem 0;
 }
 tei-p {
@@ -102,7 +103,7 @@ tei-p {
 tei-p[sameAs]::before {
 	content:'[→ §'attr(n)']';
 }
-tei-p[corresp] tei-num {
+tei-p[ana='#moved'] tei-num {
 	color:var(--alpha-color);
 }
 tei-p[source]::before,
@@ -253,6 +254,9 @@ tei-div[rend~='columns'] {
 tei-div[rend='columns'] tei-head {
     grid-column: 1 / span 2;
 }
+tei-div[rend='columns'] tei-head[source='#delta']::before {
+	display:none;
+}
 tei-div[rend='columns'] tei-p {
     text-align:left;
 }
@@ -277,7 +281,10 @@ tei-div[rend='columns'] tei-num[source='#gamma'] {
 tei-div[rend='columns'] tei-num[source='#delta'] {
 	background-color:var(--delta-color);
 }
-
+tei-ref, tei-ref a {
+    text-decoration:none;
+    color:inherit;
+}
 
 .overview tei-seg,
 .overview tei-num,

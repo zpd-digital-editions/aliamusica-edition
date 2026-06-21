@@ -60,7 +60,7 @@
                display the stages of commentary in chronological order. Each stage in the genesis of the text can be
                accessed separately.</p>
             <p>
-               <persName ref="#alpha">Author δ</persName> played a particularly important role in the creation of the
+               <persName ref="#delta">Author δ</persName> played a particularly important role in the creation of the
                final text. He acted not only as a commentator, but also structured the treatise as we know it from the
                manuscript transmission by adding headings and changing the order of the material, placing most of the
                core treatise, <persName ref="#alpha">α</persName>, at the end of the work. A comparison between the
@@ -114,11 +114,9 @@
    <text>
       <body>
          <div xml:id="intro">
-            <abstract xml:id="edition-abg">
-               <p>This presents the core treatise (<persName ref="#alpha">Author α</persName>), its frame and commentary
+            <p>This presents the core treatise (<persName ref="#alpha">Author α</persName>), its frame and commentary
                   (<persName ref="#beta">Author β</persName>), and a tonary, the Nova expositio (<persName ref="#gamma">Author γ</persName>), transmitted independently, but added to the first two layers (later 10th
                c.).</p>
-            </abstract>
          </div>
          <div xml:id="div01">
             <pb n="99"/>
@@ -402,7 +400,7 @@
                   dispositos, bis diapason, id est VI. et bis XII.]</seg>
                <!-- bei CA sind s1 und s2 nur ein segment -->
             </p>
-            <p corresp="#p181" source="#alpha">
+            <p xml:id="p181" source="#alpha" ana="#moved">
                <num>§181</num>
                <seg xml:id="p181.s1" n="1">Tonus primus VI. ad XII., id est XVIII. qui sunt ter VI. quae proportio
                   diapason.</seg>
@@ -547,7 +545,7 @@
                <seg xml:id="p44.s1" n="1">Hujus autem in nocturnis sic currit versus: Gloria Patri et caetera. In
                   diurnis sic currit versus: Gloria Patri et caetera.</seg>
             </p>
-            <p corresp="#p182" source="#alpha">
+            <p xml:id="p182" source="#alpha" ana="#moved">
                <num>§182</num>
                <seg xml:id="p182.s1" n="1">Tonus secundus ter VI. id est XVIII. ad XII. per sesquialteram proportionem
                   fiunt XXX. diapente.</seg>
@@ -668,7 +666,7 @@
                <seg xml:id="p57.s1" n="1">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
                   diurnis autem sic currit versus: Gloria Patri et caetera.</seg>
             </p>
-            <p corresp="#p183" source="#alpha">
+            <p xml:id="p183" source="#alpha" ana="#moved">
                <num>§183</num>
                <seg xml:id="p183.s1" n="1">Tonus tertius est, qui ideo duo a. habet propter primam mensuram autenti
                   deuteri, et secundum a. propter plagam autenti deuteri, in cuius diapason suum semitonium explicat, et
@@ -766,7 +764,7 @@
          </div>
          <div xml:id="div06">
             <pb n="143"/>
-            <p corresp="#p184" source="#alpha">
+            <p xml:id="p184" source="#alpha" ana="#moved">
                <num>§184</num>
                <seg xml:id="p184.s1" n="1">Tonus quartus bis XII. ad ter VIII. et ad ter VI. bis VIII. una consonantia
                   numerorum in diapason VI. ad XII. id est XXIIII. conveniunt.</seg>
@@ -940,7 +938,7 @@
                <seg xml:id="p98.s1" n="1">Hujus enim in nocturnis sic currit versus: Gloria Patri et caetera. In diurnis
                   sic: Gloria Patri et caetera.</seg>
             </p>
-            <p corresp="#p185" source="#alpha">
+            <p xml:id="p185" source="#alpha" ana="#moved">
                <num>§185</num>
                <seg xml:id="p185.s1" n="1">Tonus quintus totus semper diapenticus per denarium est, quia ter VIII. ad
                   ter XII. et quater VI. ad quater VIIII. id est, per sesquialteram proportionem in diapente
@@ -1019,7 +1017,7 @@
                <seg xml:id="p111.s1" n="1">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
                   diurnis sic currit versus: Gloria Patri et caetera.</seg>
             </p>
-            <p corresp="#p186" source="#alpha">
+            <p xml:id="p186" source="#alpha" ana="#moved">
                <num>§186</num>
                <seg xml:id="p186.s1" n="1">Tonus sextus est sexies VI. ad sexies IIII. de bis XII. et quater VIIII. ad
                   quater VI. de bis XII. quia sesquialtera proportio in cadit,</seg>
@@ -1113,7 +1111,7 @@
                <seg xml:id="p125.s1" n="1">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
                   diurnis sic: Gloria Patri et caetera.</seg>
             </p>
-            <p corresp="#p187" source="#alpha">
+            <p xml:id="p187" source="#alpha" ana="#moved">
                <num>§187</num>
                <seg xml:id="p187.s1" n="1">Tonus septimus ut in proportione quarti toni habet totum diatesseron,</seg>
                <seg xml:id="p187.s2" n="2">et in proportione quinti toni habet totum diapente,</seg>
@@ -1142,7 +1140,7 @@
                <seg xml:id="p128.s1" n="1">In proportione autem propria habet diapason, quod est quater VI. ad quater
                   XII., et sexies IIII. de bis XII. ad sexies VIII., qui numeri simul juncti faciunt XLVIII.</seg>
             </p>
-            <p corresp="#p188" source="#alpha">
+            <p xml:id="p188" source="#alpha" ana="#moved">
                <num>§188</num>
                <seg xml:id="p188.s1" n="1">Tonum octavum require supra.</seg>
             </p>
