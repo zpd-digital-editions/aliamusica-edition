@@ -69,15 +69,20 @@ tei-back {
 	display:none;
 }
 tei-body {
+    display:block;
 	font-family:Georgia, serif;
 	padding:0;
 }
-tei-div#intro {
+tei-div {
     display:block;
-    border-bottom:0.1rem solid gray;
-    padding-bottom:1rem;
-    margin-bottom:1rem;
+}
+tei-div#intro {
     font-style:italic;
+}
+tei-div#intro + tei-div {
+    padding-top:2rem;
+    margin-top:1rem;
+    border-top:0.1rem solid gray;
 }
 tei-div tei-head {
 	line-height:1.5rem;
@@ -173,6 +178,20 @@ tei-div > tei-pb::before {
 	padding:0.1rem 0.5rem 0 0;
 	float:left;
 }
+
+tei-persName[ref='#alpha'] {
+	color:var(--alpha-color);
+}
+tei-persName[ref='#beta'] {
+	color:var(--beta-color);
+}
+tei-persName[ref='#gamma'] {
+	color:var(--gamma-color);
+}
+tei-persName[ref='#delta'] {
+	color:var(--delta-color);
+}
+
 
 tei-note {
 	font-style:italic;

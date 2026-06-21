@@ -6,7 +6,7 @@
 	<xsl:output encoding="UTF-8" indent="yes" method="xml" standalone="yes"/>
 
 	<xsl:template match="/">
-		<xsl:result-document href="am-edition.xml">
+		<xsl:result-document href="am-about.xml">
 			<xsl:apply-templates select="@* | node()"/>
 		</xsl:result-document>
 		<xsl:result-document href="am-edition-a.xml">
@@ -18,15 +18,16 @@
 		<xsl:result-document href="am-edition-abg.xml">
 			<xsl:apply-templates select="@* | node()" mode="abg"/>
 		</xsl:result-document>
+		<xsl:result-document href="am-edition-abgd.xml">
+			<xsl:apply-templates select="@* | node()" mode="abgd"/>
+		</xsl:result-document>
 	</xsl:template>
 
 	<xsl:template match="body" mode="#default">
 		<xsl:copy>
 			<div xml:id="intro">
-				<xsl:copy-of select="id('edition')"/>
-				<xsl:copy-of select="id('edition-abgd')"/>
+				<xsl:copy-of select="id('about')"/>
 			</div>
-			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="body" mode="a">
@@ -53,9 +54,19 @@
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
 	</xsl:template>
+	<xsl:template match="body" mode="abgd">
+		<xsl:copy>
+			<div xml:id="intro">
+				<xsl:copy-of select="id('edition-abgd')"/>
+			</div>
+			<xsl:apply-templates select="@* | node()" mode="#current"/>
+		</xsl:copy>
+	</xsl:template>
 	
+	<!-- ignore if not in mode abgd -->
 	<xsl:template match="head" mode="a ab abg"/>
 
+	<!-- ignore if not in mode abgd -->
 	<xsl:template match="p[@source = '#beta']" mode="a"/>
 	<xsl:template match="p[@source = '#gamma']" mode="a ab"/>
 	<xsl:template match="p[@source = '#delta']" mode="a ab abg"/>

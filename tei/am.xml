@@ -51,43 +51,51 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <abstract xml:id="edition">
+         <abstract xml:id="about">
             <p>The Alia musica was not conceived by a single author at a single time. Instead, it is the result of a
-               layering of commentaries by successive authors (β, γ and δ) upon a core treatise (Author α). The
-               text-historical edition represents this process of commenting in its chronological order, as outlined by
-               Charles M. Atkinson, The Critical Nexus: Tone-System, Mode, and Notation in Early Medieval Music (Oxford,
-               New York: Oxford University Press, 2009): 171-201. This edition does not represent a specific manuscript
-               or an archetype of transmission, but is intended to display the stages of commentary in chronological
-               order. Each stage in the genesis of the text can be accessed separately.</p>
-            <p>Author δ played a particularly important role in the creation of the final text. He acted not only as a
-               commentator, but also structured the treatise as we know it from the manuscript transmission by adding
-               headings and changing the order of the material, placing most of the core treatise, α, at the end of the
-               work. A comparison between the genealogical order of commenting and the final arrangement, as represented
-               in the manuscripts, is provided by the overview.</p>
+               layering of commentaries by successive authors (<persName ref="#beta">β</persName>, <persName
+                  ref="#gamma">γ</persName> and <persName ref="#delta">δ</persName>) upon a core treatise (<persName
+                  ref="#alpha">Author α</persName>). The text-historical edition represents this process of commenting
+               in its chronological order, as outlined by Charles M. Atkinson, The Critical Nexus: Tone-System, Mode,
+               and Notation in Early Medieval Music (Oxford, New York: Oxford University Press, 2009): 171-201. This
+               edition does not represent a specific manuscript or an archetype of transmission, but is intended to
+               display the stages of commentary in chronological order. Each stage in the genesis of the text can be
+               accessed separately.</p>
+            <p><persName ref="#alpha">Author δ</persName> played a particularly important role in the creation of the
+               final text. He acted not only as a commentator, but also structured the treatise as we know it from the
+               manuscript transmission by adding headings and changing the order of the material, placing most of the
+               core treatise, <persName ref="#alpha">α</persName>, at the end of the work. A comparison between the
+               genealogical order of commenting and the final arrangement, as represented in the manuscripts, is
+               provided by the overview.</p>
          </abstract>
          <abstract xml:id="edition-a">
-            <p>This is the core treatise for the Alia musica, Atkinson’s Author α, dating from the late 9th century. It
-               presents 8 toni, or church modes, describing each both verbally and mathematically.</p>
+            <p>This is the core treatise for the Alia musica, Atkinson’s <persName ref="#alpha">Author α</persName>,
+               dating from the late 9th century. It presents 8 toni, or church modes, describing each both verbally and
+               mathematically.</p>
          </abstract>
          <abstract xml:id="edition-ab">
-            <p>This presents the core treatise by Author α as framed and commented upon by a second author, Atkinson´s
-               Author β (early 10th c.).</p>
+            <p>This presents the core treatise by <persName ref="#alpha">Author α</persName> as framed and commented
+               upon by a second author, Atkinson´s <persName ref="#beta">Author β</persName> (early 10th c.).</p>
          </abstract>
          <abstract xml:id="edition-abg">
-            <p>This presents the core treatise (Author α), its frame and commentary (Author β), and a tonary, the Nova
-               expositio (Author γ), transmitted independently, but added to the first two layers (later 10th c.).</p>
+            <p>This presents the core treatise (<persName ref="#alpha">Author α</persName>), its frame and commentary
+                  (<persName ref="#beta">Author β</persName>), and a tonary, the Nova expositio (<persName ref="#gamma"
+                  >Author γ</persName>), transmitted independently, but added to the first two layers (later 10th
+               c.).</p>
          </abstract>
          <abstract xml:id="edition-abgd">
             <p>This presents the sum of the core treatise and its commentaries. All parts of the text are located in the
-               order by which the commentary grew before Author δ’s final redaction, which shifted Author α’s work to
-               the end of the treatise, where we find it in the manuscripts of the complete work.</p>
+               order by which the commentary grew before <persName ref="#delta">Author δ</persName>’s final redaction,
+               which shifted <persName ref="#alpha">Author α</persName>’s work to the end of the treatise, where we find
+               it in the manuscripts of the complete work.</p>
          </abstract>
          <abstract xml:id="overview">
-            <p>This presents the organization of the entire treatise before and after Author δ’s rearrangement of the
-               order of materials. „α + β + γ + δ“ shows the sum of the core treatise and its commentaries, „Manuscript
-               Order“ shows the arrangement of the text as we find it in the manuscripts (e.g. Munich, Bayerische
-               Staatsbibliothek, clm 14272, and Paris, Bibliothèque nationale de France, lat. 7211) – the arrangement
-               that Author δ created when he shifted from commenting to redacting the final version of the treatise.</p>
+            <p>This presents the organization of the entire treatise before and after <persName ref="#delta">Author
+                  δ</persName>’s rearrangement of the order of materials. „α + β + γ + δ“ shows the sum of the core
+               treatise and its commentaries, „Manuscript Order“ shows the arrangement of the text as we find it in the
+               manuscripts (e.g. Munich, Bayerische Staatsbibliothek, clm 14272, and Paris, Bibliothèque nationale de
+               France, lat. 7211) – the arrangement that <persName ref="#delta">Author δ</persName> created when he
+               shifted from commenting to redacting the final version of the treatise.</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

@@ -11,13 +11,16 @@
 		</xsl:result-document>
 	</xsl:template>
 
-	<xsl:variable name="am-edition" select="document('am-edition.xml')"/>
+	<xsl:variable name="am-edition" select="document('am-edition-abgd.xml')"/>
 
 	<xsl:template match="body">
 		<body>
+			<div xml:id="intro">
+				<xsl:copy-of select="id('overview')"/>
+			</div>
 			<div rend="columns column-header">
 				<p rend="ms">Manuscript Order</p>
-				<p rend="edition">Text-Historical Edition</p>
+				<p rend="edition">α + β + γ + δ</p>
 			</div>
 			<xsl:for-each select="div">
 				<div rend="columns">

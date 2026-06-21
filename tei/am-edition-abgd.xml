@@ -114,12 +114,15 @@
    <text>
       <body>
          <div xml:id="intro">
-            <abstract xml:id="edition-ab">
-               <p>This presents the core treatise by <persName ref="#alpha">Author α</persName> as framed and commented
-               upon by a second author, Atkinson´s <persName ref="#beta">Author β</persName> (early 10th c.).</p>
+            <abstract xml:id="edition-abgd">
+               <p>This presents the sum of the core treatise and its commentaries. All parts of the text are located in the
+               order by which the commentary grew before <persName ref="#delta">Author δ</persName>’s final redaction,
+               which shifted <persName ref="#alpha">Author α</persName>’s work to the end of the treatise, where we find
+               it in the manuscripts of the complete work.</p>
             </abstract>
          </div>
          <div xml:id="div01">
+            <head source="#delta">ALIA MUSICA</head>
             <pb n="99"/>
             <p source="#beta" xml:id="p1">
                <num>§1</num>
@@ -367,7 +370,23 @@
                   duodenarium desinit.</seg>
             </p>
             <pb n="116"/>
+            <p xml:id="p26" source="#delta">
+               <num>§26</num>
+               <seg xml:id="p26.s1" n="1">Itaque melodiam primi tropi, quae est NONANOEANE VIII. et XII. videntur
+                  claudere;</seg>
+               <seg xml:id="p26.s2" n="2">sed eidem clausulae, quae constat diapente, quidam addunt tonum, ut prius in
+                  eadem melodia resonat prima species diatessaron, deinde secunda, ut postmodum intendatur tertia;</seg>
+               <seg xml:id="p26.s3" n="3">ad extremum ex ordine remittatur ab VIII. ad XII. prima species
+                  diapente.</seg>
+            </p>
             <pb n="117"/>
+            <p xml:id="p27" source="#delta">
+               <num>§27</num>
+               <seg xml:id="p27.s1" n="1">Hinc incipit melodia secundi tropi, quae est NOEAGIS,</seg>
+               <seg xml:id="p27.s2" n="2">et non ad VIII. sed ad VIIII. pertingit, sicut omnes cantilenae ejusdem
+                  tropi.</seg>
+               <seg xml:id="p27.s3" n="3">Clauduntur enim duabus diatessaron consonantiis.</seg>
+            </p>
             <p source="#beta" xml:id="p28">
                <num>§28</num>
                <seg xml:id="p28.s1" n="1">De reliquo senarius, qui simpliciter est in dorio, triplicatus in hypodorio et
@@ -501,11 +520,67 @@
                   proportionem jubet, quoniam duorum quorumlibet numerorum ejusdem proportionis alter, id est minor, in
                   III. aequis partibus, alter, id est major, in IIII. distribuitur.</seg>
             </p>
+            <p xml:id="p39" source="#delta">
+               <num>§39</num>
+               <seg xml:id="p39.s1" n="1">Quo fit ut, quia hypophrygius consonantia diatessaron totus explicari
+                  perhibetur, per septenarium dimensus esse credatur.</seg>
+            </p>
+            <p xml:id="p40" source="#delta">
+               <num>§40</num>
+               <seg xml:id="p40.s1" n="1">In hypodorio vero vel lydio contingit denaria dimensio.</seg>
+               <seg xml:id="p40.s2" n="2">Porro dorius decurrit Alleluia quod est fulgebunt justi a XII. in VI. per
+                  diapason.</seg>
+               <seg xml:id="p40.s3" n="3">Alleluia quidem sicut fulgebunt justi et tanquam scintillae per diapente a
+                  XII. in VIII., in arundineto discurrent in aeternum ab VIII. vel potius a VIIII. in VI.</seg>
+               <!-- bei CA zwei Punkte am Schluss von s3 -->
+               <seg xml:id="p40.s4" n="4">Nec abest ab hoc tropo responsorium gradale quod est Posuisti Domine.</seg>
+            </p>
          </div>
          <div xml:id="div02">
+            <head source="#delta">ITEM CUIUSDAM DE EADEM RE NOVA EXPOSITIO</head>
             <pb n="183"/>
+            <p source="#gamma" xml:id="p41">
+               <num>§41</num>
+               <seg xml:id="p41.s1" n="1">A prima quoque specie diapason, quae est mese, id est o, inchoatur primus
+                  tropus: finiturque in diapente remissum, quod est e, et haec est forma NOANNOEANE: habet autem 5
+                  differentias et 9 loca in nocturnis.</seg>
+               <seg xml:id="p41.s2" n="2">Est namque prima differentia in o quae habet duo loca, primum in se: Veniet
+                  Dominus, secundum in i enarmonio remisso: Apertis thesauris suis.</seg>
+               <seg xml:id="p41.s3" n="3">Secunda vero differentia in m lichanos meson, quae habet tria loca in se:
+                  Canite tuba. Diatessaron remissum in e: Ecce nomen Domini, diapente remissum in c: Intempesta
+                  nocte.</seg>
+               <seg xml:id="p41.s4" n="4">Tertia differentia in i quae habet unum locum: se, diatessaron scilicet
+                  remissum in c: O beatum pontificem.</seg>
+               <seg xml:id="p41.s5" n="5">Quarta differentia est in H quae habet unum locum in se: Inclinans se
+                  Iesus.</seg>
+               <seg xml:id="p41.s6" n="6">Quinta differentia est in e quae habet duo loca: se, Euge serve bone,
+                  sesquioctavum remissum in C: Sint lumbi vestri.</seg>
+               <seg xml:id="p41.s7" n="7">Concluditurque hujus tropi forma intra integrum diapente:</seg>
+               <seg xml:id="p41.s8" n="8">et singulae chordae singulas retinent differentias, et prima differentia duo
+                  habet loca, secunda tria, tertia unum, quarta unum, quinta duo:</seg>
+               <seg xml:id="p41.s9" n="9">unde constat, ut hic tropus quinque habeat differentias, et novem loca in
+                  nocturnis.</seg>
+            </p>
             <pb n="184"/>
+            <p source="#gamma" xml:id="p42">
+               <num>§42</num>
+               <seg xml:id="p42.s1" n="1">In diurnis autem hic tropus tres habet differentias:</seg>
+               <seg xml:id="p42.s2" n="2">primam in i, quae habet unum locum in c, ut Inclina Domine;</seg>
+               <seg xml:id="p42.s3" n="3">secunda in h (?) quae habet locum in e: Statuit;</seg>
+               <seg xml:id="p42.s4" n="4">tertia in e, quae habet locum in se: Gaudete.</seg>
+               <seg xml:id="p42.s5" n="5">Unde apparet ut singulae in diurnis differentiae singula habent loca.</seg>
+            </p>
             <pb n="185"/>
+            <p source="#gamma" xml:id="p43">
+               <num>§43</num>
+               <seg xml:id="p43.s1" n="1">Propter admirabilem igitur hujus tropi differentiarum naturam, a quibusdam in
+                  symphonia ejus c non additur, quia nulla differentia insignitur.</seg>
+            </p>
+            <p source="#gamma" xml:id="p44">
+               <num>§44</num>
+               <seg xml:id="p44.s1" n="1">Hujus autem in nocturnis sic currit versus: Gloria Patri et caetera. In
+                  diurnis sic currit versus: Gloria Patri et caetera.</seg>
+            </p>
             <p corresp="#p182" source="#alpha">
                <num>§182</num>
                <seg xml:id="p182.s1" n="1">Tonus secundus ter VI. id est XVIII. ad XII. per sesquialteram proportionem
@@ -529,6 +604,7 @@
             </p>
          </div>
          <div xml:id="div03">
+            <head source="#delta">DE SECUNDO TONO SEQUITUR IN EADEM EXPOSITIONE</head>
             <pb n="126"/>
             <p source="#beta" xml:id="p45">
                <num>§45</num>
@@ -598,9 +674,50 @@
                   proportio, id est diatessaron symphonia colligitur, et reliqua.</seg>
             </p>
             <pb n="130"/>
+            <p xml:id="p53" source="#delta">
+               <num>§53</num>
+               <seg xml:id="p53.s1" n="1">Cum haec ita sint, certum est quod paranete diezeugmenon hypodorii, cui
+                  adscribuntur VI., sit meses dorii.</seg>
+               <seg xml:id="p53.s2" n="2">Ad quam mesen dorii se pervenerit cantus secundi tropi, jam potius dicetur
+                  dorii quam hypodorii,</seg>
+               <seg xml:id="p53.s3" n="3">ut est in responsorio gradali Universi qui te expectant.</seg>
+               <seg xml:id="p53.s4" n="4">Quod per differentiam quae est XII. passim excurrit inter bis XII. et
+                  XII.,</seg>
+               <seg xml:id="p53.s5" n="5">cujus versus habens in responsorium primordio intensum diapente, a XVIII.
+                  videlicet in XII, percurrit VIIII., qui sunt differentia a bis VIIII. in VIIII.</seg>
+               <seg xml:id="p53.s6" n="6">Responsorium quoque nocturnale quod est Circumdederunt me cum suo versu unum
+                  tonum ultra differentiam quam diximus constare inter XXIIII. et XII. acuendo peragit.</seg>
+            </p>
          </div>
          <div xml:id="div04">
+            <head source="#delta">ITEM DE SECUNDO TONO NOVA CUIUSDAM EXPOSITIO</head>
+            <p source="#gamma" xml:id="p54">
+               <num>§54</num>
+               <seg xml:id="p54.s1" n="1">A quarta specie diapason, quae est in e, ubi finitur primus tropus, inchoatur
+                     <pb n="186"/> et secundus.</seg>
+               <seg xml:id="p54.s2" n="2">Ibique finitur, ubi et inchoatur.</seg>
+               <seg xml:id="p54.s3" n="3">Concluditur autem ejus forma intra diapente, quod est ab m ad c.</seg>
+               <seg xml:id="p54.s4" n="4">Hujus autem tropi haec est forma NOEAGIS.</seg>
+            </p>
+            <p source="#gamma" xml:id="p55">
+               <num>§55</num>
+               <seg xml:id="p55.s1" n="1">Habet hic tropus differentiam in nocturnis unam in e quae habet tria loca:
+                  diatessaron remissum in a, ut Laetentur caeli; sesquioctavum remissum in c: Igitur; se ut Juste et
+                  pie.</seg>
+               <seg xml:id="p55.s2" n="2">Unde constat ut hic tropus unam habeat differentiam in nocturnis, et tria
+                  loca.</seg>
+            </p>
+            <p source="#gamma" xml:id="p56">
+               <num>§56</num>
+               <seg xml:id="p56.s1" n="1">In diurnis hic tropus ipsam habet differentiam et ipsa loca: diatessaron
+                  remissum in a, ut Ecce advenit; tonum remissum in c: Sitientes; se, ut De necessitatibus.</seg>
+            </p>
             <pb n="187"/>
+            <p source="#gamma" xml:id="p57">
+               <num>§57</num>
+               <seg xml:id="p57.s1" n="1">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
+                  diurnis autem sic currit versus: Gloria Patri et caetera.</seg>
+            </p>
             <p corresp="#p183" source="#alpha">
                <num>§183</num>
                <seg xml:id="p183.s1" n="1">Tonus tertius est, qui ideo duo a. habet propter primam mensuram autenti
@@ -619,6 +736,7 @@
             </p>
          </div>
          <div xml:id="div05">
+            <head source="#delta">SEQUITUR TONORUM EXPOSITOR DE TERTIO TONO</head>
             <pb n="133"/>
             <p source="#beta" xml:id="p58">
                <num>§58</num>
@@ -692,13 +810,64 @@
                <seg xml:id="p67.s3" n="3">quae si loca mota fuerint, totam qualitatem tropi transmutant, suo loco
                   servata conservant.</seg>
             </p>
+            <p xml:id="p68" source="#delta">
+               <num>§68</num>
+               <seg xml:id="p68.s1" n="1">Ad id quoque multum soni prosunt, quos dicunt protum, deuterum et
+                  reliqua.</seg>
+            </p>
             <pb n="139"/>
+            <p xml:id="p69" source="#delta">
+               <num>§69</num>
+               <seg xml:id="p69.s1" n="1">Propter triplum et quadruplum, quod ait, sciendum est quod secundus tropus ter
+                  VI. in lichanos hypaton consumat; tertius vero quater VI. in proslambanomenon determinat, qui
+                  superiore nervo una sesquioctava brevior constat.</seg>
+            </p>
             <pb n="140"/>
+            <p xml:id="p70" source="#delta">
+               <num>§70</num>
+               <seg xml:id="p70.s1" n="1">Subjungit quod quater VI. ad quater III. de XII. diapason sit,</seg>
+               <seg xml:id="p70.s2" n="2">quia primus duodenarius, id est bis VI., ad suam mesen pervenit, cujus quartam
+                  partem, id est III., frequentius percurrunt mela ejusdem tropi,</seg>
+               <seg xml:id="p70.s3" n="3">descenduntque per quartam partem de bis XII. ut ita diapason complere
+                  possint.</seg>
+            </p>
             <pb n="141"/>
+            <p xml:id="p71" source="#delta">
+               <num>§71</num>
+               <seg xml:id="p71.s1" n="1">Hoc quoque senties canendo AIANEOEANE.</seg>
+            </p>
+            <p xml:id="p72" source="#delta">
+               <num>§72</num>
+               <seg xml:id="p72.s1" n="1">Siquidem a paramese, peracta quarta specie diapente, ad lichanos hypaton
+                  descendit, et ad lichanos meson per singulas chordas ascendendo diapente intendit, rursusque ad trite
+                  diezeugmenon gravando remittit; ad extremum in sua finali.</seg>
+            </p>
+            <p xml:id="p73" source="#delta">
+               <num>§73</num>
+               <seg xml:id="p73.s1" n="1">Quam finalem primam tangit gradalis antiphona quae est Confessio et
+                  pulchritudo, et sic usque ad III. de XII. ascendit, ac deinde ad finalem suam redit.</seg>
+            </p>
             <pb n="142"/>
+            <p xml:id="p74" source="#delta">
+               <num>§74</num>
+               <seg xml:id="p74.s1" n="1">Quo etiam incipit semitonio intenso antiphona Cognovi Domine et Dum clamarem
+                  ad Dominum.</seg>
+            </p>
+            <p xml:id="p75" source="#delta">
+               <num>§75</num>
+               <seg xml:id="p75.s1" n="1">Nocturnales quoque antiphonae vel responsoria eodem modo currunt Malos male
+                  perdet et Peccavi super numerum, alleluia etiam Spiritus Domini et offertorium Deus tu convertens
+                  vivifica.</seg>
+            </p>
+            <p xml:id="p76" source="#delta">
+               <num>§76</num>
+               <seg xml:id="p76.s1" n="1">Sic eodem tropo non tantum per diapason intra XXXVI. vel diapente intra XXX.,
+                  sed etiam per diatessaron frequentius intensam vel remissam canitur.</seg>
+            </p>
          </div>
          <div xml:id="div06">
             <pb n="143"/>
+            <head source="#delta">DE QUARTO TONO.</head>
             <p corresp="#p184" source="#alpha">
                <num>§184</num>
                <seg xml:id="p184.s1" n="1">Tonus quartus bis XII. ad ter VIII. et ad ter VI. bis VIII. una consonantia
@@ -808,13 +977,99 @@
                   retinet, nec eam in minoribus antiphonis excedit.</seg>
                <seg xml:id="p86.s2" n="2">Quod si fecerit, jam vim phrygii obtinebit.</seg>
             </p>
+            <p source="#delta" xml:id="p87">
+               <num>§87</num>
+               <seg xml:id="p87.s1" n="1">Ceterum ejus melodia, quae est NOEAGIS, ab hypate meson, hoc est a semitonio
+                  intenso incipit, et in eadem finalem, transcurso diapente, desinit.</seg>
+            </p>
             <pb n="150"/>
+            <p xml:id="p88" source="#delta">
+               <num>§88</num>
+               <seg xml:id="p88.s1" n="1">Quomodo autem omnis diatessaron septenario mensuretur per IIII. et III. supra
+                  rel[-atum est.</seg>
+               <!-- komisches zeichen -->
+               <seg xml:id="p88.s2" n="2">Hic vero in bis XII. et ter VIII. sunt quater VI., et in bis VIIII. sunt ter
+                  VI.</seg>
+            </p>
+            <p xml:id="p89" source="#delta">
+               <num>§89</num>
+               <seg xml:id="p89.s1" n="1">Sequuntur gradales antiphonae, quarum prima est Resurrexi.</seg>
+               <seg xml:id="p89.s2" n="2">Cujus est initium lichanos hypaton, medium et finis hypate meson, acuminis
+                  summitas mese.</seg>
+               <seg xml:id="p89.s3" n="3">Gradale <hi>quoque responsorium Haec dies, nocturnale Rex noster, quod acuendo
+                     paramesen preterit. Alleluia etiam Pascha nostrum in hoc tropo consistit, quod pene ad suum
+                     diapason pervenit.</hi>
+               </seg>
+            </p>
          </div>
          <div xml:id="div07">
+            <head source="#delta">ITEM DE TERTIO ET QUARTO NOVA CUIUSDAM EXPOSITIO</head>
             <!-- i/j normalisierung?? (vorher: cujusdam) -->
+            <p source="#gamma" xml:id="p90">
+               <num>§90</num>
+               <seg xml:id="p90.s1" n="1">A prima specie diapason et primus, propter quamdam naturam, inchoatur et
+                  tertius tropus, finiturque in diatessaron: in h scilicet concluditur ejus forma intra diapente o ad e
+                  et diatessaron o ad cc.</seg>
+            </p>
+            <p source="#gamma" xml:id="p91">
+               <num>§91</num>
+               <seg xml:id="p91.s1" n="1">Hujus enim tropi talis est forma NOEOEANE.</seg>
+            </p>
+            <p source="#gamma" xml:id="p92">
+               <num>§92</num>
+               <seg xml:id="p92.s1" n="1">Habet enim hic tropus in nocturnis differentias tres:</seg>
+               <seg xml:id="p92.s2" n="2">unam in m, quae habet unum locum, se: Qui odit animam;</seg>
+               <seg xml:id="p92.s3" n="3">alteram in o quae habet unum locum, diatessaron remissum in h: Qui de terra
+                  est;</seg>
+               <seg xml:id="p92.s4" n="4">tertiam in x quae habet enarmonium remissum in m: Et respicientes.</seg>
+            </p>
             <pb n="188"/>
+            <p source="#gamma" xml:id="p93">
+               <num>§93</num>
+               <seg xml:id="p93.s1" n="1">In diurnis enim hic tropus easdem habet differentias et eadem loca:</seg>
+               <seg xml:id="p93.s2" n="2">
+                  <hi>m</hi> ut Ego autem cum justitia;</seg>
+               <seg xml:id="p93.s3" n="3">
+                  <hi>o</hi> differentiam et h locum: Dum sanctificatus.</seg>
+            </p>
+            <p source="#gamma" xml:id="p94">
+               <num>§94</num>
+               <seg xml:id="p94.s1" n="1">Hujus autem tropi in nocturnis sic currit versus: Gloria Patri. In diurnis
+                  enim sic currit versus: Gloria Patri et caetera.</seg>
+            </p>
+            <p source="#delta" xml:id="p94a">
+               <num>§94'</num>
+               <seg>De quarto.</seg>
+            </p>
             <!-- ist das evtl eine Überschrift? -->
+            <p source="#gamma" xml:id="p95">
+               <num>§95</num>
+               <seg xml:id="p95.s1" n="1">A quinta specie diapason ubi finitur tertius tropus inchoatur et quartus, ab h
+                  scilicet, et finitur in eadem h.</seg>
+               <seg xml:id="p95.s2" n="2">Concluditur autem ejus forma intra diapente, quod est ab o ad e, addito
+                  sesquioctavo remisso c ad e.</seg>
+               <seg xml:id="p95.s3" n="3">Hujus enim tropi haec est forma NOEAGIS.</seg>
+            </p>
+            <p source="#gamma" xml:id="p96">
+               <num>§96</num>
+               <seg xml:id="p96.s1" n="1">Habet enim hic tropus in nocturnis differentias II.</seg>
+               <seg xml:id="p96.s2" n="2">Primam in h, quae habet III. loca: se, O quam clarus est; i, Jerusalem;
+                  sesquioctavum remissum in e: Rubum quem viderat.</seg>
+               <seg xml:id="p96.s3" n="3">Secunda differentia est in e, quae habet unum locum in c: Bethlehem non eris
+                  minima.</seg>
+               <seg xml:id="p96.s4" n="4">Unde constat ut hic tropus duas habet differentias et duplicata loca in
+                  nocturnis.</seg>
+            </p>
             <pb n="190"/>
+            <p source="#gamma" xml:id="p97">
+               <num>§97</num>
+               <seg xml:id="p97.s1" n="1">In diurnis enim hic tropus unam habet differentiam in m, ut Resurrexi.</seg>
+            </p>
+            <p source="#gamma" xml:id="p98">
+               <num>§98</num>
+               <seg xml:id="p98.s1" n="1">Hujus enim in nocturnis sic currit versus: Gloria Patri et caetera. In diurnis
+                  sic: Gloria Patri et caetera.</seg>
+            </p>
             <p corresp="#p185" source="#alpha">
                <num>§185</num>
                <seg xml:id="p185.s1" n="1">Tonus quintus totus semper diapenticus per denarium est, quia ter VIII. ad
@@ -828,6 +1083,7 @@
             </p>
          </div>
          <div xml:id="div08">
+            <head source="#delta">SEQUITUR EXPOSITOR DE QUINTO TONO</head>
             <pb n="151"/>
             <p source="#beta" xml:id="p99">
                <num>§99</num>
@@ -863,11 +1119,70 @@
                   illinc XLVIII. respicit, et ad ter VIII. uterque numerus diapason facit.</seg>
             </p>
             <pb n="153"/>
+            <p xml:id="p103" source="#delta">
+               <num>§103</num>
+               <seg xml:id="p103.s1" n="1">Porro ter XII. ad partem gravem observat metas ejusdem tropi, quoniam a trite
+                  diezeugmenon sub tertia specie diatessaron inchoans, tertiam speciem diapente deorsum in sua melodia,
+                  quae est NOEOEANE, peragit usque ad parhypate meson, quae est sua finalis.</seg>
+            </p>
             <pb n="154"/>
+            <p xml:id="p104" source="#delta">
+               <num>§104</num>
+               <seg xml:id="p104.s1" n="1">Gradalis enim antiphona Domine refugium ad eamdem chordam bis redit, et sicut
+                  Circumdederunt incipit; ita et offertorium Immittit Angelus.</seg>
+               <seg xml:id="p104.s2" n="2">Nocturnale quoque responsorium Obsecro Domine a mese enarmonico remisso
+                  inchoat, ut statim chromaticum intensum se ingerat.</seg>
+            </p>
+            <p xml:id="p105" source="#delta">
+               <num>§105</num>
+               <seg xml:id="p105.s1" n="1">Secunda species enim diapason, quae a paramese incipit, in eo est singularis,
+                  quod tres tonos deorsum absque semitonio una serie directim digerit,</seg>
+               <seg xml:id="p105.s2" n="2">nec in eadem diapason inter VI. et XII. novenarius incurrit, atque idcirco
+                  ibidem adjuvat plurimus synemmenon tetrachordum.</seg>
+            </p>
             <pb n="155"/>
+            <p xml:id="p106" source="#delta">
+               <num>§106</num>
+               <seg xml:id="p106.s1" n="1">Alleluia etiam Beatus vir a finali chorda ejusdem tropi ad octavam sursum
+                  versus totam quintam speciem diapason percurrit.</seg>
+            </p>
+            <p xml:id="p107" source="#delta">
+               <num>§107</num>
+               <seg xml:id="p107.s1" n="1">In praedictis vero numeris consonantia diapente sub mensura quinaria cadit,
+                     <pb n="156"/> quoniam ter VIII. et quater VI. ad bis XII. rediguntur.</seg>
+               <seg xml:id="p107.s2" n="2">Quater vero 9 ad ter 12 ut binarius et ternarius, qui faciunt 5, conservent
+                  suum diapente.</seg>
+            </p>
          </div>
          <div xml:id="div09">
+            <head source="#delta">DE QUINTO TONO NOVA CUIUSDAM EXPOSITIO</head>
+            <p source="#gamma" xml:id="p108">
+               <num>§108</num>
+               <seg xml:id="p108.s1" n="1">A tertia specie diapason, quae est y, inchoatur quintus tropus, finiturque in
+                  diapente quod est i.</seg>
+               <seg xml:id="p108.s2" n="2">Concluditur enim ejus forma diapente quod est y ad i, addito enarmonio quod
+                  est y ad DD.</seg>
+               <seg xml:id="p108.s3" n="3">Hujus enim tropi haec est forma: NOEOEANE.</seg>
+            </p>
+            <p source="#gamma" xml:id="p109">
+               <num>§109</num>
+               <seg xml:id="p109.s1" n="1">Habet autem hic tropus duas differentias in nocturnis:</seg>
+               <seg xml:id="p109.s2" n="2">unam in o quae habet duo loca: se, Obsecro, Domine; enarmonium remissum in i:
+                  Vox clamantis.</seg>
+               <seg xml:id="p109.s3" n="3">Alteram differentiam in y, quae habet unum locum, se scilicet: Hodie
+                  nobis.</seg>
+            </p>
             <pb n="191"/>
+            <p source="#gamma" xml:id="p110">
+               <num>§110</num>
+               <seg xml:id="p110.s1" n="1">In diurnis autem hic tropus III. habet differentias et III. loca: se, Exaudi
+                  Deus; alteram in m, quae habet unum locum in i: Circumdederunt me; tertiam in y: Justus Dominus.</seg>
+            </p>
+            <p source="#gamma" xml:id="p111">
+               <num>§111</num>
+               <seg xml:id="p111.s1" n="1">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
+                  diurnis sic currit versus: Gloria Patri et caetera.</seg>
+            </p>
             <p corresp="#p186" source="#alpha">
                <num>§186</num>
                <seg xml:id="p186.s1" n="1">Tonus sextus est sexies VI. ad sexies IIII. de bis XII. et quater VIIII. ad
@@ -882,6 +1197,7 @@
             </p>
          </div>
          <div xml:id="div10">
+            <head source="#delta">SEQUITUR IDEM EXPOSITOR DE SEXTO TONO</head>
             <p source="#beta" xml:id="p112">
                <num>§112</num>
                <seg xml:id="p112.s1" n="1">Tonus sextus est sexies VI. ad sexies IIII. de bis XII., et quater VIIII. ad
@@ -934,9 +1250,57 @@
                   XII., quod nihil est aliud nisi quia ter VIII. et bis XII. idem valent ad XII. quod praedicta diapason
                   in minoribus numeris, hoc est VI. ad XII.</seg>
             </p>
+            <p xml:id="p119" source="#delta">
+               <num>§119</num>
+               <seg xml:id="p119.s1" n="1">Nam a sua finali, quae est parhypate meson, diapente superius et diatessaron
+                  inferius currit.</seg>
+               <seg xml:id="p119.s2" n="2">Ex quibus utrisque consonantiis semper diapason existit, sicut animadvertere
+                  potes in antiphona quae est Omnes gentes.</seg>
+            </p>
+            <p xml:id="p120" source="#delta">
+               <num>§120</num>
+               <seg xml:id="p120.s1" n="1">Quandoquidem et ad parhypate hypaton descendit, et ad trite diezeugmenon, ut
+                  dictum est, diapason existit.</seg>
+               <seg xml:id="p120.s2" n="2">Eodem modo ascendit et descendit offertorium Stetit angelus, nocturnale
+                  quoque responsorium cum suo versu quod est Aspiciebam, et Esto nobis ad nete hyperbolaeon videntur
+                  ascendere.</seg>
+            </p>
             <pb n="160"/>
+            <p xml:id="p121" source="#delta">
+               <num>§121</num>
+               <seg xml:id="p121.s1" n="1">Alleluia etiam Omnes gentes ejusdem tropi melodia, quae est AANNES, intonando
+                  retinet.</seg>
+               <seg xml:id="p121.s2" n="2">Siquidem ipsa melodia ascendendo mesen tangit, ac postea tertiam speciem
+                  diatessaron descendendo remittit.</seg>
+            </p>
          </div>
          <div xml:id="div11">
+            <head source="#delta">ITEM DE SEXTO TONO NOVA CUIUSDAM EXPOSITIO</head>
+            <p source="#gamma" xml:id="p122">
+               <num>§122</num>
+               <seg xml:id="p122.s1" n="1">A sexta specie diapason, ubi finitur quintus tropus, inchoatur sextus, ab i
+                  videlicet.</seg>
+               <seg xml:id="p122.s2" n="2">Concluditur tamen ejus forma diapente, quod est o ad e, addita sesquioctava
+                  proportione ad gravem partem, scilicet e ad c.</seg>
+               <seg xml:id="p122.s3" n="3">Hujus enim tropi haec est forma NOEAGIS.</seg>
+            </p>
+            <p source="#gamma" xml:id="p123">
+               <num>§123</num>
+               <seg xml:id="p123.s1" n="1">Habet enim hic tropus in nocturnis differentiam unam, quae habet tria loca:
+                  se, Aspiciebam; enarmonium intensum in o: Modo veniet; diatessaron remissum in c: Per
+                  memetipsum.</seg>
+               <seg xml:id="p123.s2" n="2">Itaque hic tropus una differentia cum tribus insignitur locis.</seg>
+            </p>
+            <p source="#gamma" xml:id="p124">
+               <num>§124</num>
+               <seg xml:id="p124.s1" n="1">In diurnis ipsa differentia duo habet loca: se, Os justi; diatessaron
+                  remissum in c: Qui manducat carnem.</seg>
+            </p>
+            <p source="#gamma" xml:id="p125">
+               <num>§125</num>
+               <seg xml:id="p125.s1" n="1">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
+                  diurnis sic: Gloria Patri et caetera.</seg>
+            </p>
             <p corresp="#p187" source="#alpha">
                <num>§187</num>
                <seg xml:id="p187.s1" n="1">Tonus septimus ut in proportione quarti toni habet totum diatesseron,</seg>
@@ -946,6 +1310,7 @@
             </p>
          </div>
          <div xml:id="div12">
+            <head source="#delta">SEQUITUR EXPOSITOR DE SEPTIMO TONO</head>
             <pb n="161"/>
             <p xml:id="p126" source="#beta">
                <num>§126</num>
@@ -966,25 +1331,233 @@
                <seg xml:id="p128.s1" n="1">In proportione autem propria habet diapason, quod est quater VI. ad quater
                   XII., et sexies IIII. de bis XII. ad sexies VIII., qui numeri simul juncti faciunt XLVIII.</seg>
             </p>
+            <p xml:id="p129" source="#delta">
+               <num>§129</num>
+               <seg xml:id="p129.s1" n="1">Siquidem a paranete diezeugmenon melodia hujus tropi inchoans, in lichanos
+                  meson, quae est sua finalis, desinit per diatessaron et tonum, faciens primitus diapente
+                  remissum;</seg>
+               <seg xml:id="p129.s2" n="2">tum deinde tertiam speciem ipsius diapente infra eam kconsonantiam videatur
+                  consistere;</seg>
+               <seg xml:id="p129.s3" n="3">et quia sursum versus a sua finali hic septimus tropus septimam speciem
+                  diapason exsequitur, sicut quartus diatessaron septenario, et sicut quintus diapente denario
+                  mensurabitur.</seg>
+               <seg xml:id="p129.s4" n="4">Hujus enim speciei paranete hyperbolaeon est ad acutam partem finis.</seg>
+               <!-- war vorher anders -->
+            </p>
             <p corresp="#p188" source="#alpha">
                <num>§188</num>
                <seg xml:id="p188.s1" n="1">Tonum octavum require supra.</seg>
             </p>
             <pb n="163"/>
+            <p source="#delta" xml:id="p129a">
+               <num>§129'</num>
+               <seg xml:id="p129a.s1" n="1">[Sequitur de septimo simul et octavo.]</seg>
+            </p>
+            <p source="#delta" xml:id="p130">
+               <num>§130</num>
+               <seg xml:id="p130.s1" n="1">Ubi autem melodia hujus tropi, quae est NOEOEANE, desinit, melodia octavi
+                  tropi, quae est NOEAGIS, per diatessaron intensum incipit, quod statim remittit;</seg>
+               <seg xml:id="p130.s2" n="2">nec a suo principali praeter hanc differentiam discrepat, quod suo nomine
+                  hypermixlydius designat;</seg>
+               <seg xml:id="p130.s3" n="3">hypermixolydius sane dicitur, quod mixolydium transcendit, qui juxta
+                  Ptolomaeum octavam speciem diapason, omnibus reliquis, acutiorem percurrit, constans quarti et quinti
+                  toni proprietatibus, sicut mixolydius.</seg>
+            </p>
             <pb n="164"/>
+            <p source="#delta" xml:id="p131">
+               <num>§131</num>
+               <seg xml:id="p131.s1" n="1">Cantatur autem mixolydius in gradalibus antiphonis Puer natus est nobis et
+                  Audivit Dominus.</seg>
+               <seg xml:id="p131.s2" n="2">Et nocturnalia responsoria eodem modo incipiunt Responsorium Iste est frater
+                  vester minimus et Dixit Judas fratribus suis.</seg>
+               <seg xml:id="p131.s3" n="3">Ceterum prima antiphona Puer natus est diapente ad paranete diezeugmenon
+                  intendit, ubi melodia hujus tropi tale habet initium quale et responsorium Ecce dies veniunt,
+                  Responsorium Nascetur nobis, de hoc tropo eodem modo incipit.</seg>
+            </p>
+            <p source="#delta" xml:id="p132">
+               <num>§132</num>
+               <seg xml:id="p132.s1" n="1">Porro cantilenae octavi tropi more subjugalium infra quartam speciem diapason
+                  decurrunt.</seg>
+            </p>
+            <p source="#delta" xml:id="p133">
+               <num>§133</num>
+               <seg xml:id="p133.s1" n="1">Sunt autem a mese superius quatuor chordae, quibus synemmenae sunt proximae
+                  et e latere vicinae, quae dant ab excellentiori parte exordium quatuor primis speciebus diapason,
+                  atque melodiis quatuor troporum.</seg>
+            </p>
+            <p source="#delta" xml:id="p134">
+               <num>§134</num>
+               <seg xml:id="p134.s1" n="1">Quorum videlicet troporum, sive etiam sonorum, primus graeca lingua dicitur
+                  protus, secundus deuterus, tertius tritus, quartus tetrardus, qui singuli a suis finalibus deorsum
+                  pentachordo, quod est diapente, differunt.</seg>
+               <seg xml:id="p134.s2" n="2">Superius vero tetrachordum, quod est diatessaron, requirunt, ut unusquisque
+                  suam speciem diapason teneat, per quam evagando sursum ac deorsum libere <pb n="197"/> currat. Cui
+                  scilicet diapason plerumque tonus exterius additur, qui emmelis, id est aptus melo, vocatur.</seg>
+            </p>
+            <p source="#delta" xml:id="p135">
+               <num>§135</num>
+               <seg xml:id="p135.s1" n="1">Sciendum quoque quod dorius maxime proto regitur, similiter phrygius deutero,
+                  lydius trito, mixolydius tetrardo.</seg>
+               <seg xml:id="p135.s2" n="2">Quos sonos in quibusdam cantilenis suae plagae quodammodo tangendo libant, ut
+                  plaga proti tangat protum, deuteri deuterum, triti tritum, tetrardi tetrardum.</seg>
+               <seg xml:id="p135.s3" n="3">Et id fas est experiri in gradalibus antiphonis.</seg>
+            </p>
             <pb n="198"/>
+            <p source="#delta" xml:id="p136">
+               <num>§136</num>
+               <seg xml:id="p136.s1" n="1">In responsoriis namque nocturnis vel diurnis, seu quibuslibet ecclesiasticis
+                  cantilenis, ipsae plagae horum sonorum limites ad placidum transcendunt, ac species diapason quas a
+                  graviore parte inchoaverant prout libuerit percurrunt;</seg>
+               <seg xml:id="p136.s2" n="2">quippe singulae chordae finales singulas adoriuntur species.</seg>
+            </p>
+            <p source="#delta" xml:id="p137">
+               <num>§137</num>
+               <seg xml:id="p137.s1" n="1">Quarum videlicet specierum metas principalium troporum superius et inferius
+                  observantium prima dorii est, secunda phrygii, tertia lydii, quarta mixolydii;</seg>
+               <seg xml:id="p137.s2" n="2">siquidem omnes species diapason et superius et inferius inchoari possunt,
+                  verbi gratia prima ab o in a vel ab a in o; secunda ab x in b vel a b in x; tertia ab y in c vel a c
+                  in y; quarta a cc in e vel ab e in cc; quinta a dd in h vel ab h in dd; sexta ab ff in i vel ab i in
+                  ff; septima ab nn in m vel ab m in nn...</seg>
+            </p>
             <pb n="199"/>
+            <p source="#delta" xml:id="p138">
+               <num>§138</num>
+               <seg xml:id="p138.s1" n="1">Sunt igitur quatuor superiores, id est o, x, y, cc; et quatuor inferiores, id
+                  est e, h, i, m.</seg>
+               <seg xml:id="p138.s2" n="2">Et superiores quidem excellentiori parte finiunt, hypodorium, hypophrygium,
+                  hypolydium, hypermixolydium.</seg>
+               <seg xml:id="p138.s3" n="3">Inferiores vero finiunt ex graviore parte, dorium, phrygium, lydium,
+                  mixolydium, unde et finales dictae sunt.</seg>
+            </p>
             <pb n="200"/>
+            <p source="#delta" xml:id="p139">
+               <num>§139</num>
+               <seg xml:id="p139.s1" n="1">Quapropter modulatio cantilenae infra speciem hypodorii decurrens sua est,
+                  superius ascendens dorii est.</seg>
+               <seg xml:id="p139.s2" n="2">Eodem modo infra speciem hypophrygii sua est, superius ascendens phrygii
+                  est.</seg>
+               <seg xml:id="p139.s3" n="3">Infra quoque speciem hypolydii sua est, superius ascendens lydii est.</seg>
+               <seg xml:id="p139.s4" n="4">(Et de hypermixolydio similiter intelligendum est).</seg>
+            </p>
+            <p source="#delta" xml:id="p140">
+               <num>§140</num>
+               <seg xml:id="p140.s1" n="1">Ergo modulationem cantilenae dorii ad excellentiorum partem finit cc,
+                  modulationem phrygii finit dd, modulationem lydii finit ff, modulationem mixolydii finit nn.</seg>
+               <seg xml:id="p140.s2" n="2">Unde fit ut dorius ab o aut descendat in e, aut ascendat in cc, hosque
+                  superius vel inferius habeat limites; similiter phrygius ab x aut descendat in h, aut ascendat in dd;
+                  eodem modo lydius ab y aut descendit in i, aut ascendit in ff. Mixolydius nihilominus ab cc aut
+                  descendit in m aut ascendit in nn.</seg>
+               <seg xml:id="p140.s3" n="3">Et semper unusquisque principalis tropus inferius habet diapente a media
+                  chorda, superius diatessaron, ac si VIII. sint inter <pb n="201"/> VI. et XII.</seg>
+               <seg xml:id="p140.s4" n="4">Subjugalis vero unusquisque tropus a finali chorda superius habet diapente,
+                  inferius vero diatessaron, ac si VIIII. sint inter VI. et XII.</seg>
+            </p>
+            <p source="#delta" xml:id="p141">
+               <num>§141</num>
+               <seg xml:id="p141.s1" n="1">Quod si superius vel inferius alicui tropo extra speciem dupli tonus
+                  accesserit, non erit absurdum emmelim ponere, ut sit a praedictis medietatibus ubicumque tetigerit
+                  hinc vel inde, diapente et tonus, vel diatessaron et tonus.</seg>
+            </p>
+            <p source="#delta" xml:id="p142">
+               <num>§142</num>
+               <seg xml:id="p142.s1" n="1">Restat dicere de tribus directaneis tonis, quorum tenorem synemmenon
+                  tetrachordum recidit, dum inter o et x trite synemmenon, id est q, intervenit;</seg>
+               <seg xml:id="p142.s2" n="2">nec tamen unquam ratio post paramesen sonare permittit, sed aut post o, aut
+                  post t, invenitur:</seg>
+               <seg xml:id="p142.s3" n="3">post o sicut in tertio sono hujus antiphonae Justus es Domine.</seg>
+            </p>
+            <p source="#delta" xml:id="p143">
+               <num>§143</num>
+               <seg xml:id="p143.s1" n="1">Tandem octavus tropus tenet eamdem speciem diapason quam et primus; tamen eo
+                  differt quod ille habet m mediam chordam suae qualitatis custodem: hic vero o sub proti nomine.</seg>
+            </p>
             <pb n="203"/>
+            <p source="#delta" xml:id="p144">
+               <num>§144</num>
+               <seg xml:id="p144.s1" n="1">Quam differentiam qui nescit, nunc in istum, nunc in illum vitiosus
+                  incurrit.</seg>
+               <seg xml:id="p144.s2" n="2">Ut est in antiphona Urbs fortitudinis, quae a primo tono incipit et in
+                  octavum desinit propter semitonium, quod chordae, quae est m, imprudens non suo loco subjunxit eo ubi
+                  aperite portas intulit.</seg>
+            </p>
             <pb n="204"/>
+            <p source="#delta" xml:id="p145">
+               <num>§145</num>
+               <seg xml:id="p145.s1" n="1">Ceterum in gradalibus antiphonis habet octavus tropus Ad te levavi et Domine
+                  ne longe facias.</seg>
+               <seg xml:id="p145.s2" n="2">In nocturnis antiphonis Repleti sunt omnes et Lux de luce. Nocturnalia
+                  responsoria Montes Gelboe et Dixit Ruben.</seg>
+               <seg xml:id="p145.s3" n="3">Diurna responsoria Dilexisti et Qui sedes. Offertorium Si ambulavero.</seg>
+            </p>
          </div>
          <div xml:id="div13">
+            <head source="#delta">ITEM DE SEPTIMO ET OCTAVO TONO NOVA CUIUSDAM EXPOSITIO</head>
             <pb n="193"/>
+            <p source="#gamma" xml:id="p146">
+               <num>§146</num>
+               <seg xml:id="p146.s1" n="1">A quarta specie diapason, quae est supra mese, inchoatur septimus tropus, id
+                  est cc, et finitur in diapente m.</seg>
+               <seg xml:id="p146.s2" n="2">Concluditur ejus forma intra diapente quod est cc ad m, addita sesquioctava
+                  proportione quod est ab m ad i.</seg>
+               <seg xml:id="p146.s3" n="3">Hujus tropi haec est forma NOEOEAGIS.</seg>
+            </p>
+            <p source="#gamma" xml:id="p147">
+               <num>§147</num>
+               <seg xml:id="p147.s1" n="1">Habet autem in nocturnis differentias III.:</seg>
+               <seg xml:id="p147.s2" n="2">unam in cc, quae habet unum locum, diapente remissum in m, ut Summae
+                  Trinitati;</seg>
+               <seg xml:id="p147.s3" n="3">alteram in y, quae habet duo loca: se, ut Dixit Judas; tonum intensum in cc
+                  ut Aspiciens.</seg>
+               <seg xml:id="p147.s4" n="4">Tertia differentia est in o, quae habet duo loca: se, Attende Domine ad me:
+                  tonum remissum in m ut Missus est Gabriel.</seg>
+               <seg xml:id="p147.s5" n="5">Et de hac differentia sunt omnes antiphonae quas vitio finis in quarto
+                  ponimus, ut Benedicta tu.</seg>
+            </p>
             <pb n="194"/>
+            <p source="#gamma" xml:id="p148">
+               <num>§148</num>
+               <seg xml:id="p148.s1" n="1">In diurnis huic tropo una differentia in m, quae habet unum locum, se
+                  scilicet ut Puer natus est.</seg>
+            </p>
+            <p source="#gamma" xml:id="p149">
+               <num>§149</num>
+               <seg xml:id="p149.s1" n="1">Sic enim in nocturnis currit versus: Gloria Patri et caetera. In diurnis:
+                  Gloria Patri.</seg>
+            </p>
+            <p source="#gamma" xml:id="p150">
+               <num>§150</num>
+               <seg xml:id="p150.s1" n="1">A septima specie diapason, quae est m, ubi finitur septimus, inchoatur
+                  octavus; ibi finitur ubi inchoatur.</seg>
+               <seg xml:id="p150.s2" n="2">Concluditur ejus forma intra diapente intensum m ad cc, addita sesquioctava
+                  proportione remissa, m ad i.</seg>
+               <seg xml:id="p150.s3" n="3">Hujus tropi talis est forma NOEAGIS.</seg>
+            </p>
             <pb n="195"/>
+            <p source="#gamma" xml:id="p151">
+               <num>§151</num>
+               <seg xml:id="p151.s1" n="1">Habet hic tropus in nocturnis differentiam unam, quae habet V. loca: se, Ecce
+                  dies veniunt; sesquioctavum remissum in i, ut Doceam iniquos; sesquioctavum intensum in o, ut
+                  Quodcumque; diatessaron &lt;remissum in e, . . ; diatessaron&gt; intensum in y, Ecce ancilla
+                  Domini.</seg>
+               <seg xml:id="p151.s2" n="2">Unde apparet quod hic tropus in nocturnis differentia cum V. locis
+                  insignitur.</seg>
+               <!-- war vorher anders segmentiert -->
+               <!-- was heißen die spitzklammern? -->
+            </p>
+            <p source="#gamma" xml:id="p152">
+               <num>§152</num>
+               <seg xml:id="p152.s1" n="1">In diurnis autem hic tropus unam habet differentiam, quae habet II. loca: se,
+                  ut In virtute tua; diatessaron remissum, ut Domine ne longe.</seg>
+            </p>
             <pb n="196"/>
+            <p source="#gamma" xml:id="p153">
+               <num>§153</num>
+               <seg xml:id="p153.s1" n="1">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
+                  diurnis autem taliter currit versus: Gloria Patri et caetera.</seg>
+            </p>
          </div>
          <div xml:id="div14">
+            <head source="#delta">SEQUITUR PRAEMISSUS EXPOSITOR</head>
             <p source="#alpha" xml:id="p154">
                <num>§154</num>
                <seg xml:id="p154.s1" n="1">Ut Vitruvius dixit in libro de Architectura, secundum physicos non plus sunt
@@ -1123,6 +1696,30 @@
                   dilatatur.</seg>
             </p>
             <pb n="171"/>
+            <p source="#gamma" xml:id="p168">
+               <num>§168</num>
+               <seg xml:id="p168.s1" n="1">Siquidem, ut dictum est, gradale Universi, qui te expectant, totam speciem
+                  diapason hypodorii, et insuper diapente percurrit, quatinus per triplum perficere possit;</seg>
+               <seg xml:id="p168.s2" n="2">est enim triplus, quando comparatur major numerus ad minorem; subtriplus
+                  vero, quando minor ad majorem.</seg>
+            </p>
+            <p source="#gamma" xml:id="p169">
+               <num>§169</num>
+               <seg xml:id="p169.s1" n="1">Quapropter XXIIII. ad VIII. et XVIII. ad VI. triplum esse necesse est, quorum
+                  alterum perficit cum suo versu cantileni praefati responsorii.</seg>
+            </p>
+            <p source="#gamma" xml:id="p170">
+               <num>§170</num>
+               <seg xml:id="p170.s1" n="1">Simplices vero tropi sunt qui una symphonia contenti sunt, quales sunt
+                  quartus et quintus:</seg>
+               <seg xml:id="p170.s2" n="2">quartus quidem cum per VII., hoc est per III. et IIII. quod <pb n="172"/> est
+                  diatessaron decurrit;</seg>
+               <seg xml:id="p170.s3" n="3">quintus quoque per X., hoc est per IIII. et VI. quod est diapente.</seg>
+               <seg xml:id="p170.s4" n="4">De quo, Boetius hic inquit, est simplicior ac princeps, quem lydium
+                  nuncupamus.</seg>
+               <seg xml:id="p170.s5" n="5">Unde Plato praecepit minime oportere pueros ad omnes modos erudiri, sed
+                  potius ad valentes et simplices.</seg>
+            </p>
             <pb n="173"/>
             <p source="#beta" xml:id="p171">
                <num>§171</num>
@@ -1247,6 +1844,7 @@
             </p>
          </div>
          <div xml:id="div15">
+            <head source="#delta">ITEM EXPOSITIO EORUMDEM TONORUM.</head>
             <pb n="85"/>
             <pb n="87"/>
             <pb n="88"/>

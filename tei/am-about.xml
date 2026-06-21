@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ALIA MUSICA</title>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="alpha">
+                  <name>α</name>
+               </witness>
+               <witness xml:id="beta">
+                  <name>β</name>
+                  <desc/>
+               </witness>
+               <witness xml:id="gamma">
+                  <name>γ</name>
+               </witness>
+               <witness xml:id="delta">
+                  <name>δ</name>
+               </witness>
+            </listWit>
+            <msDesc>
+               <msIdentifier>
+                  <repository>THESAURUS MUSICARUM LATINARUM</repository>
+               </msIdentifier>
+               <p>School of Music</p>
+               <p>Indiana University</p>
+               <p>Bloomington, IN 47405</p>
+               <p>(phone: [812] 855-5471; Internet: mathiese@indiana.edu)</p>
+               <p>Data entry: Stephen E. Hayes</p>
+               <p>Checked by: Peter M. Lefferts and Andreas Giger</p>
+               <p>Approved by: Thomas J. Mathiesen</p>
+               <p>Fn and Ft: ALIAMU TEXT</p>
+               <p>Author: Anonymous</p>
+               <p>Title: Alia musica</p>
+               <p>Source: Jacques Chailley, ed., Alia musica (Traite de musique du IXe siecle): Edition critique
+                  commentee avec une introduction sur l'origine de la nomenclature modale pseudo-grecque au Moyen-Age
+                  (Paris: Centre de documentation universitaire et Societe d'edition d'enseignement superieur reunis,
+                  1965), 85-88, 90-97, 99-111, 113-18, 120-30, 133-45, 147-74, 176-81, and 183-212. Used by
+                  permission.</p>
+               <p>Graphics: ALIAMU 01GF</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract xml:id="about">
+            <p>The Alia musica was not conceived by a single author at a single time. Instead, it is the result of a
+               layering of commentaries by successive authors (<persName ref="#beta">β</persName>, <persName ref="#gamma">γ</persName> and <persName ref="#delta">δ</persName>) upon a core treatise (<persName ref="#alpha">Author α</persName>). The text-historical edition represents this process of commenting
+               in its chronological order, as outlined by Charles M. Atkinson, The Critical Nexus: Tone-System, Mode,
+               and Notation in Early Medieval Music (Oxford, New York: Oxford University Press, 2009): 171-201. This
+               edition does not represent a specific manuscript or an archetype of transmission, but is intended to
+               display the stages of commentary in chronological order. Each stage in the genesis of the text can be
+               accessed separately.</p>
+            <p>
+               <persName ref="#alpha">Author δ</persName> played a particularly important role in the creation of the
+               final text. He acted not only as a commentator, but also structured the treatise as we know it from the
+               manuscript transmission by adding headings and changing the order of the material, placing most of the
+               core treatise, <persName ref="#alpha">α</persName>, at the end of the work. A comparison between the
+               genealogical order of commenting and the final arrangement, as represented in the manuscripts, is
+               provided by the overview.</p>
+         </abstract>
+         <abstract xml:id="edition-a">
+            <p>This is the core treatise for the Alia musica, Atkinson’s <persName ref="#alpha">Author α</persName>,
+               dating from the late 9th century. It presents 8 toni, or church modes, describing each both verbally and
+               mathematically.</p>
+         </abstract>
+         <abstract xml:id="edition-ab">
+            <p>This presents the core treatise by <persName ref="#alpha">Author α</persName> as framed and commented
+               upon by a second author, Atkinson´s <persName ref="#beta">Author β</persName> (early 10th c.).</p>
+         </abstract>
+         <abstract xml:id="edition-abg">
+            <p>This presents the core treatise (<persName ref="#alpha">Author α</persName>), its frame and commentary
+                  (<persName ref="#beta">Author β</persName>), and a tonary, the Nova expositio (<persName ref="#gamma">Author γ</persName>), transmitted independently, but added to the first two layers (later 10th
+               c.).</p>
+         </abstract>
+         <abstract xml:id="edition-abgd">
+            <p>This presents the sum of the core treatise and its commentaries. All parts of the text are located in the
+               order by which the commentary grew before <persName ref="#delta">Author δ</persName>’s final redaction,
+               which shifted <persName ref="#alpha">Author α</persName>’s work to the end of the treatise, where we find
+               it in the manuscripts of the complete work.</p>
+         </abstract>
+         <abstract xml:id="overview">
+            <p>This presents the organization of the entire treatise before and after <persName ref="#delta">Author
+                  δ</persName>’s rearrangement of the order of materials. „α + β + γ + δ“ shows the sum of the core
+               treatise and its commentaries, „Manuscript Order“ shows the arrangement of the text as we find it in the
+               manuscripts (e.g. Munich, Bayerische Staatsbibliothek, clm 14272, and Paris, Bibliothèque nationale de
+               France, lat. 7211) – the arrangement that <persName ref="#delta">Author δ</persName> created when he
+               shifted from commenting to redacting the final version of the treatise.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025?</date>
+               <name>Charles Atkinson</name>
+               <desc>Transcription</desc>
+            </change>
+            <change>
+               <date>2025-07-09</date>
+               <name>Torsten Roeder</name>
+               <desc>Conversion to TEI</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="intro">
+            <abstract xml:id="about">
+               <p>The Alia musica was not conceived by a single author at a single time. Instead, it is the result of a
+               layering of commentaries by successive authors (<persName ref="#beta">β</persName>, <persName ref="#gamma">γ</persName> and <persName ref="#delta">δ</persName>) upon a core treatise (<persName ref="#alpha">Author α</persName>). The text-historical edition represents this process of commenting
+               in its chronological order, as outlined by Charles M. Atkinson, The Critical Nexus: Tone-System, Mode,
+               and Notation in Early Medieval Music (Oxford, New York: Oxford University Press, 2009): 171-201. This
+               edition does not represent a specific manuscript or an archetype of transmission, but is intended to
+               display the stages of commentary in chronological order. Each stage in the genesis of the text can be
+               accessed separately.</p>
+               <p>
+                  <persName ref="#alpha">Author δ</persName> played a particularly important role in the creation of the
+               final text. He acted not only as a commentator, but also structured the treatise as we know it from the
+               manuscript transmission by adding headings and changing the order of the material, placing most of the
+               core treatise, <persName ref="#alpha">α</persName>, at the end of the work. A comparison between the
+               genealogical order of commenting and the final arrangement, as represented in the manuscripts, is
+               provided by the overview.</p>
+            </abstract>
+         </div>
+      </body>
+   </text>
+</TEI>
