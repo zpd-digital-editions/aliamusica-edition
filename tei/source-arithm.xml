@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ALIA MUSICA</title>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026</date>
+               <name>Konstatin Voigt</name>
+               <desc>Transcription</desc>
+            </change>
+            <change>
+               <date>2026</date>
+               <name>Torsten Roeder</name>
+               <desc>Conversion to TEI</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <standOff>
+      <bibl>Boethius, De arithmetica, Bk II, cap. 48</bibl>
+      <zone corresp="#p1.s2 #p1.s3" source="#p155.7 #p155.12" sameAs="De_inst_arith_II48.xml"/>
+      <zone>
+         <pb n="155"/>
+         <line xml:id="p155.1">Quare dicta sit armonica medietas ea, quae digesta est.</line>
+         <line xml:id="p155.2">XLVIII. Considerandum forsitan videatur, cur hanc</line>
+         <line xml:id="p155.3">armonicam medietatem vocemus. Cuius haec ratio est,</line>
+         <line xml:id="p155.4">quoniam arithmetica dispositio aequas tantum per diffe-</line>
+         <line xml:id="p155.5">rentias dividit quantitates, geometrica vero terminos aequa</line>
+         <line xml:id="p155.6">proportione coniungit, at vero armonica ad aliquid quo-</line>
+         <zone corresp="#p1.s2 #p1.s3">
+            <line xml:id="p155.7">dammodo relata consideratione neque solum in terminis</line>
+            <line xml:id="p155.8">speculationem proportionis habet neque solum in diffe-</line>
+            <line xml:id="p155.9">rentiis, sed in utrisque communiter. Quaerit enim, ut</line>
+            <line xml:id="p155.10">quemadmodum sunt ad se extremi termini, sic maioris ad</line>
+            <line xml:id="p155.11">medium differentia contra differentiam medietatis ad ulti-</line>
+            <line xml:id="p155.12">mum. Ad aliquid autem considerationem armonicae pro-</line>
+         </zone>
+         <line xml:id="p155.13">prie esse, in primi libri rerum omnium divisione monstra-</line>
+         <zone corresp="#p2.s1 #p2.s2">
+            <line xml:id="p155.14">vimus. Ipsarum quoque musicarum consonantiarum, quas</line>
+            <line xml:id="p155.15">symphonias nominant, proportiones in hac paene sola me-</line>
+            <line xml:id="p155.16">dietate frequenter invenies. Namque symphonia diatessaron,</line>
+            <line xml:id="p155.17">quae princeps est et quodammodo vim obtinens elementi,</line>
+            <line xml:id="p155.18">-- constituitur scilicet in epitrita proportione, ut est quater-</line>
+            <line xml:id="p155.19">narius ad ternarium -- in eiusmodi armonicis medietatibus</line>
+         </zone>
+         <zone corresp="#p3.s1 #p3.s2 #p3.s3 #p3.s4 #p3.s5 #p3.s6">
+            <line xml:id="p155.20">invenitur. Sint enim eiusmodi armonicae medietatis ter-</line>
+            <line xml:id="p155.21">mini, quorum extremi dupli sint, et rursus alia huiusmodi</line>
+            <line xml:id="p155.22">dispositio, quorum extremi tripli.</line>
+            <line xml:id="p155.23">III. IIII. VI. II. III. VI.</line>
+            <line xml:id="p155.24">Senarius igitur ad ternarium duplus est, idem autem se-</line>
+            <line xml:id="p155.25">narius in alia dispositione ad binarium triplus. Horum</line>
+            <line xml:id="p155.26">igitur si differentias colligamus et ad se invicem compare-</line>
+            <line xml:id="p155.27">mus, epitrita proportio colligetur, unde diatessaron sym-</line>
+            <pb n="156"/>
+            <line xml:id="p156.1">phonia resonabit. Inter .III. enim et .VI. ternarius est et</line>
+            <line xml:id="p156.2">inter binarium et senarium quaternarius, qui sibimet</line>
+            <line xml:id="p156.3">comparati sesquitertiam efficient proportionem.</line>
+            <line xml:id="p156.4">III. IIII. VI.</line>
+            <line xml:id="p156.5">differentiae</line>
+            <line xml:id="p156.6">III</line>
+            <line xml:id="p156.7">diatessaron sesquitertia</line>
+            <line xml:id="p156.8">IIII_________</line>
+            <line xml:id="p156.9">II. III. VI.</line>
+         </zone>
+         <zone corresp="#p4.s1">
+            <line xml:id="p156.10">In eadem quoque medietate et diapente symphonia com-</line>
+            <line xml:id="p156.11">ponitur, quam sesqualtera habitudo restituit. Nam in</line>
+         </zone>
+         <line xml:id="p156.12">utrisque dispositionibus his, quae subiectae sunt, in duplici</line>
+         <line xml:id="p156.13">senarius ad quaternarium sesqualter est et in triplici ter-</line>
+         <line xml:id="p156.14">narius ad binarium. Ex quibus utrisque diapente sym-</line>
+         <line xml:id="p156.15">phonia coniungitur-</line>
+         <line xml:id="p156.16">sesqualtera diapente</line>
+         <line xml:id="p156.17">III. IIII. VI.</line>
+         <line xml:id="p156.18">II. III. VI.</line>
+         <line xml:id="p156.19">sesqualtera diapente</line>
+         <zone corresp="#p5.s1 #p5.s2">
+            <line xml:id="p156.20">Post hanc autem diapason consonantia, quae fit ex duplici,</line>
+            <line xml:id="p156.21">ut est subiecta formula.</line>
+         </zone>
+         <line xml:id="p156.22">III. IIII. VI.</line>
+         <line xml:id="p156.23">duplex, diapason</line>
+         <line xml:id="p156.24">In triplici quoque dispositione simul diapente et diapason</line>
+         <line xml:id="p156.25">symphonia componitur servans sesqualteram et duplicem</line>
+         <line xml:id="p156.26">rationem, quod subiecta descriptio docet.</line>
+         <pb n="157"/>
+         <line xml:id="p157.1">II. III. VI</line>
+         <line xml:id="p157.2">triplus, diapente et diapason.</line>
+         <zone corresp="#p6.s1 #p6.s2">
+            <line xml:id="p157.3">Et quoniam triplus duas continet consonantias, diapente</line>
+            <line xml:id="p157.4">scilicet et diapason, in huius triplicis dispositione in diffe-</line>
+            <line xml:id="p157.5">rentiis eundem rursus triplum repperiemus, secundum</line>
+         </zone>
+         <line xml:id="p157.6">subter descriptum modum.</line>
+         <line xml:id="p157.7">triplus.</line>
+         <line xml:id="p157.8">differentiae.</line>
+         <line xml:id="p157.9">I. III.</line>
+         <line xml:id="p157.10">II. III. VI.</line>
+         <line xml:id="p157.11">diapente diapason</line>
+      </zone>
+   </standOff>
+</TEI>
