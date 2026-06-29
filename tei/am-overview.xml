@@ -18,7 +18,6 @@
                </witness>
                <witness xml:id="beta">
                   <name>β</name>
-                  <desc/>
                </witness>
                <witness xml:id="gamma">
                   <name>γ</name>
@@ -27,27 +26,6 @@
                   <name>δ</name>
                </witness>
             </listWit>
-            <msDesc>
-               <msIdentifier>
-                  <repository>THESAURUS MUSICARUM LATINARUM</repository>
-               </msIdentifier>
-               <p>School of Music</p>
-               <p>Indiana University</p>
-               <p>Bloomington, IN 47405</p>
-               <p>(phone: [812] 855-5471; Internet: mathiese@indiana.edu)</p>
-               <p>Data entry: Stephen E. Hayes</p>
-               <p>Checked by: Peter M. Lefferts and Andreas Giger</p>
-               <p>Approved by: Thomas J. Mathiesen</p>
-               <p>Fn and Ft: ALIAMU TEXT</p>
-               <p>Author: Anonymous</p>
-               <p>Title: Alia musica</p>
-               <p>Source: Jacques Chailley, ed., Alia musica (Traite de musique du IXe siecle): Edition critique
-                  commentee avec une introduction sur l'origine de la nomenclature modale pseudo-grecque au Moyen-Age
-                  (Paris: Centre de documentation universitaire et Societe d'edition d'enseignement superieur reunis,
-                  1965), 85-88, 90-97, 99-111, 113-18, 120-30, 133-45, 147-74, 176-81, and 183-212. Used by
-                  permission.</p>
-               <p>Graphics: ALIAMU 01GF</p>
-            </msDesc>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -99,7 +77,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2025?</date>
+               <date>2025</date>
                <name>Charles Atkinson</name>
                <desc>Transcription</desc>
             </change>
@@ -107,6 +85,11 @@
                <date>2025-07-09</date>
                <name>Torsten Roeder</name>
                <desc>Conversion to TEI</desc>
+            </change>
+            <change>
+               <date>2026-06-21</date>
+               <name>Torsten Roeder</name>
+               <desc>Transcription updated</desc>
             </change>
          </listChange>
       </revisionDesc>
@@ -555,9 +538,18 @@
                <num source="#gamma">
                   <ref target="../?doc=am-edition-abgd#p94">94</ref>
                </num>
-               <num source="#delta">
-                  <ref target="../?doc=am-edition-abgd#p94a">94'</ref>
-               </num>
+            </p>
+            <p rend="ms">
+               <num source="#gamma">90</num>
+               <num source="#gamma">91</num>
+               <num source="#gamma">92</num>
+               <num source="#gamma">93</num>
+               <num source="#gamma">94</num>
+            </p>
+         </div>
+         <div rend="columns">
+            <head>DE QUARTO.</head>
+            <p rend="edition">
                <num source="#gamma">
                   <ref target="../?doc=am-edition-abgd#p95">95</ref>
                </num>
@@ -575,12 +567,6 @@
                </num>
             </p>
             <p rend="ms">
-               <num source="#gamma">90</num>
-               <num source="#gamma">91</num>
-               <num source="#gamma">92</num>
-               <num source="#gamma">93</num>
-               <num source="#gamma">94</num>
-               <num source="#delta">94'</num>
                <num source="#gamma">95</num>
                <num source="#gamma">96</num>
                <num source="#gamma">97</num>

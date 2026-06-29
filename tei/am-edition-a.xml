@@ -18,7 +18,6 @@
                </witness>
                <witness xml:id="beta">
                   <name>β</name>
-                  <desc/>
                </witness>
                <witness xml:id="gamma">
                   <name>γ</name>
@@ -27,27 +26,6 @@
                   <name>δ</name>
                </witness>
             </listWit>
-            <msDesc>
-               <msIdentifier>
-                  <repository>THESAURUS MUSICARUM LATINARUM</repository>
-               </msIdentifier>
-               <p>School of Music</p>
-               <p>Indiana University</p>
-               <p>Bloomington, IN 47405</p>
-               <p>(phone: [812] 855-5471; Internet: mathiese@indiana.edu)</p>
-               <p>Data entry: Stephen E. Hayes</p>
-               <p>Checked by: Peter M. Lefferts and Andreas Giger</p>
-               <p>Approved by: Thomas J. Mathiesen</p>
-               <p>Fn and Ft: ALIAMU TEXT</p>
-               <p>Author: Anonymous</p>
-               <p>Title: Alia musica</p>
-               <p>Source: Jacques Chailley, ed., Alia musica (Traite de musique du IXe siecle): Edition critique
-                  commentee avec une introduction sur l'origine de la nomenclature modale pseudo-grecque au Moyen-Age
-                  (Paris: Centre de documentation universitaire et Societe d'edition d'enseignement superieur reunis,
-                  1965), 85-88, 90-97, 99-111, 113-18, 120-30, 133-45, 147-74, 176-81, and 183-212. Used by
-                  permission.</p>
-               <p>Graphics: ALIAMU 01GF</p>
-            </msDesc>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -99,7 +77,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2025?</date>
+               <date>2025</date>
                <name>Charles Atkinson</name>
                <desc>Transcription</desc>
             </change>
@@ -107,6 +85,11 @@
                <date>2025-07-09</date>
                <name>Torsten Roeder</name>
                <desc>Conversion to TEI</desc>
+            </change>
+            <change>
+               <date>2026-06-21</date>
+               <name>Torsten Roeder</name>
+               <desc>Transcription updated</desc>
             </change>
          </listChange>
       </revisionDesc>
@@ -119,23 +102,6 @@
                mathematically.</p>
          </div>
          <div xml:id="div01">
-            <pb n="99"/>
-            <pb n="100"/>
-            <pb n="101"/>
-            <pb n="103"/>
-            <pb n="105"/>
-            <pb n="106"/>
-            <pb n="107"/>
-            <pb n="108"/>
-            <pb n="109"/>
-            <pb n="110"/>
-            <pb n="111"/>
-            <pb n="113"/>
-            <pb n="114"/>
-            <pb n="115"/>
-            <pb n="116"/>
-            <pb n="117"/>
-            <pb n="120"/>
             <p xml:id="p181" source="#alpha" ana="#moved">
                <num>§181</num>
                <seg xml:id="p181.s1" n="1">Tonus primus VI. ad XII., id est XVIII. qui sunt ter VI. quae proportio
@@ -152,21 +118,13 @@
                   Terra, et germinet Salvatorem.</seg>
                <seg xml:id="p181.s5" n="5">Item introitum: Gaudete in Domino, et Inclina Domine, Iustus es Domine.
                   Similiter Antiphonae Urbs fortitudinis, Iohannes autem, Traditor.</seg>
-               <pb n="86"/>
                <seg xml:id="p181.s6" n="6">Et hoc videndum, quod saepe evenit, ut bis aut ter, aut totum etiam in
                   antiphonis, aut in quocumque [cantu] primi toni sit, aut per VI. et XII. quod est diapason, aut per V.
                   et X. quod est [diapente], aut per VII. totum, quod est diatessaron, [decurrit]:</seg>
                <seg xml:id="p181.s7" n="7">ut urbs fortitudinis, et Ioannes autem.</seg>
             </p>
-            <pb n="121"/>
-            <pb n="123"/>
-            <pb n="124"/>
-            <pb n="125"/>
          </div>
          <div xml:id="div02">
-            <pb n="183"/>
-            <pb n="184"/>
-            <pb n="185"/>
             <p xml:id="p182" source="#alpha" ana="#moved">
                <num>§182</num>
                <seg xml:id="p182.s1" n="1">Tonus secundus ter VI. id est XVIII. ad XII. per sesquialteram proportionem
@@ -190,13 +148,8 @@
             </p>
          </div>
          <div xml:id="div03">
-            <pb n="126"/>
-            <pb n="128"/>
-            <pb n="129"/>
-            <pb n="130"/>
          </div>
          <div xml:id="div04">
-            <pb n="187"/>
             <p xml:id="p183" source="#alpha" ana="#moved">
                <num>§183</num>
                <seg xml:id="p183.s1" n="1">Tonus tertius est, qui ideo duo a. habet propter primam mensuram autenti
@@ -215,26 +168,14 @@
             </p>
          </div>
          <div xml:id="div05">
-            <pb n="133"/>
-            <pb n="134"/>
-            <pb n="135"/>
-            <pb n="136"/>
-            <pb n="137"/>
-            <pb n="138"/>
-            <pb n="139"/>
-            <pb n="140"/>
-            <pb n="141"/>
-            <pb n="142"/>
          </div>
          <div xml:id="div06">
-            <pb n="143"/>
             <p xml:id="p184" source="#alpha" ana="#moved">
                <num>§184</num>
                <seg xml:id="p184.s1" n="1">Tonus quartus bis XII. ad ter VIII. et ad ter VI. bis VIII. una consonantia
                   numerorum in diapason VI. ad XII. id est XXIIII. conveniunt.</seg>
                <seg xml:id="p184.s2" n="2">Idcirco ter VI. non ad bis XII. comparatur, quoniam per ter non dividitur,
                   sed ter VIII. ad ter VI. comparatur; et bis VIIII. ad bis XII. per sesquiterciam proportionem.</seg>
-               <pb n="91"/>
                <seg xml:id="p184.s3" n="3">Totus iste tonus erit diatessaron semper.</seg>
                <seg xml:id="p184.s4" n="4">Consonantia autem diapason, id est, sex VI. ad XII. ter VI. et bis VIIII. et
                   ter VIII. et bis XII. faciunt.</seg>
@@ -243,17 +184,10 @@
                <seg xml:id="p184.s6" n="6">ut introitus: Resurrexi, et Misericordia Domini, et In voluntate tua, et
                   antiphonae Rubum quem viderat, Turba multa, et Tria sunt munera.</seg>
             </p>
-            <pb n="144"/>
-            <pb n="145"/>
-            <pb n="147"/>
-            <pb n="149"/>
-            <pb n="150"/>
          </div>
          <div xml:id="div07">
-            <!-- i/j normalisierung?? (vorher: cujusdam) -->
-            <pb n="188"/>
-            <!-- ist das evtl eine Überschrift? -->
-            <pb n="190"/>
+         </div>
+         <div xml:id="div08">
             <p xml:id="p185" source="#alpha" ana="#moved">
                <num>§185</num>
                <seg xml:id="p185.s1" n="1">Tonus quintus totus semper diapenticus per denarium est, quia ter VIII. ad
@@ -266,15 +200,9 @@
                   similia.</seg>
             </p>
          </div>
-         <div xml:id="div08">
-            <pb n="151"/>
-            <pb n="152"/>
-            <pb n="153"/>
-            <pb n="154"/>
-            <pb n="155"/>
-         </div>
          <div xml:id="div09">
-            <pb n="191"/>
+         </div>
+         <div xml:id="div10">
             <p xml:id="p186" source="#alpha" ana="#moved">
                <num>§186</num>
                <seg xml:id="p186.s1" n="1">Tonus sextus est sexies VI. ad sexies IIII. de bis XII. et quater VIIII. ad
@@ -284,17 +212,13 @@
                   LXXII.</seg>
                <seg xml:id="p186.s3" n="3">Totus enim iste aut per diapason consonantiam, id est, VI. et XII. aut per
                   diapente, id est, denarium mensurabitur,</seg>
-               <seg xml:id="p186.s4" n="4">ut introitus: <pb n="93"/> Os iusti, Omnes gentes, et Quasi modo geniti, et
-                  antiphonae O admirabile, et Vade satana, et Virgo hodie.</seg>
+               <seg xml:id="p186.s4" n="4">ut introitus: Os iusti, Omnes gentes, et Quasi modo geniti, et antiphonae O
+                  admirabile, et Vade satana, et Virgo hodie.</seg>
             </p>
          </div>
-         <div xml:id="div10">
-            <pb n="157"/>
-            <pb n="158"/>
-            <pb n="159"/>
-            <pb n="160"/>
-         </div>
          <div xml:id="div11">
+         </div>
+         <div xml:id="div12">
             <p xml:id="p187" source="#alpha" ana="#moved">
                <num>§187</num>
                <seg xml:id="p187.s1" n="1">Tonus septimus ut in proportione quarti toni habet totum diatesseron,</seg>
@@ -303,27 +227,15 @@
                   CXLIIII.</seg>
             </p>
          </div>
-         <div xml:id="div12">
-            <pb n="161"/>
+         <div xml:id="div13">
             <p xml:id="p188" source="#alpha" ana="#moved">
                <num>§188</num>
                <seg xml:id="p188.s1" n="1">Tonum octavum require supra.</seg>
             </p>
-            <pb n="163"/>
-            <pb n="164"/>
-            <pb n="198"/>
-            <pb n="199"/>
-            <pb n="200"/>
-            <pb n="203"/>
-            <pb n="204"/>
-         </div>
-         <div xml:id="div13">
-            <pb n="193"/>
-            <pb n="194"/>
-            <pb n="195"/>
-            <pb n="196"/>
          </div>
          <div xml:id="div14">
+         </div>
+         <div xml:id="div15">
             <p source="#alpha" xml:id="p154">
                <num>§154</num>
                <seg xml:id="p154.s1" n="1">Ut Vitruvius dixit in libro de Architectura, secundum physicos non plus sunt
@@ -333,8 +245,8 @@
                <seg xml:id="p154.s3" n="3">Nam in undis maris et fluminum semper magis sonat prima unda, quam septem
                   sequentes. Nona vero octavae similis est.</seg>
                <seg xml:id="p154.s4" n="4">Similiter in tonitruis octo discrimina, a quibus Pythagoras philosophus has
-                  octo tonorum consonantias praefatas ad harmoniam coeli in Atlante monte, qui est proximus <pb n="96"/>
-                  coelo, adinvenit,</seg>
+                  octo tonorum consonantias praefatas ad harmoniam coeli in Atlante monte, qui est proximus coelo,
+                  adinvenit,</seg>
                <seg xml:id="p154.s5" n="5">cujus proportiones instar quinque zonarum coeli perfecit, quarum temperie
                   mundus iste moderatur.</seg>
             </p>
@@ -345,7 +257,6 @@
                <seg xml:id="p155.s2" n="2">Denique, ut supra dictum est, ex V. tonis et semitoniis octavum perficitur
                   diapason, qui est primus tonus, ut VI. ad XII., ad quem omnis musicae consonantia refertur.</seg>
             </p>
-            <pb n="97"/>
             <p source="#alpha" xml:id="p156">
                <num>§156</num>
                <seg xml:id="p156.s1" n="1">Quicumque enim numerus ad XII. partiri potest, ita ut ad ipsum duodenarium
@@ -358,25 +269,8 @@
                   diatessaron in eodem quinto, et dupla diapason in octavo tono, una cum duplo et triplo (...)</seg>
                <!-- was heißen die runden klammern hier? -->
             </p>
-            <pb n="165"/>
-            <pb n="166"/>
-            <pb n="167"/>
-            <pb n="168"/>
-            <pb n="169"/>
-            <pb n="170"/>
-            <pb n="171"/>
-            <pb n="173"/>
-            <pb n="176"/>
-            <pb n="177"/>
-            <pb n="178"/>
          </div>
-         <div xml:id="div15">
-            <pb n="85"/>
-            <pb n="87"/>
-            <pb n="88"/>
-            <pb n="90"/>
-            <pb n="92"/>
-            <pb n="95"/>
+         <div xml:id="div16">
          </div>
       </body>
    </text>
