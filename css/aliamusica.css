@@ -4,6 +4,7 @@
 	--beta-color:#7aa456;
 	--gamma-color:#c65999;
 	--delta-color:#c96d44;
+	--neutral-color:#606060;
 }
 
 /* document level */
@@ -34,7 +35,7 @@ nav {
 	color:black;
 }
 nav a {
-	background-color:gray;
+	background-color:var(--neutral-color);
 	text-decoration:none;
 	padding:0.1rem 0.5rem;
 	margin:0 0.2rem;
@@ -88,7 +89,7 @@ tei-div tei-head {
 	line-height:1.5rem;
 	font-size:1.2rem;
 	font-family:Georgia, serif;
-	color:var(--delta-color);
+	color:var(--neutral-color);
 	display:block;
 	text-align:center;
 	padding:1rem 0 0.5rem 0;
@@ -180,15 +181,20 @@ tei-div > tei-pb::before {
 	float:left;
 }
 
+tei-head[rend='#alpha'],
 tei-persName[ref='#alpha'] {
 	color:var(--alpha-color);
 }
+tei-head[rend='#beta'],
 tei-persName[ref='#beta'] {
 	color:var(--beta-color);
 }
+tei-head[rend='#gamma'],
 tei-persName[ref='#gamma'] {
 	color:var(--gamma-color);
 }
+tei-head[rend='#delta'],
+tei-head[source='#delta'],
 tei-persName[ref='#delta'] {
 	color:var(--delta-color);
 }
@@ -250,9 +256,14 @@ tei-div[rend~='columns'] {
     display:grid;
     grid-template-columns: 45% 45%;
     column-gap:10%;
+    color:var(--neutral-color);
 }
 tei-div[rend='columns'] tei-head {
-    grid-column: 1 / span 2;
+    grid-column: 2;
+    font-size:1rem;
+    text-align:left;
+    line-height:1.15rem;
+    padding-top:0;
 }
 tei-div[rend='columns'] tei-head[source='#delta']::before {
 	display:none;

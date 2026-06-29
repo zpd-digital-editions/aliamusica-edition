@@ -100,6 +100,7 @@
    <text>
       <body>
          <div xml:id="intro">
+            <head rend="#delta">Authors α, β, γ, and δ</head>
             <p>This presents the sum of the core treatise and its commentaries. All parts of the text are located in the
                order in which the commentary grew before <persName ref="#delta">Author δ</persName>’s final
                redaction.</p>

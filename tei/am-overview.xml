@@ -100,6 +100,7 @@
    <text>
       <body>
          <div xml:id="intro">
+            <head>Overview</head>
             <abstract xml:id="overview">
                <p>This presents the organization of the entire treatise both before and after <persName ref="#delta">Author
                   δ</persName>’s rearrangement of the order of materials. „α + β + γ + δ“ shows the sum of the core
@@ -548,7 +549,7 @@
             </p>
          </div>
          <div rend="columns">
-            <head>DE QUARTO.</head>
+            <head source="#delta">DE QUARTO.</head>
             <p rend="edition">
                <num source="#gamma">
                   <ref target="../?doc=am-edition-abgd#p95">95</ref>

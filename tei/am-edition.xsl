@@ -29,6 +29,7 @@
 	<xsl:template match="body" mode="#default">
 		<xsl:copy>
 			<div xml:id="intro">
+				<head>About</head>
 				<xsl:copy-of select="id('about')/*"/>
 			</div>
 		</xsl:copy>
@@ -36,6 +37,7 @@
 	<xsl:template match="body" mode="a">
 		<xsl:copy>
 			<div xml:id="intro">
+				<head rend="#alpha">Author α</head>
 				<xsl:copy-of select="id('edition-a')/*"/>
 			</div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -44,6 +46,7 @@
 	<xsl:template match="body" mode="ab">
 		<xsl:copy>
 			<div xml:id="intro">
+				<head rend="#beta">Authors α and β</head>
 				<xsl:copy-of select="id('edition-ab')/*"/>
 			</div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -52,6 +55,7 @@
 	<xsl:template match="body" mode="abg">
 		<xsl:copy>
 			<div xml:id="intro">
+				<head rend="#gamma">Authors α, β, and γ</head>
 				<xsl:copy-of select="id('edition-abg')/*"/>
 			</div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -60,6 +64,7 @@
 	<xsl:template match="body" mode="abgd">
 		<xsl:copy>
 			<div xml:id="intro">
+				<head rend="#delta">Authors α, β, γ, and δ</head>
 				<xsl:copy-of select="id('edition-abgd')/*"/>
 			</div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -68,6 +73,7 @@
 	<xsl:template match="body" mode="ms">
 		<xsl:copy>
 			<div xml:id="intro">
+				<head rend="#delta">Manuscript Order</head>
 				<xsl:copy-of select="id('edition-ms')/*"/>
 			</div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>

@@ -100,6 +100,7 @@
    <text>
       <body>
          <div xml:id="intro">
+            <head rend="#alpha">Author α</head>
             <p>This is the core treatise for the Alia musica, Atkinson’s <persName ref="#alpha">Author α</persName>,
                dating from the late 9th century. It presents 8 toni, or church modes, describing each both verbally and
                mathematically.</p>

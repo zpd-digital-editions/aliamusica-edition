@@ -100,6 +100,7 @@
    <text>
       <body>
          <div xml:id="intro">
+            <head rend="#gamma">Authors α, β, and γ</head>
             <p>This presents the core treatise (<persName ref="#alpha">Author α</persName>), its frame and commentary
                   (<persName ref="#beta">Author β</persName>), and a tonary, the Nova expositio (<persName ref="#gamma">Author γ</persName>), transmitted independently, but added to the first two layers (later 10th
                c.).</p>

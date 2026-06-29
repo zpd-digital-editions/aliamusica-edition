@@ -100,6 +100,7 @@
    <text>
       <body>
          <div xml:id="intro">
+            <head rend="#delta">Manuscript Order</head>
             <p>This presents the completed version of the <hi>Alia musica</hi> as one finds it in the manuscripts (e.g.
                Munich, Bayerische Staatsbibliothek, clm 14272, and Paris, Bibliothèque nationale de France, lat. 7211) –
                in the disposition that Author δ created when he redacted the final version of the treatise. It contains
@@ -898,7 +899,7 @@
             </p>
          </div>
          <div xml:id="div08">
-            <head>DE QUARTO.</head>
+            <head source="#delta">DE QUARTO.</head>
             <p source="#gamma" xml:id="p95">
                <num>§95</num>
                <seg xml:id="p95.s1" n="1">A quinta specie diapason ubi finitur tertius tropus inchoatur et quartus, ab h

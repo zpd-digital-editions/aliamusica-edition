@@ -16,6 +16,7 @@
 	<xsl:template match="body">
 		<body>
 			<div xml:id="intro">
+				<head>Overview</head>
 				<xsl:copy-of select="id('overview')"/>
 			</div>
 			<div rend="columns column-header">
