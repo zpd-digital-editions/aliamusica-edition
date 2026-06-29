@@ -204,7 +204,6 @@
                   colligitur.</seg>
                <seg xml:id="p12.s4" n="4">Omnis enim cybus habet latera XII. angulos VIII. superficies VI. qui
                   disponantur ita: VI.| VIII.| XII.</seg>
-               <!-- bei CA sind s1 un s2 nur ein segment -->
             </p>
             <p source="#beta" xml:id="p13">
                <num>§13</num>
@@ -366,7 +365,6 @@
                   emmelis, id est aptus melo vocatur,</seg>
                <seg xml:id="p29.s2" n="2">[sane in illa constitutione ubi XV. nervos dicimus una serie proportionaliter
                   dispositos, bis diapason, id est VI. et bis XII.]</seg>
-               <!-- bei CA sind s1 und s2 nur ein segment -->
             </p>
             <p xml:id="p181" source="#alpha" ana="#rearranged">
                <num>§181</num>
@@ -411,7 +409,6 @@
                <seg xml:id="p32.s3" n="3">quam melodia primae incisionis ascendendo totam percurrit, a lichanos hypaton
                   videlicet in paraneten diezeugmenon, praemisso ad gravem partem tono qui emmelis dicitur, id est melo
                   aptus.</seg>
-               <!-- pb122 vorher anders; bei CA sind s2 und s3 nur ein Segment -->
             </p>
             <p source="#beta" xml:id="p33">
                <num>§33</num>
@@ -926,7 +923,6 @@
                <seg xml:id="p156.s3" n="3">Unde ex quinque speciebus tonorum: simplicium, id est diapente, diatessaron,
                   diapason; compositorum, ut diapason simul et diapente, ut tertius tonus et sextus, et diapason ac
                   diatessaron in eodem quinto, et dupla diapason in octavo tono, una cum duplo et triplo (...)</seg>
-               <!-- was heißen die runden klammern hier? -->
             </p>
             <p source="#beta" xml:id="p157">
                <num>§157</num>
