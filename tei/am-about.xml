@@ -61,17 +61,20 @@
          </abstract>
          <abstract xml:id="edition-abgd">
             <p>This presents the sum of the core treatise and its commentaries. All parts of the text are located in the
-               order by which the commentary grew before <persName ref="#delta">Author δ</persName>’s final redaction,
-               which shifted <persName ref="#alpha">Author α</persName>’s work to the end of the treatise, where we find
-               it in the manuscripts of the complete work.</p>
+               order in which the commentary grew before <persName ref="#delta">Author δ</persName>’s final
+               redaction.</p>
+         </abstract>
+         <abstract xml:id="edition-ms">
+            <p>This presents the completed version of the <hi>Alia musica</hi> as one finds it in the manuscripts (e.g.
+               Munich, Bayerische Staatsbibliothek, clm 14272, and Paris, Bibliothèque nationale de France, lat. 7211) –
+               in the disposition that Author δ created when he redacted the final version of the treatise. It contains
+               the headings for the various sections and has <persName ref="#alpha">Author α</persName>'s treatment of
+               the 8 toni or church modes at the end.</p>
          </abstract>
          <abstract xml:id="overview">
-            <p>This presents the organization of the entire treatise before and after <persName ref="#delta">Author
+            <p>This presents the organization of the entire treatise both before and after <persName ref="#delta">Author
                   δ</persName>’s rearrangement of the order of materials. „α + β + γ + δ“ shows the sum of the core
-               treatise and its commentaries, „Manuscript Order“ shows the arrangement of the text as we find it in the
-               manuscripts (e.g. Munich, Bayerische Staatsbibliothek, clm 14272, and Paris, Bibliothèque nationale de
-               France, lat. 7211) – the arrangement that <persName ref="#delta">Author δ</persName> created when he
-               shifted from commenting to redacting the final version of the treatise.</p>
+               treatise and its commentaries; „Manuscript Order“ shows the arrangement that <persName ref="#delta">Author δ</persName> created when he redacted the final version of the treatise.</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

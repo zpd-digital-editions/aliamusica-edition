@@ -103,7 +103,7 @@ tei-p {
 tei-p[sameAs]::before {
 	content:'[→ §'attr(n)']';
 }
-tei-p[ana='#moved'] tei-num {
+tei-p[ana='#rearranged'] tei-num {
 	color:var(--alpha-color);
 }
 tei-p[source]::before,

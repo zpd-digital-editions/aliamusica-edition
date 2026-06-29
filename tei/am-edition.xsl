@@ -21,6 +21,9 @@
 		<xsl:result-document href="am-edition-abgd.xml">
 			<xsl:apply-templates select="@* | node()" mode="abgd"/>
 		</xsl:result-document>
+		<xsl:result-document href="am-edition-ms.xml">
+			<xsl:apply-templates select="@* | node()" mode="ms"/>
+		</xsl:result-document>
 	</xsl:template>
 
 	<xsl:template match="body" mode="#default">
@@ -62,24 +65,32 @@
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
 	</xsl:template>
+	<xsl:template match="body" mode="ms">
+		<xsl:copy>
+			<div xml:id="intro">
+				<xsl:copy-of select="id('edition-ms')/*"/>
+			</div>
+			<xsl:apply-templates select="@* | node()" mode="#current"/>
+		</xsl:copy>
+	</xsl:template>
 
-	<!-- ignore if not in mode abgd -->
-	<xsl:template match="head" mode="a ab abg"/>
+	<!-- display head only in mode ms -->
+	<xsl:template match="head" mode="a ab abg abgd"/>
 
-	<!-- ignore if not in mode abgd -->
+	<!-- ignore other scribes' paragraphs depending on mode -->
 	<xsl:template match="p[@source = '#beta']" mode="a"/>
 	<xsl:template match="p[@source = '#gamma']" mode="a ab"/>
 	<xsl:template match="p[@source = '#delta']" mode="a ab abg"/>
 
-	<xsl:template match="p[@sameAs]" mode="#all">
-		<p xml:id="{substring(@sameAs,2)}" source="{@source}" ana="#moved">
+	<!-- abgd: display alpha's paragraphs in position before delta's rearrangement -->
+	<xsl:template match="p[@sameAs]" mode="a ab abg abgd">
+		<p xml:id="{substring(@sameAs,2)}" source="{@source}" ana="#rearranged">
 			<xsl:apply-templates select="id(substring(@sameAs, 2))/node()" mode="#current"/>
 		</p>
 	</xsl:template>
 
-	<xsl:template match="p[@source = '#alpha'][//p[substring(@sameAs, 2) = current()/@xml:id]]" mode="#all"/>
-
-	<xsl:template match="back" mode="#all"/>
+	<!-- abgd: ignore alpha's paragraphs former position -->
+	<xsl:template match="p[@source = '#alpha'][//p[substring(@sameAs, 2) = current()/@xml:id]]" mode="a ab abg abgd"/>
 
 	<!-- identity transform -->
 	<xsl:template match="@* | node()" mode="#all">

@@ -31,15 +31,14 @@
       <profileDesc>
          <abstract xml:id="about">
             <p>The Alia musica was not conceived by a single author at a single time. Instead, it is the result of a
-               layering of commentaries by successive authors (<persName ref="#beta">β</persName>, <persName
-                  ref="#gamma">γ</persName> and <persName ref="#delta">δ</persName>) upon a core treatise (<persName
-                  ref="#alpha">Author α</persName>). The text-historical edition represents this process of commenting
+               layering of commentaries by successive authors (<persName ref="#beta">β</persName>, <persName ref="#gamma">γ</persName> and <persName ref="#delta">δ</persName>) upon a core treatise (<persName ref="#alpha">Author α</persName>). The text-historical edition represents this process of commenting
                in its chronological order, as outlined by Charles M. Atkinson, The Critical Nexus: Tone-System, Mode,
                and Notation in Early Medieval Music (Oxford, New York: Oxford University Press, 2009): 171-201. This
                edition does not represent a specific manuscript or an archetype of transmission, but is intended to
                display the stages of commentary in chronological order. Each stage in the genesis of the text can be
                accessed separately.</p>
-            <p><persName ref="#delta">Author δ</persName> played a particularly important role in the creation of the
+            <p>
+               <persName ref="#delta">Author δ</persName> played a particularly important role in the creation of the
                final text. He acted not only as a commentator, but also structured the treatise as we know it from the
                manuscript transmission by adding headings and changing the order of the material, placing most of the
                core treatise, <persName ref="#alpha">α</persName>, at the end of the work. A comparison between the
@@ -57,8 +56,7 @@
          </abstract>
          <abstract xml:id="edition-abg">
             <p>This presents the core treatise (<persName ref="#alpha">Author α</persName>), its frame and commentary
-                  (<persName ref="#beta">Author β</persName>), and a tonary, the Nova expositio (<persName ref="#gamma"
-                  >Author γ</persName>), transmitted independently, but added to the first two layers (later 10th
+                  (<persName ref="#beta">Author β</persName>), and a tonary, the Nova expositio (<persName ref="#gamma">Author γ</persName>), transmitted independently, but added to the first two layers (later 10th
                c.).</p>
          </abstract>
          <abstract xml:id="edition-abgd">
@@ -76,8 +74,7 @@
          <abstract xml:id="overview">
             <p>This presents the organization of the entire treatise both before and after <persName ref="#delta">Author
                   δ</persName>’s rearrangement of the order of materials. „α + β + γ + δ“ shows the sum of the core
-               treatise and its commentaries; „Manuscript Order“ shows the arrangement that <persName ref="#delta"
-                  >Author δ</persName> created when he redacted the final version of the treatise.</p>
+               treatise and its commentaries; „Manuscript Order“ shows the arrangement that <persName ref="#delta">Author δ</persName> created when he redacted the final version of the treatise.</p>
          </abstract>
       </profileDesc>
       <revisionDesc>
@@ -102,6 +99,13 @@
    </teiHeader>
    <text>
       <body>
+         <div xml:id="intro">
+            <p>This presents the completed version of the <hi>Alia musica</hi> as one finds it in the manuscripts (e.g.
+               Munich, Bayerische Staatsbibliothek, clm 14272, and Paris, Bibliothèque nationale de France, lat. 7211) –
+               in the disposition that Author δ created when he redacted the final version of the treatise. It contains
+               the headings for the various sections and has <persName ref="#alpha">Author α</persName>'s treatment of
+               the 8 toni or church modes at the end.</p>
+         </div>
          <div xml:id="div01">
             <head source="#delta">ALIA MUSICA</head>
             <p source="#beta" xml:id="p1">
@@ -384,7 +388,6 @@
                <!-- bei CA sind s1 und s2 nur ein segment -->
             </p>
             <p sameAs="#p181" n="181" source="#alpha"/>
-
             <p source="#beta" xml:id="p30">
                <num>§30</num>
                <seg xml:id="p30.s1" n="1">Tandem ad cujusdam expositionem de praefatis tropis vel modis veniamus, ut
@@ -475,7 +478,6 @@
          </div>
          <div xml:id="div02">
             <head source="#delta">ITEM CUIUSDAM DE EADEM RE NOVA EXPOSITIO</head>
-
             <p source="#gamma" xml:id="p41">
                <num>§41</num>
                <seg xml:id="p41.s1" n="1">A prima quoque specie diapason, quae est mese, id est o, inchoatur primus
@@ -520,7 +522,6 @@
          </div>
          <div xml:id="div03">
             <head source="#delta">DE SECUNDO TONO SEQUITUR IN EADEM EXPOSITIONE</head>
-
             <p source="#beta" xml:id="p45">
                <num>§45</num>
                <seg xml:id="p45.s1" n="1">Sequitur in eadem expositione troporum modus secundus, ter VI. id est XVIII.
@@ -633,7 +634,6 @@
          </div>
          <div xml:id="div05">
             <head source="#delta">SEQUITUR TONORUM EXPOSITOR DE TERTIO TONO</head>
-
             <p source="#beta" xml:id="p58">
                <num>§58</num>
                <seg xml:id="p58.s1" n="1">Tertius tonus duo a habet, unum propter mensuram autenti deuteri, et alterum
@@ -752,7 +752,6 @@
             </p>
          </div>
          <div xml:id="div06">
-
             <head source="#delta">DE QUARTO TONO.</head>
             <p source="#alpha" sameAs="#p184" n="184"/>
             <p source="#beta" xml:id="p77">
@@ -895,7 +894,8 @@
             <p source="#gamma" xml:id="p94">
                <num>§94</num>
                <seg xml:id="p94.s1" n="1">Hujus autem tropi in nocturnis sic currit versus: Gloria Patri. In diurnis
-                  enim sic currit versus: Gloria Patri et caetera.</seg></p>
+                  enim sic currit versus: Gloria Patri et caetera.</seg>
+            </p>
          </div>
          <div xml:id="div08">
             <head>DE QUARTO.</head>
@@ -930,7 +930,6 @@
          </div>
          <div xml:id="div09">
             <head source="#delta">SEQUITUR EXPOSITOR DE QUINTO TONO</head>
-
             <p source="#beta" xml:id="p99">
                <num>§99</num>
                <seg xml:id="p99.s1" n="1">Tonus quintus, quem nos lydium dicimus, totus per denarium, semper est
@@ -1131,7 +1130,6 @@
          </div>
          <div xml:id="div13">
             <head source="#delta">SEQUITUR EXPOSITOR DE SEPTIMO TONO</head>
-
             <p xml:id="p126" source="#beta">
                <num>§126</num>
                <seg xml:id="p126.s1" n="1">Tonus septimus, quem nos mixolydium dicimus, in proportione quarti toni habet
@@ -1165,7 +1163,6 @@
                <!-- war vorher anders -->
             </p>
             <p source="#alpha" sameAs="#p188" n="188"/>
-
             <p source="#delta" xml:id="p129a">
                <num>§129'</num>
                <seg xml:id="p129a.s1" n="1">[Sequitur de septimo simul et octavo.]</seg>
@@ -1303,7 +1300,6 @@
          </div>
          <div xml:id="div14">
             <head source="#delta">ITEM DE SEPTIMO ET OCTAVO TONO NOVA CUIUSDAM EXPOSITIO</head>
-
             <p source="#gamma" xml:id="p146">
                <num>§146</num>
                <seg xml:id="p146.s1" n="1">A quarta specie diapason, quae est supra mese, inchoatur septimus tropus, id
@@ -1639,7 +1635,6 @@
          </div>
          <div xml:id="div16">
             <head source="#delta">ITEM EXPOSITIO EORUMDEM TONORUM.</head>
-
             <p xml:id="p181" source="#alpha">
                <num>§181</num>
                <seg xml:id="p181.s1" n="1">Tonus primus VI. ad XII., id est XVIII. qui sunt ter VI. quae proportio
