@@ -40,18 +40,6 @@ nav a {
 	margin:0 0.2rem;
 	color:white;
 }
-nav a.alpha {
-	background-color:var(--alpha-color);
-}
-nav a.beta {
-	background-color:var(--beta-color);
-}
-nav a.gamma {
-	background-color:var(--gamma-color);
-}
-nav a.delta {
-	background-color:var(--delta-color);
-}
 
 div#TEI {
 	position:relative;
@@ -95,22 +83,6 @@ tei-p[source]::before {
 	padding-right:0.2em;
 	color:white;
 	left:0em;
-}
-tei-p[source='#alpha']::before {
-	content:'α';
-	background-color:var(--alpha-color);
-}
-tei-p[source='#beta']::before {
-	content:'β';
-	background-color:var(--beta-color);
-}
-tei-p[source='#gamma']::before {
-	content:'γ';
-	background-color:var(--gamma-color);
-}
-tei-p[source='#delta']::before {
-	content:'δ';
-	background-color:var(--delta-color);
 }
 tei-num {
 	position:absolute;

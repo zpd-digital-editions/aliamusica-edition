@@ -9,10 +9,10 @@
             <title>ALIA MUSICA</title>
          </titleStmt>
          <publicationStmt>
-            <p/>
+            <p>Prototype</p>
          </publicationStmt>
          <sourceDesc>
-            <p/>
+            <p>München, Bayerische Staatsbibliothek, Clm 14272, fol. 175.</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
@@ -30,9 +30,18 @@
          </listChange>
       </revisionDesc>
    </teiHeader>
+   <standOff>
+      <!-- sources -->
+      <!-- seg/@corresp/[#idrange] is based on ref/@target/[#idrange] in document ref/@source -->
+      <seg corresp="#p1.s2 #p1.s3"><ref target="#p155.7 #p155.12" source="source-arithm.xml"/></seg>
+      <seg corresp="#p2.s1 #p2.s2"><ref target="#p155.14 #p155.19" source="source-arithm.xml"/></seg>
+      <seg corresp="#p3.s1 #p3.s6"><ref target="#p155.20 #p156.9" source="source-arithm.xml"/></seg>
+      <seg corresp="#p4.s1"><ref target="#p156.10 #p156.11" source="source-arithm.xml"/></seg>
+      <seg corresp="#p5.s1 #p5.s2"><ref target="#p156.20 #p156.21" source="source-arithm.xml"/></seg>
+      <seg corresp="#p6.s1 #p6.s2"><ref target="#p157.3 #p157.5" source="source-arithm.xml"/></seg>
+   </standOff>
    <text>
       <body>
-         <p>München, Bayerische Staatsbibliothek, Clm 14272, fol. 175.</p>
          <div xml:id="div1">
             <head>ALIA MUSICA</head>
             <p source="#beta" xml:id="p1">
@@ -45,8 +54,6 @@
                      <lem>contra differentiam</lem>
                      <rdg><add place="above text line">contra differentiam</add></rdg>
                   </app> medietatis ad ultimum.</seg>
-               <ref tar></ref>
-               <zone corresp="#p1.s2 #p1.s3" source="#p155.7 #p155.12" sameAs="De_inst_arith_II48.xml"/>
             </p>
             <p source="#beta" xml:id="p2">
                <num>§2</num>
@@ -66,6 +73,9 @@
                   quorum extremi sint tripli, ita:</seg>
                <figure xml:id="p3.f1">
                   <desc>VI | VIII | XII || IIII | VI | XII</desc>
+                  <note resp="JHS">The text implies two separate number series as individual diagrams, which were
+                     erroneously joined together into a single number series in this manuscript during the process of
+                     framing.</note>
                </figure>
                <seg xml:id="p3.s2" n="2">Duodenarius igitur ad senarium duplus est;</seg>
                <seg xml:id="p3.s3" n="3">et in alia dispositione XII ad IIII triplus est.</seg>
@@ -91,7 +101,13 @@
                <seg xml:id="p5.s2" n="2">In triplici quoque dispositione simul diapente et diapason <app>
                      <lem>simphonia</lem>
                      <note>corrected into "simphonja" by different hand</note>
-                  </app> componitur, ut sunt VI VIIII XVIII.</seg>
+                  </app> componitur, ut sunt</seg>
+               <figure xml:id="p5.f1" n="2">
+                  <desc>VI <choice>
+                        <corr>VIII</corr>
+                        <sic>VIIII</sic>
+                     </choice> XVIII.</desc>
+               </figure>
             </p>
             <p source="#beta" xml:id="p6">
                <num>§6</num>
@@ -149,7 +165,10 @@
                <seg corresp="#p5.s1">After this, however, there is a diapason consonance, as [for example] 6 to
                   12.</seg>
                <seg corresp="#p5.s2">In the triple disposition, moreover, the consonance of both a diapente and diapason
-                  is composed at the same time, as in 6:9:18.</seg>
+                  is composed at the same time, as in</seg>
+               <figure corresp="#p5.f1">
+                  <desc>6:9:18</desc>
+               </figure>
             </p>
             <p corresp="#p6">
                <seg corresp="#p6.s1">And since the triple [disposition] contains two consonances, namely a diapente and
@@ -165,7 +184,4 @@
          </div>
       </back>
    </text>
-   <standOff>
-      <bibl>Boethius, De arithmetica, Bk II, cap. 48</bibl>
-   </standOff>
 </TEI>
