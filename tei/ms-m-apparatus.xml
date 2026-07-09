@@ -43,7 +43,7 @@
                   differentia <app>
                      <lem>contra differentiam</lem>
                      <rdg>
-                        <add place="above text line">contra differentiam</add>
+                        <add place="above text line"/>
                      </rdg>
                   </app> medietatis ad ultimum.</seg>
             </p>
@@ -79,15 +79,13 @@
                <seg xml:id="p3.s5" n="5">Inter VI enim et duodecim senarius est, et inter IIII et duodecim octonarius <app>
                      <lem>ad senarium</lem>
                      <rdg>ad senariu</rdg>
-                  </app> sesquitertiam efficit proportionem. <add type="gloss"><!--Diagramm Glosse § 3,6--></add>
-               </seg>
+                  </app> sesquitertiam efficit proportionem. </seg>
             </p>
             <p source="#beta" xml:id="p4">
                <num>§4</num>
                <seg xml:id="p4.s1" n="1">In eadem quoque medietate et diapente sinphonia componitur.</seg>
                <seg xml:id="p4.s2" n="2">In duplici, uidelicet XII ad VIII, et in triplici, VI ad IIII, sesqualtera est.
-                     <add type="gloss"><!--Diagramm Glosse § 4,2--></add>
-               </seg>
+                     </seg>
             </p>
             <p source="#beta" xml:id="p5">
                <num>§5</num>
@@ -115,8 +113,7 @@
             </p>
             <p source="#beta" xml:id="p7">
                <num>§7</num>
-               <seg xml:id="p7.s1" n="1">In dupla uero dispositione, maior terminus <add place="margin" type="gloss">ad
-                     medii termini contra se differentiam triplus est, et rursus minor terminus ad</add> differentiam
+               <seg xml:id="p7.s1" n="1">In dupla uero dispositione, maior terminus  differentiam
                   sui et medii termini triplus est.</seg>
             </p>
          </div>

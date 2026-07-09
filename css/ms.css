@@ -89,16 +89,30 @@ tei-num {
 	left:1.5em;
 	color:silver;
 }
-tei-seg {
+/*tei-seg {
 	counter-increment:segment;
-}
-tei-seg:not(:first-of-type)::before {
+}*/
+tei-seg:not(:first-of-type)::before,
+tei-seg[type='parallel'] tei-seg:not([n='1'])::before {
 	color:gray;
 	vertical-align:super;
 	font-size:0.7rem;
 	line-height:0.7rem;
-	content:counter(segment);
+	content:attr(n);
 	padding-right:0.2rem;
+}
+tei-p[corresp] tei-seg:not(:first-of-type)::before {
+    content:'';
+}
+
+tei-figure {
+    display:block;
+    margin:0.5rem 0;
+}
+tei-figure tei-desc {
+    display:inline-block;
+    padding:0.25rem 0.5rem;
+    border:0.1rem solid gray;
 }
 
 /* inline level */
@@ -121,7 +135,6 @@ tei-div > tei-pb::before {
 	padding:0.1rem 0.5rem 0 0;
 	float:left;
 }
-
 tei-note {
 	font-style:italic;
 }
@@ -132,28 +145,26 @@ tei-app tei-lem {
 	text-decoration:underline;
 	text-decoration-style:dotted;
 }
-tei-app tei-lem::after {
-	position:absolute;
-	left:45rem;
-	content:']';
+tei-app tei-rdg:before,
+tei-app tei-note:before,
+tei-figure tei-note:before {
+	content:'] ';
+	font-style:normal;
 }
-tei-app tei-rdg {
-	/*display:none;*/
+tei-app tei-rdg,
+tei-app tei-note,
+tei-figure tei-note {
 	display:block;
 	position:absolute;
 	text-align:left;
 	font-size:1rem;
 	font-weight:normal;
-	font-style:normal;
 	font-variant:normal;
 	width:30rem;
 	left:45.5rem;
-	line-height:1.5rem;
-	margin-top:-1.5rem;
-}
-tei-app tei-rdg:before {
-    content:attr(wit)' ';
-    font-weight:bold;
+	font-size:0.9rem;
+	line-height:1.0rem;
+	margin-top:-1.2rem;
 }
 tei-app tei-lem:hover ~ tei-rdg {
 	display:block;
@@ -170,27 +181,88 @@ tei-app tei-add:after {
     font-style:italic;
 }
 
+/* graphics */
+
+tei-graphic[rend='shift-3'] {
+    position:relative;
+    top:-15rem;
+}
+tei-graphic[rend='shift-2'] {
+    position:relative;
+    top:-10rem;
+}
+tei-graphic[rend='shift-1'] {
+    position:relative;
+    top:-5rem;
+}
+tei-graphic[rend='shift-0'] {
+    position:relative;
+    top:0rem;
+}
+
 /* glosses */
 
-tei-seg[type='glossed'] {
-	text-decoration:underline;
-	text-decoration-style:dotted;
-}
-tei-seg[type='glossed'] tei-add[type='gloss'] {
+tei-add[type='gloss'] {
 	display:block;
 	position:absolute;
 	text-align:left;
-	font-size:1rem;
 	font-weight:normal;
 	font-style:normal;
 	font-variant:normal;
 	width:30rem;
 	left:45.5rem;
-	line-height:1.5rem;
-	margin-top:-1.5rem;
+	font-size:0.9rem;
+	line-height:1.0rem;
+	margin-top:-1.2rem;
 }
 
-/* translation */
+/* sources */
+
+tei-seg[type='source'] {
+	color:#666;
+}
+
+/* synopsis and floating parallel display */
+
+tei-lb[source]::after {
+    display:inline-block;
+	font-weight:bold;
+	content:attr(source)' ';
+	width:1.5em;
+}
+tei-lb[source]:not(:first-of-type)::before {
+	content:'\a';
+    white-space:pre;
+}
+
+tei-seg[type='parallel'] tei-seg[xml\:id] + tei-seg[corresp] {
+    visibility:hidden;
+}
+tei-seg[type='parallel'] tei-seg[xml\:id]:hover + tei-seg[corresp] {
+    visibility:visible;
+}
+
+tei-seg[type='parallel'] {
+    display:inline-block;
+    position:relative;
+}
+
+tei-seg[type='parallel'] > tei-seg {
+    display:inline;
+    float:left;
+    width:40rem;
+}
+
+tei-seg[type='parallel'] > tei-seg[corresp] {
+    display:inline;
+    left:42rem;
+    position:absolute;
+    font-size:0.8rem;
+    line-height:1rem;
+    width:30rem;
+}
+
+/* translation and parallel grid display */
 
 tei-div[type='parallel'] {
     display:grid;
@@ -202,6 +274,7 @@ tei-div[type='parallel'] {
 tei-div[type='parallel'] > tei-p {
     display:block;
     margin:0;
+    grid-column: 1;
 }
 
 tei-div[type='parallel'] > tei-p[corresp] {
@@ -209,4 +282,5 @@ tei-div[type='parallel'] > tei-p[corresp] {
     font-size:0.8rem;
     line-height:1rem;
     width:100%;
+    grid-column: 2;
 }

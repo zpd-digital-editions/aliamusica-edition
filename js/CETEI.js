@@ -48,7 +48,7 @@ var CETEI = (function () {
           return dl;
         }
       ]],
-      "note": [
+/*      "note": [
         // Make endnotes
         ["[place=end]", function(elt){
           if (!this.noteIndex){
@@ -76,7 +76,7 @@ var CETEI = (function () {
           return content;
         }],
         ["_", ["(",")"]]
-      ],
+      ],*/
       "table": function(elt) {
         let table = document.createElement("table");
         table.innerHTML = elt.innerHTML;

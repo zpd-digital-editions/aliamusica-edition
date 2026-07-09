@@ -138,7 +138,7 @@ tei-app {
   /* Empty Rule Set */
 }
 tei-app tei-note {
-  display: none;
+  /*display: none;*/
 }
 tei-appInfo {
   display: block;
