@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>ALIA MUSICA</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
+  	<link rel="stylesheet" href="css/ms.css" media="all" />
+	<script src="js/querystring.js"></script>
+    <script src="js/CETEI.js"></script>
+  </head>
+
+  <body>
+    <!-- header for all pages -->
+	<h1>ALIA MUSICA</h1>
+  	<nav>
+  		<a href="?doc=ms-p-apparatus">apparatus</a>
+  		<a href="?doc=ms-p-glosses">glosses</a>
+  		<a href="?doc=ms-p-sources">sources</a>
+  		<a href="?doc=ms-p-synopsis">synopsis</a>
+  		<a href="?doc=ms-p-translation">translation</a>
+  	</nav>
+  	<!-- container for TEI document -->
+    <div id="TEI"></div>
+  	<!-- rendition -->
+  	<script>
+		/* query */
+		filename = ( QueryString.doc == null )
+			? ( "ms-p-apparatus.xml" )
+			: ( QueryString.doc + ".xml" );
+  		/* CETEIcean */
+		var CETEIcean = new CETEI()
+			CETEIcean.addBehaviors({
+				"tei":{
+					"teiHeader": null
+				}
+			});
+			CETEIcean.getHTML5("tei/"+filename, function(data) {
+			document.getElementById("TEI").appendChild(data)
+		})
+    </script>
+  </body>
+
+</html>
