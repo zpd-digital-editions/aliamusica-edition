@@ -35,41 +35,58 @@
 		</xsl:copy>
 	</xsl:template>
 
+	<!-- ignore standOff (sources) -->
+	<xsl:template match="TEI/standOff" mode="#all"/>
+
 	<!-- base text -->
-	<xsl:template match="body" mode="#all">
+	<xsl:template match="text/body" mode="#all">
 		<xsl:copy>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
 	</xsl:template>
 
-	<!-- ignore standOff (sources) -->
-	<xsl:template match="standOff" mode="#all"/>
-
 	<!-- ignore back matter (translation) -->
-	<xsl:template match="back" mode="#all"/>
+	<xsl:template match="text/back" mode="#all"/>
+	
+	<!-- APPARATUS -->
 
-	<!-- apparatus -->
-
-	<!-- ignore readings everywhere but in apparatus view -->
-	<xsl:template match="app" mode="glosses sources synopsis translation">
+	<!-- ignore apparatus everywhere but in apparatus view -->
+	<xsl:template match="text//app" mode="glosses sources synopsis translation">
 		<xsl:apply-templates select="lem" mode="#current"/>
 	</xsl:template>
-	<xsl:template match="lem" mode="glosses sources synopsis translation">
+	<xsl:template match="text//lem" mode="glosses sources synopsis translation">
+		<xsl:apply-templates select="@* | node()" mode="#current"/>
+	</xsl:template>
+
+	<!-- ignore corrections everywhere but in apparatus view -->
+	<xsl:template match="text//choice" mode="glosses sources synopsis translation">
+		<xsl:apply-templates select="corr" mode="#current"/>
+	</xsl:template>
+	<xsl:template match="text//corr" mode="glosses sources synopsis translation">
 		<xsl:apply-templates select="@* | node()" mode="#current"/>
 	</xsl:template>
 
 	<!-- ignore figure notes everywhere but in apparatus view -->
-	<xsl:template match="figure/note" mode="glosses sources synopsis translation"/>
+	<xsl:template match="text//figure/note" mode="glosses sources synopsis translation"/>
 
-	<!-- glosses -->
+	<!-- GLOSSES -->
 
 	<!-- ignore glosses everywhere but in glosses view -->
-	<xsl:template match="add[@type = 'gloss']" mode="apparatus sources synopsis translation"/>
+	<xsl:template match="text//add[@type = 'gloss']" mode="apparatus sources synopsis translation"/>
 
-	<!-- source -->
+	<xsl:template match="text//add[@type = 'gloss']" mode="glosses">
+		<seg type="gloss">
+			<anchor/>
+			<xsl:copy>
+				<xsl:apply-templates select="@* | node()" mode="#current"/>
+			</xsl:copy>
+		</seg>
+	</xsl:template>
 
-	<!-- parallel view: manuscript / source -->
-	<xsl:template match="p" mode="sources">
+	<!-- SOURCES -->
+
+	<!-- parallel view: manuscript / sources -->
+	<xsl:template match="text//p" mode="sources">
 		<div type="parallel">
 			<xsl:copy>
 				<xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -81,7 +98,7 @@
 			<xsl:variable name="sourceLines" select="
 					$sourceRef/@target
 					! tokenize(., '\s+')"/>
-			<p corresp="concat('#',.)">
+			<p corresp="{concat('#',@xml:id)}">
 				<xsl:for-each select="$sourceLines">
 					<seg type="line">
 						<xsl:value-of select="$sourceDoc//line[@xml:id = substring(current(), 2)]"/>
@@ -91,19 +108,24 @@
 		</div>
 	</xsl:template>
 	<!-- segment highlighting -->
-	<xsl:template match="seg" mode="sources">
+	<xsl:template match="text//seg" mode="sources">
 		<xsl:copy>
-			<xsl:if test="//standOff/seg[contains(@corresp, current()/@xml:id)]">
-				<xsl:attribute name="type" select="'source'"/>
-			</xsl:if>
+			<xsl:choose>
+				<xsl:when test="//standOff/seg[contains(@corresp, current()/@xml:id)]">
+					<xsl:attribute name="ana" select="'hasSource'"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:attribute name="ana" select="'hasNoSource'"/>
+				</xsl:otherwise>
+			</xsl:choose>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
 	</xsl:template>
 
-	<!-- synopsis -->
+	<!-- SYNOPSIS -->
 
 	<!-- parallel view: manuscript / corresponding sections -->
-	<xsl:template match="seg" mode="synopsis">
+	<xsl:template match="text//seg" mode="synopsis">
 		<seg type="parallel">
 			<xsl:copy>
 				<xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -133,10 +155,10 @@
 		</seg>
 	</xsl:template>
 
-	<!-- translation -->
+	<!-- TRANSLATION -->
 
 	<!-- parallel view: manuscript / translation -->
-	<xsl:template match="p" mode="translation">
+	<xsl:template match="text//p" mode="translation">
 		<div type="parallel">
 			<xsl:copy>
 				<xsl:apply-templates select="@* | node()" mode="#current"/>

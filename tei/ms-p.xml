@@ -57,7 +57,7 @@
                   </choice> consonantiarum, quas symphonias nominant, proporciones in hac <app>
                      <lem>poene</lem>
                      <note>read paene</note>
-                  </app> sola <app>
+                  </app> sola <app rend="shift-1">
                      <lem>medietate</lem>
                      <rdg>medietati</rdg>
                   </app> frequenter inuenies.</seg>
@@ -85,8 +85,10 @@
                      <corr>proportio</corr>
                      <sic>comparatio proportio</sic>
                   </choice>, id est diatesseron symphonia colligitur.</seg>
-               <seg xml:id="p3.s5" n="5">Inter VI <add place="above">enim</add> et XII senarius est, et inter IIII et
-                  XII octonarius;</seg>
+               <seg xml:id="p3.s5" n="5">Inter VI <app rend="shift-1">
+                     <lem>enim</lem>
+                     <rdg><add place="above"/></rdg>
+                  </app> et XII senarius est, et inter IIII et XII octonarius;</seg>
                <seg xml:id="p3.s6" n="6">qui scilicet octonarius ad senarium sesquiterciam efficit proportionem.</seg>
             </p>
             <p source="#beta" xml:id="p4">
@@ -114,7 +116,7 @@
                <seg xml:id="p6.s2" n="2">Nam inter VI et VIIII ternarius differentia est, et inter VIII. et <app>
                      <lem>XVIII</lem>
                      <rdg>XVIIII</rdg>
-                  </app> nouenarius, <app>
+                  </app> nouenarius, <app rend="shift-1">
                      <lem>qui</lem>
                      <note>q without abbreviation mark</note>
                   </app> ad ternarium triplus est.</seg>

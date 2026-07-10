@@ -9,14 +9,10 @@
             <title>ALIA MUSICA</title>
          </titleStmt>
          <publicationStmt>
-            <div type="parallel">
-               <p>Prototype</p>
-            </div>
+            <p>Prototype</p>
          </publicationStmt>
          <sourceDesc>
-            <div type="parallel">
-               <p>Paris, Bibliothèque nationale de France, fonds latin 7211, fol. 51</p>
-            </div>
+            <p>Paris, Bibliothèque nationale de France, fonds latin 7211, fol. 51</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
@@ -42,14 +38,8 @@
                <p source="#beta" xml:id="p1">
                   <num>§1</num>
                   <seg xml:id="p1.s1" n="1">De armonica consideratione Boetius ita disseruit:</seg>
-                  <seg xml:id="p1.s2" n="2">Quia neque solum in terminis speculationem <choice>
-                        <corr>proporcionis</corr>
-                        <sic>proporciones</sic>
-                     </choice> habet, neque solum in differentiis, sed in utrisque communiter,</seg>
-                  <seg xml:id="p1.s3" n="3">querit enim ut <choice>
-                        <corr>quemadmodum</corr>
-                        <sic>quem admodo</sic>
-                     </choice> sunt ad se extremi termini, sic maioris ad medium differentia contra differentiam medietatis ad ultimum.</seg>
+                  <seg xml:id="p1.s2" n="2">Quia neque solum in terminis speculationem proporcionis habet, neque solum in differentiis, sed in utrisque communiter,</seg>
+                  <seg xml:id="p1.s3" n="3">querit enim ut quemadmodum sunt ad se extremi termini, sic maioris ad medium differentia contra differentiam medietatis ad ultimum.</seg>
                </p>
                <p corresp="#p1">
                   <seg corresp="#p1.s1">Concerning the harmonic relationship, Boethius stated thus:</seg>
@@ -63,10 +53,7 @@
             <div type="parallel">
                <p source="#beta" xml:id="p2">
                   <num>§2</num>
-                  <seg xml:id="p2.s1" n="1">Ipsarum quoque <choice>
-                        <corr>musicarum</corr>
-                        <sic>musicorum</sic>
-                     </choice> consonantiarum, quas symphonias nominant, proporciones in hac poene sola medietate frequenter inuenies.</seg>
+                  <seg xml:id="p2.s1" n="1">Ipsarum quoque musicarum consonantiarum, quas symphonias nominant, proporciones in hac poene sola medietate frequenter inuenies.</seg>
                   <seg xml:id="p2.s2" n="2">Namque symphonia diatesseron que princeps est et quodammodo uim obtinet
                   elementi, in eiusmodi armonicis medietatibus inuenitur, ut sunt VI ad VIII</seg>
                </p>
@@ -80,10 +67,7 @@
             <div type="parallel">
                <p source="#beta" xml:id="p3">
                   <num>§3</num>
-                  <seg xml:id="p3.s1" n="1">Sunt ergo huiusmodi medietatis termini, quorum extremi <choice>
-                        <corr>sint</corr>
-                        <sic>sunt</sic>
-                     </choice> dupli, et alii quorum extremi sint tripli, ita:</seg>
+                  <seg xml:id="p3.s1" n="1">Sunt ergo huiusmodi medietatis termini, quorum extremi sint dupli, et alii quorum extremi sint tripli, ita:</seg>
                   <figure xml:id="p3.f1">
                      <div type="parallel">
                         <p>VI | VIII | XII || IIII | VI | XII</p>
@@ -91,12 +75,8 @@
                   </figure>
                   <seg xml:id="p3.s2" n="2">Duodenarius igitur ad senarium duplus est;</seg>
                   <seg xml:id="p3.s3" n="3">et in alia dispositione XII ad IIII triplus est.</seg>
-                  <seg xml:id="p3.s4" n="4">Horum diferentias colligamus et ad se inuicem comparemus, epytrita <choice>
-                        <corr>proportio</corr>
-                        <sic>comparatio proportio</sic>
-                     </choice>, id est diatesseron symphonia colligitur.</seg>
-                  <seg xml:id="p3.s5" n="5">Inter VI <add place="above">enim</add> et XII senarius est, et inter IIII et
-                  XII octonarius;</seg>
+                  <seg xml:id="p3.s4" n="4">Horum diferentias colligamus et ad se inuicem comparemus, epytrita proportio, id est diatesseron symphonia colligitur.</seg>
+                  <seg xml:id="p3.s5" n="5">Inter VI enim et XII senarius est, et inter IIII et XII octonarius;</seg>
                   <seg xml:id="p3.s6" n="6">qui scilicet octonarius ad senarium sesquiterciam efficit proportionem.</seg>
                </p>
                <p corresp="#p3">
@@ -130,7 +110,7 @@
                <p source="#beta" xml:id="p5">
                   <num>§5</num>
                   <seg xml:id="p5.s1" n="1">Post hunc autem diapason consonantia est, ut VI ad XII.</seg>
-                  <seg xml:id="p5.s2" n="2">In triplici <corr>quoque</corr> dispositione simul diapente et diapason
+                  <seg xml:id="p5.s2" n="2">In triplici quoque dispositione simul diapente et diapason
                   symphonia componitur, ut sunt</seg>
                   <figure>
                      <desc>VI VIIII XVIII.</desc>

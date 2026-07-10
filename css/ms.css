@@ -1,9 +1,7 @@
 /* variables */
 :root {
-	--alpha-color:#777acd;
-	--beta-color:#7aa456;
-	--gamma-color:#c65999;
-	--delta-color:#c96d44;
+	--highlight-color:#c03030;
+	--neutral-color:#606060;
 }
 
 /* document level */
@@ -24,7 +22,6 @@ h1 {
 	line-height:2.5rem;
 	text-align:center;
 	color:#f8f8f0;
-	letter-spacing:0.2em;
 }
 
 nav {
@@ -50,7 +47,7 @@ div#TEI {
 
 /* TEI block level */
 
-tei-teiHeader {
+tei-teiHeader,tei-standOff {
 	display:none;
 }
 tei-back {
@@ -65,7 +62,7 @@ tei-div tei-head {
 	line-height:1.5rem;
 	font-size:1.2rem;
 	font-family:Georgia, serif;
-	color:#c33;
+	color:var(--highlight-color);
 	display:block;
 	padding:1rem 0 0.5rem 0;
 }
@@ -89,10 +86,7 @@ tei-num {
 	left:1.5em;
 	color:silver;
 }
-/*tei-seg {
-	counter-increment:segment;
-}*/
-tei-seg:not(:first-of-type)::before,
+tei-seg[n]:not(:first-of-type)::before,
 tei-seg[type='parallel'] tei-seg:not([n='1'])::before {
 	color:gray;
 	vertical-align:super;
@@ -141,7 +135,8 @@ tei-note {
 
 /* apparatus */
 
-tei-app tei-lem {
+tei-app tei-lem,
+tei-choice tei-corr {
 	text-decoration:underline;
 	text-decoration-style:dotted;
 }
@@ -151,38 +146,47 @@ tei-figure tei-note:before {
 	content:'] ';
 	font-style:normal;
 }
+tei-choice tei-sic:before {
+    content:'] read ';
+    font-style:normal;
+}
 tei-app tei-rdg,
 tei-app tei-note,
+tei-choice tei-sic,
 tei-figure tei-note {
+    float:left;
 	display:block;
 	position:absolute;
-	text-align:left;
-	font-size:1rem;
+	left:45.5rem;
 	font-weight:normal;
 	font-variant:normal;
+	text-align:left;
 	width:30rem;
-	left:45.5rem;
 	font-size:0.9rem;
 	line-height:1.0rem;
 	margin-top:-1.2rem;
-}
-tei-app tei-lem:hover ~ tei-rdg {
-	display:block;
-}
-tei-app:hover ~ tei-rdg {
-	display:block;
-}
-tei-app tei-lem:hover ~ tei-lem::after {
-	content:' 'attr(wit);
-	font-style:italic;
 }
 tei-app tei-add:after {
     content:' added 'attr(place);
     font-style:italic;
 }
+tei-app:hover,
+tei-choice:hover,
+tei-figure:hover tei-note
+tei-seg[type=gloss]:hover {
+	color:var(--highlight-color);
+}
+tei-app[rend="shift-1"] tei-rdg,
+tei-app[rend="shift-1"] tei-note {
+    left:60rem;
+}
 
 /* graphics */
 
+tei-graphic {
+    display:inline-block;
+    border:1px solid transparent;
+}
 tei-graphic[rend='shift-3'] {
     position:relative;
     top:-15rem;
@@ -202,24 +206,40 @@ tei-graphic[rend='shift-0'] {
 
 /* glosses */
 
-tei-add[type='gloss'] {
+tei-seg[type=gloss] tei-add[type='gloss'] {
 	display:block;
 	position:absolute;
 	text-align:left;
+	width:30rem;
+	left:45.5rem;
 	font-weight:normal;
 	font-style:normal;
 	font-variant:normal;
-	width:30rem;
-	left:45.5rem;
 	font-size:0.9rem;
 	line-height:1.0rem;
 	margin-top:-1.2rem;
 }
+tei-seg[type=gloss] tei-anchor::before {
+    content:'✻';
+}
+tei-seg[type=gloss] tei-add[type='gloss'][place]::before {
+    content:attr(place)' ';
+    font-style:italic;
+}
+tei-seg[type=gloss]:hover {
+    color:var(--highlight-color);
+}
+tei-seg[type=gloss]:hover tei-graphic {
+    border:1px solid var(--highlight-color);
+}
 
 /* sources */
 
-tei-seg[type='source'] {
+tei-seg[ana=hasNoSource] {
 	color:#666;
+}
+tei-seg[type=line] {
+    display:block;
 }
 
 /* synopsis and floating parallel display */
@@ -227,10 +247,9 @@ tei-seg[type='source'] {
 tei-lb[source]::after {
     display:inline-block;
 	font-weight:bold;
-	content:attr(source)' ';
-	width:1.5em;
+	content:attr(source);
 }
-tei-lb[source]:not(:first-of-type)::before {
+tei-lb[source]::before {
 	content:'\a';
     white-space:pre;
 }
@@ -241,7 +260,9 @@ tei-seg[type='parallel'] tei-seg[xml\:id] + tei-seg[corresp] {
 tei-seg[type='parallel'] tei-seg[xml\:id]:hover + tei-seg[corresp] {
     visibility:visible;
 }
-
+tei-seg[type='parallel'] tei-seg[xml\:id]:hover {
+    color:var(--highlight-color);
+}
 tei-seg[type='parallel'] {
     display:inline-block;
     position:relative;
@@ -260,6 +281,9 @@ tei-seg[type='parallel'] > tei-seg[corresp] {
     font-size:0.8rem;
     line-height:1rem;
     width:30rem;
+    text-indent:-1.5rem;
+    margin-left:1rem;
+    margin-top:-1.2rem;
 }
 
 /* translation and parallel grid display */

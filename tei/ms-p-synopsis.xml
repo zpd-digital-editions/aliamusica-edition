@@ -42,42 +42,24 @@
                      <lb source="M"/>De harmonica consideratione Boetius ita disseruit: <lb source="P"/>De armonica consideratione Boetius ita disseruit:</seg>
                </seg>
                <seg type="parallel">
-                  <seg xml:id="p1.s2" n="2">Quia neque solum in terminis speculationem <choice>
-                        <corr>proporcionis</corr>
-                        <sic>proporciones</sic>
-                     </choice> habet, neque solum in differentiis, sed in utrisque communiter,</seg>
+                  <seg xml:id="p1.s2" n="2">Quia neque solum in terminis speculationem proporcionis habet, neque solum in differentiis, sed in utrisque communiter,</seg>
                   <seg corresp="#p1.s2">
                      <lb source="M"/>Quia neque solum in terminis speculationem proportionis habet, neque solum in
-                  differentiis, sed in utrisque communiter, <lb source="P"/>Quia neque solum in terminis speculationem <choice>
-                        <corr>proporcionis</corr>
-                        <sic>proporciones</sic>
-                     </choice> habet, neque solum in differentiis, sed in utrisque communiter,</seg>
+                  differentiis, sed in utrisque communiter, <lb source="P"/>Quia neque solum in terminis speculationem proporcionis habet, neque solum in differentiis, sed in utrisque communiter,</seg>
                </seg>
                <seg type="parallel">
-                  <seg xml:id="p1.s3" n="3">querit enim ut <choice>
-                        <corr>quemadmodum</corr>
-                        <sic>quem admodo</sic>
-                     </choice> sunt ad se extremi termini, sic maioris ad medium differentia contra differentiam medietatis ad ultimum.</seg>
+                  <seg xml:id="p1.s3" n="3">querit enim ut quemadmodum sunt ad se extremi termini, sic maioris ad medium differentia contra differentiam medietatis ad ultimum.</seg>
                   <seg corresp="#p1.s3">
                      <lb source="M"/>querit enim ut quemadmodum sunt ad se extremi termini, sic maioris ad medium
-                  differentia contra differentiam medietatis ad ultimum. <lb source="P"/>querit enim ut <choice>
-                        <corr>quemadmodum</corr>
-                        <sic>quem admodo</sic>
-                     </choice> sunt ad se extremi termini, sic maioris ad medium differentia contra differentiam medietatis ad ultimum.</seg>
+                  differentia contra differentiam medietatis ad ultimum. <lb source="P"/>querit enim ut quemadmodum sunt ad se extremi termini, sic maioris ad medium differentia contra differentiam medietatis ad ultimum.</seg>
                </seg>
             </p>
             <p source="#beta" xml:id="p2">
                <num>§2</num>
                <seg type="parallel">
-                  <seg xml:id="p2.s1" n="1">Ipsarum quoque <choice>
-                        <corr>musicarum</corr>
-                        <sic>musicorum</sic>
-                     </choice> consonantiarum, quas symphonias nominant, proporciones in hac poene sola medietate frequenter inuenies.</seg>
+                  <seg xml:id="p2.s1" n="1">Ipsarum quoque musicarum consonantiarum, quas symphonias nominant, proporciones in hac poene sola medietate frequenter inuenies.</seg>
                   <seg corresp="#p2.s1">
-                     <lb source="M"/>Ipsarum quoque musicarum consonantiarum, quas symphonias nominant, proportiones in hac poene sola medietate frequenter inuenies. <lb source="P"/>Ipsarum quoque <choice>
-                        <corr>musicarum</corr>
-                        <sic>musicorum</sic>
-                     </choice> consonantiarum, quas symphonias nominant, proporciones in hac poene sola medietate frequenter inuenies.</seg>
+                     <lb source="M"/>Ipsarum quoque musicarum consonantiarum, quas symphonias nominant, proportiones in hac poene sola medietate frequenter inuenies. <lb source="P"/>Ipsarum quoque musicarum consonantiarum, quas symphonias nominant, proporciones in hac poene sola medietate frequenter inuenies.</seg>
                </seg>
                <seg type="parallel">
                   <seg xml:id="p2.s2" n="2">Namque symphonia diatesseron que princeps est et quodammodo uim obtinet
@@ -91,16 +73,10 @@
             <p source="#beta" xml:id="p3">
                <num>§3</num>
                <seg type="parallel">
-                  <seg xml:id="p3.s1" n="1">Sunt ergo huiusmodi medietatis termini, quorum extremi <choice>
-                        <corr>sint</corr>
-                        <sic>sunt</sic>
-                     </choice> dupli, et alii quorum extremi sint tripli, ita:</seg>
+                  <seg xml:id="p3.s1" n="1">Sunt ergo huiusmodi medietatis termini, quorum extremi sint dupli, et alii quorum extremi sint tripli, ita:</seg>
                   <seg corresp="#p3.s1">
                      <lb source="M"/>Sint ergo huiusmodi medietatis termini, quorum extremi sint dupli, et alii
-                  quorum extremi sint tripli, ita: <lb source="P"/>Sunt ergo huiusmodi medietatis termini, quorum extremi <choice>
-                        <corr>sint</corr>
-                        <sic>sunt</sic>
-                     </choice> dupli, et alii quorum extremi sint tripli, ita:</seg>
+                  quorum extremi sint tripli, ita: <lb source="P"/>Sunt ergo huiusmodi medietatis termini, quorum extremi sint dupli, et alii quorum extremi sint tripli, ita:</seg>
                </seg>
                <figure xml:id="p3.f1">
                   <p>VI | VIII | XII || IIII | VI | XII</p>
@@ -116,23 +92,15 @@
                      <lb source="M"/>et in alia dispositione XII ad IIII triplus est. <lb source="P"/>et in alia dispositione XII ad IIII triplus est.</seg>
                </seg>
                <seg type="parallel">
-                  <seg xml:id="p3.s4" n="4">Horum diferentias colligamus et ad se inuicem comparemus, epytrita <choice>
-                        <corr>proportio</corr>
-                        <sic>comparatio proportio</sic>
-                     </choice>, id est diatesseron symphonia colligitur.</seg>
+                  <seg xml:id="p3.s4" n="4">Horum diferentias colligamus et ad se inuicem comparemus, epytrita proportio, id est diatesseron symphonia colligitur.</seg>
                   <seg corresp="#p3.s4">
                      <lb source="M"/>Horum si differentias colligamus et ad se inuicem comparemus, epitrita
-                  proportio, id est diatessaron sinphonia colligitur. <lb source="P"/>Horum diferentias colligamus et ad se inuicem comparemus, epytrita <choice>
-                        <corr>proportio</corr>
-                        <sic>comparatio proportio</sic>
-                     </choice>, id est diatesseron symphonia colligitur.</seg>
+                  proportio, id est diatessaron sinphonia colligitur. <lb source="P"/>Horum diferentias colligamus et ad se inuicem comparemus, epytrita proportio, id est diatesseron symphonia colligitur.</seg>
                </seg>
                <seg type="parallel">
-                  <seg xml:id="p3.s5" n="5">Inter VI <add place="above">enim</add> et XII senarius est, et inter IIII et
-                  XII octonarius;</seg>
+                  <seg xml:id="p3.s5" n="5">Inter VI enim et XII senarius est, et inter IIII et XII octonarius;</seg>
                   <seg corresp="#p3.s5">
-                     <lb source="M"/>Inter VI enim et duodecim senarius est, et inter IIII et duodecim octonarius ad senarium sesquitertiam efficit proportionem.  <lb source="P"/>Inter VI <add place="above">enim</add> et XII senarius est, et inter IIII et
-                  XII octonarius;</seg>
+                     <lb source="M"/>Inter VI enim et duodecim senarius est, et inter IIII et duodecim octonarius ad senarium sesquitertiam efficit proportionem.  <lb source="P"/>Inter VI enim et XII senarius est, et inter IIII et XII octonarius;</seg>
                </seg>
                <seg type="parallel">
                   <seg xml:id="p3.s6" n="6">qui scilicet octonarius ad senarium sesquiterciam efficit proportionem.</seg>
@@ -166,10 +134,10 @@
                      <lb source="M"/>Post hunc autem diapason consonantia est, ut VI ad XII. <lb source="P"/>Post hunc autem diapason consonantia est, ut VI ad XII.</seg>
                </seg>
                <seg type="parallel">
-                  <seg xml:id="p5.s2" n="2">In triplici <corr>quoque</corr> dispositione simul diapente et diapason
+                  <seg xml:id="p5.s2" n="2">In triplici quoque dispositione simul diapente et diapason
                   symphonia componitur, ut sunt</seg>
                   <seg corresp="#p5.s2">
-                     <lb source="M"/>In triplici quoque dispositione simul diapente et diapason simphonia componitur, ut sunt <lb source="P"/>In triplici <corr>quoque</corr> dispositione simul diapente et diapason
+                     <lb source="M"/>In triplici quoque dispositione simul diapente et diapason simphonia componitur, ut sunt <lb source="P"/>In triplici quoque dispositione simul diapente et diapason
                   symphonia componitur, ut sunt</seg>
                </seg>
                <figure>
@@ -199,8 +167,8 @@
                   <seg xml:id="p7.s1" n="1">In dupla vero proportione, major terminus differentiam sui et medii termini
                   triplus est,</seg>
                   <seg corresp="#p7.s1">
-                     <lb source="M"/>In dupla uero dispositione, maior terminus  differentiam
-                  sui et medii termini triplus est. <lb source="P"/>In dupla vero proportione, major terminus differentiam sui et medii termini
+                     <lb source="M"/>In dupla uero dispositione, maior terminus 
+                  differentiam sui et medii termini triplus est. <lb source="P"/>In dupla vero proportione, major terminus differentiam sui et medii termini
                   triplus est,</seg>
                </seg>
                <seg type="parallel">
