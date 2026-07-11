@@ -30,6 +30,21 @@
          </listChange>
       </revisionDesc>
    </teiHeader>
+   <standOff>
+      <!-- sources -->
+      <!-- seg/@corresp/[#idrange] is based on ref/@target/[#idrange] in document ref/@source -->
+      <seg sameAs="#p1" corresp="#p1.s2 #p1.s3"><ref target="#p155.7 #p155.8 #p155.9 #p155.10 #p155.11 #p155.12"
+            source="source-arithm.xml"/></seg>
+      <seg sameAs="#p2" corresp="#p2.s1 #p2.s2"><ref target="#p155.14 #p155.15 #p155.16 #p155.17 #p155.18 #p155.19"
+            source="source-arithm.xml"/></seg>
+      <seg sameAs="#p3" corresp="#p3.s1 #p3.s2 #p3.s3 #p3.s4 #p3.s5 #p3.s6"><ref
+            target="#p155.20 #p155.21 #p155.22 #p155.23 #p155.24 #p155.25 #p155.26 #p155.27 #p156.1 #p156.2 #p156.3 #p156.4 #p156.5 #p156.6 #p156.7 #p156.8 #p156.9"
+            source="source-arithm.xml"/></seg>
+      <seg sameAs="#p4" corresp="#p4.s1"><ref target="#p156.10 #p156.11" source="source-arithm.xml"/></seg>
+      <seg sameAs="#p5" corresp="#p5 #p5.s1 #p5.s2"><ref target="#p156.20 #p156.21" source="source-arithm.xml"/></seg>
+      <seg sameAs="#p6" corresp="#p6 #p6.s1 #p6.s2"><ref target="#p157.3 #p157.4 #p157.5" source="source-arithm.xml"
+         /></seg>
+   </standOff>
    <text>
       <body>
          <div xml:id="div1">

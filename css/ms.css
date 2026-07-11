@@ -236,7 +236,7 @@ tei-seg[type=gloss]:hover tei-graphic {
 /* sources */
 
 tei-seg[ana=hasNoSource] {
-	color:#666;
+	color:#999;
 }
 tei-seg[type=line] {
     display:block;
