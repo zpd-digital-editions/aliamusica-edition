@@ -33,7 +33,7 @@
    <text>
       <body>
          <div xml:id="div1">
-            <head>ALIA MUSICA</head>
+            <head>Paris, Bibliothèque nationale de France, fonds latin 7211, fol. 51</head>
             <p source="#beta" xml:id="p1">
                <num>§1</num>
                <seg type="parallel">
@@ -79,7 +79,8 @@
                   quorum extremi sint tripli, ita: <lb source="P"/>Sunt ergo huiusmodi medietatis termini, quorum extremi sint dupli, et alii quorum extremi sint tripli, ita:</seg>
                </seg>
                <figure xml:id="p3.f1">
-                  <p>VI | VIII | XII || IIII | VI | XII</p>
+                  <p>VI | VIII | XII</p>
+                  <p>IIII | VI | XII</p>
                </figure>
                <seg type="parallel">
                   <seg xml:id="p3.s2" n="2">Duodenarius igitur ad senarium duplus est;</seg>
@@ -106,7 +107,7 @@
                   <seg xml:id="p3.s6" n="6">qui scilicet octonarius ad senarium sesquiterciam efficit proportionem.</seg>
                   <seg corresp="#p3.s6">
                      <lb source="M"/>
-                     <seg corresp="#">--</seg>
+                     <seg corresp="#none">--</seg>
                      <lb source="P"/>qui scilicet octonarius ad senarium sesquiterciam efficit proportionem.</seg>
                </seg>
             </p>
@@ -140,8 +141,8 @@
                      <lb source="M"/>In triplici quoque dispositione simul diapente et diapason simphonia componitur, ut sunt <lb source="P"/>In triplici quoque dispositione simul diapente et diapason
                   symphonia componitur, ut sunt</seg>
                </seg>
-               <figure>
-                  <desc>VI VIIII XVIII.</desc>
+               <figure xml:id="p5.f1">
+                  <p>VI VIIII XVIII.</p>
                </figure>
             </p>
             <p source="#beta" xml:id="p6">
@@ -176,7 +177,7 @@
                   est.</seg>
                   <seg corresp="#p7.s2">
                      <lb source="M"/>
-                     <seg corresp="#">--</seg>
+                     <seg corresp="#none">--</seg>
                      <lb source="P"/>et rursus minor terminus ad differentiam sui et medii termini triplus
                   est.</seg>
                </seg>
@@ -185,7 +186,7 @@
                   est, et inter VI. et VIII. binarius, qui rursus ad eundem senarium triplus est.</seg>
                   <seg corresp="#p7.s3">
                      <lb source="M"/>
-                     <seg corresp="#">--</seg>
+                     <seg corresp="#none">--</seg>
                      <lb source="P"/>Nam inter VIII. et XII. quaternarius est, qui ad eundem duodenarium triplus
                   est, et inter VI. et VIII. binarius, qui rursus ad eundem senarium triplus est.</seg>
                </seg>

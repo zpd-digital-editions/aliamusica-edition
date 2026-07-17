@@ -47,7 +47,7 @@
 
 	<!-- ignore back matter (translation) -->
 	<xsl:template match="text/back" mode="#all"/>
-	
+
 	<!-- APPARATUS -->
 
 	<!-- ignore apparatus everywhere but in apparatus view -->
@@ -86,7 +86,7 @@
 	<!-- SOURCES -->
 
 	<!-- parallel view: manuscript / sources -->
-	<xsl:template match="text//p" mode="sources">
+	<xsl:template match="text//div/p" mode="sources">
 		<div type="parallel">
 			<xsl:copy>
 				<xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -94,17 +94,31 @@
 			<xsl:variable name="sourceRef" select="
 					//standOff/seg[@sameAs = concat('#', current()/@xml:id)]
 					/ref"/>
-			<xsl:variable name="sourceDoc" select="document($sourceRef/@source)/TEI"/>
-			<xsl:variable name="sourceLines" select="
-					$sourceRef/@target
-					! tokenize(., '\s+')"/>
-			<p corresp="{concat('#',@xml:id)}">
-				<xsl:for-each select="$sourceLines">
-					<seg type="line">
-						<xsl:value-of select="$sourceDoc//line[@xml:id = substring(current(), 2)]"/>
+			<xsl:if test="$sourceRef">
+				<xsl:variable name="sourceDoc" select="document($sourceRef/@source)/TEI"/>
+				<xsl:variable name="sourceLines" select="
+						$sourceRef/@target
+						! tokenize(., '\s+')"/>
+				<p corresp="{concat('#',@xml:id)}">
+					<xsl:for-each select="$sourceLines">
+						<xsl:variable name="line" select="$sourceDoc//line[@xml:id = substring(current(), 2)]"/>
+						<seg type="line">
+							<xsl:copy-of select="$line/@rend"/>
+							<xsl:value-of select="$line"/>
+						</seg>
+					</xsl:for-each>
+					<seg type="source">
+						<xsl:text>(</xsl:text>
+						<xsl:value-of select="$sourceDoc//teiHeader/fileDesc/sourceDesc/p"/>
+						<xsl:text>, </xsl:text>
+						<xsl:variable name="lineRefs" select="tokenize(normalize-space($sourceRef/@target), '\s+')"/>
+						<xsl:value-of select="substring($lineRefs[1], 3)"/>
+						<xsl:text>-</xsl:text>
+						<xsl:value-of select="substring($lineRefs[last()], 3)"/>
+						<xsl:text>)</xsl:text>
 					</seg>
-				</xsl:for-each>
-			</p>
+				</p>
+			</xsl:if>
 		</div>
 	</xsl:template>
 	<!-- segment highlighting -->
@@ -138,7 +152,7 @@
 						<xsl:apply-templates select="$ms-m//seg[@xml:id = current()/@xml:id]/node()" mode="#current"/>
 					</xsl:when>
 					<xsl:otherwise>
-						<seg corresp="#">--</seg>
+						<seg corresp="#none">--</seg>
 					</xsl:otherwise>
 				</xsl:choose>
 				<xsl:text> </xsl:text>
@@ -148,7 +162,7 @@
 						<xsl:apply-templates select="$ms-p//seg[@xml:id = current()/@xml:id]/node()" mode="#current"/>
 					</xsl:when>
 					<xsl:otherwise>
-						<seg corresp="#">--</seg>
+						<seg corresp="#none">--</seg>
 					</xsl:otherwise>
 				</xsl:choose>
 			</seg>
@@ -158,7 +172,7 @@
 	<!-- TRANSLATION -->
 
 	<!-- parallel view: manuscript / translation -->
-	<xsl:template match="text//p" mode="translation">
+	<xsl:template match="text//div/p" mode="translation">
 		<div type="parallel">
 			<xsl:copy>
 				<xsl:apply-templates select="@* | node()" mode="#current"/>

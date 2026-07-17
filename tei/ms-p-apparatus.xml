@@ -33,7 +33,7 @@
    <text>
       <body>
          <div xml:id="div1">
-            <head>ALIA MUSICA</head>
+            <head>Paris, Bibliothèque nationale de France, fonds latin 7211, fol. 51</head>
             <p source="#beta" xml:id="p1">
                <num>§1</num>
                <seg xml:id="p1.s1" n="1">De armonica consideratione Boetius ita disseruit:</seg>
@@ -56,7 +56,7 @@
                      <sic>musicorum</sic>
                   </choice> consonantiarum, quas symphonias nominant, proporciones in hac <app>
                      <lem>poene</lem>
-                     <note>read paene</note>
+                     <rdg cause="read">paene</rdg>
                   </app> sola <app rend="shift-1">
                      <lem>medietate</lem>
                      <rdg>medietati</rdg>
@@ -74,7 +74,8 @@
                   <p>VI | <app>
                         <lem>VIII</lem>
                         <rdg>VIIII</rdg>
-                     </app> | XII || IIII | VI | XII</p>
+                     </app> | XII</p>
+                  <p>IIII | VI | XII</p>
                </figure>
                <seg xml:id="p3.s2" n="2">Duodenarius igitur ad senarium duplus est;</seg>
                <seg xml:id="p3.s3" n="3">et in alia <app>
@@ -107,8 +108,8 @@
                   </app> ad XII.</seg>
                <seg xml:id="p5.s2" n="2">In triplici <corr>quoque</corr> dispositione simul diapente et diapason
                   symphonia componitur, ut sunt</seg>
-               <figure>
-                  <desc>VI VIIII XVIII.</desc>
+               <figure xml:id="p5.f1">
+                  <p>VI VIIII XVIII.</p>
                </figure>
             </p>
             <p source="#beta" xml:id="p6">

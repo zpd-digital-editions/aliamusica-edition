@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="diagram.css"?>
+<svg width="120" height="140" viewBox="-5 -10 130 155" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1">
+    <style type="text/css">
+        rect,path,line {
+            stroke-width:0.5;
+            stroke:black;
+            fill:none;
+        }
+        text {
+            dominant-baseline:central;
+            text-anchor:middle;
+            font-size:7px;
+        }
+        .invisible {
+            fill:none;
+            stroke:none;
+        }
+    </style>
+    <!-- oben -->
+    <path id="p0" d="M 0 60 A 10 10 0 0 1 120 60" class="invisible"/>
+    <text textLength="120" lengthAdjust="spacing">
+        <textPath xlink:href="#p0" startOffset="50%">Armonice medietates</textPath>
+    </text>
+    <!-- Halbkreise -->
+    <path id="p1" d="M 10 60 A 20 20 0 0 1 50 60"/>
+    <text dy="-4" textLength="50" lengthAdjust="spacing">
+        <textPath xlink:href="#p1" startOffset="50%">DVPLI</textPath>
+    </text>
+    <text x="30" y="52">diff</text>
+    <path id="p2" d="M 70 60 A 20 20 0 0 1 110 60"/>
+    <text dy="-4" textLength="50" lengthAdjust="spacing">
+        <textPath xlink:href="#p2" startOffset="50%">TRIPLI</textPath>
+    </text>
+    <text x="90" y="52">diff</text>
+    <!-- 1. Reihe -->
+    <rect x="10" y="60" width="20" height="20"/>
+    <text x="20" y="70">II</text>
+    <rect x="30" y="60" width="20" height="20"/>
+    <text x="40" y="70">IIII</text>
+    <rect x="70" y="60" width="20" height="20"/>
+    <text x="80" y="70">II</text>
+    <rect x="90" y="60" width="20" height="20"/>
+    <text x="100" y="70">VI</text>
+    <!-- 2. Reihe -->
+    <rect x="0" y="80" width="20" height="20"/>
+    <text x="10" y="90">VI</text>
+    <rect x="20" y="80" width="20" height="20"/>
+    <text x="30" y="90">VIII</text>
+    <rect x="40" y="80" width="20" height="20"/>
+    <text x="50" y="90">XII</text>
+    <rect x="60" y="80" width="20" height="20"/>
+    <text x="70" y="90">IIII</text>
+    <rect x="80" y="80" width="20" height="20"/>
+    <text x="90" y="90">VI</text>
+    <rect x="100" y="80" width="20" height="20"/>
+    <text x="110" y="90">XII</text>
+    <!-- unten -->
+    <line x1="10" y1="100" x2="20" y2="120"/>
+    <line x1="50" y1="100" x2="40" y2="120"/>
+    <text x="30" y="115">diff</text>
+    <text x="30" y="125">VI</text>
+    <line x1="70" y1="100" x2="80" y2="120"/>
+    <line x1="110" y1="100" x2="100" y2="120"/>
+    <text x="90" y="115">diff</text>
+    <text x="90" y="125">VIII</text>
+    <text x="60" y="135">sesquitertia proportione</text>
+</svg>

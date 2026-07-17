@@ -55,7 +55,7 @@
          <line xml:id="p155.20">invenitur. Sint enim eiusmodi armonicae medietatis ter-</line>
          <line xml:id="p155.21">mini, quorum extremi dupli sint, et rursus alia huiusmodi</line>
          <line xml:id="p155.22">dispositio, quorum extremi tripli.</line>
-         <line xml:id="p155.23">III. IIII. VI. II. III. VI.</line>
+         <line xml:id="p155.23" rend="centered">III. IIII. VI. II. III. VI.</line>
          <line xml:id="p155.24">Senarius igitur ad ternarium duplus est, idem autem se-</line>
          <line xml:id="p155.25">narius in alia dispositione ad binarium triplus. Horum</line>
          <line xml:id="p155.26">igitur si differentias colligamus et ad se invicem compare-</line>
@@ -64,12 +64,12 @@
          <line xml:id="p156.1">phonia resonabit. Inter .III. enim et .VI. ternarius est et</line>
          <line xml:id="p156.2">inter binarium et senarium quaternarius, qui sibimet</line>
          <line xml:id="p156.3">comparati sesquitertiam efficient proportionem.</line>
-         <line xml:id="p156.4">III. IIII. VI.</line>
-         <line xml:id="p156.5">differentiae</line>
-         <line xml:id="p156.6">III</line>
-         <line xml:id="p156.7">diatessaron sesquitertia</line>
-         <line xml:id="p156.8">IIII_________</line>
-         <line xml:id="p156.9">II. III. VI.</line>
+         <line xml:id="p156.4" rend="centered">III. IIII. VI.</line>
+         <line xml:id="p156.5" rend="centered">differentiae</line>
+         <line xml:id="p156.6" rend="centered">III</line>
+         <line xml:id="p156.7" rend="centered">diatessaron sesquitertia</line>
+         <line xml:id="p156.8" rend="centered">IIII_________</line>
+         <line xml:id="p156.9" rend="centered">II. III. VI.</line>
          <line xml:id="p156.10">In eadem quoque medietate et diapente symphonia com-</line>
          <line xml:id="p156.11">ponitur, quam sesqualtera habitudo restituit. Nam in</line>
          <line xml:id="p156.12">utrisque dispositionibus his, quae subiectae sunt, in duplici</line>
@@ -77,28 +77,28 @@
          <line xml:id="p156.14">narius ad binarium. Ex quibus utrisque diapente sym-</line>
          <line xml:id="p156.15">phonia coniungitur-</line>
          <line xml:id="p156.16">sesqualtera diapente</line>
-         <line xml:id="p156.17">III. IIII. VI.</line>
-         <line xml:id="p156.18">II. III. VI.</line>
+         <line xml:id="p156.17" rend="centered">III. IIII. VI.</line>
+         <line xml:id="p156.18" rend="centered">II. III. VI.</line>
          <line xml:id="p156.19">sesqualtera diapente</line>
          <line xml:id="p156.20">Post hanc autem diapason consonantia, quae fit ex duplici,</line>
          <line xml:id="p156.21">ut est subiecta formula.</line>
-         <line xml:id="p156.22">III. IIII. VI.</line>
-         <line xml:id="p156.23">duplex, diapason</line>
+         <line xml:id="p156.22" rend="centered">III. IIII. VI.</line>
+         <line xml:id="p156.23" rend="centered">duplex, diapason</line>
          <line xml:id="p156.24">In triplici quoque dispositione simul diapente et diapason</line>
          <line xml:id="p156.25">symphonia componitur servans sesqualteram et duplicem</line>
          <line xml:id="p156.26">rationem, quod subiecta descriptio docet.</line>
          <pb n="157"/>
-         <line xml:id="p157.1">II. III. VI</line>
-         <line xml:id="p157.2">triplus, diapente et diapason.</line>
+         <line xml:id="p157.1" rend="centered">II. III. VI</line>
+         <line xml:id="p157.2" rend="centered">triplus, diapente et diapason.</line>
          <line xml:id="p157.3">Et quoniam triplus duas continet consonantias, diapente</line>
          <line xml:id="p157.4">scilicet et diapason, in huius triplicis dispositione in diffe-</line>
          <line xml:id="p157.5">rentiis eundem rursus triplum repperiemus, secundum</line>
          <line xml:id="p157.6">subter descriptum modum.</line>
-         <line xml:id="p157.7">triplus.</line>
-         <line xml:id="p157.8">differentiae.</line>
-         <line xml:id="p157.9">I. III.</line>
-         <line xml:id="p157.10">II. III. VI.</line>
-         <line xml:id="p157.11">diapente diapason</line>
+         <line xml:id="p157.7" rend="centered">triplus.</line>
+         <line xml:id="p157.8" rend="centered">differentiae.</line>
+         <line xml:id="p157.9" rend="centered">I. III.</line>
+         <line xml:id="p157.10" rend="centered">II. III. VI.</line>
+         <line xml:id="p157.11" rend="centered">diapente diapason</line>
       </zone>
    </standOff>
 </TEI>

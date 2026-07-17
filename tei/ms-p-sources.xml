@@ -33,7 +33,7 @@
    <text>
       <body>
          <div xml:id="div1">
-            <head>ALIA MUSICA</head>
+            <head>Paris, Bibliothèque nationale de France, fonds latin 7211, fol. 51</head>
             <div type="parallel">
                <p source="#beta" xml:id="p1">
                   <num>§1</num>
@@ -48,6 +48,7 @@
                   <seg type="line">quemadmodum sunt ad se extremi termini, sic maioris ad</seg>
                   <seg type="line">medium differentia contra differentiam medietatis ad ulti-</seg>
                   <seg type="line">mum. Ad aliquid autem considerationem armonicae pro-</seg>
+                  <seg type="source">(Boethius, De arithmetica, Bk II, cap. 48, 155.7-155.12)</seg>
                </p>
             </div>
             <div type="parallel">
@@ -64,6 +65,7 @@
                   <seg type="line">quae princeps est et quodammodo vim obtinens elementi,</seg>
                   <seg type="line">-- constituitur scilicet in epitrita proportione, ut est quater-</seg>
                   <seg type="line">narius ad ternarium -- in eiusmodi armonicis medietatibus</seg>
+                  <seg type="source">(Boethius, De arithmetica, Bk II, cap. 48, 155.14-155.19)</seg>
                </p>
             </div>
             <div type="parallel">
@@ -71,10 +73,8 @@
                   <num>§3</num>
                   <seg ana="hasSource" xml:id="p3.s1" n="1">Sunt ergo huiusmodi medietatis termini, quorum extremi sint dupli, et alii quorum extremi sint tripli, ita:</seg>
                   <figure xml:id="p3.f1">
-                     <div type="parallel">
-                        <p>VI | VIII | XII || IIII | VI | XII</p>
-                        <p corresp="#"/>
-                     </div>
+                     <p>VI | VIII | XII</p>
+                     <p>IIII | VI | XII</p>
                   </figure>
                   <seg ana="hasSource" xml:id="p3.s2" n="2">Duodenarius igitur ad senarium duplus est;</seg>
                   <seg ana="hasSource" xml:id="p3.s3" n="3">et in alia dispositione XII ad IIII triplus est.</seg>
@@ -86,7 +86,7 @@
                   <seg type="line">invenitur. Sint enim eiusmodi armonicae medietatis ter-</seg>
                   <seg type="line">mini, quorum extremi dupli sint, et rursus alia huiusmodi</seg>
                   <seg type="line">dispositio, quorum extremi tripli.</seg>
-                  <seg type="line">III. IIII. VI. II. III. VI.</seg>
+                  <seg type="line" rend="centered">III. IIII. VI. II. III. VI.</seg>
                   <seg type="line">Senarius igitur ad ternarium duplus est, idem autem se-</seg>
                   <seg type="line">narius in alia dispositione ad binarium triplus. Horum</seg>
                   <seg type="line">igitur si differentias colligamus et ad se invicem compare-</seg>
@@ -94,12 +94,13 @@
                   <seg type="line">phonia resonabit. Inter .III. enim et .VI. ternarius est et</seg>
                   <seg type="line">inter binarium et senarium quaternarius, qui sibimet</seg>
                   <seg type="line">comparati sesquitertiam efficient proportionem.</seg>
-                  <seg type="line">III. IIII. VI.</seg>
-                  <seg type="line">differentiae</seg>
-                  <seg type="line">III</seg>
-                  <seg type="line">diatessaron sesquitertia</seg>
-                  <seg type="line">IIII_________</seg>
-                  <seg type="line">II. III. VI.</seg>
+                  <seg type="line" rend="centered">III. IIII. VI.</seg>
+                  <seg type="line" rend="centered">differentiae</seg>
+                  <seg type="line" rend="centered">III</seg>
+                  <seg type="line" rend="centered">diatessaron sesquitertia</seg>
+                  <seg type="line" rend="centered">IIII_________</seg>
+                  <seg type="line" rend="centered">II. III. VI.</seg>
+                  <seg type="source">(Boethius, De arithmetica, Bk II, cap. 48, 155.20-156.9)</seg>
                </p>
             </div>
             <div type="parallel">
@@ -112,6 +113,7 @@
                <p corresp="#p4">
                   <seg type="line">In eadem quoque medietate et diapente symphonia com-</seg>
                   <seg type="line">ponitur, quam sesqualtera habitudo restituit. Nam in</seg>
+                  <seg type="source">(Boethius, De arithmetica, Bk II, cap. 48, 156.10-156.11)</seg>
                </p>
             </div>
             <div type="parallel">
@@ -120,13 +122,14 @@
                   <seg ana="hasSource" xml:id="p5.s1" n="1">Post hunc autem diapason consonantia est, ut VI ad XII.</seg>
                   <seg ana="hasSource" xml:id="p5.s2" n="2">In triplici quoque dispositione simul diapente et diapason
                   symphonia componitur, ut sunt</seg>
-                  <figure>
-                     <desc>VI VIIII XVIII.</desc>
+                  <figure xml:id="p5.f1">
+                     <p>VI VIIII XVIII.</p>
                   </figure>
                </p>
                <p corresp="#p5">
                   <seg type="line">Post hanc autem diapason consonantia, quae fit ex duplici,</seg>
                   <seg type="line">ut est subiecta formula.</seg>
+                  <seg type="source">(Boethius, De arithmetica, Bk II, cap. 48, 156.20-156.21)</seg>
                </p>
             </div>
             <div type="parallel">
@@ -140,6 +143,7 @@
                   <seg type="line">Et quoniam triplus duas continet consonantias, diapente</seg>
                   <seg type="line">scilicet et diapason, in huius triplicis dispositione in diffe-</seg>
                   <seg type="line">rentiis eundem rursus triplum repperiemus, secundum</seg>
+                  <seg type="source">(Boethius, De arithmetica, Bk II, cap. 48, 157.3-157.5)</seg>
                </p>
             </div>
             <div type="parallel">
@@ -152,7 +156,6 @@
                   <seg ana="hasNoSource" xml:id="p7.s3" n="3">Nam inter VIII. et XII. quaternarius est, qui ad eundem duodenarium triplus
                   est, et inter VI. et VIII. binarius, qui rursus ad eundem senarium triplus est.</seg>
                </p>
-               <p corresp="#p7"/>
             </div>
          </div>
       </body>

@@ -33,7 +33,7 @@
    <text>
       <body>
          <div xml:id="div1">
-            <head>ALIA MUSICA</head>
+            <head>München, Bayerische Staatsbibliothek, Clm 14272, fol. 175</head>
             <p source="#beta" xml:id="p1">
                <num>§1</num>
                <seg type="parallel">
@@ -82,7 +82,8 @@
                   quorum extremi sint tripli, ita: <lb source="P"/>Sunt ergo huiusmodi medietatis termini, quorum extremi sint dupli, et alii quorum extremi sint tripli, ita:</seg>
                </seg>
                <figure xml:id="p3.f1">
-                  <desc>VI | VIII | XII || IIII | VI | XII</desc>
+                  <p>VI | VIII | XII</p>
+                  <p>IIII | VI | XII</p>
                </figure>
                <seg type="parallel">
                   <seg xml:id="p3.s2" n="2">Duodenarius igitur ad senarium duplus est;</seg>
@@ -104,8 +105,7 @@
                <seg type="parallel">
                   <seg xml:id="p3.s5" n="5">Inter VI enim et duodecim senarius est, et inter IIII et duodecim octonarius ad senarium sesquitertiam efficit proportionem. </seg>
                   <seg corresp="#p3.s5">
-                     <lb source="M"/>Inter VI enim et duodecim senarius est, et inter IIII et duodecim octonarius ad senarium sesquitertiam efficit proportionem.  <lb source="P"/>Inter VI <add place="above">enim</add> et XII senarius est, et inter IIII et
-                  XII octonarius;</seg>
+                     <lb source="M"/>Inter VI enim et duodecim senarius est, et inter IIII et duodecim octonarius ad senarium sesquitertiam efficit proportionem.  <lb source="P"/>Inter VI enim et XII senarius est, et inter IIII et XII octonarius;</seg>
                </seg>
             </p>
             <p source="#beta" xml:id="p4">
@@ -138,7 +138,7 @@
                   symphonia componitur, ut sunt</seg>
                </seg>
                <figure xml:id="p5.f1" n="2">
-                  <desc>VI VIII XVIII.</desc>
+                  <p>VI VIII XVIII.</p>
                </figure>
             </p>
             <p source="#beta" xml:id="p6">

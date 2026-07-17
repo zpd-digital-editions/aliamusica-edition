@@ -48,7 +48,7 @@
    <text>
       <body>
          <div xml:id="div1">
-            <head>ALIA MUSICA</head>
+            <head>Paris, Bibliothèque nationale de France, fonds latin 7211, fol. 51</head>
             <p source="#beta" xml:id="p1">
                <num>§1</num>
                <seg xml:id="p1.s1" n="1">De armonica consideratione Boetius ita disseruit:</seg>
@@ -71,7 +71,7 @@
                      <sic>musicorum</sic>
                   </choice> consonantiarum, quas symphonias nominant, proporciones in hac <app>
                      <lem>poene</lem>
-                     <note>read paene</note>
+                     <rdg cause="read">paene</rdg>
                   </app> sola <app rend="shift-1">
                      <lem>medietate</lem>
                      <rdg>medietati</rdg>
@@ -89,7 +89,8 @@
                   <p>VI | <app>
                         <lem>VIII</lem>
                         <rdg>VIIII</rdg>
-                     </app> | XII || IIII | VI | XII</p>
+                     </app> | XII</p>
+                  <p>IIII | VI | XII</p>
                </figure>
                <seg xml:id="p3.s2" n="2">Duodenarius igitur ad senarium duplus est;</seg>
                <seg xml:id="p3.s3" n="3">et in alia <app>
@@ -120,8 +121,8 @@
                   </app> ad XII.</seg>
                <seg xml:id="p5.s2" n="2">In triplici <corr>quoque</corr> dispositione simul diapente et diapason
                   symphonia componitur, ut sunt</seg>
-               <figure>
-                  <desc>VI VIIII XVIII.</desc>
+               <figure xml:id="p5.f1">
+                  <p>VI VIIII XVIII.</p>
                </figure>
             </p>
             <p source="#beta" xml:id="p6">
@@ -167,7 +168,8 @@
                <seg corresp="#p3.s1">There are terms of a harmonic mean of this type, whose extremes are duple, and
                   others whose extremes are triple, thus:</seg>
                <figure corresp="#p3.f1">
-                  <desc>6. 8. 12. || 4. 6. 12.</desc>
+                  <p>6. 8. 12.</p>
+                  <p>4. 6. 12.</p>
                </figure>
                <seg corresp="#p3.s2">Therefore, 12 to 6 is a duple,</seg>
                <seg corresp="#p3.s3">and in the other disposition 12 to 4 is triple;</seg>
@@ -185,7 +187,10 @@
                <seg corresp="#p5.s1">After this, however, there is a diapason consonance, as [for example] 6 to
                   12.</seg>
                <seg corresp="#p5.s2">In the triple disposition, moreover, the consonance of both a diapente and diapason
-                  is composed at the same time, as are 6:9:18.</seg>
+                  is composed at the same time, as are</seg>
+               <figure corresp="#p5.f1">
+                  <p>6:9:18.</p>
+               </figure>
             </p>
             <p corresp="#p6">
                <seg corresp="#p6.s1">And since the triple [disposition] contains two consonances, namely the diapente

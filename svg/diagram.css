@@ -1,0 +1,29 @@
+/* SVG */
+rect {
+    stroke-width:0.5;
+    stroke:black;
+    fill:none;
+}
+path {
+    stroke-width:0.5;
+    stroke:black;
+    fill:none;
+}
+line {
+    stroke-width:0.5;
+    stroke:black;
+    fill:none;
+}
+text {
+    dominant-baseline:central;
+    text-anchor:middle;
+    font-size:7px;
+}
+.invisible {
+    fill:none;
+    stroke:none;
+/*    stroke:gray;
+    stroke-linecap: round;
+    stroke-dasharray: 0 2;
+*/
+}
