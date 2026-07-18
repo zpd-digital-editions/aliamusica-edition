@@ -12,7 +12,7 @@
             <p>Prototype</p>
          </publicationStmt>
          <sourceDesc>
-            <p>München, Bayerische Staatsbibliothek, Clm 14272, fol. 175.</p>
+            <p>Munich, Bayerische Staatsbibliothek, Clm 14272, fol. 175.</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
@@ -38,7 +38,7 @@
       <seg sameAs="#p2" corresp="#p2.s1 #p2.s2"><ref target="#p155.14 #p155.15 #p155.16 #p155.17 #p155.18 #p155.19"
             source="source-arithm.xml"/></seg>
       <seg sameAs="#p3" corresp="#p3.s1 #p3.s2 #p3.s3 #p3.s4 #p3.s5 #p3.s6"><ref
-            target="#p155.20 #p155.21 #p155.22 #p155.23 #p155.24 #p155.25 #p155.26 #p155.27 #p156.1 #p156.2 #p156.3 #p156.4 #p156.5 #p156.6 #p156.7 #p156.8 #p156.9"
+            target="#p155.20 #p155.21 #p155.22 #p155.23 #p155.24 #p155.25 #p155.26 #p155.27 #p156.1 #p156.2 #p156.3"
             source="source-arithm.xml"/></seg>
       <seg sameAs="#p4" corresp="#p4.s1"><ref target="#p156.10 #p156.11" source="source-arithm.xml"/></seg>
       <seg sameAs="#p5" corresp="#p5 #p5.s1 #p5.s2"><ref target="#p156.20 #p156.21" source="source-arithm.xml"/></seg>
@@ -48,7 +48,7 @@
    <text>
       <body>
          <div xml:id="div1">
-            <head>München, Bayerische Staatsbibliothek, Clm 14272, fol. 175</head>
+            <head>Munich, Bayerische Staatsbibliothek, Clm 14272, fol. 175</head>
             <p source="#beta" xml:id="p1">
                <num>§1</num>
                <seg xml:id="p1.s1" n="1">De harmonica consideratione Boetius ita disseruit:</seg>
@@ -120,7 +120,7 @@
                <num>§6</num>
                <seg xml:id="p6.s1" n="1">Et quoniam triplus duas continet consonantias, diapente scilicet ac diapason,
                   in differentiis eiusdem triplicis eundem triplum reperiemus.</seg>
-               <seg xml:id="p6.s2" n="2"> Nam inter VI et <app>
+               <seg xml:id="p6.s2" n="2">Nam inter VI et <app>
                      <lem>VIIII</lem>
                      <note>corrected from "VIII" by different hand</note>
                   </app> ternarius differentia est, et inter VIIII et XVIII nouenarius, qui ad ternarium triplus
@@ -138,8 +138,8 @@
          <div type="translation" xml:lang="en">
             <p corresp="#p1">
                <seg corresp="#p1.s1" n="1">Concerning the harmonic relationship, Boethius stated thus:</seg>
-               <seg corresp="#p1.s2" n="2">Because it exhibits a proportional relationship not only between the terms, nor
-                  only between their differences, but between both jointly,</seg>
+               <seg corresp="#p1.s2" n="2">Because it exhibits a proportional relationship not only between the terms,
+                  nor only between their differences, but between both jointly,</seg>
                <seg corresp="#p1.s3" n="3">it requires that just as the extreme terms are to each other, so too is the
                   difference between the greater term and the mean as compared with the difference between the mean and
                   the lesser term.</seg>
@@ -147,47 +147,48 @@
             <p corresp="#p2">
                <seg corresp="#p2.s1" n="1">You will also frequently find the proportions of the musical consonances
                   themselves, which they name symphonies, almost solely in this mean.</seg>
-               <seg corresp="#p2.s2" n="2">For the diatessaron consonance, which is the principal [consonance], and holds the
-                  force of an element in a certain way, is found in harmonic means of this type, as 6 is to 8.</seg>
+               <seg corresp="#p2.s2" n="2">For the diatessaron consonance, which is the principal [consonance], and
+                  holds the force of an element in a certain way, is found in harmonic means of this type, as 6 is to
+                  8.</seg>
             </p>
             <p corresp="#p3">
-               <seg corresp="#p3.s1" n="1">Let there be terms of a harmonic mean of this type, whose extremes are duple, and
-                  others whose extremes are triple, thus:</seg>
+               <seg corresp="#p3.s1" n="1">Let there be terms of a harmonic mean of this type, whose extremes are duple,
+                  and others whose extremes are triple, thus:</seg>
                <figure corresp="#p3.f1">
                   <p>6. 8. 12.</p>
                   <p>4. 6. 12.</p>
                </figure>
                <seg corresp="#p3.s2" n="2">Therefore, 12 to 6 is a duple,</seg>
                <seg corresp="#p3.s3" n="3">and in the other disposition 12 to 4 is triple.</seg>
-               <seg corresp="#p3.s4" n="4">If we take the differences of these and compare them with each other, an epitrita
-                  proportion, the same diatessaron consonance, is formed.</seg>
-               <seg corresp="#p3.s5" n="5">For between 6 and twelve is 6, and between 4 and twelve an 8 makes a sesquitertian
-                  proportion to six.</seg>
+               <seg corresp="#p3.s4" n="4">If we take the differences of these and compare them with each other, an
+                  epitrita proportion, the same diatessaron consonance, is formed.</seg>
+               <seg corresp="#p3.s5" n="5">For between 6 and twelve is 6, and between 4 and twelve an 8 makes a
+                  sesquitertian proportion to six.</seg>
             </p>
             <p corresp="#p4">
                <seg corresp="#p4.s1" n="1">In the same mean, moreover, a diapente consonance is composed.</seg>
-               <seg corresp="#p4.s2" n="2">In the duple [disposition], 12 to 8, and in the triple, 6 to 4, there is obviously
-                  a sesquialtera.</seg>
+               <seg corresp="#p4.s2" n="2">In the duple [disposition], 12 to 8, and in the triple, 6 to 4, there is
+                  obviously a sesquialtera.</seg>
             </p>
             <p corresp="#p5">
                <seg corresp="#p5.s1" n="1">After this, however, there is a diapason consonance, as [for example] 6 to
                   12.</seg>
-               <seg corresp="#p5.s2" n="2">In the triple disposition, moreover, the consonance of both a diapente and diapason
-                  is composed at the same time, as in</seg>
+               <seg corresp="#p5.s2" n="2">In the triple disposition, moreover, the consonance of both a diapente and
+                  diapason is composed at the same time, as in</seg>
                <figure corresp="#p5.f1">
                   <p>6:9:18</p>
                </figure>
             </p>
             <p corresp="#p6">
-               <seg corresp="#p6.s1" n="1">And since the triple [disposition] contains two consonances, namely a diapente and
-                  a diapason, we shall discover the same triple relationship in the differences of this same triple
-                  [disposition],</seg>
-               <seg corresp="#p6.s2" n="2">for between 6 and 9 the difference is three, and between 9 and 18 nine, which is a
-                  triple in relation to three.</seg>
+               <seg corresp="#p6.s1" n="1">And since the triple [disposition] contains two consonances, namely a
+                  diapente and a diapason, we shall discover the same triple relationship in the differences of this
+                  same triple [disposition],</seg>
+               <seg corresp="#p6.s2" n="2">for between 6 and 9 the difference is three, and between 9 and 18 nine, which
+                  is a triple in relation to three.</seg>
             </p>
             <p corresp="#p7">
-               <seg corresp="#p7.s1" n="1">In the duple disposition, however, the greater term is three times the difference
-                  between itself and the middle term.</seg>
+               <seg corresp="#p7.s1" n="1">In the duple disposition, however, the greater term is three times the
+                  difference between itself and the middle term.</seg>
             </p>
          </div>
       </back>

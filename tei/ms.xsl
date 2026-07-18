@@ -152,7 +152,7 @@
 						<xsl:apply-templates select="$ms-m//seg[@xml:id = current()/@xml:id]/node()" mode="#current"/>
 					</xsl:when>
 					<xsl:otherwise>
-						<seg corresp="#none">--</seg>
+						<xsl:text>—</xsl:text>
 					</xsl:otherwise>
 				</xsl:choose>
 				<xsl:text> </xsl:text>
@@ -162,7 +162,7 @@
 						<xsl:apply-templates select="$ms-p//seg[@xml:id = current()/@xml:id]/node()" mode="#current"/>
 					</xsl:when>
 					<xsl:otherwise>
-						<seg corresp="#none">--</seg>
+						<xsl:text>—</xsl:text>
 					</xsl:otherwise>
 				</xsl:choose>
 			</seg>

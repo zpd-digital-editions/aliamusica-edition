@@ -152,10 +152,10 @@
                   in differentiis eiusdem triplicis eundem triplum reperiemus.</seg>
                </seg>
                <seg type="parallel">
-                  <seg xml:id="p6.s2" n="2"> Nam inter VI et VIIII ternarius differentia est, et inter VIIII et XVIII nouenarius, qui ad ternarium triplus
+                  <seg xml:id="p6.s2" n="2">Nam inter VI et VIIII ternarius differentia est, et inter VIIII et XVIII nouenarius, qui ad ternarium triplus
                   est.</seg>
                   <seg corresp="#p6.s2">
-                     <lb source="M"/> Nam inter VI et VIIII ternarius differentia est, et inter VIIII et XVIII nouenarius, qui ad ternarium triplus
+                     <lb source="M"/>Nam inter VI et VIIII ternarius differentia est, et inter VIIII et XVIII nouenarius, qui ad ternarium triplus
                   est. <lb source="P"/>Nam inter VI et VIIII ternarius differentia est, et inter VIII. et XVIII nouenarius, qui ad ternarium triplus est.</seg>
                </seg>
             </p>

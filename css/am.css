@@ -16,6 +16,10 @@ html {
 	padding:0;
 	line-height:1.5rem;
 }
+body {
+    margin:0;
+    padding:0;
+}
 
 h1 {
 	margin:0;
@@ -25,13 +29,19 @@ h1 {
 	line-height:2.5rem;
 	text-align:center;
 	color:#f8f8f0;
-	letter-spacing:0.2em;
+	letter-spacing:0.1em;
 }
 
 nav {
+    display:block;
+    text-align:center;
+}
+nav#siteNav {
+    margin:0 0 0.5rem 0;
+}
+nav#pageNav {
 	margin:0.5rem 0 0 0;
 	padding:0;
-	text-align:center;
 	color:black;
 }
 nav a {
