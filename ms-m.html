@@ -1,48 +1,52 @@
 <!doctype html>
 <html lang="en">
-
-  <head>
-    <title>Ms Munich</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
-	<link rel="stylesheet" href="css/ms.css" media="all" />
-	<script src="js/querystring.js"></script>
-    <script src="js/CETEI.js"></script>
-  </head>
-
-  <body>
-  	<nav id="siteNav">
-  		<a href="index.html">Text-Historical Edition</a>
-  		<a href="ms-m.html">Ms Edition Munich</a>
-  		<a href="ms-p.html">Ms Edition Paris</a>
-  	</nav>
-  	<h1>Ms Edition Munich</h1>
-  	<nav id="pageNav">
-  		<a href="?doc=ms-m-apparatus">Apparatus</a>
-  		<a href="?doc=ms-m-glosses">Glosses</a>
-  		<a href="?doc=ms-m-sources">Sources</a>
-  		<a href="?doc=ms-m-synopsis">Synopsis</a>
-  		<a href="?doc=ms-m-translation">Translation</a>
-  	</nav>
-  	<!-- container for TEI document -->
-    <div id="TEI"></div>
-  	<!-- rendition -->
-  	<script>
-		/* query */
-		filename = ( QueryString.doc == null )
-			? ( "ms-m-apparatus.xml" )
-			: ( QueryString.doc + ".xml" );
-  		/* CETEIcean */
-		var CETEIcean = new CETEI()
-			CETEIcean.addBehaviors({
-				"tei":{
-					"teiHeader": null
-				}
-			});
-			CETEIcean.getHTML5("tei/"+filename, function(data) {
-			document.getElementById("TEI").appendChild(data)
-		})
-    </script>
-  </body>
-
+	<head>
+		<title>Alia musica | D-Mbs Clm 14272</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/CETEIcean.css" media="all" />
+		<link rel="stylesheet" href="css/ms.css" media="all" />
+		<script src="js/querystring.js"></script>
+		<script src="js/CETEI.js"></script>
+	</head>
+	<body>
+		<div id="pageInfo">Der Demonstrator zur Handschriftenedition enthält aktuell nur die Edition der Anfänge der
+			Handschriften D-Mbs Clm 14272 und F-Pn Lat. 7211. An ihnen lässt sich der kritische Apparat, die Darstellung
+			von Glossen, die Verarbeitung antiker und mittelalterlicher Quellentexte sowie die Satzsynopse für den
+			Vergleich der Lesarten der verschiedenen Handschriften so demonstrieren, wie sie auf die vollständig zu
+			edierenden Texte aller Handschriften angewandt werden. Noch zu implementieren sind a) Quellentexte der
+			Glossen, b) Übersetzungen der Glossen, c) Übersetzungen der Quellentexte, d) Ein synoptischer Vergleich der
+			Textbestände der einzelnen Handschriften, e) IIIF-Abbildungen der verfügbaren
+			Handschriftendigitalisate.</div>
+		<nav id="siteNav">
+			<a href="index.html">Start</a>
+			<a href="ms-m.html" class="current">D-Mbs Clm 14272</a>
+			<a href="ms-p.html">F-Pn Lat. 7211</a>
+			<a href="the.html">Text-Historical Edition</a>
+		</nav>
+		<h1>D-Mbs Clm 14272</h1>
+		<nav id="pageNav">
+			<a href="?doc=ms-m-about">About</a>
+			<a href="?doc=ms-m-apparatus">Apparatus</a>
+			<a href="?doc=ms-m-glosses">Glosses</a>
+			<a href="?doc=ms-m-sources">Sources</a>
+			<a href="?doc=ms-m-synopsis">Synopsis</a>
+			<a href="?doc=ms-m-translation">Translation</a>
+		</nav>
+		<!-- container for TEI document -->
+		<div id="TEI"></div>
+		<!-- rendition -->
+		<script>
+            /* query */
+            filename = (QueryString.doc == null) ? ("ms-m-apparatus.xml"): (QueryString.doc + ".xml");
+            /* CETEIcean */
+            var CETEIcean = new CETEI()
+            CETEIcean.addBehaviors({
+                "tei": {
+                    "teiHeader": null
+                }
+            });
+            CETEIcean.getHTML5("tei/" + filename, function (data) {
+                document.getElementById("TEI").appendChild(data)
+            })</script>
+	</body>
 </html>

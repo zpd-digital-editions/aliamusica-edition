@@ -1,50 +1,44 @@
 <!doctype html>
 <html lang="en">
-
-  <head>
-    <title>Alia Musica</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
-  	<link rel="stylesheet" href="css/am.css" media="all" />
-	<script src="js/querystring.js"></script>
-    <script src="js/CETEI.js"></script>
-  </head>
-
-  <body>
-    <nav id="siteNav">
-    	<a href="index.html">Text-Historical Edition</a>
-    	<a href="ms-m.html">Ms Edition Munich</a>
-    	<a href="ms-p.html">Ms Edition Paris</a>
-    </nav>
-  	<h1>Text-Historical Edition</h1>
-  	<nav id="pageNav">
-  		<a href=".">About</a>
-  		<a href="?doc=am-edition-a" class="alpha">α</a>
-  		<a href="?doc=am-edition-ab" class="beta">α + β</a>
-  		<a href="?doc=am-edition-abg" class="gamma">α + β + γ</a>
-  		<a href="?doc=am-edition-abgd" class="delta">α + β + γ + δ</a>
-  		<a href="?doc=am-edition-ms" class="delta">Ms Order</a>
-  		<a href="?doc=am-overview">Overview</a>
-  	</nav>
-  	<!-- container for TEI document -->
-    <div id="TEI"></div>
-  	<!-- rendition -->
-  	<script>
-		/* query */
-		filename = ( QueryString.doc == null )
-			? ( "am-about.xml" )
-			: ( QueryString.doc + ".xml" );
-  		/* CETEIcean */
-		var CETEIcean = new CETEI()
-			CETEIcean.addBehaviors({
-				"tei":{
-					"teiHeader": null
-				}
-			});
-			CETEIcean.getHTML5("tei/"+filename, function(data) {
-			document.getElementById("TEI").appendChild(data)
-		})
-    </script>
-  </body>
-
+	<head>
+		<title>Alia Musica</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/CETEIcean.css" media="all" />
+		<link rel="stylesheet" href="css/am.css" media="all" />
+		<script src="js/querystring.js"></script>
+		<script src="js/CETEI.js"></script>
+	</head>
+	<body>
+		<div id="pageInfo">Dies ist ein Prototyp zur Demonstration im Rahmen der Antragsstellung. Der Prototyp ist
+			funktional, enthält aber noch nicht alle angestrebten Funktionen und noch keine kompletten Texte. Aktuell
+			vorhanden ist Anschauungsmaterial zur Handschriftenedition der Alia musica sowie zur Konzeption der
+			textgeschichtlichen Edition dieses Traktats.<br /> Finanziert wurde der Prototyp durch den Forschungsfonds
+			der philosophischen Fakultät. Umgesetzt wurde er durch Torsten Roeder am Zentrum für Philologie und
+			Digitalität (ZPD) der Universität Würzburg, in Kooperation mit Charles Atkinson, Martin Dippon, Jasmin
+			Hartmann-Strauß und Konstantin Voigt.</div>
+		<h1>Music Theory of the Long 9th Century in Digital Editions</h1>
+		<h2>Edited by Charles M. Atkinson and Konstantin Voigt</h2>
+		<div id="rubrics">
+			<div>
+				<h3>Alia musica</h3>
+				<h4>Manuscript Editions</h4>
+				<ul>
+					<li>
+						<a href="ms-m.html">D-Mbs Clm 14272</a>
+					</li>
+					<li>
+						<a href="ms-p.html">F-Pn Lat. 7211</a>
+					</li>
+				</ul>
+				<h4>
+					<a href="the.html">Text-Historical Edition</a>
+				</h4>
+			</div>
+			<div>
+				<h3>Regino Prumiensis</h3>
+				<h4>Epistola de harmonica institutione</h4>
+				<h4>Manuscript Editions</h4>
+			</div>
+		</div>
+	</body>
 </html>

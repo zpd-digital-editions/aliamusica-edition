@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="diagram.css"?>
+<svg width="100" height="100" viewBox="-5 -5 110 110" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <style type="text/css">
+        rect,path,line,polygon {
+            stroke-width:0.5;
+            stroke:black;
+            fill:none;
+        }
+        text {
+            dominant-baseline:central;
+            text-anchor:middle;
+            font-size:5px;
+            fill:red;
+        }
+        .invisible path {
+            fill:none;
+            stroke:none;
+        <!--stroke-width:1px;
+        stroke:red;
+        stroke-linecap:round;
+        stroke-dasharray:0 2;-->        
+        }
+    </style>
+    <!-- outer and inner square -->
+    <rect x="0" y="0" width="100" height="100"/>
+    <rect x="10" y="10" width="80" height="80"/>
+    <!-- dividers -->
+    <line x1="50" y1="0" x2="50" y2="10"/>
+    <line x1="50" y1="90" x2="50" y2="100"/>
+    <line x1="0" y1="50" x2="10" y2="50"/>
+    <line x1="90" y1="50" x2="100" y2="50"/>
+    <!-- diagonals -->
+    <line x1="0" y1="0" x2="100" y2="100"/>
+    <line x1="0" y1="100" x2="100" y2="0"/>
+    <!-- inner triangles -->
+    <path d="M 25 10 L 50 35 L 75 10"/>
+    <path d="M 90 25 L 65 50 L 90 75"/>
+    <path d="M 25 90 L 50 65 L 75 90"/>
+    <path d="M 10 25 L 35 50 L 10 75"/>
+    <!-- text paths -->
+    <g class="invisible">
+        <!-- middle area / triangles -->
+        <path id="m1" d="M 20 10 L 50 40 L 80 10"/>
+        <path id="m2" d="M 90 80 L 60 50 L 90 20"/>
+        <path id="m3" d="M 20 90 L 50 60 L 80 90"/>
+        <path id="m4" d="M 10 20 L 40 50 L 10 80"/>
+        <!-- border -->
+        <path id="b1" d="M 10 5 L 45 5"/>
+        <path id="b2" d="M 55 5 L 90 5"/>
+        <path id="b3" d="M 95 10 L 95 45"/>
+        <path id="b4" d="M 95 55 L 95 90"/>
+        <path id="b5" d="M 90 95 L 55 95"/>
+        <path id="b6" d="M 45 95 L 10 95"/>
+        <path id="b7" d="M 5 90 L 5 55"/>
+        <path id="b8" d="M 5 45 L 5 10"/>
+    </g>
+    <!-- text -->
+    <text dy="2" textLength="80" lengthAdjust="spacing">
+        <textPath xlink:href="#m1" startOffset="50%">Inter nos intervallvm sex tonorum</textPath>
+    </text>
+    <text dy="-2" textLength="75" lengthAdjust="spacing">
+        <textPath xlink:href="#m2" startOffset="54%">Inter nos sesquioctava proportioni</textPath>
+    </text>
+    <text dy="-2" textLength="78" lengthAdjust="spacing">
+        <textPath xlink:href="#m3" startOffset="48%">Inter nos intervallvm quinque tonorum</textPath>
+    </text>
+    <text dy="-2" textLength="80" lengthAdjust="spacing">
+        <textPath xlink:href="#m4" startOffset="50%">Unus idemque sextus octuplus</textPath>
+    </text>
+    <text textLength="30" lengthAdjust="spacing">
+        <textPath xlink:href="#b1" startOffset="50%">262 144</textPath>
+    </text>
+    <text textLength="30" lengthAdjust="spacing">
+        <textPath xlink:href="#b2" startOffset="50%">531 441</textPath>
+    </text>
+    <text textLength="30" lengthAdjust="spacing">
+        <textPath xlink:href="#b3" startOffset="50%">531 441</textPath>
+    </text>
+    <text textLength="30" lengthAdjust="spacing">
+        <textPath xlink:href="#b4" startOffset="50%">472 392</textPath>
+    </text>
+    <text textLength="30" lengthAdjust="spacing">
+        <textPath xlink:href="#b5" startOffset="50%">472 392</textPath>
+    </text>
+    <text textLength="30" lengthAdjust="spacing">
+        <textPath xlink:href="#b6" startOffset="50%">262 144</textPath>
+    </text>
+    <text textLength="30" lengthAdjust="spacing">
+        <textPath xlink:href="#b7" startOffset="50%">262 144</textPath>
+    </text>
+    <text textLength="30" lengthAdjust="spacing">
+        <textPath xlink:href="#b8" startOffset="50%">262 144</textPath>
+    </text>
+</svg>

@@ -11,6 +11,9 @@
 	<xsl:variable name="ms-p" select="document('ms-p.xml')"/>
 
 	<xsl:template match="/">
+		<xsl:result-document href="{$sourceDoc}-about.xml">
+			<xsl:apply-templates select="@* | node()" mode="about"/>
+		</xsl:result-document>
 		<xsl:result-document href="{$sourceDoc}-apparatus.xml">
 			<xsl:apply-templates select="@* | node()" mode="apparatus"/>
 		</xsl:result-document>
@@ -39,8 +42,49 @@
 	<xsl:template match="TEI/standOff" mode="#all"/>
 
 	<!-- base text -->
-	<xsl:template match="text/body" mode="#all">
+	<xsl:template match="text/body" mode="about">
 		<xsl:copy>
+			<head>About</head>
+			<div type="intro"><xsl:copy-of select="id('about')/*"/></div>
+		</xsl:copy>
+	</xsl:template>
+
+	<xsl:template match="text/body" mode="apparatus">
+		<xsl:copy>
+			<head>Apparatus</head>
+			<div type="intro"><xsl:copy-of select="id('apparatus')/*"/></div>
+			<xsl:apply-templates select="@* | node()" mode="#current"/>
+		</xsl:copy>
+	</xsl:template>
+
+	<xsl:template match="text/body" mode="glosses">
+		<xsl:copy>
+			<head>Glosses</head>
+			<div type="intro"><xsl:copy-of select="id('glosses')/*"/></div>
+			<xsl:apply-templates select="@* | node()" mode="#current"/>
+		</xsl:copy>
+	</xsl:template>
+
+	<xsl:template match="text/body" mode="sources">
+		<xsl:copy>
+			<head>Sources</head>
+			<div type="intro"><xsl:copy-of select="id('sources')/*"/></div>
+			<xsl:apply-templates select="@* | node()" mode="#current"/>
+		</xsl:copy>
+	</xsl:template>
+
+	<xsl:template match="text/body" mode="synopsis">
+		<xsl:copy>
+			<head>Synopsis</head>
+			<div type="intro"><xsl:copy-of select="id('synopsis')/*"/></div>
+			<xsl:apply-templates select="@* | node()" mode="#current"/>
+		</xsl:copy>
+	</xsl:template>
+
+	<xsl:template match="text/body" mode="translation">
+		<xsl:copy>
+			<head>Translation</head>
+			<div type="intro"><xsl:copy-of select="id('translation')/*"/></div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
 	</xsl:template>

@@ -12,9 +12,40 @@
             <p>Prototype</p>
          </publicationStmt>
          <sourceDesc>
-            <p>München, Bayerische Staatsbibliothek, Clm 14272, fol. 175.</p>
+            <p>Munich, Bayerische Staatsbibliothek, Clm 14272, fol. 175.</p>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <abstract xml:id="about">
+            <p>The Alia musica is transmitted in 14 manuscripts from different centuries and locations, either
+               presenting the full text or excerpts and compilations. Respecting the manuscripts as documents of
+               individual scribal intentions or specific institutional demands, each extant copy from the Alia musica is
+               edited separately. The apparatus represents the differences between the manuscript and the edited texts
+               and reports particuliarities regarding the text’s materiality and semantics. The individual readings of
+               the different manuscripts can be compared using the synopsis. Quotations or paraphrases from earlier
+               texts can be compared with their source-texts. The translations provided refer to the individual text of
+               each manuscript.</p>
+         </abstract>
+         <abstract xml:id="apparatus">
+            <p>The critical apparatus refers exclusively to the edited manuscript. It reports all the differences
+               between the edited text and the manuscript, as well as peculiarities regarding the text’s materiality and
+               semantics. The differences are highlighted as one moves the cursor over the edited text.</p>
+         </abstract>
+         <abstract xml:id="glosses">
+            <p>All instances of interlinear and marginal glosses are displayed here.</p>
+         </abstract>
+         <abstract xml:id="sources">
+            <p>All quotations or paraphrases of ancient or medieval source-texts are displayed here, providing the
+               source-texts themselves, based on their reference-edition, in a separate column.</p>
+         </abstract>
+         <abstract xml:id="synopsis">
+            <p>Here one finds a synoptical display of the readings of each sentence throughout the
+               manuscript-transmission as one moves the cursor over the edited text.</p>
+         </abstract>
+         <abstract xml:id="translation">
+            <p>Here one finds an English translation of the individual manuscript’s specific text.</p>
+         </abstract>
+      </profileDesc>
       <revisionDesc>
          <listChange>
             <change>
@@ -32,8 +63,11 @@
    </teiHeader>
    <text>
       <body>
+         <head>Glosses</head>
+         <div type="intro">
+            <p>All instances of interlinear and marginal glosses are displayed here.</p>
+         </div>
          <div xml:id="div1">
-            <head>München, Bayerische Staatsbibliothek, Clm 14272, fol. 175</head>
             <p source="#beta" xml:id="p1">
                <num>§1</num>
                <seg xml:id="p1.s1" n="1">De harmonica consideratione Boetius ita disseruit:</seg>
