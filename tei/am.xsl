@@ -94,7 +94,9 @@
 			<xsl:apply-templates select="id(substring(@sameAs, 2))/node()" mode="#current"/>
 		</p>
 	</xsl:template>
-
+	<!-- ms order: ignore insertions -->
+	<xsl:template match="p[@sameAs]" mode="ms"/>
+	
 	<!-- abgd: ignore alpha's paragraphs former position -->
 	<xsl:template match="p[@source = '#alpha'][//p[substring(@sameAs, 2) = current()/@xml:id]]" mode="a ab abg abgd"/>
 

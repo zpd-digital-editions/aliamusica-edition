@@ -3,7 +3,7 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0"
 	xpath-default-namespace="http://www.tei-c.org/ns/1.0">
 
-	<xsl:output encoding="UTF-8" indent="yes" method="xml" standalone="yes"/>
+	<xsl:output encoding="UTF-8" indent="no" method="xml" standalone="yes"/>
 
 	<xsl:variable name="sourceDoc" select="substring-after(substring-before(base-uri(), '.xml'), 'tei/')"/>
 
@@ -45,12 +45,15 @@
 	<xsl:template match="text/body" mode="about">
 		<xsl:copy>
 			<head>About</head>
-			<div type="intro"><xsl:copy-of select="id('about')/*"/></div>
+			<div type="intro">
+				<xsl:apply-templates select="id('about')/p" mode="#current"/>
+			</div>
 		</xsl:copy>
 	</xsl:template>
 
 	<xsl:template match="text/body" mode="apparatus">
 		<xsl:copy>
+			<fw><xsl:copy-of select="/TEI/teiHeader/fileDesc/sourceDesc/p[ref]/ref"></xsl:copy-of></fw>
 			<head>Apparatus</head>
 			<div type="intro"><xsl:copy-of select="id('apparatus')/*"/></div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -59,6 +62,7 @@
 
 	<xsl:template match="text/body" mode="glosses">
 		<xsl:copy>
+			<fw><xsl:copy-of select="/TEI/teiHeader/fileDesc/sourceDesc/p[ref]/ref"></xsl:copy-of></fw>
 			<head>Glosses</head>
 			<div type="intro"><xsl:copy-of select="id('glosses')/*"/></div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -67,7 +71,8 @@
 
 	<xsl:template match="text/body" mode="sources">
 		<xsl:copy>
-			<head>Sources</head>
+			<fw><xsl:copy-of select="/TEI/teiHeader/fileDesc/sourceDesc/p[ref]/ref"></xsl:copy-of></fw>
+			<head>Source Texts</head>
 			<div type="intro"><xsl:copy-of select="id('sources')/*"/></div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
@@ -75,6 +80,7 @@
 
 	<xsl:template match="text/body" mode="synopsis">
 		<xsl:copy>
+			<fw><xsl:copy-of select="/TEI/teiHeader/fileDesc/sourceDesc/p[ref]/ref"></xsl:copy-of></fw>
 			<head>Synopsis</head>
 			<div type="intro"><xsl:copy-of select="id('synopsis')/*"/></div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -83,15 +89,24 @@
 
 	<xsl:template match="text/body" mode="translation">
 		<xsl:copy>
+			<fw><xsl:copy-of select="/TEI/teiHeader/fileDesc/sourceDesc/p[ref]/ref"></xsl:copy-of></fw>
 			<head>Translation</head>
 			<div type="intro"><xsl:copy-of select="id('translation')/*"/></div>
 			<xsl:apply-templates select="@* | node()" mode="#current"/>
 		</xsl:copy>
 	</xsl:template>
-
+	
 	<!-- ignore back matter (translation) -->
 	<xsl:template match="text/back" mode="#all"/>
+	
+	<!-- ABOUT -->
 
+	<xsl:template match="p/ref" mode="about">
+		<ref target="../{$sourceDoc}.html?doc={$sourceDoc}-{@target}">
+			<xsl:apply-templates select="text()" mode="#current"/>
+		</ref>
+	</xsl:template>
+	
 	<!-- APPARATUS -->
 
 	<!-- ignore apparatus everywhere but in apparatus view -->
@@ -110,6 +125,9 @@
 		<xsl:apply-templates select="@* | node()" mode="#current"/>
 	</xsl:template>
 
+	<!-- ignore whitespace between choice and its children in apparatus -->
+	<xsl:template match="text//choice/text()" mode="#all"/>
+	
 	<!-- ignore figure notes everywhere but in apparatus view -->
 	<xsl:template match="text//figure/note" mode="glosses sources synopsis translation"/>
 
@@ -144,6 +162,24 @@
 						$sourceRef/@target
 						! tokenize(., '\s+')"/>
 				<p corresp="{concat('#',@xml:id)}">
+					<seg type="source">
+						<xsl:value-of select="$sourceDoc//teiHeader/fileDesc/sourceDesc/p"/>
+						<xsl:text>, </xsl:text>
+						<xsl:variable name="lineRefs"
+							select="tokenize(normalize-space($sourceRef/@target), '\s+')"/>
+						<xsl:variable name="first"
+							select="replace(substring($lineRefs[1], 3), '[a-zA-Z]+$', '')"/>
+						<xsl:variable name="last"
+							select="replace(substring($lineRefs[last()], 3), '[a-zA-Z]+$', '')"/>
+						<xsl:value-of select="$first"/>
+						<xsl:if test="$first ne $last">
+							<xsl:text>-</xsl:text>
+							<xsl:value-of select="
+								if (substring-before($first, '.') = substring-before($last, '.'))
+								then substring-after($last, '.')
+								else $last"/>
+						</xsl:if>
+					</seg>
 					<xsl:for-each select="$sourceLines">
 						<xsl:variable name="line" select="$sourceDoc//line[@xml:id = substring(current(), 2)]"/>
 						<seg type="line">
@@ -151,16 +187,6 @@
 							<xsl:value-of select="$line"/>
 						</seg>
 					</xsl:for-each>
-					<seg type="source">
-						<xsl:text>(</xsl:text>
-						<xsl:value-of select="$sourceDoc//teiHeader/fileDesc/sourceDesc/p"/>
-						<xsl:text>, </xsl:text>
-						<xsl:variable name="lineRefs" select="tokenize(normalize-space($sourceRef/@target), '\s+')"/>
-						<xsl:value-of select="substring($lineRefs[1], 3)"/>
-						<xsl:text>-</xsl:text>
-						<xsl:value-of select="substring($lineRefs[last()], 3)"/>
-						<xsl:text>)</xsl:text>
-					</seg>
 				</p>
 			</xsl:if>
 		</div>
@@ -213,6 +239,36 @@
 		</seg>
 	</xsl:template>
 
+	<xsl:template match="text//figure" mode="synopsis">
+		<seg type="parallel">
+			<xsl:copy>
+				<xsl:apply-templates select="@* | node()" mode="#current"/>
+			</xsl:copy>
+			<!-- get all corresponding sections from other manuscripts -->
+			<seg corresp="{concat('#',@xml:id)}">
+				<lb source="M"/>
+				<xsl:choose>
+					<xsl:when test="$ms-m//figure[@xml:id = current()/@xml:id]">
+						<xsl:apply-templates select="$ms-m//figure[@xml:id = current()/@xml:id]/p/node()" mode="#current"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:text>—</xsl:text>
+					</xsl:otherwise>
+				</xsl:choose>
+				<xsl:text> </xsl:text>
+				<lb source="P"/>
+				<xsl:choose>
+					<xsl:when test="$ms-p//figure[@xml:id = current()/@xml:id]">
+						<xsl:apply-templates select="$ms-p//figure[@xml:id = current()/@xml:id]/p/node()" mode="#current"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:text>—</xsl:text>
+					</xsl:otherwise>
+				</xsl:choose>
+			</seg>
+		</seg>
+	</xsl:template>
+	
 	<!-- TRANSLATION -->
 
 	<!-- parallel view: manuscript / translation -->

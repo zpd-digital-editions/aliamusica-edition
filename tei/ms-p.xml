@@ -13,6 +13,7 @@
          </publicationStmt>
          <sourceDesc>
             <p>Paris, Bibliothèque nationale de France, fonds latin 7211, fol. 51</p>
+            <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b8432471z">Digital Image at BnF</ref></p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -20,30 +21,33 @@
             <p>The Alia musica is transmitted in 14 manuscripts from different centuries and locations, either
                presenting the full text or excerpts and compilations. Respecting the manuscripts as documents of
                individual scribal intentions or specific institutional demands, each extant copy from the Alia musica is
-               edited separately. The apparatus represents the differences between the manuscript and the edited texts
-               and reports particuliarities regarding the text’s materiality and semantics. The individual readings of
-               the different manuscripts can be compared using the synopsis. Quotations or paraphrases from earlier
-               texts can be compared with their source-texts. The translations provided refer to the individual text of
-               each manuscript.</p>
+               edited separately. The <ref target="apparatus">apparatus</ref> represents the differences between the
+               manuscript and the edited texts and reports particuliarities regarding the text’s materiality and
+               semantics. A separate view presents all interlinear and marginal <ref target="glosses">glosses</ref>. The
+               individual readings of the different manuscripts can be compared using the <ref target="synopsis"
+                  >synopsis</ref>. Quotations or paraphrases from earlier texts can be compared with their <ref
+                  target="sources">source texts</ref>. The <ref target="translation">translations</ref> provided refer
+               to the individual text of each manuscript.</p>
          </abstract>
          <abstract xml:id="apparatus">
-            <p>The critical apparatus refers exclusively to the edited manuscript. It reports all the differences
-               between the edited text and the manuscript, as well as peculiarities regarding the text’s materiality and
-               semantics. The differences are highlighted as one moves the cursor over the edited text.</p>
+            <p>The critical apparatus concerns this manuscript alone. It records all differences between the edited text
+               and the manuscript, together with observations on the text’s materiality and semantics. Hover over the
+               edited text to highlight the differences.</p>
          </abstract>
          <abstract xml:id="glosses">
-            <p>All instances of interlinear and marginal glosses are displayed here.</p>
+            <p>All interlinear and marginal glosses in the manuscript.</p>
          </abstract>
          <abstract xml:id="sources">
-            <p>All quotations or paraphrases of ancient or medieval source-texts are displayed here, providing the
-               source-texts themselves, based on their reference-edition, in a separate column.</p>
+            <p>All quotations and paraphrases of ancient or medieval texts are displayed alongside their sources. The
+               source texts are presented in a separate column, following the relevant reference editions. Passages
+               shown in grey have no readily identifiable counterpart in the relevant source text.</p>
          </abstract>
          <abstract xml:id="synopsis">
-            <p>Here one finds a synoptical display of the readings of each sentence throughout the
-               manuscript-transmission as one moves the cursor over the edited text.</p>
+            <p>The synopsis compares the readings of each sentence across the manuscript tradition. Hover over the
+               edited text to display the corresponding readings.</p>
          </abstract>
          <abstract xml:id="translation">
-            <p>Here one finds an English translation of the individual manuscript’s specific text.</p>
+            <p>An English translation of the text as transmitted in this manuscript.</p>
          </abstract>
       </profileDesc>
       <revisionDesc>
@@ -64,16 +68,16 @@
    <standOff>
       <!-- sources -->
       <!-- seg/@corresp/[#idrange] is based on ref/@target/[#idrange] in document ref/@source -->
-      <seg sameAs="#p1" corresp="#p1.s2 #p1.s3"><ref target="#p155.7 #p155.8 #p155.9 #p155.10 #p155.11 #p155.12"
-            source="source-arithm.xml"/></seg>
-      <seg sameAs="#p2" corresp="#p2.s1 #p2.s2"><ref target="#p155.14 #p155.15 #p155.16 #p155.17 #p155.18 #p155.19"
-            source="source-arithm.xml"/></seg>
+      <seg sameAs="#p1" corresp="#p1.s2 #p1.s3"><ref
+            target="#p155.6b #p155.7 #p155.8 #p155.9 #p155.10 #p155.11 #p155.12a" source="source-arithm.xml"/></seg>
+      <seg sameAs="#p2" corresp="#p2.s1 #p2.s2"><ref
+            target="#p155.14b #p155.15 #p155.16 #p155.17 #p155.18 #p155.19 #p155.20a" source="source-arithm.xml"/></seg>
       <seg sameAs="#p3" corresp="#p3.s1 #p3.s2 #p3.s3 #p3.s4 #p3.s5 #p3.s6"><ref
-            target="#p155.20 #p155.21 #p155.22 #p155.23 #p155.24 #p155.25 #p155.26 #p155.27 #p156.1 #p156.2 #p156.3"
+            target="#p155.20b #p155.21 #p155.22 #p155.23 #p155.24 #p155.25 #p155.26 #p155.27 #p156.1 #p156.2 #p156.3"
             source="source-arithm.xml"/></seg>
-      <seg sameAs="#p4" corresp="#p4.s1"><ref target="#p156.10 #p156.11" source="source-arithm.xml"/></seg>
+      <seg sameAs="#p4" corresp="#p4.s1"><ref target="#p156.10 #p156.11a" source="source-arithm.xml"/></seg>
       <seg sameAs="#p5" corresp="#p5 #p5.s1 #p5.s2"><ref target="#p156.20 #p156.21" source="source-arithm.xml"/></seg>
-      <seg sameAs="#p6" corresp="#p6 #p6.s1 #p6.s2"><ref target="#p157.3 #p157.4 #p157.5" source="source-arithm.xml"
+      <seg sameAs="#p6" corresp="#p6 #p6.s1 #p6.s2"><ref target="#p157.3 #p157.4 #p157.5a" source="source-arithm.xml"
          /></seg>
    </standOff>
    <text>
@@ -107,7 +111,7 @@
                      <rdg>medietati</rdg>
                   </app> frequenter inuenies.</seg>
                <seg xml:id="p2.s2" n="2">Namque symphonia diatesseron que princeps est et quodammodo uim obtinet
-                  elementi, in eiusmodi armonicis medietatibus inuenitur, ut sunt VI ad VIII</seg>
+                  elementi, in eiusmodi armonicis medietatibus inuenitur, ut sunt VI. ad VIII.</seg>
             </p>
             <p source="#beta" xml:id="p3">
                <num>§3</num>
@@ -116,52 +120,54 @@
                      <sic>sunt</sic>
                   </choice> dupli, et alii quorum extremi sint tripli, ita:</seg>
                <figure xml:id="p3.f1">
-                  <p>VI | <app>
-                        <lem>VIII</lem>
-                        <rdg>VIIII</rdg>
-                     </app> | XII</p>
-                  <p>IIII | VI | XII</p>
+                  <p>VI.<app>
+                        <lem>VIII.</lem>
+                        <rdg>VIIII.</rdg>
+                     </app> XII. </p>
+                  <p>IIII. VI. XII.</p>
+                  <note resp="JHS" rend="shift-1">The text implies two separate number series as individual diagrams,
+                     which were erroneously joined together into a single series during the process of framing.</note>
                </figure>
                <seg xml:id="p3.s2" n="2">Duodenarius igitur ad senarium duplus est;</seg>
                <seg xml:id="p3.s3" n="3">et in alia <app>
                      <lem>dispositione</lem>
                      <rdg>depositione</rdg>
-                  </app> XII ad IIII triplus est.</seg>
+                  </app> XII. ad IIII. triplus est.</seg>
                <seg xml:id="p3.s4" n="4">Horum diferentias colligamus et ad se inuicem comparemus, epytrita <choice>
                      <corr>proportio</corr>
                      <sic>comparatio proportio</sic>
                   </choice>, id est diatesseron symphonia colligitur.</seg>
-               <seg xml:id="p3.s5" n="5">Inter VI <app rend="shift-1">
+               <seg xml:id="p3.s5" n="5">Inter VI. <app rend="shift-1">
                      <lem>enim</lem>
-                     <rdg><add place="above"/></rdg>
-                  </app> et XII senarius est, et inter IIII et XII octonarius;</seg>
-               <seg xml:id="p3.s6" n="6">qui scilicet octonarius ad senarium sesquiterciam efficit proportionem.</seg>
+                     <rdg><add place="above text line"/></rdg>
+                  </app> et XII. senarius est, et inter IIII. et XII. octonarius; qui scilicet octonarius ad senarium
+                  sesquiterciam efficit proportionem.</seg>
             </p>
             <p source="#beta" xml:id="p4">
                <num>§4</num>
                <seg xml:id="p4.s1" n="1">In eadem quoque medietate et diapente symphonia componitur.</seg>
-               <seg xml:id="p4.s2" n="2">In duplici, uidelicet XII ad VIII et in triplici VI ad IIII sesqualtera
+               <seg xml:id="p4.s2" n="2">In duplici, uidelicet XII. ad VIII. et in triplici VI. ad IIII. sesqualtera
                   est.</seg>
             </p>
             <p source="#beta" xml:id="p5">
                <num>§5</num>
                <seg xml:id="p5.s1" n="1">Post hunc autem diapason consonantia est, ut <app>
-                     <lem>VI</lem>
-                     <rdg>IVI</rdg>
+                     <lem>VI.</lem>
+                     <rdg>IVI.</rdg>
                   </app> ad XII.</seg>
                <seg xml:id="p5.s2" n="2">In triplici <corr>quoque</corr> dispositione simul diapente et diapason
                   symphonia componitur, ut sunt</seg>
                <figure xml:id="p5.f1">
-                  <p>VI VIIII XVIII.</p>
+                  <p>VI. VIIII. XVIII.</p>
                </figure>
             </p>
             <p source="#beta" xml:id="p6">
                <num>§6</num>
                <seg xml:id="p6.s1" n="1">Et quoniam triplus duas continet consonantias, diapente scilicet ac diapason,
                   in differentiis eiusdem triplicis eundem triplum reperiemus.</seg>
-               <seg xml:id="p6.s2" n="2">Nam inter VI et VIIII ternarius differentia est, et inter VIII. et <app>
-                     <lem>XVIII</lem>
-                     <rdg>XVIIII</rdg>
+               <seg xml:id="p6.s2" n="2">Nam inter VI. et VIIII. ternarius differentia est, et inter VIII. et <app>
+                     <lem>XVIII.</lem>
+                     <rdg>XVIIII.</rdg>
                   </app> nouenarius, <app rend="shift-1">
                      <lem>qui</lem>
                      <note>q without abbreviation mark</note>

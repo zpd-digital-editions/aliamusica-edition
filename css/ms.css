@@ -28,6 +28,7 @@ div#pageInfo {
     float:left;
     width:18rem;
     padding:0.5rem;
+    text-align:justify;
     font-size:0.9em;
     background-color:green;
     color:white;
@@ -38,11 +39,11 @@ h1 {
 	margin:0;
 	font-weight:normal;
 	padding:1rem 0 1rem 0;
-	font-size:2.5rem;
+	font-size:2rem;
 	line-height:2.5rem;
 	text-align:center;
 	color:#f8f8f0;
-	letter-spacing:0.1em;
+	letter-spacing:0.05em;
 	max-width:40rem;
 }
 
@@ -70,6 +71,9 @@ nav a {
 	margin:0 0.2rem;
 	color:white;
 	line-height:1rem;
+}
+tei-ref[target^="http"] a::after {
+    content: "\00A0\2197";
 }
 
 div#TEI {
@@ -145,6 +149,12 @@ tei-figure tei-p {
     text-align:center;
     padding:0.25rem 0.5rem;
     border:0.1rem solid gray;
+    margin:0 0.25rem;
+}
+
+tei-fw {
+    display:block;
+    float:right;
 }
 
 /* inline level */
@@ -225,8 +235,10 @@ tei-seg[type=gloss]:hover {
 	color:var(--highlight-color);
 }
 tei-app[rend="shift-1"] tei-rdg,
-tei-app[rend="shift-1"] tei-note {
+tei-app[rend="shift-1"] tei-note,
+tei-note[rend="shift-1"] {
     left:60rem;
+    width:19rem;
 }
 
 /* graphics */
@@ -241,15 +253,15 @@ tei-graphic img {
 }
 tei-graphic[rend='shift-3'] {
     position:relative;
-    top:-18rem;
+    top:-12rem;
 }
 tei-graphic[rend='shift-2'] {
     position:relative;
-    top:-12rem;
+    top:-8rem;
 }
 tei-graphic[rend='shift-1'] {
     position:relative;
-    top:-6rem;
+    top:-4rem;
 }
 tei-graphic[rend='shift-0'] {
     position:relative;
@@ -318,12 +330,15 @@ tei-lb[source]::before {
     white-space:pre;
 }
 
-tei-seg[type='parallel'] tei-seg[xml\:id] + tei-seg[corresp] {
+tei-seg[type='parallel'] tei-seg[xml\:id] + tei-seg[corresp],
+tei-seg[type='parallel'] tei-figure[xml\:id] + tei-seg[corresp] {
     visibility:hidden;
 }
+tei-seg[type='parallel'] tei-figure[xml\:id]:hover + tei-seg[corresp],
 tei-seg[type='parallel'] tei-seg[xml\:id]:hover + tei-seg[corresp] {
     visibility:visible;
 }
+tei-seg[type='parallel'] tei-figure[xml\:id]:hover,
 tei-seg[type='parallel'] tei-seg[xml\:id]:hover {
     color:var(--highlight-color);
 }
@@ -332,7 +347,8 @@ tei-seg[type='parallel'] {
     position:relative;
 }
 
-tei-seg[type='parallel'] > tei-seg {
+tei-seg[type='parallel'] > tei-seg,
+tei-seg[type='parallel'] > tei-figure {
     display:inline;
     float:left;
     width:40rem;

@@ -129,7 +129,10 @@
                <seg xml:id="p3.s1" n="1">Ut sunt VI. ad VIII. sint ergo hujusmodi medietatis termini, quorum extremi
                   sint dupli, et alii quorum extremi tripli sint, ita:</seg>
                <figure xml:id="p3.f1">
-                  <desc>VI.| VIII.| XII.|| IIII.| VI.| XII.</desc>
+                  <desc>VI. VIII. XII.</desc>
+               </figure>
+               <figure xml:id="p3.f2">
+                  <desc>IIII. VI. XII.</desc>
                </figure>
                <seg xml:id="p3.s2" n="2">Duodenarius igitur ad senarium duplus est;</seg>
                <seg xml:id="p3.s3" n="3">et in alia dispositione XII. ad IIII. triplus est.</seg>
@@ -386,7 +389,6 @@
                <seg xml:id="p29.s2" n="2">[sane in illa constitutione ubi XV. nervos dicimus una serie proportionaliter
                   dispositos, bis diapason, id est VI. et bis XII.]</seg>
             </p>
-            <p sameAs="#p181" n="181" source="#alpha"/>
             <p source="#beta" xml:id="p30">
                <num>§30</num>
                <seg xml:id="p30.s1" n="1">Tandem ad cujusdam expositionem de praefatis tropis vel modis veniamus, ut
@@ -516,7 +518,6 @@
                <seg xml:id="p44.s1" n="1">Hujus autem in nocturnis sic currit versus: Gloria Patri et caetera. In
                   diurnis sic currit versus: Gloria Patri et caetera.</seg>
             </p>
-            <p sameAs="#p182" n="182" source="#alpha"/>
          </div>
          <div xml:id="div03">
             <head source="#delta">DE SECUNDO TONO SEQUITUR IN EADEM EXPOSITIONE</head>
@@ -578,7 +579,10 @@
                <seg xml:id="p52.s2" n="2">Sint hujusmodi medietatis termini, quorum extremi sint dupli, et alii quorum
                   extremi sint tripli, ita:</seg>
                <figure xml:id="p52.f1">
-                  <desc>VI.| VIII.| XII.|| IIII.| VI.| XII.</desc>
+                  <desc>VI. VIII. XII.</desc>
+               </figure>
+               <figure xml:id="p52.f2">
+                  <desc>IIII. VI. XII.</desc>
                </figure>
                <seg xml:id="p52.s3" n="3">Duodenarius igitur ad senarium duplus est, et in alia dispositione XII. ad
                   IIII. triplus est.</seg>
@@ -628,7 +632,6 @@
                <seg xml:id="p57.s1" n="1">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
                   diurnis autem sic currit versus: Gloria Patri et caetera.</seg>
             </p>
-            <p source="#alpha" sameAs="#p183" n="183"/>
          </div>
          <div xml:id="div05">
             <head source="#delta">SEQUITUR TONORUM EXPOSITOR DE TERTIO TONO</head>
@@ -751,7 +754,6 @@
          </div>
          <div xml:id="div06">
             <head source="#delta">DE QUARTO TONO.</head>
-            <p source="#alpha" sameAs="#p184" n="184"/>
             <p source="#beta" xml:id="p77">
                <num>§77</num>
                <seg xml:id="p77.s1" n="1">Aristoxenus musicus non voces ipsas, ut Pythagoras, dimetiens, sed inter voces
@@ -924,7 +926,6 @@
                <seg xml:id="p98.s1" n="1">Hujus enim in nocturnis sic currit versus: Gloria Patri et caetera. In diurnis
                   sic: Gloria Patri et caetera.</seg>
             </p>
-            <p source="#alpha" sameAs="#p185" n="185"/>
          </div>
          <div xml:id="div09">
             <head source="#delta">SEQUITUR EXPOSITOR DE QUINTO TONO</head>
@@ -1021,7 +1022,6 @@
                <seg xml:id="p111.s1" n="1">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
                   diurnis sic currit versus: Gloria Patri et caetera.</seg>
             </p>
-            <p source="#alpha" sameAs="#p186" n="186"/>
          </div>
          <div xml:id="div11">
             <head source="#delta">SEQUITUR IDEM EXPOSITOR DE SEXTO TONO</head>
@@ -1124,7 +1124,6 @@
                <seg xml:id="p125.s1" n="1">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
                   diurnis sic: Gloria Patri et caetera.</seg>
             </p>
-            <p source="#alpha" sameAs="#p187" n="187"/>
          </div>
          <div xml:id="div13">
             <head source="#delta">SEQUITUR EXPOSITOR DE SEPTIMO TONO</head>
@@ -1159,7 +1158,6 @@
                   mensurabitur.</seg>
                <seg xml:id="p129.s4" n="4">Hujus enim speciei paranete hyperbolaeon est ad acutam partem finis.</seg>
             </p>
-            <p source="#alpha" sameAs="#p188" n="188"/>
             <p source="#delta" xml:id="p129a">
                <num>§129'</num>
                <seg xml:id="p129a.s1" n="1">[Sequitur de septimo simul et octavo.]</seg>

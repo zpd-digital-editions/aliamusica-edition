@@ -126,7 +126,10 @@
                <seg xml:id="p3.s1" n="1">Ut sunt VI. ad VIII. sint ergo hujusmodi medietatis termini, quorum extremi
                   sint dupli, et alii quorum extremi tripli sint, ita:</seg>
                <figure xml:id="p3.f1">
-                  <desc>VI.| VIII.| XII.|| IIII.| VI.| XII.</desc>
+                  <desc>VI. VIII. XII.</desc>
+               </figure>
+               <figure xml:id="p3.f2">
+                  <desc>IIII. VI. XII.</desc>
                </figure>
                <seg xml:id="p3.s2" n="2">Duodenarius igitur ad senarium duplus est;</seg>
                <seg xml:id="p3.s3" n="3">et in alia dispositione XII. ad IIII. triplus est.</seg>
@@ -613,7 +616,10 @@
                <seg xml:id="p52.s2" n="2">Sint hujusmodi medietatis termini, quorum extremi sint dupli, et alii quorum
                   extremi sint tripli, ita:</seg>
                <figure xml:id="p52.f1">
-                  <desc>VI.| VIII.| XII.|| IIII.| VI.| XII.</desc>
+                  <desc>VI. VIII. XII.</desc>
+               </figure>
+               <figure xml:id="p52.f2">
+                  <desc>IIII. VI. XII.</desc>
                </figure>
                <seg xml:id="p52.s3" n="3">Duodenarius igitur ad senarium duplus est, et in alia dispositione XII. ad
                   IIII. triplus est.</seg>
